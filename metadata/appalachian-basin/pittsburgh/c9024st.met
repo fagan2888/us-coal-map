@@ -1,0 +1,381 @@
+Metadata:
+  Identification_Information:
+    Citation:
+      Citation_Information:
+        Originator: Susan J. Tewalt
+        Publication_Date: 1997
+        Title:
+          Structure contours of the Pittsburgh Coal Bed in Pennsylvania, Ohio, West 
+          Virginia, and Maryland
+        Larger_Work_Citation:
+          Citation_Information:          
+            Originator: Northern and Central Appalachian Basin Coal Regions
+              Assessment Team
+            Publication_Date: 2000
+            Title:
+              2000 Resource Assessment of Selected Coal Beds and Zones in the
+              Northern and Central Appalachian Basin Coal Regions
+            Series_Information:
+              Series_Name: U.S. Geological Survey Professional Paper
+              Issue_Identification: PP1625-C
+            Publication_Information:
+              Publication_Place: Reston, VA
+              Publisher: U.S. Geological Survey
+            Online_Linkage: http://greenwood.cr.usgs.gov/pub/ppapers/p1625c/
+    Description:
+      Abstract:
+        The Pittsburgh coal bed is composed of regionally persistent divisions- a roof
+        division (coals and shales) and a lower division, referred to as the "main bench".
+        This dataset is a polygon coverage of the elevation of the top 
+        of the Pittsburgh Coal bed main bench, in feet above MSL. It was produced
+        by gridding (producing 300 meter cells) 7,101 point-source data mainly
+        from the National Coal Resources Data System (NCRDS) of the USGS, using 
+        ISM (Version 7.1) software. The grid was subsequently contoured in 50-ft intervals
+        and imported to ARC/INFO. The elev_st item for each polygon reflects
+        a value halfway between the bounding contour lines. Coverage name: c9024st
+        (024 is the bed code assigned to the Pittsburgh Coal bed). The coverage has
+        been clipped to known resource areas that are being assessed in region 9
+        (the Appalachian basin) for the Pittsburgh coal bed. 
+      Purpose:
+        The purpose of Professional Paper 1625 is to release the interpretation of
+        assessment and modeling data for the top-producing coal beds in the northern
+        and central Appalachian Basin coal regions.
+        This dataset was used in the National Coal Resource Assessment Program to 
+        produce a generalized overburden thickness map, which was used in the 
+        regional evaluation of resources for the Pittsburgh coal bed in Region 9, the 
+        Appalachian basin. The dataset is useful for regional studies - not 
+        applicable to local scales.
+    Time_Period_of_Content:
+      Time_Period_Information:
+        Range_of_Dates/Times: 
+          Beginning_Date: 1970's
+          Ending_Date: 1997
+      Currentness_Reference: publication date
+    Status:
+      Progress: Complete
+      Maintenance_and_Update_Frequency: None planned
+    Spatial_Domain:
+      Bounding_Coordinates:
+        West_Bounding_Coordinate: -82.657
+        East_Bounding_Coordinate: -78.604
+        North_Bounding_Coordinate: 40.635
+        South_Bounding_Coordinate: 38.315
+    Keywords:
+      Theme:
+        Theme_Keyword_Thesaurus:
+          Coal Resource Classification of the U.S. Geological Survey, USGS
+          Circular 891.
+        Theme_Keyword: coal
+        Theme_Keyword: coal resources
+        Theme_Keyword: coal overburden
+        Theme_Keyword: bituminous
+        Theme_Keyword: geologic structure
+        Theme_Keyword: outcrop
+        Theme_Keyword: USGS
+        Theme_Keyword: West Virginia Geological and Economic Survey
+        Theme_Keyword: Ohio Division of Geological Survey
+        Theme_Keyword: Maryland Geological Survey
+        Theme_Keyword: Pennsylvania Bureau of Topographic and Geologic Survey
+      Place:
+        Place_Keyword_Thesaurus: Geographic Names Information System
+        Place_Keyword: Appalachians
+        Place_Keyword: CLAY County WV
+        Place_Keyword: RITCHIE County WV
+        Place_Keyword: MUSKINGUM County OH
+        Place_Keyword: MONROE County OH
+        Place_Keyword: WETZEL County WV
+        Place_Keyword: TYLER County WV
+        Place_Keyword: MARION County WV
+        Place_Keyword: MONONGALIA County WV
+        Place_Keyword: GREENE County PA
+        Place_Keyword: BROOKE County WV
+        Place_Keyword: TAYLOR County WV
+        Place_Keyword: KANAWHA County WV
+        Place_Keyword: LINCOLN County WV
+        Place_Keyword: WAYNE County WV
+        Place_Keyword: TUCKER County WV
+        Place_Keyword: GRANT County WV
+        Place_Keyword: MINERAL County WV
+        Place_Keyword: GARRETT County MD
+        Place_Keyword: SOMERSET County PA
+        Place_Keyword: CAMBRIA County PA
+        Place_Keyword: PRESTON County WV
+        Place_Keyword: FAYETTE County PA
+        Place_Keyword: BARBOUR County WV
+        Place_Keyword: UPSHUR County WV
+        Place_Keyword: BRAXTON County WV
+        Place_Keyword: CABELL County WV
+        Place_Keyword: LAWRENCE County OH
+        Place_Keyword: GALLIA County OH
+        Place_Keyword: MASON County WV
+        Place_Keyword: PUTNAM County WV
+        Place_Keyword: JACKSON County WV
+        Place_Keyword: MEIGS County OH
+        Place_Keyword: ROANE County WV
+        Place_Keyword: WIRT County WV
+        Place_Keyword: CALHOUN County WV
+        Place_Keyword: ATHENS County OH
+        Place_Keyword: WASHINGTON County OH
+        Place_Keyword: WOOD County WV
+        Place_Keyword: PLEASANTS County WV
+        Place_Keyword: GILMER County WV
+        Place_Keyword: DODDRIDGE County WV
+        Place_Keyword: MORGAN County OH
+        Place_Keyword: HARRISON County WV
+        Place_Keyword: NOBLE County OH
+        Place_Keyword: GUERNSEY County OH
+        Place_Keyword: BELMONT County OH
+        Place_Keyword: OHIO County WV
+        Place_Keyword: HARRISON County OH
+        Place_Keyword: CARROLL County OH
+        Place_Keyword: JEFFERSON County OH
+        Place_Keyword: MARSHALL County WV
+        Place_Keyword: BEAVER County PA
+        Place_Keyword: ALLEGHENY County PA
+        Place_Keyword: ARMSTRONG County PA
+        Place_Keyword: INDIANA County PA
+        Place_Keyword: WESTMORELAND County PA
+        Place_Keyword: ALLEGANY County MD
+        Place_Keyword: LEWIS County WV
+        Place_Keyword: HANCOCK County WV
+        Place_Keyword: WASHINGTON County PA
+      Stratum:
+        Stratum_Keyword_Thesaurus:
+          Geologic Names Unit Lexicon (GNULEX), 1996;
+          Stratigraphic Nomenclature Databases for the United States, It's
+          possessions, and Territories, U.S. Geological Survey Digital Data
+          Series DDS-6, release 3.
+        Stratum_Keyword: Pittsburgh coal bed horizon
+        Stratum_Keyword: Pittsburgh coal
+        Stratum_Keyword: Upper Pennsylvanian
+        Stratum_Keyword: Monongahela Group
+        Stratum_Keyword: Conemaugh Group
+    Access_Constraints: none
+    Use_Constraints: use for regional analysis only
+    Point_of_Contact:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person:  Susan J. Tewalt
+          Contact_Organization: U.S. Geological Survey, Eastern Energy Resources Team
+        Contact_Address:
+          Address_Type: mailing address
+          Address: MS 956 National Center
+          City: Reston
+          State_or_Province: Virginia
+          Postal_Code: 20192
+          Country: USA
+        Contact_Voice_Telephone: 703-648-6437
+    Data_Set_Credit:
+      The stratigraphic data stored in the National Coal Resources Data System (NCRDS) 
+      was submitted since the middle 1970's through State cooperative programs. The 
+      data for the Pittsburgh coal bed was used with the permission and through
+      the cooperation of coal geologists (primary contacts listed) at the West 
+      Virginia Geological and Economic Survey (Nick Fedorko), the Pennsylvania
+      Bureau of Topographic and Geologic Survey (James R. Shaulis and Viktoras
+      W. Skema), the Ohio Division of Geological Survey (Richard W. Carlton)
+      and the Maryland Geological Survey (Dave Brezinski). [WVGES, PAGS, OHGS,
+      and MDGS, respectively.]  It is recommended that new data be obtained from the 
+      State geological surveys that are the sources of he information used in this
+      study.
+  Data_Quality_Information:
+    Attribute_Accuracy:
+      Attribute_Accuracy_Report:
+        Deductive_Estimate: The range of elevation values in the point-source
+          information was 13 to 2620 feet.  The resultant range of the gridded
+          surface was 13 to 2620 feet; extrapolation was used over the x,y extent plus 5%. 
+          The average absolute Z-error of the grid was 1.6 feet, which is 0.04
+          percent of the range. Surface elevations of boreholes or measurements (from
+          which the elevation of the Pittsburgh main bench was in part determined) 
+          were not verified with any paper or digital reference.
+    Logical_Consistency_Report: Topologically clean 
+    Completeness_Report: Input points were irregularly distributed over the
+      spatial extent of the study, therefore areas of sparse data will not 
+      reflect ground truth. There is a point coverage available (c9024dp) that
+      contains most point elevations used to create this map. The main bench of the
+      Pittsburgh coal was selected by name from the stratigraphic database stored 
+      in StratiFact, a relational database manager in use by the USGS National Coal
+      Assessment.  The original data submitted to NCRDS may not have had the 
+      Pittsburgh main bench identified (stratigraphically below the Pittsburgh roof 
+      coals), a task conducted in StratiFact by examination of cross sections of 
+      drill holes. A coverage of structure contours over the entire Pittsburgh
+      horizon areal extent, sc024bsn, is also available.
+    Positional_Accuracy:
+      Horizontal_Positional_Accuracy:
+        Horizontal_Positional_Accuracy_Report: A wide variety of data sources were
+          used as input to this data set. The worst horizontal error is expected
+          to be approximately 1/4 mile. Original data were stored in NCRDS
+          in latitude/longitude coordinates with a possible precision of decimal 
+          seconds. Some loss of precision was made upon conversion to StratiFact. 
+          Location coordinates were converted to Albers Equal Area projection (.01 meter 
+          precision) prior to gridding in ISM.
+      Vertical_Positional_Accuracy:
+        Vertical_Positional_Accuracy_Report: The raw input data represent calculations:
+          subtraction of the depth to the Pittsburgh Coal main bench from
+          the surface (topographic) elevation of each borehole or point of
+          measurement.  The original measurement errors associated with the depth and
+          surface elevation are unknown.  Surface elevations for the drillholes in
+          the database were not compared to any paper or digital reference.  In 
+          addition, for some point locations only the elevation on the bottom of 
+          the Pittsburgh main bench (not the top of the main bench) was
+          available and was therefore used.  The thickness of the Pittsburgh is less
+          than the possible vertical accuracy of approximately 50 feet.
+    Lineage:
+      Process_Step:
+        Process_Description: Pittsburgh Coal data from NCRDS printed and verified against 
+          original data sources.
+        Process_Date: 1995
+      Process_Step:
+        Process_Description: Corrections made to West Virginia and Maryland data in
+          StratiFact. Corrections made to Pennsylvania data in NCRDS (Ingres database).
+          Pennsylvania data downloaded to StratiFact. StratiFact data base
+          obtained for Ohio from OHGS. 
+        Process_Date: 1995-1996
+      Process_Step:
+        Process_Description: Editing of individual data bases in StratiFact to eliminate
+          data coding differences between states. 
+        Process_Date: 1996-1997
+      Process_Step:
+        Process_Description: Obtained approximately 1000 elevations on the BOTTOM of the 
+          Pittsburgh coal bed from 11 WVGES Open-File maps of Wetzel County, WV (See open-
+          file map for citations). Obtained approximately 650 elevations on the BOTTOM
+          of the Pittsburgh coal bed from PAGS Westmoreland, Fayette, and Washington
+          county reports. 85 elevations on the BOTTOM of the Pittsburgh coal bed 
+          from MDGS unpublished map. Added data to separate StratiFact data bases.
+        Process_Date: 1997
+      Process_Step:
+        Process_Description: Gridded 7,101 elevations (using ISM7.1), prompting further
+          refinement of data values in StratiFact data bases. Final grid 
+          parameters used: normal minimum tension surface algorithm, 300 meter cell
+          size, extrapolation over specified x,y extent plus 5%.  Average Z-error 
+          was 1.6 feet. Grid was contoured with 50-foot interval and made into an 
+          ASCII output file.  Decision was made to leave small contour polygons in the
+          resulting file and not to subjectively remove them, even though they may
+          be gridding artifacts.
+        Process_Date: 1997
+      Process_Step:
+        Process_Description: Import contours to ARC/INFO for the entire basin,
+          using conversion ARC/INFO AML provided by Illinois State Geological Survey.
+          Rectangular area used as clip cover during import.
+        Process_Date: 1997
+      Process_Step:
+        Process_Description: Checked attributes of cover. Deleted 3 small polygons
+          not having polygon labels. 
+        Process_Date: 1997
+      Process_Step:
+        Process_Description: Clipped contours to the known resource areas (ARC/INFO
+          coverage c9024ro) defined in USGS Open-File Report 96-280. 
+        Process_Date: 1997
+  Spatial_Data_Organization_Information:
+    Direct_Spatial_Reference_Method: Vector
+    Point_and_Vector_Object_Information
+      SDTS_Terms_Description
+        SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+        Point_and_Vector_Object_Count: 4776
+  Spatial_Reference_Information:
+    Horizontal_Coordinate_System_Definition:
+      Geographic:
+        Latitude_Resolution: 0.00001
+        Longitude_Resolution: 0.00001
+        Geographic_Coordinate_Units: decimal degrees
+      Geodetic_Model:
+        Horizontal_Datum_Name:  North American Datum of 1927
+        Ellipsoid_Name: Clarke 1866
+        Semi-major_Axis: 6378206.4
+        Denominator_of_Flattening_Ratio:  294.98
+  Entity_and_Attribute_Information:
+    Detailed_Description:
+      Entity_Type:
+        Entity_Type_Label: c9024st.pat
+        Entity_Type_Definition: polygon attribute table for coverage
+        Entity_Type_Definition_Source: ARC/INFO
+      Attribute:
+        Attribute_Label: elev_st
+        Attribute_Definition: average elevation value of bounding contour lines
+          Values of -999 assigned to internal no-coal areas and are not true elevations.
+        Attribute_Definition_Source: this study
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 25
+            Range_Domain_Maximum: 2625
+        Attribute_Value_Accuracy_Information:
+          Attribute_Value_Accuracy: 50
+          Attribute_Value_Accuracy_Explanation: elevation on top of the Pittsburgh
+            coal bed main bench (exclusive of roof coals) in feet was created by
+            subtraction of depth down drill hole from surface elvation, gridded,
+            and contoured to nearest 50 feet; accuracy plus or minus one contour
+            interval.         
+    Detailed_Description:
+      Entity_Type:
+        Entity_Type_Label: c9024st.aat
+        Entity_Type_Definition: arc attribute table for coverage
+        Entity_Type_Definition_Source: ARC/INFO
+      Attribute:
+        Attribute_Label: elev_st
+        Attribute_Definition: elevation value of contour lines. Values of 0 represent
+          arcs from the clipping polygon (outcrop) and are not true elevations.
+        Attribute_Definition_Source: this study
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 50
+            Range_Domain_Maximum: 2600
+        Attribute_Value_Accuracy_Information:
+          Attribute_Value_Accuracy: 50
+          Attribute_Value_Accuracy_Explanation: elevation on top of the Pittsburgh
+            coal bed main bench (exclusive of roof coals) in feet was created by
+            subtraction of depth down drill hole from surface elevation, gridded
+            and contoured to nearest 50 feet; accuracy plus or minus one contour
+            interval. Values of 0 are assigned to the outcrop arcs, which were
+            used as a clipping polygon and are not elevation values.
+  Distribution_Information:
+    Distributor:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Susan J. Tewalt
+          Contact_Organization: U.S. Geological Survey, Eastern Energy Resources Team
+        Contact_Address:
+          Address_Type: mailing address
+          Address: MS 956 National Center
+          City: Reston
+          State_or_Province: Virginia
+          Postal_Code: 20192
+          Country: USA
+        Contact_Voice_Telephone: 703-648-6437
+    Resource_Description: USGS Professional Paper 1625-C: Chapter C, c9024st.e00
+    Distribution_Liability:
+      Any use of trade, product, or firm names is for descriptive purposes only and
+      does not imply endorsement by the U.S. Government. Although these
+      data have been used by the U.S. Geological Survey (USGS), no warranty, 
+      expressed or implied, is made by the USGS as to the accuracy of the data
+      and related materials.  The act of distribution shall not constitute any
+      such warranty, and no responsibility is assumed by the USGS in the use
+      of these data, software, or related materials.
+    Standard_Order_Process:
+      Digital_Form:
+        Digital_Transfer_Information:
+          Format_Name: ARCE
+          Format_Version_Number: 7.1.1
+          Format_Information_Content: polygonal elevation coverage
+        Digital_Transfer_Option: 
+          Online_Option: 
+            Computer_Contact_Information:
+              Network_Address:
+                Network_Resource_Name:  http://greenwood.cr.usgs.gov/pub/ppapers/p1625c/
+      Fees: none
+  Metadata_Reference_Information:
+    Metadata_Date: 19980505
+    Metadata_Contact:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Susan J. Tewalt
+          Contact_Organization: U.S. Geological Survey, Eastern Energy Resources Team
+        Contact_Address:
+          Address_Type: mailing address
+          Address: MS 956 National Center
+          City: Reston
+          State_or_Province: Virginia
+          Postal_Code: 20192
+          Country: USA
+        Contact_Voice_Telephone: 703-648-6437
+    Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+    Metadata_Standard_Version: FGDC-STD-001-1998
+

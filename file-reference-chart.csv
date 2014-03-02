@@ -1,0 +1,145 @@
+NCRA Assessment,Region or Basin,Assessment Unit,Shapefile  name and Location,Name of Unit and information in shapefile,Metadata file name
+Appalachian Basin,,,,,
+,Northern,Lower Kittanning,\Coal_Fields_GIS\NCRA_Appalachian_Basin\Northern\c9007mo.shp,Lower Kittanning Coal Zone mined out,c9007mo.met
+,,Lower Kittanning,\Coal_Fields_GIS\NCRA_Appalachian_Basin\Northern\c9007oc.shp,Lower Kittanning Coal Zone Outcrop,c9007oc.met
+,,Upper Freeport,\Coal_Fields_GIS\NCRA_Appalachian_Basin\Northern\c9011st.shp,Upper Freeport Coal Bed Elevation,c9011st.met
+,,Upper Freeport,\Coal_Fields_GIS\NCRA_Appalachian_Basin\Northern\c9011ob.shp,Upper Freeport Coal Bed Overburden,c9011ob.met
+,,Upper Freeport,\Coal_Fields_GIS\NCRA_Appalachian_Basin\Northern\c9011is.shp,Upper Freeport Coal Bed Thickness,c9011is.met
+,,Pittsburg,\Coal_Fields_GIS\NCRA_Appalachian_Basin\Northern\c9024st.shp,Pittsburgh Coal Bed Elevation,c9024st.met
+,,Pittsburg,\Coal_Fields_GIS\NCRA_Appalachian_Basin\Northern\c9024ob.shp,Pittsburgh Coal Bed Overburden,c9024ob.met
+,,Pittsburg,\Coal_Fields_GIS\NCRA_Appalachian_Basin\Northern\c9024is.shp,Pittsburgh Coal Bed Thickness,c9024is.met
+,Central,Pocahontas,\Coal_Fields_GIS\NCRA_Appalachian_Basin\Central\c9104st.shp,Pocahontas Coal Bed Elevation,c9104st.met
+,,Pocahontas,\Coal_Fields_GIS\NCRA_Appalachian_Basin\Central\c9104ob.shp,Pocahontas Coal Bed Overburden,c9104ob.met
+,,Pocahontas,\Coal_Fields_GIS\NCRA_Appalachian_Basin\Central\c9104is.shp,Pocahontas Coal Bed Thickness,c9104is.met
+,,Pond Creek,\Coal_Fields_GIS\NCRA_Appalachian_Basin\Central\c9120st.shp,Pond Creek Coal Zone Elevation,c9120st.met
+,,Pond Creek,\Coal_Fields_GIS\NCRA_Appalachian_Basin\Central\c9120ob.shp,Pond Creek Coal Zone Overburden,c9120ob.met
+,,Pond Creek,\Coal_Fields_GIS\NCRA_Appalachian_Basin\Central\c9120is.shp,Pond Creek Coal Zone Thickness,c9120is.met
+,,Fireclay,\Coal_Fields_GIS\NCRA_Appalachian_Basin\Central\c9125st.shp,Fireclay Coal Zone Elevation,c9125st.met
+,,Fireclay,\Coal_Fields_GIS\NCRA_Appalachian_Basin\Central\c9125ob.shp,Fireclay Coal Zone Overburden,c9125ob.met
+,,Fireclay,\Coal_Fields_GIS\NCRA_Appalachian_Basin\Central\c9125is.shp,Fireclay Coal Zone Thckness,c9125is.met
+Gulf Coast,,,,,
+,Lousiana Sabine,Lousiana Sabine,\Coal_Fields_GIS\NCRA_Gulf Coast\Lousiana_Sabine\lasab_ovb.shp,Lousiana Sabine Overburden,lasab_ovb_metadata.htm
+,,Lousiana Sabine,\Coal_Fields_GIS\NCRA_Gulf Coast\Lousiana_Sabine\lasab_iso.shp,Lousiana Sabine Thickness,lasab_iso_metadata.htm
+,Northeast Texas,Northeast Texas,\Coal_Fields_GIS\NCRA_Gulf Coast\Northeast_Texas\z1iso.shp,Northeast Texas Coal Zone 1 Overburden,z1ovb_metadata.htm
+,,Northeast Texas,\Coal_Fields_GIS\NCRA_Gulf Coast\Northeast_Texas\z1ovb.shp,Northeast Texas Coal Zone 1 Thickness,z1iso_metadata.htm
+,,Northeast Texas,\Coal_Fields_GIS\NCRA_Gulf Coast\Northeast_Texas\z2iso.shp,Northeast Texas Coal Zone 2 Overburden,z2ovb_metadata.htm
+,,Northeast Texas,\Coal_Fields_GIS\NCRA_Gulf Coast\Northeast_Texas\z2ovb.shp,Northeast Texas Coal Zone 2 Thickness,z2iso_metadata.htm
+,,Northeast Texas,\Coal_Fields_GIS\NCRA_Gulf Coast\Northeast_Texas\z3iso.shp,Northeast Texas Coal Zone 3 Overburden,z3ovb_metadata.htm
+,,Northeast Texas,\Coal_Fields_GIS\NCRA_Gulf Coast\Northeast_Texas\z3ovb.shp,Northeast Texas Coal Zone 3 Thickness,z3iso_metadata.htm
+,,Northeast Texas,\Coal_Fields_GIS\NCRA_Gulf Coast\Northeast_Texas\z4iso.shp,Northeast Texas Coal Zone 4 Overburden,z4ovb_metadata.htm
+,,Northeast Texas,\Coal_Fields_GIS\NCRA_Gulf Coast\Northeast_Texas\z4ovb.shp,Northeast Texas Coal Zone 4 Thickness,z4iso_metadata.htm
+,,Northeast Texas,\Coal_Fields_GIS\NCRA_Gulf Coast\Northeast_Texas\z5iso.shp,Northeast Texas Coal Zone 5 Overburden,z5ovb_metadata.htm
+,,Northeast Texas,\Coal_Fields_GIS\NCRA_Gulf Coast\Northeast_Texas\z5ovb.shp,Northeast Texas Coal Zone 5 Thickness,z5iso_metadata.htm
+,,Northeast Texas,\Coal_Fields_GIS\NCRA_Gulf Coast\Northeast_Texas\z6iso.shp,Northeast Texas Coal Zone 6 Overburden,z6ovb_metadata.htm
+,,Northeast Texas,\Coal_Fields_GIS\NCRA_Gulf Coast\Northeast_Texas\z6ovb.shp,Northeast Texas Coal Zone 6 Thickness,z6iso_metadata.htm
+,Central Texas,South Coal Zone,\Coal_Fields_GIS\NCRA_Gulf Coast\Central_Texas\czl4ovb.shp,Central Texas South Coal Zone 4 Overburden,czl4ovb_metadata.htm
+,,South Coal Zone,\Coal_Fields_GIS\NCRA_Gulf Coast\Central_Texas\czl4iso.shp,Central Texas South Coal Zone 4 Thickness,czl4iso_metadata.htm
+,,South Coal Zone,\Coal_Fields_GIS\NCRA_Gulf Coast\Central_Texas\czl6ovb.shp,Central Texas South Coal Zone 6 Overburden,czl6ovb_metadata.htm
+,,South Coal Zone,\Coal_Fields_GIS\NCRA_Gulf Coast\Central_Texas\czl6iso.shp,Central Texas South Coal Zone 6 Thickness,czl6iso_metadata.htm
+,,South Coal Zone,\Coal_Fields_GIS\NCRA_Gulf Coast\Central_Texas\czl8ovb.shp,Central Texas South Coal Zone 8 Overburden,czl8ovb_metadata.htm
+,,South Coal Zone,\Coal_Fields_GIS\NCRA_Gulf Coast\Central_Texas\czl8iso.shp,Central Texas South Coal Zone 8 Thickness,czl8iso_metadata.htm
+,,North Coal Zone,\Coal_Fields_GIS\NCRA_Gulf Coast\Central_Texas\cz5ovb.shp,Central Texas North Coal Zone 5 Overburden,cz5ovb_metadata.htm
+,,North Coal Zone,\Coal_Fields_GIS\NCRA_Gulf Coast\Central_Texas\cz5iso.shp,Central Texas North Coal Zone 5 Thickness,cz5iso_metadata.htm
+,,North Coal Zone,\Coal_Fields_GIS\NCRA_Gulf Coast\Central_Texas\cz6ovb.shp,Central Texas North Coal Zone 6 Overburden,cz6iso_metadata.htm
+,,North Coal Zone,\Coal_Fields_GIS\NCRA_Gulf Coast\Central_Texas\cz6iso.shp,Central Texas North Coal Zone 6 Thickness,cz6ovb_metadata.htm
+,,North Coal Zone,\Coal_Fields_GIS\NCRA_Gulf Coast\Central_Texas\cz8ovb.shp,Central Texas North Coal Zone 8 Overburden,cz8ovb_metadata.htm
+,,North Coal Zone,\Coal_Fields_GIS\NCRA_Gulf Coast\Central_Texas\cz8iso.shp,Central Texas North Coal Zone 8 Thickness,cz8iso_metadata.htm
+,,North Coal Zone,\Coal_Fields_GIS\NCRA_Gulf Coast\Central_Texas\cz9ovb.shp,Central Texas North Coal Zone 9 Overburden,cz9ovb_metadata.htm
+,,North Coal Zone,\Coal_Fields_GIS\NCRA_Gulf Coast\Central_Texas\cz9iso.shp,Central Texas North Coal Zone 9 Thickness,cz9iso_metadata.htm
+,,Central Coal Zone,\Coal_Fields_GIS\NCRA_Gulf Coast\Central_Texas\czm4ovb.shp,Central Texas Central Coal Zone 4 Overburden,czm4ovb_metadata.htm
+,,Central Coal Zone,\Coal_Fields_GIS\NCRA_Gulf Coast\Central_Texas\czm4iso.shp,Central Texas Central Coal Zone 4 Thickness,czm4iso_metadata.htm
+,,Central Coal Zone,\Coal_Fields_GIS\NCRA_Gulf Coast\Central_Texas\czm5ovb.shp,Central Texas Central Coal Zone 5 Overburden,czm5ovb_metadata.htm
+,,Central Coal Zone,\Coal_Fields_GIS\NCRA_Gulf Coast\Central_Texas\czm5iso.shp,Central Texas Central Coal Zone 5 Thickness,czm5iso_metadata.htm
+Illinois Basin,,,,,
+,Springfield Coal,Springfield Coal,\Coal_Fields_GIS\NCRA_Illinois_Basin\Springfield_Coal\ibspovb.shp,Springfield Coal Overburden,ibspovb.met
+,,Springfield Coal,\Coal_Fields_GIS\NCRA_Illinois_Basin\Springfield_Coal\ibspthk.shp,Springfield Coal Thickness,ibspthk.met
+,Herrin Coal,Herrin Coal,\Coal_Fields_GIS\NCRA_Illinois_Basin\Herrin_Coal\ibheovb.shp,Herrin Coal Overburden,ibheovb.met
+,,Herrin Coal,\Coal_Fields_GIS\NCRA_Illinois_Basin\Herrin_Coal\ibhethk.shp,Herrin Coal Thickness,ibhethk.met
+,Baker-Danville Coal,Baker-Danville Coal,\Coal_Fields_GIS\NCRA_Illinois_Basin\Baker-Danville_Coal\ibdaovb.shp, Baker-Danville Coal Overburden,ibdaovb.met
+,,Baker-Danville Coal,\Coal_Fields_GIS\NCRA_Illinois_Basin\Baker-Danville_Coal\ibdathk.shp, Baker-Danville Coal Thickness,ibdathk.met
+Northern Rocky Mountains and Great Plains,,,,,
+,Williston Basin,Beulah-Zap Coal Zone,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Williston_Basin\bzcat.shp,Beulah-Zap Coal Zone Thickness,bzcat.met
+,,Beulah-Zap Coal Zone,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Williston_Basin\bzovb.shp,Beulah-Zap Coal Zone Overburden,bzovb.met
+,,Hagel Coal Zone,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Williston_Basin\hagcat.shp,Hagel Coal Zone Thickness,hagcat.met
+,,Hagel Coal Zone,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Williston_Basin\hagovb.shp,Hagel Coal Zone Overburden,hagovbt.met
+,,Hansen Coal Zone,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Williston_Basin\hancat.shp,Hansen Coal Zone Thickness,hancat.met
+,,Hansen Coal Zone,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Williston_Basin\hanobvb.shp,Hansen Coal Zone Overburden,hanovb.met
+,,Harmon Coal Zone,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Williston_Basin\harcat.shp,Harmon Coal Zone Thickness,harcat.met
+,,Harmon Coal Zone,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Williston_Basin\harovb.shp,Harmon Coal Zone Overburden,harovb.met
+,Powder River Basin,Wyodak-Anderson Coal Zone,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Powder_River_Basin\wacat.shp,Wyodak-Anderson Coal Zone Thickness,Wacat.met
+,,Wyodak-Anderson Coal Zone,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Powder_River_Basin\waovb.shp,Wyodak-Anderson Coal Zone Overburden,Waovb.met
+,,Sheridan Coal Field,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Powder_River_Basin\shrcat.shp,Sheridan Coal Field Thickness,Shrcat.met
+,,Sheridan Coal Field,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Powder_River_Basin\shrovb.shp,Sheridan Coal Field Overburden,Shrovb.met
+,,Ashland Coal Field,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Powder_River_Basin\kncat.shp,Ashland Coal Field Thickness,knocat.met
+,,Ashland Coal Field,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Powder_River_Basin\knovb.shp,Ashland Coal Field Overburden,knovb.met
+,,Coalstrip Coal Field ,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Powder_River_Basin\rscat.shp,Coalstrip Coal Field Thickness,rscat.met
+,,Coalstrip Coal Field ,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Powder_River_Basin\rsovb.shp,Coalstrip Coal Field Overburden,rsovb.met
+,,Decker Coal Field,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Powder_River_Basin\dkcat.shp,Decker Coal Field Thickness,dkcat.met
+,,Decker Coal Field,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Powder_River_Basin\dkovb.shp,Decker Coal Field Overburden,dkovb.met
+,,Gilette Coal Field,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Powder_River_Basin\gilcat.shp,Gilette Coal Field Thickness,Gilcat.met
+,,Gilette Coal Field,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Powder_River_Basin\gilovb.shp,Gilette Coal Field Overburden,Gilovb.met
+,Green River,Black Butte ,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Green_River_Basin\bbcat.shp,Black Butte - Deadman Coal Zone Thickness,bbcat.met
+,,Black Butte ,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Green_River_Basin\bbovb.shp,Black Butte - Deadman Coal Zone Overburden,bbovb.met
+,,Jim Bridger ,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Green_River_Basin\jbcat.shp,Jim Bridger - Deadman Coal Zone Thickness,jbcat.met
+,,Jim Bridger ,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Green_River_Basin\jbovb.shp,Jim Bridger - Deadman Coal Zone Overburden,jbovb.met
+,Hannah Carbon,Ferris Coal Zone,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Hannah_Carbon_Basin\fer23cat.shp,Ferris 23 Coal Zone Thickness,Fer23cat.met
+,,Ferris Coal Zone,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Hannah_Carbon_Basin\fer23ovb.shp,Ferris 23 Coal Zone Overburden,Fer23ovb.met
+,,Ferris Coal Zone,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Hannah_Carbon_Basin\fer25cat.shp,Ferris 25 Coal Zone Thickness,Fer25cat.met
+,,Ferris Coal Zone,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Hannah_Carbon_Basin\fer25ovb.shp,Ferris 25 Coal Zone Overburden,Fer25ovb.met
+,,Ferris Coal Zone,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Hannah_Carbon_Basin\fer31cat.shp,Ferris 31 Coal Zone Thickness,Fer31cat.met
+,,Ferris Coal Zone,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Hannah_Carbon_Basin\fer31ovb.shp,Ferris 31 Coal Zone Overburden,Fer31ovb.met
+,,Ferris Coal Zone,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Hannah_Carbon_Basin\fer50cat.shp,Ferris 50 Coal Zone Thickness,Fer50cat.met
+,,Ferris Coal Zone,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Hannah_Carbon_Basin\fer50ovb.shp,Ferris 50 Coal Zone Overburden,Fer50ovb.met
+,,Ferris Coal Zone,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Hannah_Carbon_Basin\fer65cat.shp,Ferris 65 Coal Zone Thickness,Fer65cat.met
+,,Ferris Coal Zone,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Hannah_Carbon_Basin\fer65ovb.shp,Ferris 65 Coal Zone Overburden,Fer65ovb.met
+,,Hannah Coal Zone,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Hannah_Carbon_Basin\ha77cat.shp,Hannah 77 Coal Zone Thickness,Ha77cat.met
+,,Hannah Coal Zone,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Hannah_Carbon_Basin\ha77ovb.shp,Hannah 77 Coal Zone Overburden,Ha77ovb.met
+,,Hannah Coal Zone,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Hannah_Carbon_Basin\ha78cat.shp,Hannah 78 Coal Zone Thickness,Ha78cat.met
+,,Hannah Coal Zone,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Hannah_Carbon_Basin\ha78ovb.shp,Hannah 78 Coal Zone Overburden,Ha78ovb.met
+,,Hannah Coal Zone,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Hannah_Carbon_Basin\ha79cat.shp,Hannah 79 Coal Zone Thickness,Ha79cat.met
+,,Hannah Coal Zone,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Hannah_Carbon_Basin\ha79ovb.shp,Hannah 79 Coal Zone Overburden,Ha79ovb.met
+,,Hannah Coal Zone,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Hannah_Carbon_Basin\ha81cat.shp,Hannah 81 Coal Zone Thickness,Ha81cat.met
+,,Hannah Coal Zone,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Hannah_Carbon_Basin\ha81ovb.shp,Hannah 81 Coal Zone Overburden,Ha81ovb.met
+,,South Carbon Coal Zone,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Hannah_Carbon_Basin\sccat.shp,Johnson 107 Coal Zone Thickness,Sccat.met
+,,South Carbon Coal Zone,\Coal_Fields_GIS\NCRA_Northern_Rocky_Mountains_and_Great_Plains\Hannah_Carbon_Basin\scovb.shp,Johnson 107 Coal Zone Overburden,Scovb.met
+Colorado Plateau,,,,,
+,Danforth Hills,Danforth Hills Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\Danforth\dana_thk.shp,Danforth Hills Coal Field Zone A Thickness,dan_thk.met
+,,Danforth Hills Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\Danforth\dana_fin.shp,Danforth Hills Coal Field Zone A Overburden,dan_fin.met
+,,Danforth Hills Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\Danforth\danb_thk.shp,Danforth Hills Coal Field Zone B Thickness,dan_thk.met
+,,Danforth Hills Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\Danforth\danb_fin.shp,Danforth Hills Coal Field Zone B Overburden,dan_fin.met
+,,Danforth Hills Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\Danforth\danc_thk.shp,Danforth Hills Coal Field Zone C Thickness,dan_thk.met
+,,Danforth Hills Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\Danforth\danc_fin.shp,Danforth Hills Coal Field Zone C Overburden,dan_fin.met
+,,Danforth Hills Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\Danforth\dand_thk.shp,Danforth Hills Coal Field Zone D Thickness,dan_thk.met
+,,Danforth Hills Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\Danforth\dand_fin.shp,Danforth Hills Coal Field Zone D Overburden,dan_fin.met
+,,Danforth Hills Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\Danforth\dane_thk.shp,Danforth Hills Coal Field Zone E Thickness,dan_thk.met
+,,Danforth Hills Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\Danforth\dane_fin.shp,Danforth Hills Coal Field Zone E Overburden,dan_fin.met
+,,Danforth Hills Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\Danforth\danf_thk.shp,Danforth Hills Coal Field Zone F Thickness,dan_thk.met
+,,Danforth Hills Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\Danforth\danf_fin.shp,Danforth Hills Coal Field Zone F Overburden,dan_fin.met
+,,Danforth Hills Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\Danforth\dang_thk.shp,Danforth Hills Coal Field Zone G Thickness,dan_thk.met
+,,Danforth Hills Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\Danforth\dang_fin.shp,Danforth Hills Coal Field Zone G Overburden,dan_fin.met
+,Kaiparowits,Kaiparowits Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\Kaiparowits\kaintfin.shp,Kaiparowits Coal Field Overburden,kai_fin.met
+,,Kaiparowits Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\Kaiparowits\kai_tfin.shp,Kaiparowits Coal Field Thickness,kai_fin.met
+,Lower White River,Lower White River Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\Lower_White_River\desb_thk.shp,Lower White River Coal Field Zone B Thickness,des_thk.met
+,,Lower White River Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\Lower_White_River\desb_fin.shp,Lower White River Coal Field Zone B Overburden,des_fin.met
+,,Lower White River Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\Lower_White_River\desd_thk.shp,Lower White River Coal Field Zone D Thickness,des_thk.met
+,,Lower White River Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\Lower_White_River\desd_fin.shp,Lower White River Coal Field Zone D Overburden,des_fin.met
+,San Juan,San Juan Basin,\Coal_Fields_GIS\NCRA_Colorado_Plateau\San_Juan\sjb_thk.shp,San Juan Basin Thickness,sjb_ovb.met
+,,San Juan Basin,\Coal_Fields_GIS\NCRA_Colorado_Plateau\San_Juan\sjb_fin.shp,San Juan Basin Overburden,sjb_fin.met
+,South Piceance,Crested Butte Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\South_Piceance\pscb_thk.shp,Crested Butte Coal Field Thickness,ps_thk.met
+,,Crested Butte Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\South_Piceance\pscb_fin.shp,Crested Butte Coal Field Overburden,ps_fin.met
+,,Cameo/Wheeler Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\South_Piceance\pscwth12.shp,Cameo/Wheeler Coal Field Thickness,ps_thk.met
+,,Cameo/Wheeler Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\South_Piceance\pscw_fin.shp,Cameo/Wheeler Coal Field Overburden,ps_fin.met
+,,Coal Ridge Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\South_Piceance\pscr_thk.shp,Coal Ridge Coal Field Thickness,ps_thk.met
+,,Coal Ridge Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\South_Piceance\pscr_fin.shp,Coal Ridge Coal Field Overburden,ps_fin.met
+,,South Canyon Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\South_Piceance\pssc_thk.shp,South Canyon Coal Field Thickness,ps_thk.met
+,,South Canyon Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\South_Piceance\pssc_fin.shp,South Canyon Coal Field Overburden,ps_fin.met
+,South Wasatch Plateau,South Wasatch Plateau Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\South_Wasatch_Plateau\ws_thk.shp,South Wasatch Plateau Coal Field Thickness,ws_thk.met
+,,South Wasatch Plateau Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\South_Wasatch_Plateau\ws_fin.shp,South Wasatch Plateau Coal Field Overburden,ws_fin.met
+,Yampa,Yampa Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\Yampa\yama_thk.shp,Yampa Coal Field Zone A Thickness,yam_thk.met
+,,Yampa Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\Yampa\yama_fin.shp,Yampa Coal Field Zone A Overburden,yam_fin.met
+,,Yampa Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\Yampa\yamb_thk.shp,Yampa Coal Field Zone B Thickness,yam_thk.met
+,,Yampa Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\Yampa\yamb_fin.shp,Yampa Coal Field Zone B Overburden,yam_fin.met
+,,Yampa Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\Yampa\yamc_thk.shp,Yampa Coal Field Zone C Thickness,yam_thk.met
+,,Yampa Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\Yampa\yamc_fin.shp,Yampa Coal Field Zone C Overburden,yam_fin.met
+,,Yampa Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\Yampa\yamd_thk.shp,Yampa Coal Field Zone D Thickness,yam_thk.met
+,,Yampa Coal Field,\Coal_Fields_GIS\NCRA_Colorado_Plateau\Yampa\yamd_fin.shp,Yampa Coal Field Zone D Overburden,yam_fin.met

@@ -1,0 +1,421 @@
+Metadata:
+  Identification_Information:
+    Citation:
+      Citation_Information:
+        Originator: Susan J. Tewalt
+        Publication_Date: 1997
+        Title:
+          Overburden thickness isopleths of the Pittsburgh Coal Bed in 
+          Pennsylvania, Ohio, West Virginia, and Maryland
+        Larger_Work_Citation:
+          Citation_Information:          
+            Originator: Northern and Central Appalachian Basin Coal Regions
+              Assessment Team
+            Publication_Date: 2000
+            Title:
+              2000 Resource Assessment of Selected Coal Beds and Zones in the
+              Northern and Central Appalachian Basin Coal Regions
+            Series_Information:
+              Series_Name: U.S. Geological Survey Professional Paper
+              Issue_Identification: PP1625-C
+            Publication_Information:
+              Publication_Place: Reston, VA
+              Publisher: U.S. Geological Survey
+            Online_Linkage: http://greenwood.cr.usgs.gov/pub/ppapers/p1625c/
+    Description:
+      Abstract:
+        The Pittsburgh coal bed is composed of regionally persistent divisions- a roof
+        division (coals and shales) and a lower division, referred to as the "main bench".
+        This dataset is a polygon coverage of the thickness of the overburden 
+        of the Pittsburgh Coal bed main bench, in feet. It was produced
+        by importing 1:250,000 and 1:100,000 scale digital elevation models into ARC,
+        and merging the lattices into one.  The ARC grid was imported to Geographic
+        Resources Analysis Support Systme (GRASS) GIS where the grid was
+        resampled to the 300 meter cells that were used in the generation
+        of the structure contour map on top of the Pittsburgh coal bed main bench.
+        The structure elevation grid was subtracted from the surface elevation
+        grid, creating overburden thickness. This grid was contoured within the known
+        extent of the Pittsburgh coal bed and horizon into 200, 500, 1000, and 2000
+        foot lines. This vector file was imported to ARC. Overburden polygons less than
+        90,000 square meters in area were deleted (these represented one grid cell or less
+        and were insignificant for this regional scale product).  In addition some
+        areas of steep terrain required editing of the 200 foot contour line to be
+        inside the Pittsburgh outcrop line (which represents 0 ft overburden). Overlap
+        occurred because the contour lines were generated from 300-m cells. Coverage
+        name is c9024ob. Polygon attributes include a code for the USGS overburden
+        category (and arc attributes include the value of the contour line).
+      Purpose:
+        The purpose of Professional Paper 1625 is to release the interpretation of
+        assessment and modeling data for the top-producing coal beds in the northern
+        and central Appalachian Basin coal regions.
+        This dataset was used in the National Coal Resource Assessment Program
+        to classify coal resources for the Pittsburgh coal bed in
+        Region 9, the Appalachians.  The dataset has been generalized
+        and is useful in regional studies - not applicable to local scales. 
+    Time_Period_of_Content:
+      Time_Period_Information:
+        Single_date/Time: 
+          Calendar_Date: 1997
+      Currentness_Reference: data collection and collation period
+    Status:
+      Progress: Complete
+      Maintenance_and_Update_Frequency: None planned
+    Spatial_Domain:
+      Bounding_Coordinates:
+        West_Bounding_Coordinate: -82.657
+        East_Bounding_Coordinate: -78.604
+        North_Bounding_Coordinate: 40.635
+        South_Bounding_Coordinate: 38.315
+    Keywords:
+      Theme:
+        Theme_Keyword_Thesaurus:
+          Coal Resource Classification of the U.S. Geological Survey, USGS
+          Circular 891.
+        Theme_Keyword: coal
+        Theme_Keyword: coal resources
+        Theme_Keyword: coal overburden
+        Theme_Keyword: bituminous
+        Theme_Keyword: geologic structure
+        Theme_Keyword: outcrop
+        Theme_Keyword: USGS
+        Theme_Keyword: West Virginia Geological and Economic Survey
+        Theme_Keyword: Ohio Division of Geological Survey
+        Theme_Keyword: Maryland Geological Survey
+        Theme_Keyword: Pennsylvania Bureau of Topographic and Geologic Survey
+      Place:
+        Place_Keyword_Thesaurus: Geographic Names Information System
+        Place_Keyword: Appalachians
+        Place_Keyword: CLAY County WV
+        Place_Keyword: RITCHIE County WV
+        Place_Keyword: MUSKINGUM County OH
+        Place_Keyword: MONROE County OH
+        Place_Keyword: WETZEL County WV
+        Place_Keyword: TYLER County WV
+        Place_Keyword: MARION County WV
+        Place_Keyword: MONONGALIA County WV
+        Place_Keyword: GREENE County PA
+        Place_Keyword: BROOKE County WV
+        Place_Keyword: TAYLOR County WV
+        Place_Keyword: KANAWHA County WV
+        Place_Keyword: LINCOLN County WV
+        Place_Keyword: WAYNE County WV
+        Place_Keyword: TUCKER County WV
+        Place_Keyword: GRANT County WV
+        Place_Keyword: MINERAL County WV
+        Place_Keyword: GARRETT County MD
+        Place_Keyword: SOMERSET County PA
+        Place_Keyword: CAMBRIA County PA
+        Place_Keyword: PRESTON County WV
+        Place_Keyword: FAYETTE County PA
+        Place_Keyword: BARBOUR County WV
+        Place_Keyword: UPSHUR County WV
+        Place_Keyword: BRAXTON County WV
+        Place_Keyword: CABELL County WV
+        Place_Keyword: LAWRENCE County OH
+        Place_Keyword: GALLIA County OH
+        Place_Keyword: MASON County WV
+        Place_Keyword: PUTNAM County WV
+        Place_Keyword: JACKSON County WV
+        Place_Keyword: MEIGS County OH
+        Place_Keyword: ROANE County WV
+        Place_Keyword: WIRT County WV
+        Place_Keyword: CALHOUN County WV
+        Place_Keyword: ATHENS County OH
+        Place_Keyword: WASHINGTON County OH
+        Place_Keyword: WOOD County WV
+        Place_Keyword: PLEASANTS County WV
+        Place_Keyword: GILMER County WV
+        Place_Keyword: DODDRIDGE County WV
+        Place_Keyword: MORGAN County OH
+        Place_Keyword: HARRISON County WV
+        Place_Keyword: NOBLE County OH
+        Place_Keyword: GUERNSEY County OH
+        Place_Keyword: BELMONT County OH
+        Place_Keyword: OHIO County WV
+        Place_Keyword: HARRISON County OH
+        Place_Keyword: CARROLL County OH
+        Place_Keyword: JEFFERSON County OH
+        Place_Keyword: MARSHALL County WV
+        Place_Keyword: BEAVER County PA
+        Place_Keyword: ALLEGHENY County PA
+        Place_Keyword: ARMSTRONG County PA
+        Place_Keyword: INDIANA County PA
+        Place_Keyword: WESTMORELAND County PA
+        Place_Keyword: ALLEGANY County MD
+        Place_Keyword: LEWIS County WV
+        Place_Keyword: HANCOCK County WV
+        Place_Keyword: WASHINGTON County PA
+      Stratum:
+        Stratum_Keyword_Thesaurus:
+          Geologic Names Unit Lexicon (GNULEX), 1996;
+          Stratigraphic Nomenclature Databases for the United States, It's
+          possessions, and Territories, U.S. Geological Survey Digital Data
+          Series DDS-6, release 3.
+        Stratum_Keyword: Pittsburgh coal bed horizon
+        Stratum_Keyword: Pittsburgh coal
+        Stratum_Keyword: Upper Pennsylvanian
+        Stratum_Keyword: Monongahela Group
+        Stratum_Keyword: Conemaugh Group
+    Access_Constraints: none
+    Use_Constraints: to be used for regional analysis only
+    Point_of_Contact:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person:  Susan J. Tewalt
+          Contact_Organization: U.S. Geological Survey, Eastern Energy Resources Team
+        Contact_Address:
+          Address_Type: mailing address
+          Address: MS 956 National Center
+          City: Reston
+          State_or_Province: Virginia
+          Postal_Code: 20192
+          Country: USA
+        Contact_Voice_Telephone: 703-648-6437
+    Data_Set_Credit:
+      The stratigraphic data stored in the National Coal Resources Data System (NCRDS)
+      was submitted since the middle 1970's through State cooperative programs. The data
+      for the Pittsburgh coal bed was used with the permission and through
+      the cooperation of coal geologists (primary contacts listed) at the West 
+      Virginia Geological and Economic Survey (Nick Fedorko), the Pennsylvania
+      Bureau of Topographic and Geologic Survey (James R. Shaulis and Viktoras
+      W. Skema), the Ohio Division of Geological Survey (Richard W. Carlton)
+      and the Maryland Geological Survey (Dave Brezinski). [WVGES, PAGS, OHGS,
+      and MDGS, respectively.]  It is recommended that new data be obtained from the
+      State geological surveys that are the sources of the information in this study.
+  Data_Quality_Information:
+    Attribute_Accuracy:
+      Attribute_Accuracy_Report:
+        Deductive Estimate: Because many small-scale features were removed (individual
+          hills and upper reaches of erosional features), local accuracy is estimated to be
+          poor. Polygons with an area of less than 90,000 square meters were selected
+          and merged into the overburden value of the surrounding polygon.  The original
+          uncleaned line file (prior to any ARC editing) for the entire basin is 
+          available upon request.  
+    Logical_Consistency_Report: Topologically clean 
+    Completeness_Report:  The polygons in this coverage are a general representation
+      of overburden thickness based on categories prescribed by USGS Circular 891.
+    Positional_Accuracy:
+      Horizontal_Positional_Accuracy:
+        Horizontal_Positional_Accuracy_Report: The grid cell sizes used to create this
+          file were 300 meter square. The contouring routine may go to either side
+          of a cell, therfore horizontal accuracy is estimated to minimally be 
+          150 meters.
+      Vertical_Positional_Accuracy:
+        Vertical_Positional_Accuracy_Report: The polygonal data values represent the
+          subtraction of the top of the Pittsburgh coal main bench from a DEM lattice.
+          The original measurement errors associated with the DEM vary with scale; 
+          errors associated with the structure contour map are likely to be
+          on the order of 50 feet.  These errors are likely to be cumulative.  The 
+          grid which produced the contours for this coverage's polygons had a maximum value for
+          overburden thickness of approximately 1450 feet within the resource areas
+          shown on this coverage.
+    Lineage:
+      Process_Step: 
+        Process_Description: Gridding of Pittsburgh coal elevations to create structure 
+          on the top of the main bench, using ISM v. 71. Grid parameters used: normal
+          minimum tension surface algorithm, 300 meter grid size, extrapolation
+          over specified x,y extent.  Creation of contours with 50-foot interval.
+        Process_Date: 1997
+      Process_Step: 
+        Process_Description: Imported 10 1:250,000 scale DEM's into ARC lattices.
+        Process_Date: 1997
+      Process_Step: 
+        Process_Description: 10 lattices merged and cell size resampled to 100 meters.
+        Process_Date: 1997
+      Process_Step: 
+        Process_Description: Imported 8 1:100,000 scale DEM's into ARC lattices.
+        Process_Date: 1997
+      Process_Step: 
+        Process_Description: 8 lattices merged and cell size resampled to 100 meters.
+        Process_Date: 1997
+      Process_Step: 
+        Process_Description: Merged two lattices (1:250,000 and 1:100,000).
+        Process_Date: 1997
+      Process_Step: 
+        Process_Description: Converted Z-units of topographic surface lattice from 
+          meters into feet and projected data set into Albers equal area projection.
+        Process_Date: 1997
+      Process_Step: 
+        Process_Description: Imported final ARC topographic surface grid (as ASCII 
+          file) and imported ISM structure grid (as ASCII file) to GRASS.
+        Process_Date: 1997
+      Process_Step: 
+        Process_Description: Resampled topography grid to same cell size (300 m) as 
+          structure. Calculated overburden by subtraction of structure from topography. 
+          Contoured overburden grid into line file (limited to within the extent of
+          the Pittsburgh coal bed and horizon) using specific thickness values: 200,
+          500, 1000, and 2000 feet (2000 line exceeded maximum of actual values).
+          This step used GRASS's r.resample, r.mapcalc, r.contour, and lastly
+          v.out.arc commands.
+        Process_Date: 1997
+      Process_Step: 
+        Process_Description: Imported overburden contour lines to ARC (over coal bed
+          horizon extent) as vector using generate command.
+        Process_Date: 1997
+      Process_Step: 
+        Process_Description: Cleaned for line with dangle and fuzzy set to 1, edited
+          out dangles and built polygon topology.  Deleted polygons of AREA
+          less than 90,000 square meters; used selectput to delete arcs of that
+          same subset. Dissolved 500 common lines.
+        Process_Date: 1997
+      Process_Step: 
+        Process_Description: Manually edited small changes to 200 foot contour line
+          using known resource areas (cover, C9024ro) as backcoverage guide so
+          that the 200-foot contour line occurred within the outcrop area.
+        Process_Date: 1997
+      Process_Step: 
+        Process_Description: Cleaned and used matchnode to close nodes, manual editing
+          in ARCEDIT as final step.
+        Process_Date: 1997
+      Process_Step: 
+        Process_Description: Clipped contours to the known resource areas defined in 
+          USGS Open-File Report 96-280 (ARC/INFO coverage C9024ro).  The clipping
+          coverage also provided the zero overburden thickness line (outcrop). 
+        Process_Date: 1997
+      Process_Step: 
+        Process_Description: Ran createlabels, added item for catgeory code, and 
+          manually attributed polygons with numeric codes for their respective 
+          overburden category.
+        Process_Date: 1997
+      Process_Step:
+        Process_Description: Manually added two additional polygons of deeper 
+          overburden categories to Ohio (Gallia county) based on maps sent by OHGS.
+        Process_Date: 1998
+      Process_Step:
+        Process_Description: Projected cover to geographic from Albers.
+        Process_Date: 1998
+  Spatial_Data_Organization_Information:
+    Direct_Spatial_Reference_Method: Vector
+    Point_and_Vector_Object_Information
+      SDTS_Terms_Description
+        SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+        Point_and_Vector_Object_Count: 2331
+  Spatial_Reference_Information:
+    Horizontal_Coordinate_System_Definition:
+      Geographic:
+        Latitude_Resolution: 0.00001
+        Longitude_Resolution: 0.00001
+        Geographic_Coordinate_Units: decimal degrees
+      Geodetic_Model:
+        Horizontal_Datum_Name:  North American Datum of 1927
+        Ellipsoid_Name: Clarke 1866
+        Semi-major_Axis: 6378206.4
+        Denominator_of_Flattening_Ratio:  294.98
+  Entity_and_Attribute_Information:
+    Detailed_Description:
+      Entity_Type:
+        Entity_Type_Label: c9024ob.pat
+        Entity_Type_Definition: polygon attribute table for coverage
+        Entity_Type_Definition_Source: ARC/INFO
+      Attribute:
+        Attribute_Label: OB_CAT
+        Attribute_Definition: numeric code assigned to categories defined in
+          USGS Circular 891.
+        Attribute_Definition_Source: this study
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 103
+            Enumerated_Domain_Value_Definition:
+              '103' 0 to 200 feet     
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 105
+            Enumerated_Domain_Value_Definition:
+              '105' 200 to 500 feet    
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 106
+            Enumerated_Domain_Value_Definition:
+              '106' 500 to 1000 feet   
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 107
+            Enumerated_Domain_Value_Definition:
+             '107' 1000 to 2000 feet 
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 999
+            Enumerated_Domain_Value_Definition:
+              '999' "no coal" area for which overburden does not exist 
+            Enumerated_Domain_Value_Definition_Source: USGS
+        Attribute_Value_Accuracy_Information:
+          Attribute_Value_Accuracy: 50
+          Attribute_Value_Accuracy_Explanation: Elevation on top of the Pittsburgh
+            coal bed main bench (exclusive of roof coals) in feet was created by
+            subtraction of depth down drill hole from surface elvation, gridded,
+            and averaged to nearest 50 feet by means of contouring. Subtraction
+            of this surface from topography was then contoured into varying intervals,
+            200, 500, 1000, and 2000. Because of the generalization of this coverage,
+            50 feet would be the minimum accuracy, a greater value is likely.        
+    Detailed_Description:
+      Entity_Type:
+        Entity_Type_Label: c9024ob.aat
+        Entity_Type_Definition: arc attribute table for coverage
+        Entity_Type_Definition_Source: ARC/INFO
+      Attribute:
+        Attribute_Label: THICK_OB
+        Attribute_Definition: contour value from categories defined in
+          USGS Circular 891. Values of 0 represent outcrop.
+        Attribute_Definition_Source: this study
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 0
+            Enumerated_Domain_Value_Definition: 0  feet  (outcrop)    
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 200
+            Enumerated_Domain_Value_Definition: 200 feet    
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 500
+            Enumerated_Domain_Value_Definition: 500 feet   
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 1000
+            Enumerated_Domain_Value_Definition: 1000 feet
+            Enumerated_Domain_Value_Definition_Source: USGS
+  Distribution_Information:
+    Distributor:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Susan J. Tewalt
+          Contact_Organization: U.S. Geological Survey, Eastern Energy Resources Team
+        Contact_Address:
+          Address_Type: mailing address
+          Address: MS 956 National Center
+          City: Reston
+          State_or_Province: Virginia
+          Postal_Code: 20192
+          Country: USA
+        Contact_Voice_Telephone: 703-648-6437
+    Resource_Description: USGS Professional Paper 1625-C: Chapter C, c9024ob.e00
+    Distribution_Liability:
+      Any use of trade, product, or firm names is for descriptive purposes only and
+      does not imply endorsement by the U.S. Government. Although these
+      data have been used by the U.S. Geological Survey (USGS), no warranty, 
+      expressed or implied, is made by the USGS as to the accuracy of the data
+      and related materials.  The act of distribution shall not constitute any
+      such warranty, and no responsibility is assumed by the USGS in the use
+      of these data, software, or related materials.
+    Standard_Order_Process:
+      Digital_Form:
+        Digital_Transfer_Information:
+          Format_Name: ARCE
+          Format_Version_Number: 7.1.1
+          Format_Information_Content: polygonal overburden coverage
+        Digital_Transfer_Option:
+          Online_Option:
+            Computer_Contact_Information:
+              Network_Address:
+                Network_Resource_Name: http://greenwood.cr.usgs.gov/pub/ppapers/p1625c/
+      Fees: none
+  Metadata_Reference_Information:
+    Metadata_Date: 2000
+    Metadata_Contact:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Susan J. Tewalt
+          Contact_Organization: U.S. Geological Survey, Eastern Energy Resources Team
+        Contact_Address:
+          Address_Type: mailing address
+          Address: MS 956 National Center
+          City: Reston
+          State_or_Province: Virginia
+          Postal_Code: 20192
+          Country: USA
+        Contact_Voice_Telephone: 703-648-6437
+    Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+    Metadata_Standard_Version: FGDC-STD-001-1998

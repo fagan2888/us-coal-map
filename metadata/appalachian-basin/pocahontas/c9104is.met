@@ -1,0 +1,328 @@
+Metadata:
+  Identification_Information:
+    Citation:
+      Citation_Information:
+        Originator: Philip Freeman
+        Publication_Date: 2000
+        Title:
+          Isopach thickness categories of Pocahontas No. 3 coal bed: c9104is.e00
+        Larger_Work_Citation:
+          Citation_Information:
+            Originator: Northern and Central Appalachian Basin Coal Regions
+              Assessment Team
+            Publication_Date: 2000
+            Title:
+              2000 Resource Assessment of Selected Coal Beds and Zones in the
+              Northern and Central Appalachian Basin Coal Regions
+            Series_Information:
+              Series_Name: U.S. Geological Survey Professional Paper
+              Issue_Identification: PP1625-C
+            Publication_Information:
+              Publication_Place: Reston, VA
+              Publisher: U.S. Geological Survey  
+            Online_Linkage: http://greenwood.cr.usgs.gov/pub/ppapers/p1625c/
+    Description: 
+      Abstract:
+        This dataset is a polygon coverage of the thickness of the Pocahontas No. 3 
+        coal bed, in feet.  The coverage was modeled in EarthVision (version 4.0)
+        software as a grid (135 meter cell size) using 964 point-source data from 
+        the National Coal Resources Data System (NCRDS) and using a line file of 
+        2 strike-slip faults.  The grid was contoured into 1.17-ft (14-inch) 
+        intervals, and imported to ARC/INFO. The  'thick' item for each polygon 
+        reflects a value in feet halfway between the bounding contour lines.  
+        The 'is_cat' item is a category code from criteria in USGS Circular 891.  
+        Coverage name: c9104is (104 is the code assigned to the Pocahontas No. 3 
+        coal bed).   Zero thickness areas were not differentiated as to whether 
+        they were depositional or erosional, a deviation from standard USGS 
+        Circular 891 methodology.
+      Purpose:
+        The purpose of PP 1625-C is to release the interpretation of assessment and
+        modeling data for the the top-producing coal beds in the northern and 
+        central Appalachian Basin coal region.
+    Time_Period_of_Content:
+      Time_Period_Information:
+        Single_Date/Time:
+          Calendar_Date: 2000
+      Currentness_Reference: data collection and collation period
+    Status:
+      Progress: Complete
+      Maintenance_and_Update_Frequency: None planned
+    Spatial_Domain:
+      Bounding_Coordinates:
+        West_Bounding_Coordinate: -82.565
+        East_Bounding_Coordinate: -80.738
+        North_Bounding_Coordinate: 36.842
+        South_Bounding_Coordinate: 37.964
+    Keywords:
+      Theme:
+        Theme_Keyword_Thesaurus:
+          Coal Resource Classification of the U.S. Geological Survey, USGS
+          circular 891.
+        Theme_Keyword: Eastern Energy Team
+        Theme_Keyword: energy
+        Theme_Keyword: power
+        Theme_Keyword: resources
+        Theme_Keyword: coal
+        Theme_Keyword: coal resources
+        Theme_Keyword: coal thickness
+        Theme_Keyword: bituminous
+        Theme_Keyword: isopach
+        Theme_Keyword: outcrop
+        Theme_Keyword: USGS
+        Theme_Keyword: West Virginia Geologic and Economic Survey
+        Theme_Keyword: Virginia Division of Mineral Resources
+        Theme_Keyword: Virginia Department of Mines, Minerals and Energy
+      Place:
+        Place_Keyword_Thesaurus: Geographic Names Information System
+        Place_Keyword: United States
+        Place_Keyword: West Virginia
+        Place_Keyword: Virginia
+        Place_Keyword: Appalachians
+        Place_Keyword: GREENBRIER County
+        Place_Keyword: FAYETTE County
+        Place_Keyword: RALEIGH County
+        Place_Keyword: MERCER County
+        Place_Keyword: SUMMERS County
+        Place_Keyword: WYOMING County
+        Place_Keyword: MCDOWELL County
+        Place_Keyword: LOGAN County
+        Place_Keyword: MINGO County
+        Place_Keyword: TAZEWELL County
+        Place_Keyword: BUCHANAN County
+        Place_Keyword: RUSSELL County
+        Place_Keyword: DICKENSON County
+        Place_Keyword: WISE County
+        Place_Keyword: SCOTT County
+      Stratum:
+        Stratum_Keyword_Thesaurus:
+          Geologic Names Unit Lexicon (GNULEX), 1996;
+          Stratigraphic Nomenclature Databases for the United States, It's
+          Possessions, and Territories, U.S. Geological Survey Digital Data
+          Series DDS-6, release 3.
+        Stratum_Keyword: Pennsylvanian
+        Stratum_Keyword: Lower Pennsylvanian
+        Stratum_Keyword: Pocahontas Formation
+        Stratum_Keyword: Pocahontas No. 3 coal bed
+    Access_Constraints: None
+    Use_Constraints: To be used for regional analysis only.
+    Point_of_Contact:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Philip Freeman (compiler)
+          Contact_Organization: U.S. Geological Survey, Eastern Energy Resources Team
+        Contact_Address:
+          Address_Type: mailing address
+          Address: MS 956 National Center
+          City: Reston
+          State_or_Province: Virginia
+          Postal_Code: 20192
+          Country: USA
+        Contact_Voice_Telephone: 703-648-6447
+    Data_Set_Credit:
+      The stratigraphic data stored in the National Coal Resources Data System (NCRDS)
+      was submitted from the middle 1970's through State cooperative programs. The 
+      data for the Pocahontas No. 3 coal bed was used with the permission and through
+      the cooperation of coal geologists (primary contacts listed) at the West 
+      Virginia Geological and Economic Survey (B. M. Blake, Jr.) and the Virginia 
+      Division of Mineral Resources (J. Nolde).
+  Data_Quality_Information:
+    Attribute_Accuracy:
+      Attribute_Accuracy_Report:
+        Deductive_Estimate: 
+          The range of thickness values in the point-source information was from 0 to 
+          11.50 feet.  The resultant range of the gridded surface was negative to 11.91 feet;
+           extrapolation was used over the x,y extent.  The average absolute Z-error of the 
+          grid was 0.026 feet, which is 0.097 percent of the range. 
+    Logical_Consistency_Report: Topologically clean 
+    Completeness_Report:
+      Input points were irregularly distributed over the spatial extent of the study 
+      area. 
+    Positional_Accuracy:
+      Horizontal_Positional_Accuracy:
+        Horizontal_Positional_Accuracy_Report: 
+          A variety of data sources were used as input to this data set. The greatest 
+          horizontal error is expected to be approximately 1/4 mile. Original data 
+          were stored in NCRDS in latitude/longitude coordinates with a possible 
+          precision of decimal seconds.  Some loss of precision was made upon 
+          conversion to StratiFact. Location coordinates were converted to Albers 
+          Equal Area projection (.01 meter precision) prior to gridding in 
+          EarthVision.
+      Vertical_Positional_Accuracy:
+        Vertical_Positional_Accuracy_Report: 
+          The raw input data represent thickness measurements from a wide variety of 
+          data types: cores, outcrop, oil and gas logs, etc. The original errors 
+          associated with these measurments are unknown.  Error may also arise from 
+          the differences in the judgement of geologists in the differentiation 
+          between coal, bone and partings. Only coal and impure coal lithologies 
+          were included in the database search to determine cumulative coal thickness;
+          bone coal and partings were excluded.
+    Lineage:
+      Process_Step:
+        Process_Description: 
+          Pocahontas No. 3 coal data from coal database printed, plotted and verified
+          against original data sources.
+        Process_Date: 1998
+      Process_Step: 
+        Process_Description: 
+          Gridding of thicknesses and editing of data values in databases. 
+          EarthVision (v. 4.0) grid parameters used: isopach surface algorithm 
+          (special treatment of zero values), 135 meter cell size, extrapolation of 
+          values over specified x,y extent.  A generalized line file of 2 strike-slip
+          faults which slice NW to SE across the coal bed in Virginia were used in
+          the model.   Average absolute Z-error of the grid was 0.026 feet, or 
+          0.097% of the range.
+        Process_Date: 1999
+      Process_Step:
+        Process_Description: 
+          Grid values were multiplied by 100 and the grid was contoured in 
+          EarthVision into 1.17-foot intervals (117 z-units), using 0 to 12 feet,
+          10 inches as limits.  1.17 feet is approximately the 14-inch interval 
+          used in USGS Circular 891.
+        Process_Date: 1999 
+      Process_Step:
+        Process_Description: 
+          Import of contours to ARC/INFO, using conversion ARC/INFO AML provided by 
+          Illinois State Geological Survey, and rectangular area ARC coverage (box) 
+          to enclose polygons.
+        Process_Date: 1999
+      Process_Step:
+        Process_Description: 
+          Changed name of item for thickness to thick. Added item for thickness 
+          category (is_cat) and populated it by graphically  selecting desired 
+          polygons by thickness in ARCEDIT and calculating the  category value.
+        Process_Date: 1999
+      Process_Step: 
+        Process_Description: 
+          Manually edited the 14" isopach line as a limit to the resource area.  
+        Process_Date: 1999
+      Process_Step: 
+        Process_Description: 
+          Manually edited the isopach lines for closure at southwestern extent where
+          there was limited point data to control model.
+        Process_Date: 1999 
+      Process_Step: 
+        Process_Description: 
+          Manually edited the isopach lines along fault lines where there was limited
+          point data to control model.
+        Process_Date: 1999       
+      Process_Step:
+        Process_Description: 
+          Clipped ARC coverage to resource areas (c9024oc).
+        Process_Date: 1999
+      Process_Step:
+        Process_Description: Projected coverage to geographic coordinates.
+        Process_Date: 1999
+  Spatial_Data_Organization_Information:         
+    Direct_Spatial_Reference_Method: Vector
+    Point_and_Vector_Object_Information
+      SDTS_Terms_Description
+        SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+        Point_and_Vector_Object_Count: 459
+  Spatial_Reference_Information:
+    Horizontal_Coordinate_System_Definition:
+      Geographic:
+        Latitude_Resolution: 0.0001
+        Longitude_Resolution: 0.0001
+        Geographic_Coordinate_Units: Decimal Degrees
+      Geodetic_Model:
+        Horizontal_Datum_Name:  North American Datum of 1927
+        Ellipsoid_Name: Clarke 1866
+        Semi-major_Axis: 6378206.4
+        Denominator_of_Flattening_Ratio:  294.98
+  Entity_and_Attribute_Information:
+    Detailed_Description:
+      Entity_Type:
+        Entity_Type_Label: c9104is.pat
+        Entity_Type_Definition: polygon attribute table for c9104.is coverage
+        Entity_Type_Definition_Source: ARC/INFO
+      Attribute:
+        Attribute_Label: IS_CAT
+        Attribute_Definition: 
+          Numeric code assigned to categories defined in USGS Circular 891.
+        Attribute_Definition_Source: this study
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 100
+            Enumerated_Domain_Value_Definition: 
+              Not a resource: less than 1.17 ft thick
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 101 
+            Enumerated_Domain_Value_Definition:
+              '101' is 1.17 - 2.34 feet
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 102 
+            Enumerated_Domain_Value_Definition:
+              '102' is 2.34 - 3.51 feet
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 103 
+            Enumerated_Domain_Value_Definition:
+              '103' is 3.51 - 7.02 feet
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 104 
+            Enumerated_Domain_Value_Definition:
+              '104' is 7.02 - 14  feet
+            Enumerated_Domain_Value_Definition_Source: USGS
+      Attribute:
+        Attribute_Label: Thick
+        Attribute_Definition: 
+          Mid-range thickness value (ft) of 14 inch intervals in Pocahontas No. 3 
+          coal bed (less than 14" has value = 0)
+        Attribute_Definition_Source: this study
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 0
+            Range_Domain_Maximum: 12.29
+  Distribution_Information:
+    Distributor:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Philip Freeman
+          Contact_Organization: U.S. Geological Survey, Eastern Energy Resources Team
+        Contact_Address:
+          Address_Type: mailing address
+          Address: MS 956 National Center
+          City: Reston
+          State_or_Province: Virginia
+          Postal_Code: 20192
+          Country: USA
+        Contact_Voice_Telephone: 703-648-6447
+    Resource_Description: USGS Professional Paper 1625-C: Chapter G; c9104ob.e00
+    Distribution_Liability:
+      Any use of trade, product, or firm names is for descriptive purposes
+      only and does not imply endorsement by the U.S. Government.  Although this
+      data has been used by the U.S. Geological Survey (USGS), no warranty,
+      expressed or implied, is made by the USGS as to the accuracy of the data
+      and related materials.  The act of distribution shall not constitute any
+      such warranty, and no responsibility is assumed by the USGS in the use
+      of these data, software, or related materials.
+    Standard_Order_Process:
+      Digital_Form:
+        Digital_Transfer_Information:
+          Format_Name: ARCE
+          Format_Version_Number: 7.2.1
+          Format_Information_Content: Polygonal thickness isopach coverage
+        Digital_Transfer_Option:
+          Online_Option:
+            Computer_Contact_Information:
+              Network_Address:
+                Network_Resource_Name: 
+                  http://greenwood.cr.usgs.gov/pub/ppapers/p1625c/
+      Fees: none
+  Metadata_Reference_Information:
+    Metadata_Date: 20000823
+    Metadata_Contact:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Philip Freeman (compiler)
+          Contact_Organization: U.S.Geological Survey, Eastern Energy Resources Team
+        Contact_Address:
+          Address_Type: mailing address
+          Address: MS 956 National Center
+          City: Reston
+          State_or_Province: Virginia
+          Postal_Code: 20192
+          Country: USA
+        Contact_Voice_Telephone: 703-648-6447 
+    Metadata_Standard_Name: 
+      FGDC Content Standards for Digital Geospatial Metadata
+    Metadata_Standard_Version: FGDC-STD-001-1998

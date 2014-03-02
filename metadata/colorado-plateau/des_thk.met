@@ -1,0 +1,290 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator:
+        U.S. Geological Survey, Central Energy Resources
+        Team
+      Originator: Brownfield, M.E.
+      Originator: Roberts, L.N.R.
+      Originator: Johnson, E.A.
+      Originator: Mercier, T.J.
+      Publication_Date: 2000
+      Title:
+        des*_thk (Isopachs of net coal in the B and D coal
+        zones, Deserado study area, Lower White River coal
+        field, CO)
+      Geospatial_Data_Presentation_Form: map
+      Publication_Information:
+        Publication_Place: Denver, CO USA
+        Publisher: U.S. Geological Survey
+      Other_Citation_Details:
+        in subdir 24k (defines appropriate maximum scale for
+        data use) 
+
+        chap. N, Assessment of the distribution and resources 
+        of coal in the Deserado coal area, Lower White River 
+        coal field, northwest Colorado 
+      Larger_Work_Citation:
+        Citation_Information:
+          Originator: Kirschbaum, M.A.
+          Originator: Roberts, L.N.R.
+          Originator: Biewick, L.R.H.
+          Publication_Date: 2000
+          Title:
+            Geologic Assessment of Coal in the Colorado
+            Plateau
+          Series_Information:
+            Series_Name:
+              U.S. Geological Survey Professional Paper
+            Issue_Identification: 1625-B 
+          Publication_Information:
+            Publication_Place: Denver, CO
+            Publisher: U.S. Geological Survey
+  Description:
+    Abstract:
+      These are shapefiles and ARC/INFO polygon coverages showing
+      the isopachs of total net coal in beds greater than or equal
+      to 1.2' thick for the B and D coal zones, Deserado coal
+      area, Lower White River coal field.
+    Purpose:
+      The Nation's coal resources are being reassessed by the
+      USGS. This assessment identifies and characterizes the coal
+      beds and coal zones that will provide the bulk of the
+      nation's coal-derived energy during the next century. This
+      assessment is different from previous large-scale USGS
+      assessments because files and databases are being stored in
+      a digital format and are being analyzed using a Geographic
+      Information System (GIS).
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 20000000
+    Currentness_Reference: Publication Date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -108.8468
+      East_Bounding_Coordinate: -108.6411
+      North_Bounding_Coordinate: 40.2399
+      South_Bounding_Coordinate: 40.1489
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: coal
+      Theme_Keyword: Colorado Plateau Coal Assessment
+      Theme_Keyword: National Coal Resource Assessment (NCRA)
+      Theme_Keyword: Colorado Plateau
+      Theme_Keyword: coal fields
+      Theme_Keyword: coal thickness
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: Colorado
+      Place_Keyword: Colorado Plateau
+      Place_Keyword: Rio Blanco County
+      Place_Keyword: Moffat county
+      Place_Keyword: Piceance Basin
+    Stratum:
+      Stratum_Keyword_Thesaurus:
+        Geologic Names Unit Lexicon
+        (GNULEX)
+      Stratum_Keyword: Mesaverde Group
+      Stratum_Keyword: Williams Fork Formation
+      Stratum_Keyword: Coal marker sands
+  Access_Constraints: None
+  Use_Constraints: Appropriate maximum scale for data use is 24k
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization:
+          U.S. Geological Survey, Central
+          Energy
+        Contact_Person: Brownfield, M.E.
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: PO Box 25046 MS 939 Denver Federal Center
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225
+        Country: USA
+      Contact_Voice_Telephone: 303.236.7767
+  Security_Information:
+    Security_Handling_Description: None
+    Security_Classification: Unclassified
+    Security_Classification_System: None
+  Native_Data_Set_Environment:
+    SunOS, 5.5.1, sun4d UNIX, ARC/INFO version 7.0.4 and ArcView 3.1
+
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: See Entity_Attribute_Information
+  Logical_Consistency_Report: Polygon topology present.
+  Completeness_Report: complete
+  Lineage:
+    Process_Step:
+      Process_Description:
+        Stratigraphic data from the Stratifact relational
+        database was dumped into a temporary file that is input
+        for a parting/split program. This program, written at
+        the USGS, determines whether a rock unit between two
+        coal units is a parting in a coal bed or if the rock
+        unit splits two separate coal beds as defined in (Wood
+        and others, 1983, p. 36). Coal units are combined to
+        form a single bed if the thickness of rock between them
+        is thinner than the coal on either side. If the rock is
+        thinner it is considered to be a parting and if it is
+        thicker it is considered to be a split. After the
+        program calculates the thickness of coal in each coal
+        bed it determines if the coal beds are greater than the
+        minimum thickness requirement as a resource. For coals
+        of bituminous rank, this minimum thickness is 1.2 ft.
+        (Wood and others, 1983, p.34). Coals in the Deserado
+        coal area are bituminous in rank. The program goes
+        through another process where it sums coal bed
+        thickness of only the coal beds that are greater than
+        or equal to the minimum thickness (1.2'). The program
+        outputs a single line of data for each location with
+        net coal thickness and x, y location parameters. The
+        data output from this program also contains a column
+        designating the number of coal beds that were added to
+        arrive at the net coal thickness. This file is
+        introduced into EarthVision (EV) as a scattered data
+        file and projected into Lambert Conformal Conic
+        projection. Locations with a net coal thickness value
+        of zero were appended (if applicable) to the scattered
+        data file to control extrapolation during gridding.
+        This scattered data file was then gridded in EV using
+        the 'minimum tension grid' option. The map was plotted
+        in EV with a contour interval of 5 ft with an added
+        contour line for 1.2 ft. The contour lines were saved
+        in a contour output file. The contour output file was
+        converted to a file in 'arc generate' format using
+        ISMARC and then converted to an ARC/INFO polygon
+        coverage using an Arc Macro Language program from the
+        Illinois State Geological Survey. The coverage was
+        converted to a shapefile using ArcView.
+      Process_Date:
+        19980000
+
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 37
+
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Geographic:
+      Latitude_Resolution: .0001
+      Longitude_Resolution: .0001
+      Geographic_Coordinate_Units: Decimal degrees
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum 1927
+      Ellipsoid_Name: Clarke 1866
+      Semi-major_Axis: 6378206.4
+      Denominator_of_Flattening_Ratio:
+        294.98
+
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: des*_thk.dbf
+      Entity_Type_Definition: Shapefile Attribute Table
+      Entity_Type_Definition_Source: None
+    Attribute:
+      Attribute_Label: Area
+      Attribute_Definition: Area of polygon
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.000000
+          Range_Domain_Maximum: 0.002796
+    Attribute:
+      Attribute_Label: Perimeter
+      Attribute_Definition: Perimeter of polygon
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.001915
+          Range_Domain_Maximum: 0.579740
+    Attribute:
+      Attribute_Label: Thick2
+      Attribute_Definition:
+        Range of net coal thickness in beds >
+        or equal to 1.2 ft.
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain:
+          Character field
+
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization:
+          U.S. Geological Survey, Central
+          Energy
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: PO Box 25046 MS 939 Denver Federal Center
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225
+        Country: USA
+      Contact_Voice_Telephone: 303.236.4608
+  Resource_Description: Shape file and ARC/INFO coverage
+  Distribution_Liability:
+    Any use of trade, product, or company names in this publication
+    is for descriptive purposes only and does not imply endorsement
+    by the U.S. Government. Although these data have been processed
+    successfully on a computer system at the U.S. Geological Survey,
+    no warranty expressed or implied is made by the USGS regarding
+    the utility of the data on any other system, nor shall the act of
+    distribution constitute any such warranty. This data is not a
+    legal document and is not intended to be used as such. 
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ARC/INFO coverage, export file, shapefile
+        Format_Version_Number: ARC/INFO 7.0.4, ArcView 2.1
+      Digital_Transfer_Option:
+        Offline_Option:
+          Offline_Media: CD-ROM
+          Recording_Format: ISO 9660
+    Fees: none
+  Technical_Prerequisites:
+    need ARC/INFO 7.0.4 or greater and/or ArcView 2.1 or greater
+    and/or ArcExplorer (which can be downloaded free from
+    <URL:http://www.esri.com>) and/or other software that can read
+    ARC/INFO coverages, ARC/INFO export files and/or shapefiles 
+
+Metadata_Reference_Information:
+  Metadata_Date: 19990203
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization:
+          U.S. Geological Survey, Central
+          Energy
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: PO Box 25046 MS 939 Denver Federal Center
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225
+        Country: USA
+      Contact_Voice_Telephone: 303.236.4608
+  Metadata_Standard_Name: FGDC CSDGM
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: None
+  Metadata_Security_Information:
+    Metadata_Security_Handling_Description: None
+    Metadata_Security_Classification: Unclassified
+    Metadata_Security_Classification_System:
+      None
+
+      ------------------------------------------------------------------------
+      Generated by mp version 2.4.8 on Mon Sep 27 16:40:52 1999

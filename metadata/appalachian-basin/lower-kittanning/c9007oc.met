@@ -1,0 +1,1159 @@
+Metadata:
+  Identification_Information:
+    Citation:
+      Citation_Information:
+        Originator: Philip Freeman
+        Publication_Date: 2000
+        Title:
+          Coal Resource Areas of Lower Kittanning Coal Zone: c9007oc.e00
+        Larger_Work_Citation:
+          Citation_Information:
+            Originator: Northern and Central Appalachian Basin Coal Regions
+              Assessment Team
+            Publication_Date: 2000
+            Title:
+              2000 Resource Assessment of Selected Coal Beds and Zones in the
+              Northern and Central Appalachian Basin Coal Regions
+            Series_Information:
+              Series_Name: U.S. Geological Survey Professional Paper
+              Issue_Identification: PP1625-C
+            Publication_Information:
+              Publication_Place: Reston, VA
+              Publisher: U.S. Geological Survey  
+            Online_Linkage: http://greenwood.cr.usgs.gov/pub/ppapers/p1625c/
+    Description: 
+      Abstract:
+        This dataset is a polygon coverage of the resource areas of the Lower 
+        Kittanning coal zone.  The polygons are subdivided into 2 categories: 
+        resource areas inside the outcrop, and areas either too thin, outside the
+        outcrop, or beyond data collection limits.  The coal zone must contain 
+        at least 14 inches of coal to be a resource.
+        
+          Introduction:
+        This spatial data set of the Lower Kittanning coal bed and known mined areas 
+        is one of many Geographic Information System (GIS) products of the National 
+        Coal Assessment that is being conducted by the U.S. Geological Survey in 
+        cooperation with State geological surveys and other Federal and State 
+        agencies.  The Lower Kittanning coal bed is an important economic coal in 
+        the northern part of the Appalachian Basin.  It is of additional importance 
+        because it is one of the coal beds that has potential for coalbed methane 
+        development within the Allegheny Group throughout most of the Appalachian 
+        foreland basin in Ohio, Pennsylvania, West Virginia, and Maryland.
+          
+        This file is the digital compilation of numerous published and unpublished 
+        geologic surveys and depicts the area of occurrence of the Lower Kittanning 
+        coal bed and its known mined areas.  The coal bed was first mined in 
+        southwestern Pennsylvania in the early 19th century but substantial mining 
+        did not occur until the advent of the rail lines and canals that were built 
+        in the mid-19th century.  The Lower Kittanning, which produced nearly 20 
+        million tons of coal in 1996, remains the 7th largest-producing coal bed in 
+        the nation and the second largest-producing coal bed in the northern 
+        Appalachian region (EIA,1997). The coal is generally low to medium in 
+        ash yield and sulfur content, and is a medium- to high-volatile steam and 
+        coking coal that is mined by both underground and surface mining methods.  
+        
+        The Lower Kittanning coal bed occurs in eastern Ohio, central and northern 
+        West Virginia, western Pennsylvania, and western Maryland.  Although 
+        stratigraphic equivalents to this coal bed may extend into southern West 
+        Virginia and eastern Kentucky, correlations are equivocal and do not warrant 
+        extrapolation into those areas at this time.  The coal bed extent and mined 
+        areas will be combined with coal isopach and coal bed structure to calculate 
+        original and remaining coal resources. 
+        
+          Methods:
+        The areal extent of the Lower Kittanning coal zone was digitized from 
+        multiple sources using ArcInfo and Arcedit.  The digital maps were edited 
+        manually in Arcedit and joined to create a single GIS data set (coverage.)  
+        See Source_Information and Process_Step for detailed methodology.
+        
+        In West Virginia, much of the area underlain by the coal zone was digitized 
+        from reduced transparencies of 1:24,000 scale working maps from the West 
+        Virginia Economical and Geologic Survey.  The remainder of West Virginia crop
+        was adapted from old topographically-based, 1:62,500 scale county reports 
+        from the West Virginia Economical and Geologic Survey.  The western and 
+        northern extent of the Lower Kittanning coal zone in Ohio was originally 
+        scanned from 99 Ohio Geological Survey 1:24,000 scale maps of bedrock 
+        geology.  Digital files of Ohio crop and surface mines were later combined 
+        with digital files of underground mines from the Ohio Department of 
+        Environmental Protection.  Ohio Geological Survey supplied this combined 
+        data set in an Interactive Graphic Design Software file format (.dgn).
+        In Pennsylvania, maps from a variety of sources were digitized.  Where 
+        available, published or preliminary county reports of reduced 1;24,000 scale 
+        maps were digitized.  Old topograhically-based, USGS Bulletins were digitized 
+        for Lawrence and Beaver Counties.  In and around Clearfield County, crop and 
+        mines were digitized from Pennsylvania Bureau of Topographic and Geologic 
+        Survey Atlas maps at 1:48,000 scale.  The remainder of Pennsylvania crop was 
+        interpolated or adapted from either topographic maps using Lower Kittanning 
+        bore hole data and strip pits or the 1:500,000 scale State geologic map.  
+        In Maryland, the crop was digitized or interpolated from 1:24,000 scale 
+        USGS coal investigation maps or working USGS maps at 1:24,000 scale.
+      Purpose:
+        The purpose of PP 1625-C is to release the interpretation of assessment and
+        modeling data for the the top-producing coal beds in the northern and 
+        central Appalachian Basin coal region.
+    Time_Period_of_Content:
+      Time_Period_Information:
+        Single_Date/Time:
+          Calendar_Date: 2000
+      Currentness_Reference: data collection and collation period
+    Status:
+      Progress: Complete
+      Maintenance_and_Update_Frequency: None planned
+    Spatial_Domain:
+      Bounding_Coordinates:
+        West_Bounding_Coordinate: -82.750
+        East_Bounding_Coordinate: -77.739
+        North_Bounding_Coordinate: 41.384
+        South_Bounding_Coordinate: 38.480
+    Keywords:
+      Theme:
+        Theme_Keyword_Thesaurus:
+          Coal Resource Classification of the U.S. Geological Survey, USGS
+          circular 891.
+        Theme_Keyword: Eastern Energy Team
+        Theme_Keyword: energy
+        Theme_Keyword: power
+        Theme_Keyword: resources
+        Theme_Keyword: coal
+        Theme_Keyword: coal resources
+        Theme_Keyword: coal extent
+        Theme_Keyword: bituminous
+        Theme_Keyword: outcrop
+        Theme_Keyword: USGS
+        Theme_Keyword: West Virginia Geological and Economic Survey
+        Theme_Keyword: Ohio Geological Survey
+        Theme_Keyword: Maryland Geological Survey
+        Theme_Keyword: Pennsylvania Geological Survey
+        Theme_Keyword: Pennsylvania Bureau of Topograhic and Geologic Survey
+      Place:
+        Place_Keyword_Thesaurus: Geographic Names Information System
+        Place_Keyword: United States
+        Place_Keyword: Kentucky
+        Place_Keyword: West Virginia
+        Place_Keyword: Virginia
+        Place_Keyword: Appalachians
+        Place_Keyword: ALLEGANY County MD
+        Place_Keyword: ALLEGHENY County PA
+        Place_Keyword: ARMSTRONG County PA
+        Place_Keyword: ATHENS County OH
+        Place_Keyword: BARBOUR County WV
+        Place_Keyword: BEAVER County PA
+        Place_Keyword: BELMONT County OH
+        Place_Keyword: BLAIR County PA
+        Place_Keyword: BRAXTON County WV
+        Place_Keyword: BROOKE County WV
+        Place_Keyword: BUTLER County PA
+        Place_Keyword: CAMBRIA County PA
+        Place_Keyword: CARROLL County OH
+        Place_Keyword: CENTRE County PA
+        Place_Keyword: CLARION County PA
+        Place_Keyword: CLEARFIELD County PA
+        Place_Keyword: CLINTON County PA
+        Place_Keyword: COLUMBIANA County OH
+        Place_Keyword: COSHOCTON County OH
+        Place_Keyword: ELK County PA
+        Place_Keyword: FAYETTE County PA
+        Place_Keyword: GALLIA County OH
+        Place_Keyword: GARRETT County MD
+        Place_Keyword: GREENE County PA
+        Place_Keyword: GUERNSEY County OH
+        Place_Keyword: HANCOCK County WV
+        Place_Keyword: HARRISON County OH
+        Place_Keyword: HARRISON County WV
+        Place_Keyword: HOCKING County OH
+        Place_Keyword: HOLMES County OH
+        Place_Keyword: INDIANA County PA
+        Place_Keyword: JACKSON County OH
+        Place_Keyword: JEFFERSON County OH
+        Place_Keyword: JEFFERSON County PA
+        Place_Keyword: LAWRENCE County OH
+        Place_Keyword: LAWRENCE County PA
+        Place_Keyword: LEWIS County WV
+        Place_Keyword: LICKING County OH
+        Place_Keyword: MAHONING County OH
+        Place_Keyword: MARION County WV
+        Place_Keyword: MARSHALL County WV
+        Place_Keyword: MASON County WV
+        Place_Keyword: MEIGS County OH
+        Place_Keyword: MERCER County PA
+        Place_Keyword: MINERAL County WV
+        Place_Keyword: MONONGALIA County WV
+        Place_Keyword: MONROE County OH
+        Place_Keyword: MORGAN County OH
+        Place_Keyword: MUSKINGUM County OH
+        Place_Keyword: NOBLE County OH
+        Place_Keyword: OHIO County WV
+        Place_Keyword: PERRY County OH
+        Place_Keyword: PORTAGE County OH
+        Place_Keyword: PRESTON County WV
+        Place_Keyword: RANDOLPH County WV
+        Place_Keyword: SCIOTO County OH
+        Place_Keyword: SOMERSET County PA
+        Place_Keyword: STARK County OH
+        Place_Keyword: TAYLOR County WV
+        Place_Keyword: TUSCARAWAS County OH
+        Place_Keyword: TYLER County WV
+        Place_Keyword: UPSHUR County WV
+        Place_Keyword: WASHINGTON County OH
+        Place_Keyword: WASHINGTON County PA
+        Place_Keyword: WAYNE County WV
+        Place_Keyword: WESTMORELAND County PA
+        Place_Keyword: WETZEL County WV
+      Stratum:
+        Stratum_Keyword_Thesaurus:
+          Geologic Names Unit Lexicon (GNULEX), 1996;
+          Stratigraphic Nomenclature Databases for the United States, It's
+          Possessions, and Territories, U.S. Geological Survey Digital Data
+          Series DDS-6, release 3.
+        Stratum_Keyword: Pennsylvanian 
+        Stratum_Keyword: Middle Pennsylvanian 
+        Stratum_Keyword: Allegheny Formation 
+        Stratum_Keyword: Lower Kittanning Coal 
+    Access_Constraints: None
+    Use_Constraints: To be used for regional analysis only.
+    Point_of_Contact:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Philip Freeman (compiler)
+          Contact_Organization: U.S. Geological Survey, Eastern Energy Resources Team
+        Contact_Address:
+          Address_Type: mailing address
+          Address: MS 956 National Center
+          City: Reston
+          State_or_Province: Virginia
+          Postal_Code: 20192
+          Country: USA
+        Contact_Voice_Telephone: 703-648-6447
+    Data_Set_Credit:
+      State Geological Surveys maintain the coal maps and have provided the 
+      USGS with the best available data at the time of the assessment.  Primary 
+      contacts at the State surveys for this product include: PA- V. Skeema, 
+      OH- R. Carlton, WV- B. M. Blake, Jr., MD- D. Brezinski.
+  Data_Quality_Information:
+    Logical_Consistency_Report:
+      Topology for this data set was built using the CLEAN command within
+      ARC/INFO, version 7.2.1.  This command eliminates dangling nodes, 
+      calculates intersections of arcs, eliminates redundant arcs, and 
+      creates a polygon attribute table.  This data set does not contain 
+      dangles or redundant arcs. 
+    Completeness_Report:
+      This data set is a representation of the coal resource areas of Lower Kittanning 
+      coal.  The source maps are believed to be the most up-to-date at the time of 
+      collection.  State agencies reviewed the data set for completeness.
+    Lineage:
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Pennsylvania Bureau of Topographic and Geological Survey
+            Publication_Date: 1985
+            Title: Coal Resources of Fayette County
+        Source_Scale_Denominator: 63360
+        Type_Of_Source_Media: paper
+        Source_Time_Period_Of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 1985
+          Source_Currentness_Reference: Publication Date
+        Source_Citation_Abbreviation: PA-TGS-FAY
+        Source_Contribution:
+          These 7.5' quad coal maps were source of crop in this county.
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Pennsylvania Bureau of Topographic and Geological Survey
+            Publication_Date: 1988
+            Title: Coal Resources of Westmoreland County
+        Source_Scale_Denominator:63360
+        Type_Of_Source_Media: paper
+        Source_Time_Period_Of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 1988
+          Source_Currentness_Reference: Publication Date
+        Source_Citation_Abbreviation: PA-TGS-WES
+        Source_Contribution:
+          These 7.5' quad coal maps were source of crop in this county.
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Pennsylvania Bureau of Topographic and Geological Survey
+            Publication_Date: 1990
+            Title: Coal Resources of Cambria and Blair Counties
+        Source_Scale_Denominator: 63360
+        Type_Of_Source_Media: paper
+        Source_Time_Period_Of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 1990
+          Source_Currentness_Reference: Publication Date
+        Source_Citation_Abbreviation: PA-TGS-CB
+        Source_Contribution: 
+          These 7.5' quad coal maps were source of crop in these counties.          
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Pennsylvania Bureau of Topographic and Geological Survey
+            Publication_Date: 1985
+            Title: Coal Resources of Butler County
+        Source_Scale_Denominator: 63360
+        Type_Of_Source_Media: paper
+        Source_Time_Period_Of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 1985
+          Source_Currentness_Reference: Publication Date
+        Source_Citation_Abbreviation: PA-TGS-BUT
+        Source_Contribution: 
+          These 7.5' quad coal maps were source of crop in this county.          
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Pennsylvania Bureau of Topographic and Geological Survey
+            Publication_Date: 1987
+            Title: Coal Resources of Clarion County
+        Source_Scale_Denominator: 63360
+        Type_Of_Source_Media: paper
+        Source_Time_Period_Of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 1987
+          Source_Currentness_Reference: Publication Date
+        Source_Citation_Abbreviation: PA-TGS-CLA
+        Source_Contribution: 
+          These 7.5' quad coal maps were source of crop in this county.          
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Pennsylvania Bureau of Topographic and Geological Survey
+            Publication_Date: 1996
+            Title: Coal Resources of Indiana County 
+        Source_Scale_Denominator: 63360
+        Type_Of_Source_Media: paper
+        Source_Time_Period_Of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 1996
+          Source_Currentness_Reference: Publication Date
+        Source_Citation_Abbreviation: PA-TGS-IND
+        Source_Contribution: 
+          These 7.5' quad coal maps were source of crop in this county.          
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Pennsylvania Bureau of Topographic and Geological Survey
+            Publication_Date: 1997
+            Title: 
+              Working maps of Lower Kittanning coal resources in Armstrong County
+              by 7.5 minute quadrangle.
+        Source_Scale_Denominator: 24000
+        Type_Of_Source_Media: paper
+        Source_Time_Period_Of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 1997
+          Source_Currentness_Reference: Publication Date
+        Source_Citation_Abbreviation: PA-TGS-ARM-W
+        Source_Contribution: 
+          These 7.5' quad coal maps were source of crop in this county.
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Pennsylvania Bureau of Topographic and Geological Survey
+            Publication_Date: 1997
+            Title:  
+              Working maps of Lower Kittanning coal resources in Jefferson County
+              by 7.5 minute quadrangle.
+        Source_Scale_Denominator: 24000
+        Type_Of_Source_Media: paper
+        Source_Time_Period_Of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 1997
+          Source_Currentness_Reference: Publication Date
+        Source_Citation_Abbreviation: PA-TGS-JEF-W
+        Source_Contribution: 
+          These 7.5' quad coal maps were source of crop in this county.
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Pennsylvania Bureau of Topographic and Geological Survey
+            Publication_Date: 1997
+            Title:  
+              Working map of Lower Kittanning coal resources in Somerset County
+              by 7.5 minute quadrangle.
+        Source_Scale_Denominator: 24000
+        Type_Of_Source_Media: paper
+        Source_Time_Period_Of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 1997
+          Source_Currentness_Reference: Publication Date
+        Source_Citation_Abbreviation: PA-TGS-SOM-W
+        Source_Contribution: 
+          These 7.5' quad coal maps were source of crop in this county.
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Pennsylvania Bureau of Topographic and Geological Survey
+            Originator: Clifford H. Dodge
+            Publication_Date: 2000
+            Title: Written communication of corrections for Elk County
+        Source_Scale_Denominator: 200000
+        Type_Of_Source_Media: paper
+        Source_Time_Period_Of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 2000
+          Source_Currentness_Reference: Publication Date
+        Source_Citation_Abbreviation: PA-ELK-DODGE
+        Source_Contribution:
+          Review and corrections to crop and mine map of Elk County and Huntley 7.5
+          minute quad in Clearfield Co.  Crop originally interpolated from known 
+          outcrop, bore hole data, surface mining and State geology map (PA-TGS-PA)
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Pennsylvania Bureau of Topographic and Geological Survey
+            Publication_Date: 1960
+            Title: Geologic Map of Pennsylvania
+        Source_Scale_Denominator: 500000
+        Type_Of_Source_Media: paper
+        Source_Time_Period_Of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 1960
+          Source_Currentness_Reference: Publication Date
+        Source_Citation_Abbreviation: PA-TGS-PA
+        Source_Contribution:
+          Crop interpolated from base of Allegheny Formation to fill gaps of 
+          known crop in Elk County.  Crop identified from surface mines.
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Berg, Thomas M. 
+            Originator: Glover, Albert D.
+            Title: 
+              Geology and mineral resources of the Sabula and Penfield quadrangles, 
+              Clearfield, Elk, and Jefferson Counties, Pennsylvania
+            Publication_Date: 1976
+            Series_Information:
+              Series_Name: 
+                Pennsylvania Bureau of Topographic and Geologic Survey Atlas
+              Issue_Identification: Atlas 74ab
+            Other_Citation_Details: Plate 7
+        Source_Scale_Denominator: 48000
+        Type_of_Source_Media: paper
+        Source_Time_Period_of_Content: 
+          Time_Period_Information: 
+            Single_Date/Time: 
+              Calendar_Date: 1976
+          Source_Currentness_Reference: publication date
+        Source_Citation_Abbreviation: CLR-ELK-A74ab
+        Source_Contribution:
+          Map was source of crop in Clearfield and Elk Counties, Pa within Sabula 
+          and Penfield 7.5' quadrangles.
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Edmonds, William E.
+            Title: 
+              Geology and mineral resources of the northern half of the Houtzdale 
+              15-minute quadrangle, Pennsylvania
+            Publication_Date: 1968
+            Series_Information:
+              Series_Name: 
+                Pennsylvania Bureau of Topographic and Geologic Survey Atlas
+              Issue_Identification: Atlas 85ab
+            Other_Citation_Details: Plate 10
+        Source_Scale_Denominator: 48000
+        Type_of_Source_Media: paper
+        Source_Time_Period_of_Content: 
+          Time_Period_Information: 
+            Single_Date/Time: 
+              Calendar_Date: 1968
+          Source_Currentness_Reference: publication date
+        Source_Citation_Abbreviation: CLR-A85ab
+        Source_Contribution: 
+          Map was source of crop in Clearfield Co., Pa within Glen Richey and
+          Wallaceton 7.5' quadrangles. 
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Edmunds, William E.
+            Originator: Berg, Thomas M.
+            Title: 
+              Geology and mineral resources of the southern half of the Penfield 
+              15-minute quadrangle, Pennsylvania
+            Publication_Date: 1971
+            Series_Information:
+              Series_Name: Pennsylvania Geological Survey Atlas
+              Issue_Identification: Atlas 74cd
+            Other_Citation_Details: Plate 13
+        Source_Scale_Denominator: 48000
+        Type_of_Source_Media: paper
+        Source_Time_Period_of_Content: 
+          Time_Period_Information: 
+            Single_Date/Time: 
+              Calendar_Date: 1971
+          Source_Currentness_Reference: publication date
+        Source_Citation_Abbreviation: CLR-A74cd
+        Source_Contribution: 
+          Map was source of crop in Clearfield Co., Pa within Luthersburg and 
+          Elliots Park 7.5' quadrangles. 
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Faill, Rodger T.
+            Originator: Glover, Albert D.
+            Originator: Way, John H.
+            Title: 
+              Geology and mineral resources of the Blandburg, Tipton, Altoona, and 
+              Bellwood quadrangles, Blair, Cambria, and Centre counties, Pennsylvania
+            Publication_Date: 1989
+            Series_Information:
+              Series_Name: 
+                Pennsylvania Bureau of Topographic and Geologic Survey Atlas
+              Issue_Identification: Atlas 86
+            Other_Citation_Details: Plate 6
+        Source_Scale_Denominator: 48000
+        Type_of_Source_Media: paper
+        Source_Time_Period_of_Content: 
+          Time_Period_Information: 
+            Single_Date/Time: 
+              Calendar_Date: 1989
+          Source_Currentness_Reference: publication date
+        Source_Citation_Abbreviation: CLR-A86
+        Source_Contribution:  
+          Map was source of crop in Clearfield Co., Pa within Blandburg 7.5' quadrangle.
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Glass, Gary B.
+            Title: 
+              Geology and mineral resources of the Philipsburg 7 1/2-minute 
+              quadrangle, Centre and Clearfield Counties, Pennsylvania
+            Publication_Date: 1972
+            Series_Information:
+              Series_Name: 
+                Pennsylvania Bureau of Topographic and Geologic Survey Atlas
+              Issue_Identification: Atlas 95a
+            Other_Citation_Details: Plate 13
+        Source_Scale_Denominator: 48000
+        Type_of_Source_Media: paper
+        Source_Time_Period_of_Content: 
+          Time_Period_Information: 
+            Single_Date/Time: 
+              Calendar_Date: 1972
+          Source_Currentness_Reference: publication date
+        Source_Citation_Abbreviation: CLR-CEN-A95a
+        Source_Contribution:
+          Map was source of crop in Clearfield and Centre counties, Pa within 
+          Philipsburg 7.5' quadrangle. 
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Glass, Gary B.
+            Originator: Edmonds, William E.
+            Originator: Shepps, Vincent C.
+            Originator: Inners, Jon D.
+            Originator: Sholes, Mark A.
+            Title: 
+              Geology and mineral resources of the Ramey and Houtzdale quadrangles, 
+              Clearfield and Centre Counties, Pennsylvania
+            Publication_Date: 1977
+            Series_Information:
+              Series_Name: 
+                Pennsylvania Bureau of Topographic and Geologic Survey Atlas
+              Issue_Identification: Atlas 85cd
+            Other_Citation_Details: Plate 4
+        Source_Scale_Denominator: 48000
+        Type_of_Source_Media: paper
+        Source_Time_Period_of_Content: 
+          Time_Period_Information: 
+            Single_Date/Time: 
+              Calendar_Date: 1977
+          Source_Currentness_Reference: publication date
+        Source_Citation_Abbreviation: CLR-CEN-A85cd
+        Source_Contribution:  
+          Map was source of crop in Clearfield and Centre counties, Pa within 
+          Ramey and Houtzdale 7.5' quadrangles.   
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Glover, Albert D.
+            Originator: Bragonier, William A.
+            Title: 
+              Geology and mineral resources of the Hazen, Falls Creek, Reynoldsville, 
+              and DuBois quadrangles, Clearfield and Jefferson Counties, Pennsylvania
+            Publication_Date: 1978
+            Series_Information:
+              Series_Name: Pennsylvania Geological Survey, Fourth Series
+              Issue_Identification: Atlas 64
+            Other_Citation_Details: Plate 14
+        Source_Scale_Denominator: 48000
+        Type_of_Source_Media: paper
+        Source_Time_Period_of_Content: 
+          Time_Period_Information: 
+            Single_Date/Time: 
+              Calendar_Date: 1978
+          Source_Currentness_Reference: publication date
+        Source_Citation_Abbreviation: CLR-A64
+        Source_Contribution:
+          Map was source of crop in Clearfield Co., Pa within DuBois and Falls 
+          Creek 7.5' quadrangles.   
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Glover, Albert D.
+            Title: 
+              Geology and mineral resources of the southern half of the Clearfield 
+              15-minute quadrangle, Pennsylvania
+            Publication_Date: 1970
+            Series_Information:
+              Series_Name: Pennsylvania Geological Survey, Fourth Series, Atlas
+              Issue_Identification: Atlas 84cd
+            Other_Citation_Details: Plate 10
+        Source_Scale_Denominator: 48000
+        Type_of_Source_Media: paper
+        Source_Time_Period_of_Content: 
+          Time_Period_Information: 
+            Single_Date/Time: 
+              Calendar_Date: 1970
+          Source_Currentness_Reference: publication date
+        Source_Citation_Abbreviation: CLR-A84cd
+        Source_Contribution: 
+          Map was source of crop in Clearfield Co., Pa within Clearfield and
+          Lecontes Mills 7.5' quadrangles.     
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Ashley, G. H.
+            Title: Punxsutawney quadrangle
+            Publication_Date: 1926
+            Series_Information:
+              Series_Name: 
+                Pennsylvania Geological Survey Fourth Series, Topographic and 
+                Geologic Atlas of Pennsylvania
+              Issue_Identification: Atlas 65
+            Other_Citation_Details: Plate 3
+        Source_Scale_Denominator: 48000
+        Type_of_Source_Media: paper
+        Source_Time_Period_of_Content: 
+          Time_Period_Information: 
+            Single_Date/Time: 
+              Calendar_Date: 1926
+          Source_Currentness_Reference: publication date
+        Source_Citation_Abbreviation: CLR-A65
+        Source_Contribution:
+          Old topographic-based map was the source of crop for McGees Mills and
+          Burnside 7.5' quadrangles.  Crop was adjusted to fit drainage on current 
+          topo maps.
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Ashley, G. H.
+            Title: Curwensville quadrangle
+            Publication_Date: 1940
+            Series_Information:
+              Series_Name: 
+                Pennsylvania Geological Survey topographic and geologic atlas 
+              Issue_Identification: Atlas 75
+            Other_Citation_Details: Plate 4
+        Source_Scale_Denominator: 48000
+        Type_of_Source_Media: paper
+        Source_Time_Period_of_Content: 
+          Time_Period_Information: 
+            Single_Date/Time: 
+              Calendar_Date: 1940
+          Source_Currentness_Reference: publication date
+        Source_Citation_Abbreviation: CLR-A75
+        Source_Contribution:
+          Old topo-based map was the source of crop for Mahaffey, Westover, 
+          Curwensville and Irvona 7.5 quadrangles.  Crop was adjusted to fit drainage. 
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: U. S. Geological Survey
+            Publication_Date: 1963
+            Title:  
+              Bedrock Geologic Map of Lawrence County, Pennsylvania
+        Source_Scale_Denominator: 62500
+        Type_Of_Source_Media: paper
+        Source_Time_Period_Of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 1963
+          Source_Currentness_Reference: Publication Date
+        Source_Citation_Abbreviation: Bulletin-1143-B
+        Source_Contribution: 
+          Old topographic-based map was the source of crop for county except for
+          New Middletown and East Palestine 7.5' quadrangles.  Crop was  adjusted 
+          to fit drainage on current topo maps.  
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: U. S. Geological Survey
+            Publication_Date: 1963
+            Title:  
+              Bedrock Geologic Map of Beaver County, Pennsylvania
+        Source_Scale_Denominator: 62500
+        Type_Of_Source_Media: paper
+        Source_Time_Period_Of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 1963
+          Source_Currentness_Reference: Publication Date
+        Source_Citation_Abbreviation: Bulletin-1143-A
+        Source_Contribution: 
+          Old topographic-based map was the source of crop in Beaver county except 
+          for East Liverpool and East Palestine 7.5' quadrangles.  Crop was adjusted 
+          to fit drainage on current topo maps. 
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Ohio Division of Geological Survey
+            Publication_Date: 1999
+            Title: lk_poly_crop.dgn
+        Source_Scale_Denominator: 24000
+        Type_Of_Source_Media: online
+        Source_Time_Period_Of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 1999
+          Source_Currentness_Reference: Publication Date
+        Source_Citation_Abbreviation: OH-1
+        Source_Contribution: 
+          This file was source of crop for Ohio.  It was also the source of Pa. crop in
+          these 7.5' quadrangles: Campbell, New Middleton, East Palestine, and 
+          East Liverpool North.
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: West Virginia Geological and Economic Survey
+            Publication_Date: 1997
+            Title: 
+              Working map of Lower Kittanning coal resources by 7.5 minute quadrangle. 
+        Source_Scale_Denominator: 48000
+        Type_Of_Source_Media: transparency
+        Source_Time_Period_Of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 1980 - 1986
+          Source_Currentness_Reference: Publication Date
+        Source_Citation_Abbreviation: WV-1
+        Source_Contribution: 
+          These maps were source of WV crop in these 7.5' quadrangles:  
+          Adrian, Alton, Audra, Aurora, Belington, Beverly West, Brandonville, 
+          Bruceton Mills, Cassity, Colebank, Cuzzart, East Liverpool South, 
+          East Liverpool North, Ellamore (Barbour County only), Fairmont East, 
+          Fairmont West, Fellowsville, Friendsville, Gladesville, Junior (Barbour 
+          County only), Kingwood, Lake Lynn, Masontown, Montrose, Morgantown South, 
+          Nestorville, Newburg, Oakland, Philippi, Rivesville, Rock Cave, 
+          Rowlesburg, Table Rock, Terra Alta, Valley Point, Weirton and Wellsville.
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Reger, David B.
+            Title: 
+              Lewis and Gilmore Counties
+            Publication_Date: 1916
+            Series_Information:
+              Series_Name: 
+                West Virginia Geological and Economic Survey County Reports
+              Issue_Identification: Map 2
+            Other_Citation_Details: 
+              Showing General and Economic Geology and Structure Contours on the
+              Pittsburgh Horizon
+        Source_Scale_Denominator: 62500
+        Type_of_Source_Media: paper
+        Source_Time_Period_of_Content: 
+          Time_Period_Information: 
+            Single_Date/Time: 
+              Calendar_Date: 1916
+          Source_Currentness_Reference: publication date
+        Source_Citation_Abbreviation: WV-Lew
+        Source_Contribution:
+          Old topo-based map was the source of crop in Lewis County for Hacker
+          Valley and Walkersville 7.5 quadrangles.  Crop was adjusted to fit drainage.
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Reger, David B.
+            Title: 
+              Mineral County
+            Publication_Date: 1924
+            Series_Information:
+              Series_Name: 
+                West Virginia Geological and Economic Survey County Reports
+              Issue_Identification: Map 2
+            Other_Citation_Details:
+              Showing General and Economic Geology of Mineral County
+        Source_Scale_Denominator: 62500
+        Type_of_Source_Media: paper
+        Source_Time_Period_of_Content: 
+          Time_Period_Information: 
+            Single_Date/Time: 
+              Calendar_Date: 1924
+          Source_Currentness_Reference: publication date
+        Source_Citation_Abbreviation: WV-Min
+        Source_Contribution:
+          Old topo-based map was the source of crop in Mineral County for 
+          Westernport 7.5 quadrangle.  Crop was adjusted to fit drainage. 
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Reger, David B.
+            Originator: Teets, D. D. Jr.
+            Title: 
+              Barbour and Upshur Counties and Western Portion of Randolph County
+            Publication_Date: 1918
+            Series_Information:
+              Series_Name: 
+                West Virginia Geological and Economic Survey County Reports
+              Issue_Identification: Map 4 
+            Other_Citation_Details:
+              Showing General and Economic Geology and Structure Contours of Upshur
+              and the Western Portion of Randolph County
+        Source_Scale_Denominator: 62500
+        Type_of_Source_Media: paper
+        Source_Time_Period_of_Content: 
+          Time_Period_Information: 
+            Single_Date/Time: 
+              Calendar_Date: 1918
+          Source_Currentness_Reference: publication date
+        Source_Citation_Abbreviation: WV-Up-Ran
+        Source_Contribution:
+          Old topo-based map was the source of crop in Upshur and Randolph counites
+          for following 7.5 quadrangles: Hacker Valley, Walkersville, Goshen, 
+          Pickens, Buckhannon, Ellamore, Junior and Century   Crop was adjusted 
+          to fit drainage. 
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Reger, David B.
+            Originator: Teets, D. D. Jr.
+            Title: 
+              Barbour and Upshur Counties and western portion of Randolph County
+            Publication_Date: 1918
+            Series_Information:
+              Series_Name: 
+                West Virginia Geological and Economic Survey County Reports
+              Issue_Identification: Map 2
+            Other_Citation_Details:
+              Showing General and Economic Geology and Structure Contours of 
+              Barbour County
+        Source_Scale_Denominator: 62500
+        Type_of_Source_Media: paper
+        Source_Time_Period_of_Content: 
+          Time_Period_Information: 
+            Single_Date/Time: 
+              Calendar_Date: 1918
+          Source_Currentness_Reference: publication date
+        Source_Citation_Abbreviation: WV-Bar
+        Source_Contribution:
+          Old topo-based map was the source of crop for Thornton 7.5 quadrangle.  
+          Crop was adjusted to fit drainage. 
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Lyons, P. C.
+            Originator: Jacobsen, E. F.
+            Originator: Scott, B. K.
+            Title: Coal geology of the Castleman coal field, Garrett County, Maryland
+            Publication_Date: 1985
+            Series_Information:
+              Series_Name: U.S. Geological Survey Coal Investigations Map
+              Issue_Identification: C-98 
+        Source_Scale_Denominator: 24000
+        Type_of_Source_Media: paper
+        Source_Time_Period_of_Content: 
+          Time_Period_Information: 
+            Single_Date/Time: 
+              Calendar_Date: 1985
+          Source_Currentness_Reference: publication date
+        Source_Citation_Abbreviation: C-98
+        Source_Contribution:
+          Lower Kittanning crop in Maryland identified or interpolated from this 
+          map for these 7.5' quads: Grantsville, Avilton (west half), Accident
+          (southeast corner), and McHenry.
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Jacobsen, E. F      
+            Originator: Lyons, P. C.
+            Title: 
+              Coal geology of the Lower Youghiogheny coal field, Garrett County, 
+              Maryland
+            Publication_Date: 1985
+            Series_Information:
+              Series_Name: U.S. Geological Survey Coal Investigations Map
+              Issue_Identification: C-101 
+        Source_Scale_Denominator: 24000
+        Type_of_Source_Media: paper
+        Source_Time_Period_of_Content: 
+          Time_Period_Information: 
+            Single_Date/Time: 
+              Calendar_Date: 1985
+          Source_Currentness_Reference: publication date
+        Source_Citation_Abbreviation: C-101
+        Source_Contribution: 
+          Lower Kittanning crop in Maryland identified from this map for these 
+          7.5' quads: Friendsville, Accident (west half), and Sang Run (north half.)
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: U.S. Geological Survey
+            Publication_Date: 1996
+            Title: 
+              Working map of Lower Kittanning coal resources by 7.5 minute 
+              quadrangle. 
+        Source_Scale_Denominator: 24000
+        Type_Of_Source_Media: stable-base material
+        Source_Time_Period_Of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 1996
+          Source_Currentness_Reference: Publication Date
+        Source_Citation_Abbreviation: USGS-MD 
+        Source_Contribution: 
+          These maps were source of MD crop in these 7.5' quadrangles:
+          Avilton (southeast corner), Barton, Bittinger (southeast corner), 
+          Cresaptown, Cumberland, Deer Park, Frostburg, Gorman, Keyser, Kitzmiller, 
+          Lonaconing, Oakland, Sang Run (parts of southern end), Table Rock and 
+          most of Westernport.
+      Process_Step:
+        Process_Description:
+          All maps were manually digitized using ARC/INFO.  Lines were attributed 
+          for source.   
+        Process_Date: 1998-2000 
+      Process_Step:
+        Process_Description: 
+          Ohio crop data were converted from dgn file format into ARC/INFO format.
+        Process_Date: 1999-2000
+      Process_Step:
+        Process_Description: 
+          Old topographic-based maps (CLR-A65, CLR-A75, Bulletin-1143-B,
+          Bulletin-1143-A, WV-Lew, WV-Min, WV-Up-Ran) were digitized as needed.  
+          The crop was plotted over 7.5' topo maps and adjusted to fit drainage; 
+          location very generalized.  Lines were attributed for source.
+        Process_Date: 1999-2000
+      Process_Step
+        Process_Description
+          Elk County and Huntley 7.5 min quadrangle, PA crop was originally 
+          interpolated from known outcrop, bore hole data, surface mining and 
+          State geology map (PA-TGS-PA) 
+        Process_Date: 2000          
+      Process_Step
+        Process_Description
+          Elk County and Huntley 7.5 min quadrangle, PA crop was revised according
+          to written communciation from Clifford H. Dodge and working map 
+          (PA-ELK-DODGE)
+        Process_Date: 2000         
+      Process_Step:
+        Process_Description: 
+          All of the raw line data were appended. 
+        Process_Date: 1999-2000
+      Process_Step:
+        Process_Description: 
+          Clearfield Co., Pa missing crop was pieced together for Hastings and
+          Coalport 7.5' quads.  Crop adapted on topo maps to match crop on 
+          neighboring maps.
+        Process_Date: 2000
+      Process_Step:
+        Process_Description: 
+          Centre Co., Pa. missing crop for Sandy Ridge 7.5' quad was adapted on
+          topo map to match crop on neighboring maps.
+        Process_Date: 2000
+      Process_Step:
+        Process_Description: 
+          Centre  and Clinton Co., Pa crop was adapted from structure data points
+          on topo maps in these 7.5' quads: Snowshoe, Keating, Renova West and 
+          Renova East.  Location very generalized and 'no data' lines drawn to
+          connect limited crop data.
+        Process_Date: 2000
+      Process_Step:
+        Process_Description: 
+          Fayette Co., Pa source map (PA-TGS-FAY) was incomplete and crop was
+          interpolated in select areas of Lake Lynn, Donegal and Seven Springs
+          7.5' quadrangles.  Crop line was attributed for source.
+        Process_Date: 2000
+      Process_Step:
+        Process_Description: 
+          Bruceton Mills 7.5' quadrangle crop was revised along Pa/WV border using
+          topographic map.  Crop line was attributed for source.
+        Process_Date: 2000
+      Process_Step:
+        Process_Description: 
+          Somerset Co., Pa crop was revised along the Westmoreland countyline in 
+          Ligonier and Bakersville 7.5' quadrangles using topographic maps.    
+          Crop line was attributed for source.
+        Process_Date: 2000
+      Process_Step:
+        Process_Description: 
+          Bedford Co., Pa crop for Fairhope 7.5' quadrangle was interpolated across
+          the county boundary from Somerset.  Crop line was attributed for source.
+        Process_Date: 2000
+      Process_Step:
+        Process_Description: 
+          Maryland missing crop was adapted on topographic map to match nearby crop
+          in the south end of Sang Run and along Potomac River in Westernport and
+          Kitzmiller quads.  Crop line was attributed for source.
+        Process_Date: 2000        
+      Process_Step:
+        Process_Description: 
+          Jefferson Co., Ohio crop along Ohio River was adapted to match 
+          topography and crop in WV.  Crop line was attributed for source.
+        Process_Date: 2000
+      Process_Step:
+        Process_Description: 
+          Straight lines representing 'Limit of available data' were drawn and 
+          attributed for source.  Lack of data limited the crop in Lawrence, 
+          Beaver, Mercer, Venango, Clearfield, Centre and Clinton counties, Pa. 
+          Lack of data limited the crop in Atwater 7.5' quadrangle in Portage 
+          County, Ohio.  Lack of data limited the crop in Garrett County, Md and
+          in Mineral County, WV.  Crop line was attributed for source.
+        Process_Date: 2000
+      Process_Step:
+        Process_Description: 
+          A line representing 'Limit of available data' was drawn to connect the
+          southern extremes of known crop.  Smooth arcing line was delimited by 
+          Lower Kittanning point data.  Crop line was attributed for source. 
+        Process_Date: 2000
+      Process_Step:
+        Process_Description: 
+          Coal crop data set was edited to resolve inconsistencies between maps and
+          to incorporate revisions.  All lines were checked for correct line 
+          attribution.  Polygon topology was built and a cleaning function was 
+          performed.   Polygons were attributed  using the codes described  within 
+          this document.
+        Process_Date: 1999-2000
+  Spatial_Data_Organization_Information:         
+    Direct_Spatial_Reference_Method: Vector
+    Point_and_Vector_Object_Information
+      SDTS_Terms_Description
+        SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+        Point_and_Vector_Object_Count: 2238
+  Spatial_Reference_Information:
+    Horizontal_Coordinate_System_Definition:
+      Geographic:
+        Latitude_Resolution: 0.0001
+        Longitude_Resolution: 0.0001
+        Geographic_Coordinate_Units: Decimal Degrees
+      Geodetic_Model:
+        Horizontal_Datum_Name:  North American Datum of 1927
+        Ellipsoid_Name: Clarke 1866
+        Semi-major_Axis: 6378206.4
+        Denominator_of_Flattening_Ratio:  294.98
+  Entity_and_Attribute_Information:
+    Detailed_Description:
+      Entity_Type:
+        Entity_Type_Label: c9007oc.pat
+        Entity_Type_Definition: polygon attribute table for C9007OC coverage
+        Entity_Type_Definition_Source: ARC/INFO
+      Attribute:
+        Attribute_Label: COAL
+        Attribute_Definition: 
+          A unique code that describes whether the polygon is inside or outside the
+          outcrop.
+        Attribute_Definition_Source: this study
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 101
+            Enumerated_Domain_Value_Definition: 
+              COAL; indicates polygon contaions coal resource inside outcrop
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 102
+            Enumerated_Domain_Value_Definition: 
+              NO COAL; indicates polygon does not contain coal resource
+            Enumerated_Domain_Value_Definition_Source: Philip Freeman (compiler)
+    Detailed_Description:
+      Entity_Type:
+        Entity_Type_Label: c9007mo.aat
+        Entity_Type_Definition: arc attribute table for c9007mo coverage
+        Entity_Type_Definition_Source: ARC/INFO
+      Attribute:
+        Attribute_Label: SOURCE
+        Attribute_Definition: 
+          A unique code that describes the source for the line.
+        Attribute_Definition_Source: this study
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 1
+            Enumerated_Domain_Value_Definition: Published Maps
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 2
+            Enumerated_Domain_Value_Definition: Unpublished working maps of USGS
+              and State agencies
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 3
+            Enumerated_Domain_Value_Definition: 
+              Interpolated from published and working maps; therefore, crop is 
+              approximate and is not geologically verified.
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 4
+            Enumerated_Domain_Value_Definition: 
+              Cropline adapted from maps of USGS or State agancies, and redrawn to 
+              fit topography and drainage; location very generalized.  Mines 
+              identified from USGS maps.
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 5
+            Enumerated_Domain_Value_Definition: 
+              Not mapped, line drawn to connect crop.
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 6
+            Enumerated_Domain_Value_Definition: Closure line 
+            Enumerated_Domain_Value_Definition_Source: Philip Freeman (compiler)
+  Distribution_Information:
+    Distributor:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Philip Freeman
+          Contact_Organization: U.S. Geological Survey, Eastern Energy Resources Team
+        Contact_Address:
+          Address_Type: mailing address
+          Address: MS 956 National Center
+          City: Reston
+          State_or_Province: Virginia
+          Postal_Code: 20192
+          Country: USA
+        Contact_Voice_Telephone: 703-648-6447
+    Resource_Description: USGS Professional Paper 1625-C: Chapter G; c9007oc.e00
+    Distribution_Liability:
+      Any use of trade, product, or firm names is for descriptive purposes
+      only and does not imply endorsement by the U.S. Government.  Although this
+      data has been used by the U.S. Geological Survey (USGS), no warranty,
+      expressed or implied, is made by the USGS as to the accuracy of the data
+      and related materials.  The act of distribution shall not constitute any
+      such warranty, and no responsibility is assumed by the USGS in the use
+      of these data, software, or related materials.
+    Standard_Order_Process:
+      Digital_Form:
+        Digital_Transfer_Information:
+          Format_Name: ARCE
+          Format_Version_Number: 7.2.1
+          Format_Information_Content: Polygonal coal resource coverage
+        Digital_Transfer_Option:
+          Online_Option:
+            Computer_Contact_Information:
+              Network_Address:
+                Network_Resource_Name: 
+                  http://greenwood.cr.usgs.gov/pub/ppapers/p1625c/
+      Fees: none
+  Metadata_Reference_Information:
+    Metadata_Date: 20000817
+    Metadata_Contact:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Philip Freeman (compiler)
+          Contact_Organization: U.S.Geological Survey, Eastern Energy Resources Team
+        Contact_Address:
+          Address_Type: mailing address
+          Address: MS 956 National Center
+          City: Reston
+          State_or_Province: Virginia
+          Postal_Code: 20192
+          Country: USA
+        Contact_Voice_Telephone: 703-648-6447 
+    Metadata_Standard_Name: 
+      FGDC Content Standards for Digital Geospatial Metadata
+    Metadata_Standard_Version: FGDC-STD-001-1998

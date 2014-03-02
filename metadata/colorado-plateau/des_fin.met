@@ -1,0 +1,407 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator:
+        U.S. Geological Survey, Central Energy Resources
+        Team
+      Originator: Brownfield, M.E.
+      Originator: Roberts, L.N.R.
+      Originator: Johnson, E.A.
+      Originator: Mercier, T.J.
+      Publication_Date: 2000
+      Title:
+        des*_fin (final unioned polygons for Deserado coal
+        area)
+      Geospatial_Data_Presentation_Form: map
+      Publication_Information:
+        Publication_Place: Denver, CO USA
+        Publisher: U.S. Geological Survey
+      Other_Citation_Details:
+        in subdir 24k (defines appropriate maximum scale for
+        data use) 
+
+        chap. N, Assessment of the distribution and resources 
+        of coal in the Deserado coal area, Lower White River 
+        coal field, northwest Colorado 
+      Larger_Work_Citation:
+        Citation_Information:
+          Originator: Kirschbaum, M.A.
+          Originator: Roberts, L.N.R.
+          Originator: Biewick, L.R.H.
+          Publication_Date: 2000
+          Title:
+            Geologic Assessment of Coal in the Colorado
+            Plateau
+          Series_Information:
+            Series_Name:
+              U.S. Geological Survey Professional Paper
+            Issue_Identification: 1625-B 
+          Publication_Information:
+            Publication_Place: Denver, CO
+            Publisher: U.S. Geological Survey
+  Description:
+    Abstract:
+      These are shape files of final unioned polygon coverages
+      used to calculate coal resources of the B and D coal
+      zones, Lower White River coal field, Deserado assessment
+      area, northwestern Colorado. Desb_fin was used for the B
+      coal zone; Desd_fin was used for the D coal zone. Polygons
+      that make up the final unioned polygons include counties,
+      7.5' quadrangles, townships, surface and coal ownership,
+      lease area, overburden, and coal thickness categories. The
+      final coverages were clipped to the resource areas for each
+      coal zone, which are described in the metadata files for the
+      des_bnd coverages.
+    Purpose:
+      The Nation's coal resources are being reassessed by the
+      USGS. This assessment identifies and characterizes the coal
+      beds and coal zones that will provide the bulk of the
+      nation's coal-derived energy during the next century. This
+      assessment is different from previous large-scale USGS
+      assessments because files and databases are being stored in
+      a digital format and are being analyzed using a Geographic
+      Information System (GIS).
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 19950000
+        Ending_Date: 20000000
+    Currentness_Reference: Publication Date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -108.8468
+      East_Bounding_Coordinate: -108.6411
+      North_Bounding_Coordinate: 40.2399
+      South_Bounding_Coordinate: 40.1489
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: coal
+      Theme_Keyword: Colorado Plateau
+      Theme_Keyword: Colorado Plateau Coal Assessment
+      Theme_Keyword: National Coal Resource Assessment (NCRA)
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: Colorado
+      Place_Keyword: Lower White River coal field
+      Place_Keyword: Deserado Assessment area
+      Place_Keyword: northern Piceance basin
+      Place_Keyword: Moffat County
+      Place_Keyword: Rio Blanco County
+    Stratum:
+      Stratum_Keyword_Thesaurus:
+        Geologic Names Unit Lexicon
+        (GNULEX)
+      Stratum_Keyword: Mesaverde Group
+      Stratum_Keyword: Williams Fork Formation
+      Stratum_Keyword: Iles Formation
+  Access_Constraints: None
+  Use_Constraints:
+    Appropriate maximum scale for data use is 24k No restrictions,
+    however, comparison with other data sets on surface and mineral
+    ownership for the same area from other time periods might be
+    inaccurate due to inconsistencies resulting from changes in land
+    and mineral ownership and in mapping convention over time.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization:
+          U.S. Geological Survey, Central
+          Energy
+        Contact_Person: Brownfield,, M.E.
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: PO Box 25046 MS 939 Denver Federal Center
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225
+        Country: USA
+      Contact_Voice_Telephone: 303.236.7767
+  Native_Data_Set_Environment:
+    SunOS, 5.5.1, sun4d UNIX, ARC/INFO version 7.0.4 and ArcView 3.1
+
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: See Entity_Attribute_Information
+  Logical_Consistency_Report: Polygon topology present.
+  Completeness_Report: none
+  Lineage:
+    Process_Step:
+      Process_Description:
+        An x, y extent greater than the resource area was used
+        to begin the unioning process and was clipped, as a
+        last step, by the polygon that limits the resource
+        area. County data used in unioned polygons are
+        described in metadata file lwr_cnty.met. Township and
+        range data are described in des_tr.met and was unioned
+        with the County coverage. 7.5 minute quadrangle data
+        are described in des24qd.met and was unioned with the
+        previously unioned coverage. A coverage was provided to
+        the USGS from the Bureau of Land Management that
+        contains data on the surface ownership and energy
+        minerals owned by the Federal government in the White
+        River Resource area. The original source of the data
+        was captured at a 24,000. The USGS used information in
+        the item called DATA in the original file to populate
+        USGS standardized items SURF (8 8 c) and FEDMINS (8 8
+        c). This coverage for ownership was snapped to the
+        township and range coverage because the ownership
+        polygons are very often coincident with township and
+        range polygons. This process was an effort to eliminate
+        slivers along township lines. The resultant coverage
+        was unioned with the coverage containing county, 7.5'
+        quadrangle, and township data.
+
+        A coverage was then unioned to the previously unioned
+        coverage that is polygons of the state and federal coal
+        leases in the Deserado area. This coverage is described
+        in des_lmu.met. Coal resources were not calculated
+        within the boundaries of the lease areas.
+
+        A coverage was generated from a gridded file of data
+        representing the overburden thickness to the base of
+        each of the 2 coal zones. The overburden grid for the
+        base of the B coal zone is a result of subtracting the
+        grid for the top of the Coal marker sands (base of the
+        B coal zone) from the grid of the earth's surface in
+        EarthVision (EV). The surface grid is a 7.5'-scale
+        Digital Elevation Model of the Deserado study area
+        imported through EV.
+
+        The map of the overburden was plotted in EV with a
+        contour interval of 500 ft. The contour lines were
+        saved in a contour output file. The contour output file
+        was converted to a file in 'arc generate' format using
+        ISMARC and then converted to an ARC/INFO polygon
+        coverage using an Arc Macro Language program from the
+        Illinois State Geological Survey.
+
+        The base of the D coal zone is, on the average, 55 ft
+        above the top of the Coal marker sands. A overburden
+        contour map was plotted using the same grid that was
+        used to generate the overburden polygons for the B coal
+        zone, but we plotted the 555-ft and 1055-ft contours.
+        In ARC/INFO, the overburden coverage was unioned with
+        the previously unioned coverage. A coverage was
+        generated from a gridded file of data from drill holes
+        and measured sections that contain x, y, data for
+        location and values for the net coal thickness for each
+        of the coal zones. Details about how this data file was
+        generated from the Stratifact data base are described
+        in the metadata file des*_thk.met EarthVision was used
+        to do the gridding.
+
+        The net coal thickness does not include coal beds that
+        are less than resource thickness, which for bituminous
+        coal is 1.2 ft. Contours defining the coal thickness
+        categories for bituminous coal from USGS circular 891,
+        were generated from the grid. The lines were then
+        converted to ARC/INFO polygon coverage using an Arc
+        Macro Language program provided by Illinois State
+        Geological Survey. This polygon coverage was unioned
+        with the coverage created from the previous union.
+        The ARC/INFO polygon coverages generated from all these
+        unions were then clipped using the Arc 'identity'
+        command. The 'input' coverage is described in a
+        metadata file called des_bnd.met. The 'identity'
+        coverages are the final unioned polygons. The 'output'
+        coverages are these desb_fin and desd_fin polygon
+        coverages.
+
+        These coverages were converted to shapefiles in ArcView
+        where they were processed.
+      Process_Date:
+        19980000
+
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 99
+
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Geographic:
+      Latitude_Resolution: .0001
+      Longitude_Resolution: .0001
+      Geographic_Coordinate_Units: Decimal degrees
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum 1927
+      Ellipsoid_Name: Clarke 1866
+      Semi-major_Axis: 6378206.4
+      Denominator_of_Flattening_Ratio:
+        294.98
+
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: des*_fin.dbf
+      Entity_Type_Definition: Shapefile Attribute Table
+      Entity_Type_Definition_Source: None
+    Attribute:
+      Attribute_Label: Area
+      Attribute_Definition: Area of polygon
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.000
+          Range_Domain_Maximum: 0.001
+    Attribute:
+      Attribute_Label: Perimeter
+      Attribute_Definition: Perimeter of polygon
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.001
+          Range_Domain_Maximum: 0.258
+    Attribute:
+      Attribute_Label: Overb
+      Attribute_Definition:
+        Overburden categories - range of overburden to base of
+        coal zones. Thickness of overburden in 100s of feet.
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Surf
+      Attribute_Definition:
+        Surface ownership
+        BLM - US Bureau of Land Management
+        FS - US Forest Service
+        DOE - US Department of Energy
+        BREC - US Bureau of Reclamation
+        SDOW - State Department of Wildlife
+        STATE - State
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Fedmins
+      Attribute_Definition:
+        Federal mineral ownership
+        ALL - Federal government owns all minerals
+        COAL - Federal government owns the coal only
+        OGC - Federal government owns the oil, gas, and coal
+                   only
+        OG - Federal government owns oil and gas only
+        NONE - Federal government owns none of the minerals
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Quad
+      Attribute_Definition: 7.5' quadrangle name
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Cnty
+      Attribute_Definition: County name
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Tr
+      Attribute_Definition:
+        Township and Range block
+        N - north
+        S - south
+        E - east
+        W - west
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Lease
+      Attribute_Definition:
+        Leases or combined leased areas and mined out areas.
+        Resources are not calculated for areas within lease
+        boundaries.
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Cthk_cat
+      Attribute_Definition:
+        Net coal thickness categories.  Thickness categories are defined in Wood, and
+        others, 1983, USGS Circular 891.
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain:
+          Character field
+
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization:
+          U.S. Geological Survey, Central
+          Energy
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: PO Box 25046 MS 939 Denver Federal Center
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225
+        Country: USA
+      Contact_Voice_Telephone: 303.236.4608
+  Resource_Description: Shapefile and ARC/INFO coverage
+  Distribution_Liability:
+    Any use of trade, product, or company names in this publication
+    is for descriptive purposes only and does not imply endorsement
+    by the U.S. Government. Although these data have been processed
+    successfully on a computer system at the U.S. Geological Survey,
+    no warranty expressed or implied is made by the USGS regarding
+    the utility of the data on any other system, nor shall the act of
+    distribution constitute any such warranty. This data is not a
+    legal document and is not intended to be used as such. Comparison
+    with other data set on surface and mineral ownership for the same
+    area from other time periods might be inaccurate due to
+    inconsistencies resulting from changes in land and mineral
+    ownership and in mapping convention over time. This data is not a
+    legal document and is not intended to be used as such. 
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name:
+          ARC/INFO coverage, export file and shapefile
+        Format_Version_Number: ARC/INFO 7.0.4, ArcView 2.1
+      Digital_Transfer_Option:
+        Offline_Option:
+          Offline_Media: CD-ROM
+          Recording_Format: ISO 9660
+    Fees: none
+  Technical_Prerequisites:
+    need ARC/INFO 7.0.4 or greater and/or ArcView 2.1 or greater
+    and/or ArcExplorer (which can be downloaded free from
+    <URL:http://www.esri.com>) and/or other software that can read
+    ARC/INFO coverages, ARC/INFO export files, and/or shapefiles
+
+Metadata_Reference_Information:
+  Metadata_Date: 19990203
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization:
+          U.S. Geological Survey, Central
+          Energy
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: PO Box 25046 MS 939 Denver Federal Center
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225
+        Country: USA
+      Contact_Voice_Telephone: 303.236.4608
+  Metadata_Standard_Name: FGDC CSDGM
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints:
+    None
+
+    ------------------------------------------------------------------------
+    Generated by mp version 2.4.8 on Mon Sep 27 16:14:07 1999

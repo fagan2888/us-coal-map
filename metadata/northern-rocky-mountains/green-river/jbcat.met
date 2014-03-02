@@ -1,0 +1,294 @@
+Identification_Information:
+	Citation:
+		Citation_Information:
+			Originator: United States Geological Survey (USGS) Central Region Energy Resources Team
+			Publication_Date: 19990930
+			Title: jbcat.shp (net coal thickness in Deadman coal zone, Jim Bridger area)
+			Geospatial_Data_Presentation_Form: map
+			Series_Information:
+				Series_Name: U. S. Geological Survey Professional Paper
+				Issue_Identification: 1625-A
+			Publication_Information:
+				Publication_Place: Denver, CO
+				Publisher: USGS Central Region Energy Resources Team
+	Description:
+		Abstract:
+			This ArcView shapefile contains a polygon
+			representation of the net coal tickness of the deadman
+			coal zone in the northern part (Jim Bridger area) of the
+			Point of Rocks-Black Butte coalfield in the Greater Green
+			River Basin, Wyoming. This shapefile  is a part of the
+			National Coal Resource Assessment of the Northern
+			Rocky Mountain and Great Plains Fort Union Coal
+			Resources Assessment Area. This shapefile can be shown
+			in relation to other relevant themes of this area.
+		Purpose:
+			This shape file contains a representation of the coal
+			thickness in the Jim Bridger coalfield area.  This area is part
+			of the National Coal Assessment Rocky Mountain and
+			Northern Great Plains Region.
+	Time_Period_of_Content:
+		Time_Period_Information:
+			Single_Date/Time:
+				Calendar_Date: 19980000
+		Currentness_Reference: Publication Date
+	Status:
+		Progress: Complete
+		Maintenance_and_Update_Frequency: None planned
+	Spatial_Domain:
+		Bounding_Coordinates:
+			West_Bounding_Coordinate: -108.8738
+			East_Bounding_Coordinate: -108.5705
+			North_Bounding_Coordinate: 41.8736
+			South_Bounding_Coordinate: 41.6468
+	Keywords:
+		Theme:
+			Theme_Keyword_Thesaurus: None
+			Theme_Keyword: Coal thickness
+			Theme_Keyword: Jim Bridger area
+			Theme_Keyword: Northern Rocky Mountain and Great Plains Fort Union Coal Resources Assessment Area
+			Theme_Keyword: Deadman coal zone
+			Theme_Keyword: Net coal thickness
+			Theme_Keyword: Total net coal thickness
+			Theme_Keyword: Coal
+			Theme_Keyword: Net coal isopach map
+		Place:
+			Place_Keyword_Thesaurus: None
+			Place_Keyword: Wyoming
+			Place_Keyword: Green River Basin
+			Place_Keyword: Jim Bridger area
+			Place_Keyword: Northern Rocky Mountain and Great Plains Region
+			Place_Keyword: Sweetwater County
+			Place_Keyword: Greater Green River Basin
+			Place_Keyword: Point of Rocks-Black Butte coalfield
+	Access_Constraints: None
+	Use_Constraints: None
+	Point_of_Contact:
+		Contact_Information:
+			Contact_Organization_Primary:
+				Contact_Organization: USGS Energy Resources Team
+				Contact_Person: Margaret Ellis
+			Contact_Position: Geologist
+			Contact_Address:
+				Address_Type: mailing address
+				Address:
+					Box 25046
+					MS 939
+					Denver Federal Center
+				City: Denver
+				State_or_Province: CO
+				Postal_Code: 80225-0046
+				Country: USA
+			Contact_Voice_Telephone: 303.236.7775
+			Contact_Electronic_Mail_Address: mellis@usgs.gov
+			Hours_of_Service: Monday through Friday, 8:00 AM- 3:00 PM
+	Native_Data_Set_Environment:
+		SUNOS, 5.51 SUN4d UNIX
+		ArcView version 3.0
+		ARC/INFO version 7.1.2
+Data_Quality_Information:
+	Attribute_Accuracy:
+		Attribute_Accuracy_Report: No test for accuracy was performed on this data.
+	Logical_Consistency_Report: polygon features present.
+	Completeness_Report: The Jim Bridger coal zone is the extent of this data.
+	Positional_Accuracy:
+		Horizontal_Positional_Accuracy:
+			Horizontal_Positional_Accuracy_Report:
+				Limited to software coordinate precision of geographic
+				coordinates.
+		Vertical_Positional_Accuracy:
+			Vertical_Positional_Accuracy_Report: All
+	Lineage:
+		Source_Information:
+			Source_Citation:
+				Citation_Information:
+					Originator: USGS Energy Resources Team
+					Publication_Date: 19980000
+					Title: USGS National Coal Resource Data System database.
+					Geospatial_Data_Presentation_Form: map
+					Other_Citation_Details:
+						U.S. Geological Survey
+						National Center
+						MS956
+						Reston, VA 20192
+						(attn.  M.D. Carter)
+			Type_of_Source_Media: paper
+			Source_Time_Period_of_Content:
+				Time_Period_Information:
+					Range_of_Dates/Times:
+						Beginning_Date: 19750000
+						Ending_Date: 19980000
+				Source_Currentness_Reference: Publication Date
+			Source_Citation_Abbreviation: NCRDS
+			Source_Contribution:
+				This source provided all of the stratigraphic and point
+				location data that was used to calculate net coal thickness
+				of the Deadman coal zone at each data point location and
+				generate a net coal isopach map.
+		Process_Step:
+			Process_Description:
+				Stratigraphic data were compiled into a relational
+				database.  These data were correlated and the coal beds
+				in the Deadman coal zone were identified. Stratigraphic
+				data
+				for the coal and rock units in the Deadman coal zone were
+				downloaded from the relational database and run through a
+				custom "parting/split" program to calculate net coal
+				thickness at each data location.  The data were loaded
+				into an EarthVision software program and the net coal
+				thickness was gridded using the isopach grid option, four
+				multiple data point (number of closest control points used
+				for calculating a grid value), and a grid spacing of 300 x
+				300 meters.  An isopach map was generated in EarthVision
+				and was studied in detail.  In areas where data were widely
+				spaced and/or isopach lines were not reasonably accurate
+				(based on known geologic factors) control points were
+				added to the data set to better reflect the character of the
+				coal thickness in those areas.  Net coal thickness was
+				regridded, new isopach maps constructed with a constant
+				isopach line interval of 2.5 ft, and isopach lines were
+				checked a final time for accuracy.  The isopach map was
+				then saved to a file in ASCII format. The ASCII file was
+				modified using a custom program called ismarc.  The
+				newfile was imported into ARC/INFO and generated as a
+				polygon coverage using an Arc Macro Language (aml).
+				This aml clipped the coverage to the study extent and
+				assigned the net coal thickness polygons with values that
+				are the average of the values of the bounding isopach
+				lines (for example, a polygon defined by isopach lines of
+				2.5 and 5 ft was assigned a net coal thickness attribute of
+				3.75 ft).  A new item was added to the polygon attribute
+				table and populated with text labels corresponding to the
+				coal thickness categories to be used for coal resource
+				tables and graphic display (0-2.5 ft, 2.5-5 ft, 5-10 ft, 10-20
+				ft,  20-30 ft and 30-40 ft). The coverage was then
+				dissolved based on the text labels. The finalcoverage was
+				projected to geographic coordinates and made into a
+				shapefile in ArcView.
+			Process_Date: 19980000
+			Process_Contact:
+				Contact_Information:
+					Contact_Organization_Primary:
+						Contact_Organization: USGS Energy Resources Team
+						Contact_Person: Margaret Ellis
+					Contact_Position: Geologist
+					Contact_Address:
+						Address_Type: mailing address
+						Address:
+							Box 25046
+							MS 939
+							Denver Federal Center
+						City: Denver
+						State_or_Province: CO
+						Postal_Code: 80225-0046
+						Country: USA
+					Contact_Voice_Telephone: 303.236.7775
+					Contact_Electronic_Mail_Address: mellis@usgs.gov
+					Hours_of_Service: Monday through Friday, 8:00 AM- 3:00 PM
+Spatial_Data_Organization_Information:
+	Direct_Spatial_Reference_Method: Vector
+	Point_and_Vector_Object_Information:
+		SDTS_Terms_Description:
+			SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+			Point_and_Vector_Object_Count: 86
+Spatial_Reference_Information:
+	Horizontal_Coordinate_System_Definition:
+		Geographic:
+			Latitude_Resolution: .0001
+			Longitude_Resolution: .0001
+			Geographic_Coordinate_Units: Decimal degrees
+		Geodetic_Model:
+			Horizontal_Datum_Name: North American Datum 1927
+			Ellipsoid_Name: Clarke 1866
+			Semi-major_Axis: 6378206.4
+			Denominator_of_Flattening_Ratio: 294.98
+Entity_and_Attribute_Information:
+	Detailed_Description:
+		Entity_Type:
+			Entity_Type_Label: jbcat.dbf
+			Entity_Type_Definition: Shapefile Attribute Table
+			Entity_Type_Definition_Source: None
+		Attribute:
+			Attribute_Label: Area
+			Attribute_Definition: Area of polygon
+			Attribute_Definition_Source: Software computed
+			Attribute_Domain_Values:
+				Range_Domain:
+					Range_Domain_Minimum: 62.50000
+					Range_Domain_Maximum: 176028129.25076
+		Attribute:
+			Attribute_Label: Perimeter
+			Attribute_Definition: Perimeter of polygon
+			Attribute_Definition_Source: Software computed
+			Attribute_Domain_Values:
+				Range_Domain:
+					Range_Domain_Minimum: 35.84772
+					Range_Domain_Maximum: 143440.69257
+		Attribute:
+			Attribute_Label: Thickness
+			Attribute_Definition: Thickness
+			Attribute_Definition_Source: User Defined
+			Attribute_Domain_Values:
+				Unrepresentable_Domain: Character field
+Distribution_Information:
+	Distributor:
+		Contact_Information:
+			Contact_Organization_Primary:
+				Contact_Organization: USGS Energy Resources Team
+			Contact_Address:
+				Address_Type: mailing address
+				Address:
+					Box 25046
+					MS 939
+					Denver Federal Center
+				City: Denver
+				State_or_Province: CO
+				Postal_Code: 80225-0046
+				Country: USA
+			Contact_Voice_Telephone: 303.236.1647
+			Hours_of_Service: Monday through Friday, 8:00 AM- 3:00 PM
+	Distribution_Liability:
+		The US Geological Survey provides these geographic data
+		"as is."  The USGS makes no guarantee or warranty
+		concerning the accuracy of information contained in this
+		geographic data.  The USGS further makes no warranties,
+		either expressed or implied as to any other matter
+		whatsoever, including, without limitation, the condition of
+		the product, or its fitness for any particular purpose. The
+		burden for determining fitness for use lies entirely with the
+		user.  Although these data have been processed
+		successfully on USGS computers, no warranty,
+		expressed or implied, is made by the USGS regarding the
+		use of these data on any other system, nor does the fact of
+		distribution constitute or imply any such warranty. In no
+		event shall the USGS have any liability whatsoever for
+		payment of any consequential, incidental, indirect, special,
+		or tort damages of any kind, including, but not limited to,
+		any loss of profits arising out of use of or reliance on the
+		geographic data or arising out of the delivery, installation,
+		operation, or support by the USGS.
+Metadata_Reference_Information:
+	Metadata_Date: 19980000
+	Metadata_Review_Date: 19990000
+	Metadata_Future_Review_Date: 19990000
+	Metadata_Contact:
+		Contact_Information:
+			Contact_Organization_Primary:
+				Contact_Organization: USGS Energy Resources Team
+				Contact_Person: Margaret Ellis
+			Contact_Position: Geologist
+			Contact_Address:
+				Address_Type: mailing address
+				Address:
+					Box 25046
+					MS 939
+					Denver Federal Center
+				City: Denver
+				State_or_Province: CO
+				Postal_Code: 80225-0046
+				Country: USA
+			Contact_Voice_Telephone: 303.236.7775
+			Contact_Electronic_Mail_Address: mellis@usgs.gov
+			Hours_of_Service: Monday through Friday, 8:00 AM- 3:00 PM
+	Metadata_Standard_Name: FGDC CSDGM
+	Metadata_Standard_Version: 19940608

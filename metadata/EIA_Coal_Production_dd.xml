@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Joseph A. East</origin>
+<pubdate>2013</pubdate>
+<title>Coal Fields of the Conterminous United States: National Coal Resource Assessment Updated Version</title>
+<geoform>vector digital data</geoform>
+<serinfo>
+<sername>Open File Report</sername>
+<issue>2012/1205</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Reston, VA</pubplace>
+<publish>U.S. Geological Survey</publish>
+</pubinfo>
+<onlink>http://pubs.usgs.gov/of/2012/1205</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This dataset is a polygon shapefile representing the most recent update of the coal fields of the conterminous United States. This specific shapefile was created to give a visual representation to the amount of coal being produced by the individual states. It contains data for the most recent year of publication by the U.S. Energy Information Administration (EIA) back to 1990, and also years 1986 and 1985.</abstract>
+<purpose>This dataset was compiled to show the current amount of coal being produced by each state in the update of the Coal Fields of the Conterminous United States, OFR 96-092 (Tully, 1996).</purpose>
+<supplinf>
+Sources used in the abstract and purpose include:
+&gt; U.S. Energy Information Administration, 2010, Annual Coal Report 2009: U.S Energy Information Administration [report] DOE/EIA-0584 (2010), 58 p.
+&gt; Tully, J., 1996. Coal Fields of the Conterminous United States. U.S. Geological Survey Open File Report 96-92. Scale 1:5,000,000.
+</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2013</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-124.733174</westbc>
+<eastbc>-66.949831</eastbc>
+<northbc>49.384359</northbc>
+<southbc>24.544089</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>ISO 19115 Topic Category</themekt>
+<themekey>Geoscientific Information</themekey>
+</theme>
+<theme>
+<themekt>USGS Thesaurus</themekt>
+<themekey>coal resources</themekey>
+<themekey>geology</themekey>
+<themekey>geospatial datasets</themekey>
+</theme>
+<theme>
+<themekt>Alexandria Digital Library Feature Type Thesaurus</themekt>
+<themekey>mineral resource areas</themekey>
+</theme>
+<theme>
+<themekt>none</themekt>
+<themekey>Coal Fields Map of North America</themekey>
+<themekey>Mining Map</themekey>
+<themekey>Coal</themekey>
+<themekey>Coal Production</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>North America</placekey>
+<placekey>United States</placekey>
+<placekey>Alabama</placekey>
+<placekey>Arizona</placekey>
+<placekey>Arkansas</placekey>
+<placekey>California</placekey>
+<placekey>Colorado</placekey>
+<placekey>Connecticut</placekey>
+<placekey>Delaware</placekey>
+<placekey>District of Columbia</placekey>
+<placekey>Florida</placekey>
+<placekey>Georgia</placekey>
+<placekey>Idaho</placekey>
+<placekey>Illinois</placekey>
+<placekey>Indiana</placekey>
+<placekey>Iowa</placekey>
+<placekey>Kansas</placekey>
+<placekey>Kentucky</placekey>
+<placekey>Louisiana</placekey>
+<placekey>Maine</placekey>
+<placekey>Maryland</placekey>
+<placekey>Massachusetts</placekey>
+<placekey>Michigan</placekey>
+<placekey>Minnesota</placekey>
+<placekey>Mississippi</placekey>
+<placekey>Missouri</placekey>
+<placekey>Montana</placekey>
+<placekey>Nebraska</placekey>
+<placekey>Nevada</placekey>
+<placekey>New Hampshire</placekey>
+<placekey>New Jersey</placekey>
+<placekey>New Mexico</placekey>
+<placekey>New York</placekey>
+<placekey>North Carolina</placekey>
+<placekey>North Dakota</placekey>
+<placekey>Ohio</placekey>
+<placekey>Oklahoma</placekey>
+<placekey>Oregon</placekey>
+<placekey>Pennsylvania</placekey>
+<placekey>Rhode Island</placekey>
+<placekey>South Carolina</placekey>
+<placekey>South Dakota</placekey>
+<placekey>Tennessee</placekey>
+<placekey>Texas</placekey>
+<placekey>Utah</placekey>
+<placekey>Vermont</placekey>
+<placekey>Virginia</placekey>
+<placekey>Washington</placekey>
+<placekey>West Virginia</placekey>
+<placekey>Wisconsin</placekey>
+<placekey>Wyoming</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>
+This digital publication was prepared by an agency of the United States Government. Neither the United States Government nor any agency thereof, nor any of their employees, makes any warranty, expressed or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness
+of any information, apparatus, product, or process disclosed in this report, or represents that its use would not infringe privately owned rights. Reference therein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise does not necessarily constitute or imply its endorsement, recommendation, or favoring by the United States Government or any agency thereof. Any views and opinions of authors expressed herein do not necessarily state or reflect those of the United States Government or any agency thereof. Although all data published in this Open-File Report have been used by the U.S. Geological Survey (USGS), no warranty, expressed or implied, is made by the USGS as to the accuracy of the data and related materials and/or the functioning of the software. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the USGS in the use of these data, software, or related materials. Graphical map depictions are intended to be used within the map scale limits applicable to the source data. Although software enables the user to view data at various scales, the user is cautioned to refer to the source documentation for the appropriate map scale limitations.
+</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Joseph A. East</cntper>
+<cntorg>U.S. Geological Survey</cntorg>
+</cntperp>
+<cntpos>Geologist</cntpos>
+<cntaddr>
+<addrtype>physical address</addrtype>
+<address>MS 956 National Center</address>
+<address>12201 Sunrise Valley Drive</address>
+<city>Reston</city>
+<state>VA</state>
+<postal>20192</postal>
+<country>U.S.A</country>
+</cntaddr>
+<cntvoice>703-648-6450</cntvoice>
+<cntfax>703-648-6419</cntfax>
+<cntemail>jeast@usgs.gov</cntemail>
+<hours>7:00AM - 3:30PM</hours>
+<cntinst>Preferred contact method is electronic mail.</cntinst>
+</cntinfo>
+</ptcontac>
+<datacred>Technical reviews for this publication were provided by Leslie Ruppert, Christopher Garrity, Susan Tewalt, Lee Osmonson, James Luppens and James Coleman.</datacred>
+<native>Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.0.1770</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>Attribute accuracy was tested by manual comparison of the source with the attribute tables of the states.</attraccr>
+</attracc>
+<logic>Map was compiled by adding attributes to existing National Atlas State Boundaries of the United States shapefile.</logic>
+<complete>Data set complete. No data were intentionally omitted from the hard copy and digital source maps.</complete>
+<posacc>
+<horizpa>
+<horizpar>The shapefile is based on the outline of the states produced by the National Atlas (2005) The metadata for the shapefile does not include Horizontal Positional Accuracy information, but it is assumed that it is within standards of the FGDC.</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>National Atlas of the United States</origin>
+<pubdate>2005</pubdate>
+<title>State Boundaries of the United States: National Atlas of the United States</title>
+<onlink>http://nationalatlas.gov/atlasftp.html?openChapters=chpbound#chpbound</onlink>
+</citeinfo>
+</srccite>
+<srcscale>2000000</srcscale>
+<typesrc>ESRI Shapefile</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2005</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>National Atlas (2005)</srccitea>
+<srccontr>Offical United States outlines</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>United States Energy Information Administration</origin>
+<pubdate>2010</pubdate>
+<title>Annual Coal Report 2009</title>
+<serinfo>
+<sername>Annual Coal Report</sername>
+<issue>DOE/EIA-0584(2009)</issue>
+</serinfo>
+</citeinfo>
+</srccite>
+<typesrc>table</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2010</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Department of Energy (2010)</srccitea>
+<srccontr>Coal production information by year</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>The coal_production shapefile was created by merging tabular data with the National Atlas outline of the States. The shapefile for the states was downloaded from the National Atlas website, and decompressed. Attributes that were not necessary for this shapefile were deleted. Attribute columns for the years 2009-1990 were created, along with individual numbers for 1986 and 1985. The values for state production were then entered into the proper columns based on state and year of production.</procdesc>
+<procdate>20100422</procdate>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>Joseph A. East</cntper>
+<cntorg>U.S. Geological Survey</cntorg>
+</cntperp>
+<cntpos>Geologist</cntpos>
+<cntaddr>
+<addrtype>physical address</addrtype>
+<address>MS 956 National Center</address>
+<address>12201 Sunrise Valley Drive</address>
+<city>Reston</city>
+<state>VA</state>
+<postal>20192</postal>
+<country>U.S.A</country>
+</cntaddr>
+<cntvoice>703-648-6450</cntvoice>
+<cntfax>703-648-6419</cntfax>
+<cntemail>jeast@usgs.gov</cntemail>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>G-polygon</sdtstype>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<geograph>
+<latres>0.000278</latres>
+<longres>0.000278</longres>
+<geogunit>Decimal degrees</geogunit>
+</geograph>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137.0</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>EIA_Coal_Production_dd</enttypl>
+<enttypd>State Shape outlines containing coal production information.</enttypd>
+<enttypds>this report</enttypds>
+</enttyp>
+<attr>
+<attrlabl>FID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>STATE_NAME</attrlabl>
+<attrdef>State for which other attributes apply</attrdef>
+<attrdefs>FIPS 6-4</attrdefs>
+<attrdomv>
+<udom>Unabbreviated state names</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>2009</attrlabl>
+<attrdef>Coal production for year 2009</attrdef>
+<attrdefs>United States Energy Information Administration (2010)</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>431107</rdommax>
+<attrunit>short tons</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>2008</attrlabl>
+<attrdef>Coal production for year 2008</attrdef>
+<attrdefs>United States Energy Information Administration (2010)</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>467644</rdommax>
+<attrunit>short tons</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>2007</attrlabl>
+<attrdef>Coal production for year 2007</attrdef>
+<attrdefs>United States Energy Information Administration (2010)</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>453568</rdommax>
+<attrunit>short tons</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>2006</attrlabl>
+<attrdef>Coal production for year 2006</attrdef>
+<attrdefs>United States Energy Information Administration (2010)</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>446742</rdommax>
+<attrunit>short tons</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>2005</attrlabl>
+<attrdef>Coal production for year 2005</attrdef>
+<attrdefs>United States Energy Information Administration (2010)</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>404319</rdommax>
+<attrunit>short tons</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>2004</attrlabl>
+<attrdef>Coal production for year 2004</attrdef>
+<attrdefs>United States Energy Information Administration (2010)</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>396493</rdommax>
+<attrunit>short tons</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>2003</attrlabl>
+<attrdef>Coal production for year 2003</attrdef>
+<attrdefs>United States Energy Information Administration (2010)</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>376270</rdommax>
+<attrunit>short tons</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>2002</attrlabl>
+<attrdef>Coal production for year 2002</attrdef>
+<attrdefs>United States Energy Information Administration (2010)</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>373161</rdommax>
+<attrunit>short tons</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>2001</attrlabl>
+<attrdef>Coal production for year 2001</attrdef>
+<attrdefs>United States Energy Information Administration (2010)</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>368749</rdommax>
+<attrunit>short tons</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>2000</attrlabl>
+<attrdef>Coal production for year 2000</attrdef>
+<attrdefs>United States Energy Information Administration (2010)</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>338900</rdommax>
+<attrunit>short tons</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>1999</attrlabl>
+<attrdef>Coal production for year 1999</attrdef>
+<attrdefs>United States Energy Information Administration (2010)</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>337119</rdommax>
+<attrunit>short tons</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>1998</attrlabl>
+<attrdef>Coal production for year 1998</attrdef>
+<attrdefs>United States Energy Information Administration (2010)</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>314409</rdommax>
+<attrunit>short tons</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>1997</attrlabl>
+<attrdef>Coal production for year 1997</attrdef>
+<attrdefs>United States Energy Information Administration (2010)</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>281881</rdommax>
+<attrunit>short tons</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>1996</attrlabl>
+<attrdef>Coal production for year 1996</attrdef>
+<attrdefs>United States Energy Information Administration (2010)</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>278440</rdommax>
+<attrunit>short tons</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>1995</attrlabl>
+<attrdef>Coal production for year 1995</attrdef>
+<attrdefs>United States Energy Information Administration (2010)</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>263822</rdommax>
+<attrunit>short tons</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>1994</attrlabl>
+<attrdef>Coal production for year 1994</attrdef>
+<attrdefs>United States Energy Information Administration (2010)</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>237092</rdommax>
+<attrunit>short tons</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>1993</attrlabl>
+<attrdef>Coal production for year 1993</attrdef>
+<attrdefs>United States Energy Information Administration (2010)</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>210129</rdommax>
+<attrunit>short tons</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>1992</attrlabl>
+<attrdef>Coal production for year 1992</attrdef>
+<attrdefs>United States Energy Information Administration (2010)</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>190172</rdommax>
+<attrunit>short tons</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>1991</attrlabl>
+<attrdef>Coal production for year 1991</attrdef>
+<attrdefs>United States Energy Information Administration (2010)</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>193854</rdommax>
+<attrunit>short tons</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>1990</attrlabl>
+<attrdef>Coal production for year 1990</attrdef>
+<attrdefs>United States Energy Information Administration (2010)</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>184249</rdommax>
+<attrunit>short tons</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>1986</attrlabl>
+<attrdef>Coal production for year 1986</attrdef>
+<attrdefs>nited States Energy Information Administration (2010)</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>153933</rdommax>
+<attrunit>short tons</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>1985</attrlabl>
+<attrdef>Coal production for year 1985</attrdef>
+<attrdefs>nited States Energy Information Administration (2010)</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>149929</rdommax>
+<attrunit>short tons</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS Information Services</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>Box 25286</address>
+<city>Denver</city>
+<state>CO</state>
+<postal>80225</postal>
+<country>U.S.A.</country>
+</cntaddr>
+<cntvoice>1-888-ASK-USGS</cntvoice>
+<cntfax>303-202-4693</cntfax>
+<cntemail>http://store.usgs.gov/</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>USGS OFR 2012-1205</resdesc>
+<distliab>
+This digital publication was prepared by an agency of the United States Government. Neither the United States Government nor any agency thereof, nor any of their employees, makes any warranty, expressed or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed in this report, or represents that its use would not infringe privately owned rights. Reference therein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise does not necessarily constitute or imply its endorsement, recommendation, or favoring by the United States Government or any agency thereof. Any views and opinions of authors expressed herein do not necessarily state or reflect those of the United States Government or any agency thereof. Although all data published in this Open-File Report have been used by the U.S. Geological Survey (USGS), no warranty, expressed or implied, is made by the USGS as to the accuracy of the data and related materials and/or the functioning of the software. The act of distribution shall not constitute any such
+warranty, and no responsibility is assumed by the USGS in the use of these data, software, or related materials. Graphical map depictions are intended to be used within the map scale limits applicable to the source data. Although software enables the user to view data at various scales, the user is cautioned to refer to the source documentation for the appropriate map scale limitations.
+</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>shapefile</formname>
+<formvern>1.0</formvern>
+<formcont>Coal field polygons with associated characteristics</formcont>
+<filedec>unzip</filedec>
+<transize>220 megabytes</transize>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://pubs.usgs.gov/of/2012/1205/Downloads/GIS.zip</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<techpreq>ArcGIS Desktop 9.X is required to open the map document</techpreq>
+</distinfo>
+<metainfo>
+<metd>20130710</metd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Joseph A. East</cntper>
+<cntorg>U.S. Geological Survey</cntorg>
+</cntperp>
+<cntpos>Geologist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>12201 Sunrise Valley Drive</address>
+<address>Mail Stop 956</address>
+<city>Reston</city>
+<state>VA</state>
+<postal>20192</postal>
+<country>U.S.A</country>
+</cntaddr>
+<cntvoice>703-648-6450</cntvoice>
+<cntfax>703-648-6419</cntfax>
+<cntemail>jeast@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+</metainfo>
+</metadata>

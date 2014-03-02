@@ -1,0 +1,312 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator:
+        U.S. Geological Survey, Central Energy Resources
+        Team
+      Originator: Johnson, E.A.
+      Originator: Roberts, L.N.R.
+      Originator: Brownfield, M.E.
+      Publication_Date: 2000
+      Title:
+        yam*_thk (Isopachs of total net coal in A-D coal zones,
+        Yampa Coal Field)
+      Geospatial_Data_Presentation_Form: map
+      Publication_Information:
+        Publication_Place: Denver, CO USA
+        Publisher: U.S. Geological Survey
+      Other_Citation_Details:
+        In subdir 500k (defines appropriate maximum scale for
+        data use) 
+
+        chap. P, Geology and resource assessment of the middle
+        and upper coal groups in the Yampa coal field,
+        northwestern Colorado 
+      Larger_Work_Citation:
+        Citation_Information:
+          Originator: Kirschbaum, M.A.
+          Originator: Roberts, L.N.R.
+          Originator: Biewick, L.R.H.
+          Publication_Date: 2000
+          Title:
+            Geologic Assessment of Coal in the Colorado
+            Plateau
+          Series_Information:
+            Series_Name:
+              U.S. Geological Survey Professional Paper
+            Issue_Identification: 1625-B 
+          Publication_Information:
+            Publication_Place: Denver, CO
+            Publisher: U.S. Geological Survey
+  Description:
+    Abstract:
+      These are shapefiles and ARC/INFO polygon coverages showing
+      the isopachs of total net coal in beds greater than or equal
+      to 1.2' thick for the A, B, C, and D coal zones in the
+      Williams Fork Formation, Yampa coal field, northwestern
+      Colorado. YAMA_THK is for the A coal zone, YAMB_THK is for
+      the B coal zone, etc.
+    Purpose:
+      The Nation's coal resources are being reassessed by the
+      USGS. This assessment identifies and characterizes the coal
+      beds and coal zones that will provide the bulk of the
+      nation's coal-derived energy during the next century. This
+      assessment is different from previous large-scale USGS
+      assessments because files and databases are being stored in
+      a digital format and are being analyzed using a Geographic
+      Information System (GIS).
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 19970000
+        Ending_Date: 19980000
+    Currentness_Reference: Processing Date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -107.8897
+      East_Bounding_Coordinate: -106.9577
+      North_Bounding_Coordinate: 40.6013
+      South_Bounding_Coordinate: 40.2496
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: Coal
+      Theme_Keyword: National Coal Resource Assessment (NCRA)
+      Theme_Keyword: Colorado Plateau
+      Theme_Keyword: Isopachs of coal
+      Theme_Keyword: coal thickness
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: Colorado
+      Place_Keyword: Sandwash Basin
+      Place_Keyword: Green River Basin
+      Place_Keyword: Rio Blanco County
+      Place_Keyword: Moffat County
+      Place_Keyword: Routt County
+      Place_Keyword: Yampa coal field
+    Stratum:
+      Stratum_Keyword_Thesaurus:
+        Geologic Names Unit Lexicon
+        (GNULEX)
+      Stratum_Keyword: Mesaverde Group
+      Stratum_Keyword: Williams Fork Formation
+      Stratum_Keyword: Iles Formation
+      Stratum_Keyword: Trout Creek Sandstone Mbr.
+      Stratum_Keyword: Twentymile Sandstone Mbr.
+  Access_Constraints: None
+  Use_Constraints: Appropriate maximum scale for data use is 500k.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization:
+          U.S. Geological Survey, Central
+          Energy
+        Contact_Person: Johnson, E.A.
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: PO Box 25046 MS 939 Denver Federal Center
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225
+        Country: USA
+      Contact_Voice_Telephone: 303.236.4857
+  Security_Information:
+    Security_Handling_Description: None
+    Security_Classification: Unclassified
+    Security_Classification_System: None
+  Native_Data_Set_Environment:
+    SunOS, 5.5.1, sun4d UNIX, ARC/INFO version 7.0.4 and ArcView 3.1
+
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: See Entity_Attribute_Information
+  Logical_Consistency_Report: Polygon topology present.
+  Completeness_Report: Complete
+  Lineage:
+    Process_Step:
+      Process_Description:
+        Initial queries of the Stratifact database were made
+        for only those records that contain data on each of the
+        four coal zones resulting in four separate files
+        (subsets) of the database. These were input files for a
+        parting/split program. This program, written at the
+        USGS, determines whether a rock unit between two coal
+        units is a parting in a coal bed or if the rock unit
+        splits two separate coal beds as defined in (Wood and
+        others, 1983, p. 36). Coal units are combined to form a
+        single bed if the thickness of rock between them is
+        thinner than the coal on either side. If the rock is
+        thinner it is considered to be a parting and if it is
+        thicker it is considered to be a split. After the
+        program calculates the thickness of coal in each coal
+        bed it determines if the coal beds are greater than the
+        minimum thickness requirement as a resource. For coals
+        of bituminous rank, this minimum thickness is 1.2 ft.
+        (Wood and others, 1983, p.34). Coals in the Yampa coal
+        area are bituminous in rank. The program goes through
+        another process where it sums coal bed thickness of
+        only the coal beds that are greater than or equal to
+        the minimum thickness (1.2'). The program outputs a
+        single line of data for each location with net coal
+        thickness and x, y location parameters. The data output
+        from this program also contains a column designating
+        the number of coal beds that were added to arrive at
+        the net coal thickness. Output files from the
+        parting/split program were introduced into EarthVision
+        (EV) as scattered data files and projected into Lambert
+        Conformal Conic projection. Locations with a net coal
+        thickness value of zero were appended to the scattered
+        data file (applicable only to the B and C coal zones)
+        to control extrapolation during gridding. These
+        scattered data files were then gridded in EV using the
+        'minimum tension grid' option. The isopach maps for
+        each coal zone were plotted in EV with a contour
+        interval that best-depicts the coal thickness
+        distribution with an added contour line for 1.2 ft, if
+        applicable. The contour lines were saved in contour
+        output files. The contour output files were converted
+        to files in 'arc generate' format using ISMARC and then
+        converted to ARC/INFO polygon coverages using an Arc
+        Macro Language program from the Illinois State
+        Geological Survey. The coverages were converted to
+        shapefiles using ArcView.
+      Process_Date:
+        19980000
+
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 22
+
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Geographic:
+      Latitude_Resolution: .0001
+      Longitude_Resolution: .0001
+      Geographic_Coordinate_Units: Decimal degrees
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum 1927
+      Ellipsoid_Name: Clarke 1866
+      Semi-major_Axis: 6378206.4
+      Denominator_of_Flattening_Ratio:
+        294.98
+
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: yam*_thk.dbf
+      Entity_Type_Definition: Shapefile Attribute Table
+      Entity_Type_Definition_Source: None
+    Attribute:
+      Attribute_Label: Area
+      Attribute_Definition: Area of polygon
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.000
+          Range_Domain_Maximum: 0.087
+    Attribute:
+      Attribute_Label: Perimeter
+      Attribute_Definition: Perimeter of polygon
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.027
+          Range_Domain_Maximum: 3.030
+    Attribute:
+      Attribute_Label: Depth
+      Attribute_Definition:
+        Net coal thickness in beds greater than or equal to 1.2
+        ft.
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 10.00
+          Range_Domain_Maximum: 90.00
+    Attribute:
+      Attribute_Label: Depth2
+      Attribute_Definition:
+        Net coal thickness in beds greater than or equal to 1.2
+        ft.
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain:
+          Character field
+
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization:
+          U.S. Geological Survey, Central
+          Energy
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: PO Box 25046 MS 939 Denver Federal Center
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225
+        Country: USA
+      Contact_Voice_Telephone: 303.236.4608
+  Resource_Description: Shapefile and ARC/INFO coverage
+  Distribution_Liability:
+    Any use of trade, product, or company names in this publication
+    is for descriptive purposes only and does not imply endorsement
+    by the U.S. Government. Although these data have been processed
+    successfully on a computer system at the U.S. Geological Survey,
+    no warranty expressed or implied is made by the USGS regarding
+    the utility of the data on any other system, nor shall the act of
+    distribution constitute any such warranty. This data is not a
+    legal document and is not intended to be used as such.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name:
+          ARC/INFO coverage, export file and
+          shapefile
+        Format_Version_Number: ARC/INFO 7.0.4, ArcView 2.1
+      Digital_Transfer_Option:
+        Offline_Option:
+          Offline_Media: CD-ROM
+          Recording_Format: ISO 9660
+    Fees: none
+  Technical_Prerequisites:
+    need ARC/INFO 7.0.4 or greater and/or ArcView 2.1 or greater
+    and/or ArcExplorer (which can be downloaded free from
+    <URL:http://www.esri.com>) and/or other software that can read
+    ARC/INFO coverages, ARC/INFO export files, and/or shapefiles
+
+Metadata_Reference_Information:
+  Metadata_Date: 19990203
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization:
+          U.S. Geological Survey, Central
+          Energy
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: PO Box 25046 MS 939 Denver Federal Center
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225
+        Country: USA
+      Contact_Voice_Telephone: 303.236.4608
+  Metadata_Standard_Name:
+    FGDC Content Standards for Digital Geospatial
+    Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Access_Constraints: None
+  Metadata_Security_Information:
+    Metadata_Security_Handling_Description: None
+    Metadata_Security_Classification: Unclassified
+    Metadata_Security_Classification_System:
+      None
+
+      ------------------------------------------------------------------------
+      Generated by mp version 2.4.8 on Mon Sep 27 14:11:07 1999

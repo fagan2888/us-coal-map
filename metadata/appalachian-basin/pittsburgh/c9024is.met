@@ -1,0 +1,405 @@
+Metadata:
+  Identification_Information:
+    Citation:
+      Citation_Information:
+        Originator: Susan J. Tewalt
+        Publication_Date: 2000
+        Title:
+          Thickness of Pittsburgh coal bed main bench in Maryland, Ohio, Pennsylvania,
+          and West Virginia
+        Larger_Work_Citation:
+          Citation_Information:          
+            Originator: Northern and Central Appalachian Basin Coal Regions
+              Assessment Team
+            Publication_Date: 2000
+            Title:
+              2000 Resource Assessment of Selected Coal Beds and Zones in the
+              Northern and Central Appalachian Basin Coal Regions
+            Series_Information:
+              Series_Name: U.S. Geological Survey Professional Paper
+              Issue_Identification: PP1625-C
+            Publication_Information:
+              Publication_Place: Reston, VA
+              Publisher: U.S. Geological Survey
+            Online_Linkage: http://greenwood.cr.usgs.gov/pub/ppapers/p1625c/
+    Description:
+      Abstract:
+        The Pittsburgh coal bed is composed of regionally persistent divisions- a roof
+        division (coals and shales) and a lower division, referred to as the "main bench".
+        This dataset is a polygon coverage of the thickness of the  
+        Pittsburgh coal bed main bench, in feet, over the extent of the Pittsburgh
+        coal bed resource areas designated for this study. The coverage was produced
+        by gridding (producing 300 meter cells) 4,556 point-source data
+        from the National Coal Resources Data System (NCRDS) of the USGS, using 
+        ISM (Version 7.1) software, subsequently contoured into 1.17-ft (14-inch)
+        intervals, and imported to ARC/INFO. The 'thick' item for each polygon 
+        reflects a value in feet halfway between the bounding contour lines.  
+        The 'is_cat' item is a category code from criteria in USGS Circular 891. 
+        Coverage name: c9024is (024 is the code assigned to the Pittsburgh Coal bed). 
+        Zero thickness areas were not differentiated as to whether they were
+        depositional or erosional, a deviation from standard USGS Circular 891
+        methodology.
+        The coverage's polygons have been clipped to the resource areas designated on
+        USGS Open-File Report 96-280, scale 1:425,000. Thickness contour lines
+        are also available extrapolated over the entire extent of the Pittsburgh
+        coal bed and its horizon (also see USGS Open-File Report 97-748 for a generalized
+        version of these isopach contours in 1-ft contour intervals).
+      Purpose:
+        The purpose of Professional Paper 1625 is to release the interpretation of
+        assessment and modeling data for the top-producing coal beds in the northern
+        and central Appalachian Basin coal regions.
+        This dataset provided coal thickness for the calculation of resources for the
+        Pittsburgh coal bed in Region 9, the Appalachians. The dataset is useful for
+        regional studies- not necessarily applicable to local scales.
+    Time_Period_of_Content:
+      Time_Period_Information:
+        Range_of_Dates/Times: 
+          Beginning_Date: 1970's
+          Ending_Date: 1997
+      Currentness_Reference: data collection and collation period
+    Status:
+      Progress: Complete
+      Maintenance_and_Update_Frequency: None planned
+    Spatial_Domain:
+      Bounding_Coordinates:
+        West_Bounding_Coordinate: -82.657
+        East_Bounding_Coordinate: -78.604
+        North_Bounding_Coordinate: 40.635
+        South_Bounding_Coordinate: 38.315
+    Keywords:
+      Theme:
+        Theme_Keyword_Thesaurus:
+          Coal Resource Classification of the U.S. Geological Survey, USGS
+          Circular 891.
+        Theme_Keyword: coal
+        Theme_Keyword: coal resources
+        Theme_Keyword: coal thickness
+        Theme_Keyword: bituminous
+        Theme_Keyword: isopach
+        Theme_Keyword: outcrop
+        Theme_Keyword: USGS
+        Theme_Keyword: West Virginia Geological and Economic Survey
+        Theme_Keyword: Ohio Division of Geological Survey
+        Theme_Keyword: Maryland Geological Survey
+        Theme_Keyword: Pennsylvania Bureau of Topographic and Geologic Survey
+      Place:
+        Place_Keyword_Thesaurus: Geographic Names Information System
+        Place_Keyword: Appalachians
+        Place_Keyword: CLAY County WV
+        Place_Keyword: RITCHIE County WV
+        Place_Keyword: MUSKINGUM County OH
+        Place_Keyword: MONROE County OH
+        Place_Keyword: WETZEL County WV
+        Place_Keyword: TYLER County WV
+        Place_Keyword: MARION County WV
+        Place_Keyword: MONONGALIA County WV
+        Place_Keyword: GREENE County PA
+        Place_Keyword: BROOKE County WV
+        Place_Keyword: TAYLOR County WV
+        Place_Keyword: KANAWHA County WV
+        Place_Keyword: LINCOLN County WV
+        Place_Keyword: WAYNE County WV
+        Place_Keyword: TUCKER County WV
+        Place_Keyword: GRANT County WV
+        Place_Keyword: MINERAL County WV
+        Place_Keyword: GARRETT County MD
+        Place_Keyword: SOMERSET County PA
+        Place_Keyword: CAMBRIA County PA
+        Place_Keyword: PRESTON County WV
+        Place_Keyword: FAYETTE County PA
+        Place_Keyword: BARBOUR County WV
+        Place_Keyword: UPSHUR County WV
+        Place_Keyword: BRAXTON County WV
+        Place_Keyword: CABELL County WV
+        Place_Keyword: LAWRENCE County OH
+        Place_Keyword: GALLIA County OH
+        Place_Keyword: MASON County WV
+        Place_Keyword: PUTNAM County WV
+        Place_Keyword: JACKSON County WV
+        Place_Keyword: MEIGS County OH
+        Place_Keyword: ROANE County WV
+        Place_Keyword: WIRT County WV
+        Place_Keyword: CALHOUN County WV
+        Place_Keyword: ATHENS County OH
+        Place_Keyword: WASHINGTON County OH
+        Place_Keyword: WOOD County WV
+        Place_Keyword: PLEASANTS County WV
+        Place_Keyword: GILMER County WV
+        Place_Keyword: DODDRIDGE County WV
+        Place_Keyword: MORGAN County OH
+        Place_Keyword: HARRISON County WV
+        Place_Keyword: NOBLE County OH
+        Place_Keyword: GUERNSEY County OH
+        Place_Keyword: BELMONT County OH
+        Place_Keyword: OHIO County WV
+        Place_Keyword: HARRISON County OH
+        Place_Keyword: CARROLL County OH
+        Place_Keyword: JEFFERSON County OH
+        Place_Keyword: MARSHALL County WV
+        Place_Keyword: BEAVER County PA
+        Place_Keyword: ALLEGHENY County PA
+        Place_Keyword: ARMSTRONG County PA
+        Place_Keyword: INDIANA County PA
+        Place_Keyword: WESTMORELAND County PA
+        Place_Keyword: ALLEGANY County MD
+        Place_Keyword: LEWIS County WV
+        Place_Keyword: HANCOCK County WV
+        Place_Keyword: WASHINGTON County PA
+      Stratum:
+        Stratum_Keyword_Thesaurus:
+          Geologic Names Unit Lexicon (GNULEX), 1996;
+          Stratigraphic Nomenclature Databases for the United States, It's
+          possessions, and Territories, U.S. Geological Survey Digital Data
+          Series DDS-6, release 3.
+        Stratum_Keyword: Pittsburgh coal bed
+        Stratum_Keyword: Pittsburgh coal
+        Stratum_Keyword: Upper Pennsylvanian
+        Stratum_Keyword: Monongahela Group
+        Stratum_Keyword: Conemaugh Group
+    Access_Constraints: none
+    Use_Constraints: to be used for regional analysis only
+    Point_of_Contact:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person:  Susan J. Tewalt
+          Contact_Organization: U.S. Geological Survey, Eastern Energy Resources Team
+        Contact_Address:
+          Address_Type: mailing address
+          Address: MS 956 National Center
+          City: Reston
+          State_or_Province: Virginia
+          Postal_Code: 20192
+          Country: USA
+        Contact_Voice_Telephone: 703-648-6437
+    Data_Set_Credit:
+      The stratigraphic data stored in the NCRDS has been submitted by
+      State Geological Surveys and USGS scientists since its inception
+      in the middle 1970's through State cooperative programs. The data
+      for the Pittsburgh coal bed was used with the permission and through
+      the cooperation of coal geologists (primary contacts listed) at the West 
+      Virginia Geological and Economic Survey (Nick Fedorko), the Pennsylvania
+      Bureau of Topographic and Geologic Survey (James R. Shaulis and Viktoras
+      W. Skema), the Ohio Division of Geological Survey (Richard W. Carlton)
+      and the Maryland Geological Survey (Dave Brezinski). [WVGES, PAGS, OHGS,
+      and MDGS, respectively.]  It is recommended that new data be obtained from 
+      the State geological surveys that are the original sources of the data used in
+      this study.
+  Data_Quality_Information:
+    Attribute_Accuracy:
+      Attribute_Accuracy_Report:
+        Deductive_Estimate: The range of thickness values in the point-source
+          information was 0 to 12.84 feet.  The resultant range of the gridded
+          surface was negative to 27 feet; extrapolation was used over the x,y extent. 
+          The average absolute Z-error of the grid was 0.14 feet, which is 0.4
+          percent of the range. 
+    Logical_Consistency_Report: Topologically clean 
+    Completeness_Report: Input points were irregularly distributed over the
+      spatial extent of the study, therefore areas of sparse data will not 
+      reflect ground truth.  The main bench of the Pittsburgh coal was
+      selected by name from the stratigraphic data base stored in StratiFact, a
+      relational data base manager in use by the USGS National Coal Assessment. 
+      The original data submitted to NCRDS may not have had the main bench
+      identified, a task performed within StratiFact by examining data in
+      cross sections. Data used were selected by geologist from the database.
+    Positional_Accuracy:
+      Horizontal_Positional_Accuracy:
+        Horizontal_Positional_Accuracy_Report: A wide variety of data sources were
+          used as input to this data set. The worst horizontal error is expected
+          to be approximately 1/4 mile. Original data were stored in NCRDS
+          in latitude/longitude coordinates with a possible precision of decimal 
+          seconds. Some loss of precision was made upon conversion to StratiFact. 
+          Location coordinates were converted to Albers Equal Area projection (.01 meter 
+          precision) prior to gridding in ISM.
+      Vertical_Positional_Accuracy:
+        Vertical_Positional_Accuracy_Report: The raw input data represent thickness
+          measurements from a wide variety of data types: cores, outcrop, oil
+          and gas logs, etc. The original errors associated with these measurments
+          are unknown.  Error may also arise from the differences in the judgement
+          of geologists in the differentiation between coal, bone and partings. 
+          Only coal and impure coal lithologies were included in the database search
+          to determine cumulative coal thickness; bone coal and partings were
+          excluded. 
+    Lineage:
+      Process_Step:
+        Process_Description: Pittsburgh Coal data from NCRDS printed and verified
+          against original data sources.
+        Process_Date: 1995
+      Process_Step: 
+        Process_Description: Corrections made to West Virginia and Maryland data in
+          StratiFact. Corrections made to Pennsylvania data in NCRDS (Ingres).
+          Pennsylvania data downloaded to StratiFact. StratiFact data base
+          obtained from OHGS for Ohio. 
+        Process_Date: 1995-1996
+      Process_Step: 
+        Process_Description: Editing of individual data bases in StratiFact to eliminate
+          data coding differences between states. 
+        Process_Date: 1997
+      Process_Step: 
+        Process_Description: Gridding of thicknesses and further addition and refinement 
+          of data values in StratiFact data bases. ISM (v.7.1) grid parameters used: 
+          isopach surface algorithm (special treatment of zero values), 300 meter cell 
+          size, extrapolation of values over specified x,y extent plus 5%.  
+          Average absolute Z-error of the grid was 0.14 feet, or 0.4% of the range.
+        Process_Date: 1997
+      Process_Step: 
+        Process_Description: The grid was multiplied by 100 in order to maintain precision
+          for import to ARC. The grid was contoured in ISM into the equivalnet of 1.17-ft
+          intervals, using 0 to 14 feet as limits. (The 1.17 feet is approximately the 
+          14-inch interval used in USGS Circular 891.)
+        Process_Date: 1997
+      Process_Step:
+        Process_Description: Import of contours to ARC/INFO for the entire basin,
+          using conversion ARC/INFO AML provided by Illinois State Geological Survey,
+          and rectangular area ARC coverage (box) to clip arcs to form polygons.
+        Process_Date: 1997-1998
+      Process_Step:
+        Process_Description: Changed name of item for thickness to thick and divided by 100.
+          Added item for thickness category (is_cat) and populated it by graphically 
+          selecting desired polygons by thickness in ARCEDIT and calculating the 
+          category value.
+        Process_Date: 1998
+      Process_Step:
+        Process_Description: Clipped ARC coverage to resource areas (coverage c9024ro)
+          using net option.
+        Process_Date: 1998
+      Process_Step:
+        Process_Description: Projected coverage to geographic coordinates.
+        Process_Date: 1998
+  Spatial_Data_Organization_Information:
+    Direct_Spatial_Reference_Method: Vector
+    Point_and_Vector_Object_Information
+      SDTS_Terms_Description
+        SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+        Point_and_Vector_Object_Count: 4037
+  Spatial_Reference_Information:
+    Horizontal_Coordinate_System_Definition:
+      Geographic:
+        Latitude_Resolution: 0.000001
+        Longitude_Resolution: 0.000001
+        Geographic_Coordinate_Units: Decimal degrees
+      Geodetic_Model:
+        Horizontal_Datum_Name:  North American Datum of 1927
+        Ellipsoid_Name: Clarke 1866
+        Semi-major_Axis: 6378206.4
+        Denominator_of_Flattening_Ratio:  294.98
+  Entity_and_Attribute_Information:
+    Detailed_Description:
+      Entity_Type:
+        Entity_Type_Label: c9024is.pat
+        Entity_Type_Definition: polygon attribute table for coverage
+        Entity_Type_Definition_Source: ARC/INFO
+      Attribute:
+        Attribute_Label: thick
+        Attribute_Definition: average thickness value of bounding contour lines;
+          internal no-coal areas have thicknesses of 0
+        Attribute_Definition_Source: this study
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 0.0
+            Range_Domain_Maximum: 13.455
+            Attribute_Units_of_Measure: feet
+        Attribute_Value_Accuracy_Information:
+          Attribute_Value_Accuracy: 0.585 
+          Attribute_Value_Accuracy_Explanation: 
+            plus or minus half of one contour interval
+      Attribute:
+        Attribute_Label: is_cat
+        Attribute_Definition: category label for coal bed thickness
+        Attribute_Definition_Source: this study
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 100 
+            Enumerated_Domain_Value_Definition:
+              '100' is < 1.17 feet and not used in resource calculations
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 101 
+            Enumerated_Domain_Value_Definition:
+              '101' is 1.17 - 2.34 feet
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 102 
+            Enumerated_Domain_Value_Definition:
+              '102' is 2.34 - 3.51 feet
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 103 
+            Enumerated_Domain_Value_Definition:
+              '103' is 3.51 - 7.02 feet
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 104 
+            Enumerated_Domain_Value_Definition:
+              '104' is 7.02 - 14  feet
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 999
+            Enumerated_Domain_Value_Definition:
+              '999' are internal no-coal areas and not used in resource calculations
+            Enumerated_Domain_Value_Definition_Source: USGS
+    Detailed_Description:
+      Entity_Type:
+        Entity_Type_Label: c9024is.aat
+        Entity_Type_Definition: arc attribute table for coverage
+        Entity_Type_Definition_Source: ARC/INFO
+      Attribute:
+        Attribute_Label: thick
+        Attribute_Definition: thickness contour value; -999 is clipping polygon
+          outcrop value
+        Attribute_Definition_Source: this study
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 0.0
+            Range_Domain_Maximum: 12.9
+            Attribute_Units_of_Measure: feet
+        Attribute_Value_Accuracy_Information:
+          Attribute_Value_Accuracy: 1.17 
+          Attribute_Value_Accuracy_Explanation: 
+            plus or minus one contour interval
+  Distribution_Information:
+    Distributor:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Susan J. Tewalt
+          Contact_Organization: U.S. Geological Survey, Eastern Energy Resources Team
+        Contact_Address:
+          Address_Type: mailing address
+          Address: MS 956 National Center
+          City: Reston
+          State_or_Province: Virginia
+          Postal_Code: 20192
+          Country: USA
+        Contact_Voice_Telephone: 703-648-6437
+    Resource_Description: USGS Professional Paper: Chapter C, c9024is.e00
+    Distribution_Liability:
+      Any use of trade, product, or firm names is for descriptive purposes only and
+      does not imply endorsement by the U.S. Government. Although these
+      data have been used by the U.S. Geological Survey (USGS), no warranty, 
+      expressed or implied, is made by the USGS as to the accuracy of the data
+      and related materials.  The act of distribution shall not constitute any
+      such warranty, and no responsibility is assumed by the USGS in the use
+      of these data, software, or related materials.
+    Standard_Order_Process:
+      Digital_Form:
+        Digital_Transfer_Information:
+          Format_Name: ARCE
+          Format_Version_Number: 7.1.1
+          Format_Information_Content:  polygonal thickness contours
+        Digital_Transfer_Option:
+          Online_Option:
+            Computer_Contact_Information:
+              Network_Address:
+                Network_Resource_Name: http://greenwood.cr.usgs.gov/pub/ppapers/p1625c/
+      Fees: none
+  Metadata_Reference_Information:
+    Metadata_Date: 19970505
+    Metadata_Contact:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Susan J. Tewalt
+          Contact_Organization: U.S. Geological Survey, Eastern Energy Resources Team
+        Contact_Address:
+          Address_Type: mailing address
+          Address: MS 956 National Center
+          City: Reston
+          State_or_Province: Virginia
+          Postal_Code: 20192
+          Country: USA
+        Contact_Voice_Telephone: 703-648-6437
+    Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+    Metadata_Standard_Version: FGDC-STD-001-1998

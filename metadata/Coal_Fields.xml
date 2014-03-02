@@ -1,0 +1,1646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>East, J.A.</origin>
+<pubdate>2012</pubdate>
+<title>Coal Fields of the Conterminous United States: National Coal Resource Assessment Updated Version</title>
+<geoform>vector digital data</geoform>
+<serinfo>
+<sername>Open File Report</sername>
+<issue>2012-1205</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Reston, VA</pubplace>
+<publish>U.S. Geological Survey</publish>
+</pubinfo>
+<onlink>http://pubs.usgs.gov/of/2012/1205/</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>
+This dataset is a polygon shapefile representing the most recent
+update of the coal fields of the conterminous United States. Scale of
+data is 1:5,000,000. This publication is based on a USGS paper map
+that was a representation of the coal fields and major regions of the
+time (Trumbull, 1960). Trumbull's 1960 map was digitized and coal
+fields from the Gulf Coast were added to create USGS OFR 96-92, Coal
+Fields of the Conterminous United States (Tully, 1996). Tully's
+(1996) publication consisted of a map in pdf format that could be
+printed, and an ArcInfo coverage of the coal fields, attributed with
+rank and potential economic use (minability) of the coal. This new
+dataset includes a pdf showing updated coal fields and a shapefile
+that contains attributes on coal rank (without regard to outdated
+economic standards), province, name, and age. The data used to update
+Tully's (1996) digital map was collected from the  National Coal
+Resource Assessment (NCRA) regional Professional Papers produced by
+the USGS and from AAPG Discovery Series 14/Studies in Geology 62, all
+of which were conducted by USGS geologists and professional staff. A
+small number of field names were added and or updated in the western
+states of Washington, Oregon, California, Utah, Colorado and New
+Mexico using additional coal resource literature.
+</abstract>
+<purpose>
+This dataset was compiled to update the Coal Fields Map of the
+Conterminous United States OFR 96-92, using new data provided by the
+USGS Energy Program NCRA assessments. The pdf and shapefiles were
+updated with the intent to remove outdated economic information
+that was rendered obsolete due to changes in technology. New
+attributes for regional or area names, provinces, and the geologic
+age of the coal were added as well as in other miscellaneous graphic
+products for demonstration purposes with other Federal agencies and
+Congress.
+</purpose>
+<supplinf>
+Sources cited in the abstract and purpose:
+&gt; Trumbull, J., 1960, Coal Fields of the United States (sheet 1): U.S. Geological Survey map, Scale 1:5,000,000.
+&gt; Tully, J., 1996, Coal Fields of the Conterminous United States: U.S. Geological Survey Open File Report 96-92, Scale 1:5,000,000.
+</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2013</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-124.363472</westbc>
+<eastbc>-71.149513</eastbc>
+<northbc>49.001785</northbc>
+<southbc>26.034014</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>ISO 19115 Topic Category</themekt>
+<themekey>Geoscientific Information</themekey>
+</theme>
+<theme>
+<themekt>USGS Thesaurus</themekt>
+<themekey>coal resources</themekey>
+<themekey>geologic maps</themekey>
+<themekey>geology</themekey>
+<themekey>geospatial datasets</themekey>
+</theme>
+<theme>
+<themekt>Alexandria Digital Library Feature Type Thesaurus</themekt>
+<themekey>mineral resource areas</themekey>
+</theme>
+<theme>
+<themekt>none</themekt>
+<themekey>Coal Fields Map of North America</themekey>
+<themekey>Coal</themekey>
+<themekey>Lignite</themekey>
+<themekey>Lignite A</themekey>
+<themekey>Lignite B</themekey>
+<themekey>Subbituminous</themekey>
+<themekey>Subbituminous A</themekey>
+<themekey>Subbituminous B</themekey>
+<themekey>Subbituminous C</themekey>
+<themekey>High volatile bitumnous</themekey>
+<themekey>High volatile C bituminous</themekey>
+<themekey>High volatile B bituminous</themekey>
+<themekey>High volatile A bituminous</themekey>
+<themekey>Medium volatile bitumnous</themekey>
+<themekey>Low volatile bitumnous</themekey>
+<themekey>Semianthracite</themekey>
+<themekey>Anthracite</themekey>
+<themekey>Meta-anthracite</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>North America</placekey>
+<placekey>United States</placekey>
+<placekey>Alabama</placekey>
+<placekey>Arizona</placekey>
+<placekey>Arkansas</placekey>
+<placekey>California</placekey>
+<placekey>Colorado</placekey>
+<placekey>Connecticut</placekey>
+<placekey>Delaware</placekey>
+<placekey>District of Columbia</placekey>
+<placekey>Florida</placekey>
+<placekey>Georgia</placekey>
+<placekey>Idaho</placekey>
+<placekey>Illinois</placekey>
+<placekey>Indiana</placekey>
+<placekey>Iowa</placekey>
+<placekey>Kansas</placekey>
+<placekey>Kentucky</placekey>
+<placekey>Lousiana</placekey>
+<placekey>Maine</placekey>
+<placekey>Maryland</placekey>
+<placekey>Massachusetts</placekey>
+<placekey>Michigan</placekey>
+<placekey>Minnesota</placekey>
+<placekey>Missouri</placekey>
+<placekey>Montana</placekey>
+<placekey>Nebraska</placekey>
+<placekey>Nevada</placekey>
+<placekey>New Hampshire</placekey>
+<placekey>New Jersey</placekey>
+<placekey>New Mexico</placekey>
+<placekey>New York</placekey>
+<placekey>North Carolina</placekey>
+<placekey>North Dakota</placekey>
+<placekey>Ohio</placekey>
+<placekey>Oklahoma</placekey>
+<placekey>Oregon</placekey>
+<placekey>Pennsylvania</placekey>
+<placekey>Rhode Island</placekey>
+<placekey>South Carolina</placekey>
+<placekey>South Dakota</placekey>
+<placekey>Tennessee</placekey>
+<placekey>Texas</placekey>
+<placekey>Utah</placekey>
+<placekey>Vermont</placekey>
+<placekey>Virginia</placekey>
+<placekey>Washington</placekey>
+<placekey>West Virginia</placekey>
+<placekey>Wisconsin</placekey>
+<placekey>Wyoming</placekey>
+<placekey>Mississippi</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Joseph East</cntper>
+<cntorg>U.S. Geological Survey</cntorg>
+</cntperp>
+<cntpos>Geologist</cntpos>
+<cntaddr>
+<addrtype>physical address</addrtype>
+<address>MS 956 National Center</address>
+<address>12201 Sunrise Valley Drive</address>
+<city>Reston</city>
+<state>VA</state>
+<postal>20192</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>703-648-6450</cntvoice>
+<cntfax>703-648-6419</cntfax>
+<cntemail>jeast@usgs.gov</cntemail>
+</cntinfo>
+</ptcontac>
+<datacred>Technical reviews for this publication were provided by Leslie Ruppert, Christopher Garrity, Susan Tewalt, Lee Osmonson, James Luppens and James Coleman.</datacred>
+<native>Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.0.1770</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>Attribute accuracy was tested by manual comparison of the source with georeferenced digital printouts of the original USGS OFR 96-092, shapefiles from the digital Geological Map of the United States, and the shapefiles from the NCRA assessments.</attraccr>
+</attracc>
+<logic>Map elements were visually checked for overshoots, undershoots, duplicates, polygon closure and proper attribution. All polygons were created from existing shapefiles or coverages that had already gone through the USGS publications process.</logic>
+<complete>Data set complete. No data were intentionally omitted from the hard copy and digital source maps.</complete>
+<posacc>
+<horizpa>
+<horizpar>The digital file and shapefile is based on the Tully (1996) map, which does not have an entry for Positional Accuracy in its metadata. That file was primarily digitized off of Trumbull's (1960) map, which was based on existing mapping techniques. Potential exists for errors during the data collection phase and the digitization phase of the maps that this report uses.</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Trumbull, J.</origin>
+<pubdate>1960</pubdate>
+<title>Coal Fields of the United States (sheet 1)</title>
+<serinfo>
+<sername>U.S. Geological Survey Map</sername>
+<issue>(none)</issue>
+</serinfo>
+</citeinfo>
+</srccite>
+<srcscale>5000000</srcscale>
+<typesrc>Paper map</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1960</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Trumbull, J. (1960)</srccitea>
+<srccontr>Original Paper Map of the Coal Fields</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Tully, J.</origin>
+<pubdate>1996</pubdate>
+<title>Coal Fields of the Conterminous United States. U.S. Geological Survey Open File Report 96-092.</title>
+<serinfo>
+<sername>U.S. Geological Survey Open-File Report</sername>
+<issue>96-092</issue>
+</serinfo>
+<onlink>http://pubs.usgs.gov/of/1996/of96-092/</onlink>
+</citeinfo>
+</srccite>
+<srcscale>5000000</srcscale>
+<typesrc>PDF of map, and Arc Info Coverage.</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1996</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Tully, J. (1996)</srccitea>
+<srccontr>Digital update of Trumbull 1960 used as base GIS for project</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Schruben, P.</origin>
+<origin>Arndt, R.</origin>
+<origin>Bawiec, W.</origin>
+<pubdate>1998</pubdate>
+<title>Geology of the Conterminous United States at 1:2,500,000 Scale--A Digital Representation of the 1974 P.B. King and H.M. Beikman Map.</title>
+<serinfo>
+<sername>U.S. Geological Survey Digital Data Series</sername>
+<issue>DDS-11</issue>
+</serinfo>
+<onlink>http://pubs.usgs.gov/dds/dds11/</onlink>
+</citeinfo>
+</srccite>
+<srcscale>2500000</srcscale>
+<typesrc>Arc Info Coverage</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1998</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Schruben and others (1998)</srccitea>
+<srccontr>Provided updated outlines for coal bearing units not included in NCRA assessment.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Fort Union Coal Assessment Team</origin>
+<pubdate>1999</pubdate>
+<title>1999 Resource Assessment of Selected Tertiary Coal Beds and Zones in the Northern Rocky Mountains and Great Plains Region.</title>
+<serinfo>
+<sername>U.S. Geological Survey Professional Paper</sername>
+<issue>1625-A</issue>
+</serinfo>
+<onlink>http://pubs.usgs.gov/pp/p1625a/</onlink>
+</citeinfo>
+</srccite>
+<typesrc>ESRI shapefiles</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1999</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Fort Union Coal Assessment Team (1999)</srccitea>
+<srccontr>Provided areas that were updated in the NCRA Assessment of the Rocky Mountains and Great Plains</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Kirschbaum, M.</origin>
+<origin>Roberts, L.</origin>
+<origin>Biewick, L.</origin>
+<pubdate>2000</pubdate>
+<title>Geologic Assessment of Coal in the Colorado</title>
+<serinfo>
+<sername>U.S. Geological Survey Professional Paper</sername>
+<issue>1625-B</issue>
+</serinfo>
+<onlink>http://pubs.usgs.gov/pp/p1625b/</onlink>
+</citeinfo>
+</srccite>
+<typesrc>ESRI shapefiles</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2000</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Kirschbaum and others (2000)</srccitea>
+<srccontr>Provided areas that were updated in the NCRA Assessment of the Colorado Plateau</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Northern and Central Appalachian Basin Coal Regions Assessment Team</origin>
+<pubdate>2001</pubdate>
+<title>2000 Resource Assessment of Selected Coal Beds and Zones in the Northern and Central Appalachian Basin Coal Regions.</title>
+<serinfo>
+<sername>U.S. Geological Survey Professional Paper</sername>
+<issue>1625-C</issue>
+</serinfo>
+<onlink>http://pubs.usgs.gov/pp/p1625c/</onlink>
+</citeinfo>
+</srccite>
+<typesrc>ESRI coverages</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2001</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Northern and Central Appalachian Basin Coal Regions Assessment Team (2001)</srccitea>
+<srccontr>Provided areas that were updated in the NCRA Assessment of the Appalachian Basin</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Hatch, J.</origin>
+<origin>Affolter, R.</origin>
+<pubdate>2002</pubdate>
+<title>Resource Assessment of the Springfield, Herrin, Danville, and Baker Coals in the Illinois Basin.</title>
+<serinfo>
+<sername>U.S. Geological Survey Professional Paper</sername>
+<issue>1625-D</issue>
+</serinfo>
+<onlink>http://pubs.usgs.gov/pp/p1625d/</onlink>
+</citeinfo>
+</srccite>
+<typesrc>ESRI shapefiles</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2002</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Hatch and Affolter (2002)</srccitea>
+<srccontr>Provided areas that were updated in the NCRA Assessment of the Illinois Basin</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>ASTM International</origin>
+<pubdate>2005</pubdate>
+<title>Standard Classification of Coals by Rank (Designation D388-05)</title>
+<serinfo>
+<sername>2005 Annual Book of ASTM Standards, V 5.05</sername>
+<issue>D388-05, V 5.05, P. 168-171</issue>
+</serinfo>
+<onlink>http://www.astm.org/Standards/D388.htm</onlink>
+</citeinfo>
+</srccite>
+<typesrc>paper</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2005</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>ASTM International (2005)</srccitea>
+<srccontr>Provided ranges of carbon and calorific values for grades of coal</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>AAPG</origin>
+<origin>Warwick, P.</origin>
+<origin>Karlsen, A.</origin>
+<origin>Merrill, M.</origin>
+<origin>Valentine, B.</origin>
+<pubdate>2011</pubdate>
+<title>Geologic assessment of coal in the Gulf of Mexico Coastal Plain, USA</title>
+<serinfo>
+<sername>AAPG Discovery Series/Studies in Geology</sername>
+<issue>DS 14/SIG 62</issue>
+</serinfo>
+<onlink>http://www.datapages.com/Services/GISUDRIL/OpenFiles/GulfCoastCoalAssessment.aspx</onlink>
+</citeinfo>
+</srccite>
+<typesrc>ESRI shapefile</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2011</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Warwick and others (2011)</srccitea>
+<srccontr>Provided areas that were updated in the NCRA Assessment of the Gulf Coast</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Coal Age</origin>
+<origin>Mining Media International</origin>
+<pubdate>2010</pubdate>
+<title>Keystone Coal Industry Manual--Coal Geology of New Mexico</title>
+<serinfo>
+<sername>Keystone Coal Industry Manual</sername>
+<issue>2010 p 517-527</issue>
+</serinfo>
+</citeinfo>
+</srccite>
+<typesrc>paper</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2010</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Coal Age A</srccitea>
+<srccontr>Provided supplemental areas of New Mexico coal fields</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Coal Age</origin>
+<origin>Mining Media International</origin>
+<pubdate>2010</pubdate>
+<title>Keystone Coal Industry Manual--Coal Geology of Colorado</title>
+<serinfo>
+<sername>Keystone Coal Industry Manual</sername>
+<issue>2010 p 443-455</issue>
+</serinfo>
+</citeinfo>
+</srccite>
+<typesrc>Paper Map</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2010</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Coal Age B</srccitea>
+<srccontr>Provided supplemental areas of Colorado coal fields</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Coal Age</origin>
+<origin>Mining Media International</origin>
+<pubdate>2010</pubdate>
+<title>Keystone Coal Industry Manual--Coal Geology of Utah</title>
+<serinfo>
+<sername>Keystone Coal Industry Manual</sername>
+<issue>2010 p 577-585</issue>
+</serinfo>
+</citeinfo>
+</srccite>
+<typesrc>paper</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2010</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Coal Age C</srccitea>
+<srccontr>Provided supplemental areas of Utah coal fields</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Coal Age</origin>
+<origin>Mining Media International</origin>
+<pubdate>2010</pubdate>
+<title>Keystone Coal Industry Manual -- Coal Geology of Washington</title>
+<serinfo>
+<sername>Keystone Coal Industry Manual</sername>
+<issue>2010 p 592-599</issue>
+</serinfo>
+</citeinfo>
+</srccite>
+<typesrc>paper</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2010</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Coal Age D</srccitea>
+<srccontr>Provided supplemental areas of Washington coal fields</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>California Geological Survey</origin>
+<origin>Hildebrand, R.</origin>
+<pubdate>1978</pubdate>
+<title>Coal Deposits of California -- A selected Annotated Bibliography</title>
+<serinfo>
+<sername>California Geology</sername>
+<issue>Vol 31, No 12</issue>
+</serinfo>
+</citeinfo>
+</srccite>
+<typesrc>paper</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1978</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Hildebrand (1978)</srccitea>
+<srccontr>Provided supplemental areas of California coal fields</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Mason, R.</origin>
+<origin>Erwin, M.</origin>
+<pubdate>1955</pubdate>
+<title>Coal Resources of Oregon</title>
+<serinfo>
+<sername>U.S. Geological Survey Circular</sername>
+<issue>362</issue>
+</serinfo>
+</citeinfo>
+</srccite>
+<typesrc>Paper Map</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1955</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Mason and Erwin (1955)</srccitea>
+<srccontr>Provided supplemental areas of Oregon coal fields</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>The coal_fields shapefile is based on the coverage for the USGS OFR 96-092 Coalfields of the Conterminous United States. The attributed polygon portion of the coverage was exported as a shapefile and the projection was defined as Geographic, NAD27. The shapefile was reprojected to NAD83 using the ESRI NADCON datum conversion. Polygon shapefiles from the NCRA assessments and the digital Geological Map of the United States were added to the project. Areas where the field and or basin outline were updated during the NCRA assessments were incorporated into the coalfields shapefile (predominantly in the western basins). Areas that were not assessed by the NCRA teams, and had implied boundaries, were updated using the maximum extent of the coal bearing formation taken from the digital Geological Map of the United States, Schruben and others (1998). These polygons were then merged together to form the updated boundaries. The original shapefile for OFR 96-092 (Tully, 1996) was modified to remove the economic factor of minability from the rank (DESCRIPTIO) attribute. Polygon boundaries with economic information were merged so that they only contained rank. These polygons were then attributed as Anthracite, Low Volatile Bituminous, Medium and High Volatile Bituminous, Subbituminous, and Lignite. A new attribute for the Province was created. The attribute was populated based on where individual polygons fell in certain provinces, as defined in USGS OFR 96-092 (Tully, 1996). The province lines fell in between the basins and fields, and did not require any splitting or merging of polygons. The Name attribute was not populated in the USGS OFR 96-092 (Tully, 1996) coverage. The field was populated by comparison with the printed report, and individual polygons were attributed with a Region, Area, or Field name. Some of the polygons did not have name information attached. The Age attribute was not populated in the USGS OFR 96-092 (Tully, 1996) coverage. Age was determined by comparison with the printed report, and the digital Geological Map of the United States, and the field was populated. A small amount of field names and points were added and or updated in the western states of Washington, Oregon, California, Utah, Colorado and New Mexico using additional coal resource literature.</procdesc>
+<procdate>20110901</procdate>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>G-polygon</sdtstype>
+<ptvctcnt>602</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<geograph>
+<latres>0.001</latres>
+<longres>0.001</longres>
+<geogunit>Decimal degrees</geogunit>
+</geograph>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137.0</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>Coal_Fields</enttypl>
+<enttypd>Coal Bearing geologic unit polygons.</enttypd>
+<enttypds>text</enttypds>
+</enttyp>
+<attr>
+<attrlabl>FID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PROVINCE</attrlabl>
+<attrdef>Province that Coal polygon falls within</attrdef>
+<attrdefs>Tully, J. (1996)</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Eastern</edomv>
+<edomvd>Eastern Province</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Gulf Coast</edomv>
+<edomvd>Gulf Coast Province</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Interior</edomv>
+<edomvd>Interior Province</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Northern Great Plains</edomv>
+<edomvd>Northern Great Plains Province</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Pacific Coast</edomv>
+<edomvd>Pacific Coast Province</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Rocky Mountain</edomv>
+<edomvd>Rocky Mountain Province</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>NAME</attrlabl>
+<attrdef>Name of Region, Area or Field of coal polygon</attrdef>
+<attrdefs>Tully, J. (1996),Coal Age A (2010),Coal Age B (2010),Coal Age C (2010),Coal Age D (2010),Hildebrand (1978),Mason and Erwin (1955)</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Alberhill Field</edomv>
+<edomvd>Alberhill Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Appalachian Region</edomv>
+<edomvd>Appalachian Region</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Atlantic Coast Region</edomv>
+<edomvd>Atlantic Coast Region</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Big Bar Field</edomv>
+<edomvd>Big Bar Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Big Horn Basin Region</edomv>
+<edomvd>Big Horn Basin Region</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Black Diamond Area</edomv>
+<edomvd>Black Diamond Area</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Black Hills Region</edomv>
+<edomvd>Black Hills Region</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Black Mesa Field</edomv>
+<edomvd>Black Mesa Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Blackfeet-Valier Region</edomv>
+<edomvd>Blackfeet-Valier Region</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Broad Top Coal Field</edomv>
+<edomvd>Broad Top Coal Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Bull Mountain Field</edomv>
+<edomvd>Bull Mountain Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Camas Valley Area</edomv>
+<edomvd>Camas Valley Area</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Canon City Field</edomv>
+<edomvd>Canon City Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Carthage Field</edomv>
+<edomvd>Carthage Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Cavitt Creek Area</edomv>
+<edomvd>Cavitt Creek Area</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Centralia-Chehalis Field</edomv>
+<edomvd>Centralia-Chehalis Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Cerrillos Field</edomv>
+<edomvd>Cerrillos Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Coaldale Field</edomv>
+<edomvd>Coaldale Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Comstock Area</edomv>
+<edomvd>Comstock Area</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Coos Bay Field</edomv>
+<edomvd>Coos Bay Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Corral Hollow Field</edomv>
+<edomvd>Corral Hollow Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Covelo Field</edomv>
+<edomvd>Covelo Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Cretaceous Lignite Area</edomv>
+<edomvd>Cretaceous Lignite Area</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Datil Mountains Field</edomv>
+<edomvd>Datil Mountains Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Deer Creek Field</edomv>
+<edomvd>Deer Creek Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Denver Region</edomv>
+<edomvd>Denver Region</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Eagle Springs Field</edomv>
+<edomvd>Eagle Springs Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Eastern Region</edomv>
+<edomvd>Eastern Region</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Eden Ridge Field</edomv>
+<edomvd>Eden Ridge Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Electric Field</edomv>
+<edomvd>Electric Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Engle Field</edomv>
+<edomvd>Engle Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Flathead Field</edomv>
+<edomvd>Flathead Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Fort Union Region</edomv>
+<edomvd>Fort Union Region</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Garfield County Field</edomv>
+<edomvd>Garfield County Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Glacier Field</edomv>
+<edomvd>Glacier Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Goose Creek Field</edomv>
+<edomvd>Goose Creek Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Goshen Hole Field</edomv>
+<edomvd>Goshen Hole Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Great Falls Field</edomv>
+<edomvd>Great Falls Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Green River Field</edomv>
+<edomvd>Green River Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Green River Region</edomv>
+<edomvd>Green River Region</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Hams Fork Region</edomv>
+<edomvd>Hams Fork Region</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Hanna Field</edomv>
+<edomvd>Hanna Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Harmony Field</edomv>
+<edomvd>Harmony Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Hay Fork Valley Field</edomv>
+<edomvd>Hay Fork Valley Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Horseshoe Bend Field</edomv>
+<edomvd>Horseshoe Bend Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Hyampom Valley Field</edomv>
+<edomvd>Hyampom Valley Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Ione Field</edomv>
+<edomvd>Ione Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Issaquah-Grand Ridge Field</edomv>
+<edomvd>Issaquah-Grand Ridge Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Jackson Hole Field</edomv>
+<edomvd>Jackson Hole Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Jornada del Muerto Field</edomv>
+<edomvd>Jornada del Muerto Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Kelso-Castle Rock Area</edomv>
+<edomvd>Kelso-Castle Rock Area</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Lewistown Field</edomv>
+<edomvd>Lewistown Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Lincoln Field</edomv>
+<edomvd>Lincoln Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Livingston-Trail Creek Field</edomv>
+<edomvd>Livingston-Trail Creek Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Lombard Field</edomv>
+<edomvd>Lombard Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Lookingglass Area</edomv>
+<edomvd>Lookingglass Area</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Lower Nehalem</edomv>
+<edomvd>Lower Nehalem</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Lower Nehalem Area</edomv>
+<edomvd>Lower Nehalem Area</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Mississippi Region</edomv>
+<edomvd>Mississippi Region</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Missoula Field</edomv>
+<edomvd>Missoula Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Monero Field</edomv>
+<edomvd>Monero Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Montgomery Creek Field</edomv>
+<edomvd>Montgomery Creek Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Morton Field</edomv>
+<edomvd>Morton Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Mount Diablo Field</edomv>
+<edomvd>Mount Diablo Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>North Central Fields</edomv>
+<edomvd>North Central Fields</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>North Park Field</edomv>
+<edomvd>North Park Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>North Park Region</edomv>
+<edomvd>North Park Region</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>North-Central Region</edomv>
+<edomvd>North-Central Region</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Northern Region</edomv>
+<edomvd>Northern Region</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Orofino Field</edomv>
+<edomvd>Orofino Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Pagosa Springs Field</edomv>
+<edomvd>Pagosa Springs Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Pennsylvania Anthracite Region</edomv>
+<edomvd>Pennsylvania Anthracite Region</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Pinedale Field</edomv>
+<edomvd>Pinedale Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Powder River Region</edomv>
+<edomvd>Powder River Region</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Raton Mesa Region</edomv>
+<edomvd>Raton Mesa Region</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Rhode Island Meta-Anthracite Region</edomv>
+<edomvd>Rhode Island Meta-Anthracite Region</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Rio Puerco Field</edomv>
+<edomvd>Rio Puerco Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Rock Creek Field</edomv>
+<edomvd>Rock Creek Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Rogue River Field</edomv>
+<edomvd>Rogue River Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Roslyn Cleelum Field</edomv>
+<edomvd>Roslyn Cleelum Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>S.E.Douglas City Field</edomv>
+<edomvd>S.E.Douglas City Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>San Carlos Field</edomv>
+<edomvd>San Carlos Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>San Juan River Region</edomv>
+<edomvd>San Juan River Region</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Sierra Blanca Field</edomv>
+<edomvd>Sierra Blanca Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Skagit County Area</edomv>
+<edomvd>Skagit County Area</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>South Park Field</edomv>
+<edomvd>South Park Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Southwestern Region</edomv>
+<edomvd>Southwestern Region</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Stewart Ranch Area</edomv>
+<edomvd>Stewart Ranch Area</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Stillwater Field</edomv>
+<edomvd>Stillwater Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Stone Canyon Field</edomv>
+<edomvd>Stone Canyon Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Summit Creek Field</edomv>
+<edomvd>Summit Creek Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>SW Utah Region</edomv>
+<edomvd>SW Utah Region</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Terlingua Field</edomv>
+<edomvd>Terlingua Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Tertiary Lake Beds Region</edomv>
+<edomvd>Tertiary Lake Beds Region</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Texas or Mississippi Regions</edomv>
+<edomvd>Texas or Mississippi Regions</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Texas Region</edomv>
+<edomvd>Texas Region</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Tijeras Field</edomv>
+<edomvd>Tijeras Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Tongue Mesa Field</edomv>
+<edomvd>Tongue Mesa Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Uinta Region</edomv>
+<edomvd>Uinta Region</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Una del Gato Field (Hagen Field)</edomv>
+<edomvd>Una del Gato Field (Hagen Field)</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Unnamed Region or Field</edomv>
+<edomvd>Unnamed Region or Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Waldo Hills Area</edomv>
+<edomvd>Waldo Hills Area</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Western Region</edomv>
+<edomvd>Western Region</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Whatcom County Area</edomv>
+<edomvd>Whatcom County Area</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Wilkeson-Carbonado Field</edomv>
+<edomvd>Wilkeson-Carbonado Field</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Willow Creek Area</edomv>
+<edomvd>Willow Creek Area</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Wind River Region</edomv>
+<edomvd>Wind River Region</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Yaquina Area</edomv>
+<edomvd>Yaquina Area</edomvd>
+<edomvds>Tully, J. (1996)</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>AGE</attrlabl>
+<attrdef>Geologic Age of formations that contain coal.</attrdef>
+<attrdefs>Tully, J. (1996)</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Cretaceous</edomv>
+<edomvd>145.5 +/- 4.0 to 65.5 +/- 0.3 MA</edomvd>
+<edomvds>U.S. Geological Survey Geologic Names Committee (2010)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Jurassic</edomv>
+<edomvd>199.6 +/- 0.6 to 145.5 +/- 4.0 MA</edomvd>
+<edomvds>U.S. Geological Survey Geologic Names Committee (2010)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Mississippian</edomv>
+<edomvd>359.2 +/- 2.5 to 318.1 +/- 1.3</edomvd>
+<edomvds>U.S. Geological Survey Geologic Names Committee (2010)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Pennsylvanian-Permian</edomv>
+<edomvd>318.1 +/- 1.3 to 251.0 +/- 0.4 MA</edomvd>
+<edomvds>U.S. Geological Survey Geologic Names Committee (2010)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Tertiary</edomv>
+<edomvd>65.5 +/- 0.3 to 2.588 MA</edomvd>
+<edomvds>U.S. Geological Survey Geologic Names Committee (2010)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Tertiary-Cretaceous</edomv>
+<edomvd>145.5 +/- 4.0 to 2.588 MA</edomvd>
+<edomvds>U.S. Geological Survey Geologic Names Committee (2010)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Triassic</edomv>
+<edomvd>251.0 +/- 0.4 to 199.6 +/- 0.6 MA</edomvd>
+<edomvds>U.S. Geological Survey Geologic Names Committee (2010)</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>RANK</attrlabl>
+<attrdef>Predominant Rank Classification of Coal</attrdef>
+<attrdefs>Tully, J. (1996)</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Anthracite</edomv>
+<edomvd>Anthracite Coal</edomvd>
+<edomvds>ASTM International (2005)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Lignite</edomv>
+<edomvd>Lignite Coal</edomvd>
+<edomvds>ASTM International (2005)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Low Volatile Bituminous</edomv>
+<edomvd>Low Volatile Bituminous Coal</edomvd>
+<edomvds>ASTM International (2005)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Medium and High Volatile Bituminous</edomv>
+<edomvd>Medium and High Volatile Bituminous Coal</edomvd>
+<edomvds>ASTM International (2005)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Subbituminous</edomv>
+<edomvd>Subbituminous Coal</edomvd>
+<edomvds>ASTM International (2005)</edomvds>
+</edom>
+</attrdomv>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS Information Services</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>Box 25286</address>
+<city>Denver</city>
+<state>CO</state>
+<postal>80225</postal>
+<country>U.S.A.</country>
+</cntaddr>
+<cntvoice>1-888-ASK-USGS</cntvoice>
+<cntemail>ask@usgs.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>USGS OFR 2012-1205</resdesc>
+<distliab>
+This digital publication was prepared by an agency of the United States
+Government. Neither the United States Government nor any agency
+thereof, nor any of their employees, makes any warranty, expressed or
+implied, or assumes any legal liability or responsibility for the
+accuracy, completeness, or usefulness of any information, apparatus,
+product, or process disclosed in this report, or represents that its
+use would not infringe privately owned rights. Reference therein to any
+specific commercial product, process, or service by trade name,
+trademark, manufacturer, or otherwise does not necessarily constitute
+or imply its endorsement, recommendation, or favoring by the United
+States Government or any agency thereof. Any views and opinions of
+authors expressed herein do not necessarily state or reflect those of
+the United States Government or any agency thereof. Although all data
+published in this Open-File Report have been used by the U.S.
+Geological Survey (USGS), no warranty, expressed or implied, is made by
+the USGS as to the accuracy of the data and related materials and/or
+the functioning of the software. The act of distribution shall not
+constitute any such warranty, and no responsibility is assumed by the
+USGS in the use of these data, software, or related materials.
+Graphical map depictions are intended to be used within the map scale
+limits applicable to the source data. Although software enables the
+user to view data at various scales, the user is cautioned to refer to
+the source documentation for the appropriate map scale limitations.
+</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>shapefile</formname>
+<formvern>1.0</formvern>
+<formcont>Coal field polygons with associated characteristics</formcont>
+<filedec>unzip</filedec>
+<transize>220 megabytes</transize>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://pubs.usgs.gov/of/2012/1205/Downloads/GIS.zip</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<techpreq>ArcGIS Desktop 9.X is required to open the map document</techpreq>
+</distinfo>
+<metainfo>
+<metd>20130710</metd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Joseph A. East</cntper>
+<cntorg>U.S. Geological Survey</cntorg>
+</cntperp>
+<cntpos>Geologist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>12201 Sunrise Valley Drive, Mail Stop 956</address>
+<city>Reston</city>
+<state>VA</state>
+<postal>20192</postal>
+<country>U.S.A</country>
+</cntaddr>
+<cntvoice>703-648-6450</cntvoice>
+<cntfax>703-648-6419</cntfax>
+<cntemail>jeast@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+</metainfo>
+</metadata>

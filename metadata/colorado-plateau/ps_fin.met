@@ -1,0 +1,466 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: U.S. Geological Survey, Central Energy Resources Team
+      Originator: Hettinger, R.D.
+      Originator: Roberts, L.N.R
+      Originator: Gognat, T.A.
+      Publication_Date: 2000
+      Title:
+        ps*_fin (The final unioned polygons for the coal
+        resource calculation in the southern Piceance Basin)
+      Geospatial_Data_Presentation_Form: map
+      Publication_Information:
+        Publication_Place: Denver, CO USA
+        Publisher: U.S. Geological Survey
+      Other_Citation_Details:
+        in subdir 500k (defines appropriate maximum scale for
+        data use) 
+
+        chap. O, Investigations of the distribution and 
+        resources of coal in the southern part of the
+        Piceance Basin, Colorado 
+      Larger_Work_Citation:
+        Citation_Information:
+          Originator: Kirschbaum, M.A.
+          Originator: Roberts, L.N.R.
+          Originator: Biewick, L.R.H.
+          Publication_Date: 2000
+          Title:
+            Geologic Assessment of Coal in the Colorado
+            Plateau
+          Series_Information:
+            Series_Name:
+              U.S. Geological Survey Professional Paper
+            Issue_Identification: 1625-B 
+          Publication_Information:
+            Publication_Place: Denver, CO
+            Publisher: U.S. Geological Survey
+  Description:
+    Abstract:
+      These are shapefiles and coverages of final unioned polygon
+      coverages used to calculate coal resources of the
+      Cameo/Fairfield coal group east of 107 deg 15' longitude,
+      and the Cameo/Wheeler, South Canyon, and Coal Ridge coal
+      zones west of 107 deg 15' longitude in the southern Piceance
+      Basin, northwestern Colorado. Pscb_fin was used for the area
+      east of 107 deg 15' longitude; pscw_fin was used for the
+      Cameo/Wheeler coal zone; pssc_fin was used for the South
+      Canyon coal zone; pscr_fin was used for the Coal Ridge coal
+      zone. Polygons that make up the final unioned polygons
+      include counties, 7.5' quadrangles, townships, surface and
+      coal ownership, reliability, and, overburden.
+
+      The final unioned coverage for each coal zone, was clipped
+      by the resource boundary polygon of each coal zone.
+    Purpose:
+      The Nation's coal resources are being assessed by the USGS.
+      This assessment identifies and characterizes the coal beds
+      and coal zones that will provide the bulk of the nation's
+      coal-derived energy during the next century. This assessment
+      is different from previous large-scale USGS assessments
+      because files and databases are being stored in a digital
+      format and are being analyzed using a Geographic Information
+      System (GIS).
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 19950000
+        Ending_Date: 19980000
+    Currentness_Reference: Processing Date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -108.0476
+      East_Bounding_Coordinate: -107.2498
+      North_Bounding_Coordinate: 39.7142
+      South_Bounding_Coordinate: 38.7488
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: Colorado Plateau
+      Theme_Keyword: coal-bearing formations
+      Theme_Keyword: National Coal Resource Assessment (NCRA)
+      Theme_Keyword: coal fields
+      Theme_Keyword: coal
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: Colorado
+      Place_Keyword: Colorado Plateau
+      Place_Keyword: Piceance Basin
+      Place_Keyword: Crested Butte
+    Stratum:
+      Stratum_Keyword_Thesaurus: Geologic Names Unit Lexicon (GNULEX)
+      Stratum_Keyword: Mesaverde Group
+      Stratum_Keyword: Williams Fork Formation
+      Stratum_Keyword: Rollins Sandstone Mbr.
+  Access_Constraints: None
+  Use_Constraints:
+    Appropriate maximum scale for data use is 500k. No restrictions,
+    however, comparison with other data sets on surface and mineral
+    ownership for the same area from other time periods might be
+    inaccurate due to inconsistencies resulting from changes in land
+    and mineral ownership and in mapping convention over time.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: U.S. Geological Survey, Central Energy
+        Contact_Person: Hettinger, R.D.
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: PO Box 25046 MS 939 Denver Federal Center
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225
+        Country: USA
+      Contact_Voice_Telephone: 303.236.7770
+  Security_Information:
+    Security_Handling_Description: None
+    Security_Classification: Unclassified
+    Security_Classification_System: None
+  Native_Data_Set_Environment:
+    SunOS, 5.5.1, sun4d UNIX, ARC/INFO version 7.0.4 and ArcView 3.1
+
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: See Entity_Attribute_Information
+  Logical_Consistency_Report: Polygon topology present.
+  Completeness_Report: Complete
+  Lineage:
+    Process_Step:
+      Process_Description:
+        A boundary larger than the resource area was used to
+        begin the unioning process. County data used in unioned
+        polygons are described in metadata file ps_cnty.met.
+        Township and range data are described in ps_tr.met and
+        was unioned with the County coverage. 7.5 minute
+        quadrangle data are described in ps_24qd.met and was
+        unioned with the previously unioned coverage. A surface
+        and mineral ownership coverage of the southern Piceance
+        Basin was created by performing UNIONs and MAPJOINs on
+        multiple coverages. Surface and mineral ownership
+        coverages were obtained from BLM districts Glenwood
+        Springs (GSRA), Grand Junction (GJRA), and Montrose
+        (MRA).
+
+        Specifics on the data from Glenwood Springs and Grand
+        Junction -- Two ARC/INFO export files were received and
+        IMPORTed into coverages. The two coverages, one for
+        surface ownership and the other for federal minerals
+        ownership, were UNIONed and then CLEANed.
+
+        Specifics on the data from Montrose-- Separate 7.5'-
+        scale MOSS files were received for surface ownership
+        and mineral ownership. MOSS files were converted to
+        ARC/INFO coverages by using the MOSSARC command. All
+        coverages were CLEANed and two separate coverages were
+        created for SURF and FEDMINS by performing a MAPJOIN on
+        the indiviual 24K coverages. The resultant coverages
+        were then UNIONed, edited for errors, and CLEANed in
+        ARC/INFO v. 7.0.4.
+
+        In places where digital files from the various BLM
+        district offices overlapped, we honored the most
+        current data or matched the published BLM hardcopy
+        maps.  Areas of overlap were ERASEd in Arc/Info prior
+        to perfroming the APPEND command to combine adjacent
+        files to form one cohesive coverage of the southern
+        Piceance Basin depicting surface and subsurface
+        ownership. The data were snapped to the township lines
+        that we used for the Piceance Basin (see metadata file
+        ps_tr.met). Data was verified by the various BLM
+        offices in 12/98. The resultant ownership coverage was
+        unioned with the coverage containing county, 7.5'
+        quadrangle, and township data.
+
+        A coverage was generated to show areas of coal
+        reliability categories to define 'identified' and
+        'hypothetical' coal resources. The polygons were
+        generated using the BUFFER command in ARC/INFO. Buffers
+        were generated at a distance of three miles from data
+        point locations of measured coal. Areas less than three
+        miles from a data point are considered to have
+        'identified' resources, and areas beyond three miles
+        are considered to have 'hypothetical' resources (Wood
+        and others, 1983). This coverage was then unioned to
+        the coverage containing Counties, 7.5' quadrangles,
+        townships, and ownership.
+
+        Coverages were created that contain polygons of
+        overburden thickness on the base of Cameo/Fairfield
+        coal group and each of its associated coal zones.  To
+        create the overburden coverage for the Cameo/Fairfield
+        coal group, two surface grids were first generated in
+        EarthVision (EV).  One grid that represents the top of
+        the Rollins Sandstone (SS) Mbr. is described in
+        'ps_strc.met' (this file was used because the top of
+        the Rollins is equivalent to the base of the
+        Cameo/Fairfield coal group).  The other grid is a
+        digital elevation model (DEM) of the surface topography
+        in the study area.  An EV utility was used to convert
+        data from the DEM to a 2-dimensional grid file that
+        represents the topography in the study area.  The
+        overburden isopach map to the base of the
+        Cameo/Fairfield coal group was produced by subtracting
+        the grid of the top of the Rollins SS from the grid of
+        the surface topography and contouring the resultant
+        grid.  This overburden isopach map represents the
+        maximum thickness of overburden to the base of the
+        Cameo/Fairfield coal group.
+
+        In areas located west of 107 deg 15' longitude, the
+        Cameo/Fairfield coal group is divided into (in
+        ascending order) the Cameo/Wheeler, South Canyon, and
+        Coal Ridge coal zones.  The Cameo/Wheeler lies directly
+        on top of the Rollins Sandstone Mbr., therefore its
+        overburden is the same as that determined for the base
+        of Cameo/Fairfield coal group in areas west of  107 deg
+        15' longitude.  Overburden polygons for the South
+        Canyon and Coal Ridge coal zones were made by creating
+        'pseudo structure' grids of their respective bases,
+        subtracting the 'pseudo structure' grids from the DEM
+        grid, and contouring the resultant grids. The 'pseudo
+        structure' grids representing the respective bases of
+        the South Canyon and Coal Ridge coal zones were created
+        from the detailed structure representing the top of the
+        Rollins SS Mbr., in the following manner:
+
+        1) Datasets containing x, y, and z coordinates were
+        extracted from the StratiFact database; x and y
+        represent the location (latitude and longitude).  For
+        the South Canyon, z represents the thickness of the
+        interval between its base and the top of the Rollins
+        SS.  For the Coal Ridge, z represents the thickness of
+        the interval between its base and the base of the South
+        Canyon coal zone.
+
+        2) The x, y, and z values were gridded, and then, using
+        the 'Formula Processor' utility in EV, the z-grid of
+        the South Canyon was add the to the top of Rollins SS
+        to produce the 'pseudo structure' grid of the base of
+        the South Canyon coal zone.  Similarly, the z-grid of
+        the Coal Ridge was added to the base of the South
+        Canyon to produce a 'pseudo structure' grid of the base
+        of the Coal Ridge coal zone.
+
+        Overburden isopach maps were plotted in EV and the
+        contour lines were saved in a contour output file. The
+        contour output file was converted to a file in 'arc
+        generate' format using ISMARC and then converted to an
+        ARC/INFO polygon coverage using an Arc Macro Language
+        (AML) program from the Illinois State Geological
+        Survey. The overburden coverages were unioned with the
+        polygon coverages containing counties, 7.5'
+        quadrangles, township, surface and mineral ownership,
+        and reliability.
+
+        As a final step, the unioned polygon coverage was
+        clipped with the polygon that limits the resource area
+        of each coal zone.
+
+        A detailed description of the methodology for
+        calculating coal resources for the Colorado Plateau is
+        contained in Roberts and others, chap. C.
+      Process_Date:
+        19980000
+
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 2418
+
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Geographic:
+      Latitude_Resolution: .0001
+      Longitude_Resolution: .0001
+      Geographic_Coordinate_Units: Decimal degrees
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum 1927
+      Ellipsoid_Name: Clarke 1866
+      Semi-major_Axis: 6378206.4
+      Denominator_of_Flattening_Ratio:
+        294.98
+
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: pscr_fin.dbf
+      Entity_Type_Definition: Shapefile Attribute Table
+      Entity_Type_Definition_Source: None
+    Attribute:
+      Attribute_Label: Area
+      Attribute_Definition: Area of polygon
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.00000
+          Range_Domain_Maximum: 0.00618
+    Attribute:
+      Attribute_Label: Perimeter
+      Attribute_Definition: Perimeter of polygon
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.00296
+          Range_Domain_Maximum: 0.84084
+    Attribute:
+      Attribute_Label: Hole
+      Attribute_Definition:
+        Holes are polygons within the unioned polygon for which
+        resources were not reported, either because the coal is
+        less than resource thickness (1.2 ft) or it underlies
+        an igneous intrusion. If 'hole' equals 'yes', then
+        resources were not reported If 'hole 'equals 'no' or is
+        blank, then a tonnage value for that polygon was
+        reported.
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Geol
+      Attribute_Definition: Geologic Unit Tmi - igneous intrusion
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Cntyname
+      Attribute_Definition: County name
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Name
+      Attribute_Definition: 7.5 minute quadrangle name
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Block
+      Attribute_Definition:
+        Township and Range block
+        N - north
+        S - south
+        E - east
+        W - west
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Surf
+      Attribute_Definition:
+        Surface ownership
+        BLM - US Bureau of Land Management
+        FS - US Forest Service
+        DOE - US Department of Energy
+        BREC - US Bureau of Reclamation
+        SDOW - State Department of Wildlife
+        STATE - State DISP - Disputed
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Fedmins
+      Attribute_Definition:
+        Federal mineral ownership
+        ALL - Federal government owns all minerals
+        COAL - Federal government owns the coal only
+        OGC - Federal government owns the oil, gas, and coal
+              only
+        OG - Federal government owns oil and gas only
+        NONE - Federal government owns none of the minerals
+        OTHER - other
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Rel
+      Attribute_Definition:
+        Reliability categories
+        hypo -- hypothetical
+        iden - identified
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Overb
+      Attribute_Definition:
+        Overburden categories - range of overburden to base of
+        coal zones. Thickness of overburden in 100s of feet.
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain:
+          Character field
+
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: U.S. Geological Survey, Central Energy
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: PO Box 25046 MS 939 Denver Federal Center
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225
+        Country: USA
+      Contact_Voice_Telephone: 303.236.4608
+  Resource_Description: Shapefile and ARC/INFO coverage
+  Distribution_Liability:
+    Any use of trade, product, or company names in this publication
+    is for descriptive purposes only and does not imply endorsement
+    by the U.S. Government. Although these data have been processed
+    successfully on a computer system at the U.S. Geological Survey,
+    no warranty expressed or implied is made by the USGS regarding
+    the utility of the data on any other system, nor shall the act of
+    distribution constitute any such warranty. Comparison with other
+    data set on surface and mineral ownership for the same area from
+    other time periods might be inaccurate due to inconsistencies
+    resulting from changes in land and mineral ownership and in
+    mapping convention over time. This data is not a legal document
+    and is not intended to be used as such.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ARC/INFO coverage, export file and shapefile
+        Format_Version_Number: ARC/INFO 7.0.4, ArcView 2.1
+      Digital_Transfer_Option:
+        Offline_Option:
+          Offline_Media: CD-ROM
+          Recording_Format: ISO 9660
+    Fees: none
+  Technical_Prerequisites:
+    need ARC/INFO 7.0.4 or greater and/or ArcView 2.1 or greater
+    and/or ArcExplorer (which can be downloaded free from
+    <URL:http://www.esri.com>) and/or other software that can read
+    ARC/INFO coverages, ARC/INFO export files and/or shapefiles
+
+Metadata_Reference_Information:
+  Metadata_Date: 19990203
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: U.S. Geological Survey, Central Energy
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: PO Box 25046 MS 939 Denver Federal Center
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225
+        Country: USA
+      Contact_Voice_Telephone: 303.236.4608
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Access_Constraints: None
+  Metadata_Security_Information:
+    Metadata_Security_Handling_Description: None
+    Metadata_Security_Classification: Unclassified
+    Metadata_Security_Classification_System:
+      None
+
+      ------------------------------------------------------------------------
+      Generated by mp version 2.4.8 on Wed Sep 29 10:00:30 1999

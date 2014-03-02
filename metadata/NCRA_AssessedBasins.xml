@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Joseph A. East</origin>
+<pubdate>2013</pubdate>
+<title>Coal Fields of the Conterminous United States: National Coal Resource Assessment Updated Version, assessed basins</title>
+<geoform>vector digital data</geoform>
+<serinfo>
+<sername>Open File Report</sername>
+<issue>2012/1205</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Reston, VA</pubplace>
+<publish>U.S. Geological Survey</publish>
+</pubinfo>
+<onlink>http://pubs.usgs.gov/of/2012/1205/</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>
+This dataset is a polygon shapefile representing the most recent
+update of the Coal Fields of the Conterminous United States (Tully,
+1996). Scale of data is 1:5,000,000. This shapefile is based on
+the areas that were quantitatively assessed by the USGS as part of
+the National Coal Resource Assessment (NCRA). The outlines contain
+areas from which data was collected and processed in order to give an
+accurate estimation of the volume of coal in specific targeted beds
+and zones. The data used to create this shapefile was collected from
+the 4 NCRA regional assessment files produced by the USGS and from
+AAPG Discovery Series 14/Studies in Geology 62, all of which were
+conducted by USGS geologists and professional staff.
+</abstract>
+<purpose>
+This dataset was compiled to update the Coal Fields Map of the
+Conterminous United States, OFR 96-092. This was done with new data
+provided by the USGS Energy Team NCRA assessments. The shapefile
+gives a visual display of the areas that were assessed by the NCRA.
+</purpose>
+<supplinf>
+Source used in the abstract and purpose include:
+&gt; Tully, J., 1996. Coal Fields of the Conterminous United States. U.S. Geological Survey Open File Report 96-92. Scale 1:5,000,000.
+</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2013</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-113.888687</westbc>
+<eastbc>-77.739523</eastbc>
+<northbc>48.999824</northbc>
+<southbc>30.017075</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>ISO 19115 Topic Category</themekt>
+<themekey>Geoscientific Information</themekey>
+</theme>
+<theme>
+<themekt>USGS Thesaurus</themekt>
+<themekey>coal resources</themekey>
+<themekey>geologic maps</themekey>
+<themekey>geology</themekey>
+<themekey>geospatial datasets</themekey>
+</theme>
+<theme>
+<themekt>Alexandria Digital Library Feature Type Thesaurus</themekt>
+<themekey>mineral resource areas</themekey>
+</theme>
+<theme>
+<themekt>none</themekt>
+<themekey>Coal Fields Map of North America</themekey>
+<themekey>Geologic Map</themekey>
+<themekey>Geology</themekey>
+<themekey>Coal</themekey>
+<themekey>NCRA Assessment</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>North America</placekey>
+<placekey>United States</placekey>
+<placekey>Interior Province</placekey>
+<placekey>Northern Great Plains Province</placekey>
+<placekey>Rocky Mountain Province</placekey>
+<placekey>Eastern Province</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Joseph A. East</cntper>
+<cntorg>U.S. Geological Survey</cntorg>
+</cntperp>
+<cntpos>Geologist</cntpos>
+<cntaddr>
+<addrtype>physical address</addrtype>
+<address>MS 956 National Center</address>
+<address>12201 Sunrise Valley Drive</address>
+<city>Reston</city>
+<state>VA</state>
+<postal>20192</postal>
+<country>U.S.A.</country>
+</cntaddr>
+<cntvoice>703-648-6450</cntvoice>
+<cntfax>703-648-6419</cntfax>
+<cntemail>jeast@usgs.gov</cntemail>
+</cntinfo>
+</ptcontac>
+<datacred>Technical reviews for this publication were provided by Leslie Ruppert, Christopher Garrity, Susan Tewalt, Lee Osmonson, James Luppens and James Coleman.</datacred>
+<native>Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.0.1770</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>Attribute accuracy was tested by manual comparison of the NCRA Assessed Basins shapefile created for this report with the shapefile created for Provinces.</attraccr>
+</attracc>
+<logic>Map elements were visually checked for overshoots, undershoots, duplicates, polygon closure and proper attribution. All polygons were created from existing shapefiles or coverages that had already gone through the USGS publications process.</logic>
+<complete>Data set complete. No data were intentionally omitted from the hard copy and digital source maps.</complete>
+<posacc>
+<horizpa>
+<horizpar>The shapefile is based on data taken from the 4 USGS Professional Papers 1625-A, 1625-B, 1625-C, and 1625-D, and from AAPG Discovery Series 14/Studies in Geology 62. The assessment shapefiles and coverages were merged into the primary shapefile with no change in projection or transformation of a datum, so it is assumed that they are still within the tolerances necessary for FGDC standards. The shapefiles available in U.S. Geological Survey Professional Paper 1625-C are generalized versions of the ArcINFO coverages and are not as detailed as the coverages. The coverages were used for the Appalachian data set within this primary shapefile.</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Fort Union Coal Assessment Team</origin>
+<pubdate>1999</pubdate>
+<title>1999 Resource Assessment of Selected Tertiary Coal Beds and Zones in the Northern Rocky Mountains and Great Plains Region.</title>
+<serinfo>
+<sername>U.S. Geological Survey Professional Paper</sername>
+<issue>1625-A</issue>
+</serinfo>
+<onlink>http://pubs.usgs.gov/pp/p1625a/</onlink>
+</citeinfo>
+</srccite>
+<typesrc>ESRI shapefiles</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1999</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Fort Union Coal Assessment Team (1999)</srccitea>
+<srccontr>Provided assessment outlines of Northern Rocky Mountains and Great Plains Region.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Kirschbaum, M</origin>
+<origin>Roberts, L</origin>
+<origin>Biewick, L</origin>
+<pubdate>2000</pubdate>
+<title>Geologic Assessment of Coal in the Colorado Plateau: Arizona, Colorado, New Mexico, and Utah.</title>
+<serinfo>
+<sername>U.S. Geological Survey Professional Paper</sername>
+<issue>1625-B</issue>
+</serinfo>
+<onlink>http://pubs.usgs.gov/pp/p1625b/</onlink>
+</citeinfo>
+</srccite>
+<typesrc>ESRI shapefiles</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2000</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Kirschbaum and others (2000)</srccitea>
+<srccontr>Provided assessment outlines of Colorado Plateau: Arizona, Colorado, New Mexico, and Utah</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Northern and Central Appalachian Basin Coal Regions Assessment Team</origin>
+<pubdate>2001</pubdate>
+<title>2000 Resource Assessment of Selected Coal Beds and Zones in the Northern and Central Appalachian Basin Coal Regions.</title>
+<serinfo>
+<sername>U.S. Geological Survey Professional Paper</sername>
+<issue>1625-C</issue>
+</serinfo>
+<onlink>http://pubs.usgs.gov/pp/p1625c/</onlink>
+</citeinfo>
+</srccite>
+<typesrc>ESRI Coverages</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2001</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Northern and Central Appalachian Basin Coal Regions Assessment Team, 2001</srccitea>
+<srccontr>Provided assessment outlines of Northern and Central Appalachian Basin Coal Regions.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Hatch, J.</origin>
+<origin>Affolter, R</origin>
+<pubdate>2002</pubdate>
+<title>Resource Assessment of the Springfield, Herrin, Danville, and Baker Coals in the Illinois Basin.</title>
+<serinfo>
+<sername>U.S. Geological Survey Professional Paper</sername>
+<issue>1625-D</issue>
+</serinfo>
+<onlink>http://pubs.usgs.gov/pp/p1625d/</onlink>
+</citeinfo>
+</srccite>
+<typesrc>ESRI shapefiles</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2002</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Hatch and Affolter (2002)</srccitea>
+<srccontr>Provided assessment outlines of Illinois Basin.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>AAPG</origin>
+<origin>Warwick, P</origin>
+<origin>Karlsen, A</origin>
+<origin>Merrill, M</origin>
+<origin>Valentine, B.</origin>
+<pubdate>2011</pubdate>
+<title>Geologic assessment of coal in the Gulf of Mexico Coastal Plain, USA</title>
+<serinfo>
+<sername>AAPG Discovery Series/Studies in Geology</sername>
+<issue>DS 14/SIG 62</issue>
+</serinfo>
+<onlink>http://www.datapages.com/Services/GISUDRIL/OpenFiles/GulfCoastCoalAssessment.aspx</onlink>
+</citeinfo>
+</srccite>
+<typesrc>ESRI Shapefiles</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2011</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Warwick and others (2011)</srccitea>
+<srccontr>Provided assessment outlines of Gulf of Mexico Coastal Plain</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>The NCRA Assessed Basins shapefile is a merge of multiple shapefiles and coverages taken from the NCRA Assessment files. Individual assessment areas were modified to delete differing attributes. The outlines were then pasted into a primary shapefile. An attribute column for Province was added to the primary shapefile. The shapefile was then placed on top of the province polygon, and was then attributed to match the provinces. All of the shapefiles were stored in a geographic NAD1983 projection, so there was no need to reproject or do a datum transformation.</procdesc>
+<procdate>20101026</procdate>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>Joseph A. East</cntper>
+<cntorg>U.S. Geological Survey</cntorg>
+</cntperp>
+<cntpos>Geologist</cntpos>
+<cntaddr>
+<addrtype>physical address</addrtype>
+<address>MS 956 National Center</address>
+<address>12201 Sunrise Valley Drive</address>
+<city>Reston</city>
+<state>VA</state>
+<postal>20192</postal>
+<country>U.S.A.</country>
+</cntaddr>
+<cntvoice>703-648-6450</cntvoice>
+<cntfax>703-648-6419</cntfax>
+<cntemail>jeast@usgs.gov</cntemail>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>G-polygon</sdtstype>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<geograph>
+<latres>0.001</latres>
+<longres>0.001</longres>
+<geogunit>Decimal degrees</geogunit>
+</geograph>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137.0</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>NCRA_Assessed Basins</enttypl>
+<enttypd>Polygons defining areas that were assessed and studied as part of the NCRA Assessment</enttypd>
+<enttypds>text</enttypds>
+</enttyp>
+<attr>
+<attrlabl>FID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Province</attrlabl>
+<attrdef>Province that Coal polygon falls within</attrdef>
+<attrdefs>Tully, J (1996)</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Eastern</edomv>
+<edomvd>Eastern Province</edomvd>
+<edomvds>Tully, J (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Gulf Coast</edomv>
+<edomvd>Gulf Coast Province</edomvd>
+<edomvds>Tully, J (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Interior</edomv>
+<edomvd>Interior Province</edomvd>
+<edomvds>Tully, J (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Northern Great Plains</edomv>
+<edomvd>Northern Great Plains Province</edomvd>
+<edomvds>Tully, J (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Rocky Mountain</edomv>
+<edomvd>Rocky Mountain Province</edomvd>
+<edomvds>Tully, J (1996)</edomvds>
+</edom>
+</attrdomv>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS Information Services</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>Box 25286</address>
+<city>Denver</city>
+<state>CO</state>
+<postal>80225</postal>
+<country>U.S.A.</country>
+</cntaddr>
+<cntvoice>1-888-ASK-USGS</cntvoice>
+<cntfax>303-202-4693</cntfax>
+<cntemail>http://store.usgs.gov/</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>USGS OFR 2012-1205</resdesc>
+<distliab>
+This digital publication was prepared by an agency of the United States
+Government. Neither the United States Government nor any agency
+thereof, nor any of their employees, makes any warranty, expressed or
+implied, or assumes any legal liability or responsibility for the
+accuracy, completeness, or usefulness of any information, apparatus,
+product, or process disclosed in this report, or represents that its
+use would not infringe privately owned rights. Reference therein to any
+specific commercial product, process, or service by trade name,
+trademark, manufacturer, or otherwise does not necessarily constitute
+or imply its endorsement, recommendation, or favoring by the United
+States Government or any agency thereof. Any views and opinions of
+authors expressed herein do not necessarily state or reflect those of
+the United States Government or any agency thereof. Although all data
+published in this Open-File Report have been used by the U.S.
+Geological Survey (USGS), no warranty, expressed or implied, is made by
+the USGS as to the accuracy of the data and related materials and/or
+the functioning of the software. The act of distribution shall not
+constitute any such warranty, and no responsibility is assumed by the
+USGS in the use of these data, software, or related materials.
+Graphical map depictions are intended to be used within the map scale
+limits applicable to the source data. Although software enables the
+user to view data at various scales, the user is cautioned to refer to
+the source documentation for the appropriate map scale limitations.
+</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>shapefile</formname>
+<formvern>1.0</formvern>
+<formcont>Coal field polygons with associated characteristics</formcont>
+<filedec>unzip</filedec>
+<transize>220 megabytes</transize>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://pubs.usgs.gov/of/2012/1205/Downloads/GIS.zip</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<techpreq>ArcGIS Desktop 9.X is required to open the ArcMap document</techpreq>
+</distinfo>
+<metainfo>
+<metd>20130710</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey</cntorg>
+<cntper>Joseph A. East</cntper>
+</cntorgp>
+<cntpos>Geologist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>12201 Sunrise Valley Drive</address>
+<address>Mail Stop 956</address>
+<city>Reston</city>
+<state>VA</state>
+<postal>20192</postal>
+<country>U.S.A</country>
+</cntaddr>
+<cntvoice>703-648-6450</cntvoice>
+<cntfax>703-648-6419</cntfax>
+<cntemail>jeast@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+</metainfo>
+</metadata>

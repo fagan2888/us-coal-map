@@ -1,0 +1,277 @@
+Identification_Information:
+	Citation:
+		Citation_Information:
+			Originator: United States Geological Survey (USGS) Central Region Resources Team
+			Publication_Date: 19990930
+			Title: Rsovb.shp (Overbuden in the Rosebud-Robinson Coal Zone)
+			Publication_Information:
+				Publication_Place: Denver
+				Publisher: USGS Central Region Energy Resources Team
+	Description:
+		Abstract:
+			This ArcView shapefile contains a polygon representation
+			of the overburden to the base of the Rosebud-Robinson 
+			coal zone, Colstrip coalfield (Powder River Basin), 
+			Montana. This theme was created specifically
+			for the National Coal Resources Assessment in the
+			Northern Rocky Mountains and Great Plains Region.
+		Purpose:
+			The Nation's coal resources are being assessed by the
+			USGS.  This assessment identifies and characterizes
+			the coal beds and coal zones that will provide the
+			bulk of the Nation's coal-derived energy during the
+			next few decades.  This assessment is different from
+			previous USGS assessments because digital files
+			and databases are being stored in standardized formats,
+			and being analyzed using a Geographic Information
+			System (GIS).
+		Supplemental_Information:
+			The overburden thickness map theme represents a digital
+			polygon coverage of the overburden isopach (thickness)
+			map for the Rosebud-Robinson coal zone.
+			In this theme, the overburden isopach map represents
+			the thickness of rock overlying the base of the
+			Rosebud-Robinson coal zone.  The extent of the
+			overburden isopach map is constrained by the boundaries
+			of the Crow and Northern Cheyenne Indian Reservations,
+			and the outcrop traces (or clinker contacts) of the 
+			Rosebud and Robinson (or lower Robinson) coal beds.   
+			Because the overburden isopach represents the thickness 
+			of rock lying above the base of the Rosebud-Robinson 
+			coal zone, the map defines the maximum overburden for 
+			the coal zone.
+			The overburden in this case also includes all coal beds 
+			and interburden in the Rosebud-Robinson coal zone.
+	Time_Period_of_Content:
+		Time_Period_Information:
+			Single_Date/Time:
+				Calendar_Date: 19980000
+		Currentness_Reference: Publication Date
+	Status:
+		Progress: Complete
+		Maintenance_and_Update_Frequency: None planned
+	Spatial_Domain:
+		Bounding_Coordinates:
+			West_Bounding_Coordinate: -107.2459
+			East_Bounding_Coordinate: -106.4404
+			North_Bounding_Coordinate: 45.9820
+			South_Bounding_Coordinate: 45.6728
+	Keywords:
+		Theme:
+			Theme_Keyword_Thesaurus: None
+			Theme_Keyword: Rosebud-Robinson coal zone
+			Theme_Keyword: Overburden
+		Place:
+			Place_Keyword_Thesaurus: None
+			Place_Keyword: Rosebud County
+			Place_Keyword: Treasure County
+			Place_Keyword: Big Horn County
+			Place_Keyword: Montana
+			Place_Keyword: Colstrip Coalfield
+			Place_Keyword: Northern Rocky Mountains and Great Plains
+	Access_Constraints: None
+	Use_Constraints: None
+	Point_of_Contact:
+		Contact_Information:
+			Contact_Organization_Primary:
+				Contact_Organization: USGS Central Region Energy Resources Team
+				Contact_Person: Steve Roberts
+			Contact_Address:
+				Address_Type: mailing address
+				Address:
+					Box 25046 MS 939
+					Denver Federal Center
+				City: Denver
+				State_or_Province: CO
+				Postal_Code: 80225-0046
+				Country: USA
+			Contact_Voice_Telephone: 303.236.7788
+	Native_Data_Set_Environment:
+		Sun0S, 5.51 sun4d Unix
+		ArcView version 3.0
+		ARC/INFO version 7.1.2
+Data_Quality_Information:
+	Attribute_Accuracy:
+		Attribute_Accuracy_Report: No tests were performed
+	Logical_Consistency_Report: Polygon features present
+	Completeness_Report:
+		Overburden is limited to the Rosebud-Robinson coal zone 
+		in the Colstrip coalfield, Montana
+	Positional_Accuracy:
+		Horizontal_Positional_Accuracy:
+			Horizontal_Positional_Accuracy_Report:
+				Limited to software coordinate precision of geographic
+				coordinates
+	Lineage:
+		Source_Information:
+			Source_Citation:
+				Citation_Information:
+					Originator: USGS Central Region Energy Resource (Tertiary Team).
+					Publication_Date: Unknown
+					Publication_Time: Unknown
+					Title: Northern Rocky Mountain and Great Plains Fort Union Stratifact Database.
+					Geospatial_Data_Presentation_Form: map
+			Type_of_Source_Media: Digital
+			Source_Time_Period_of_Content:
+				Time_Period_Information:
+					Single_Date/Time:
+						Calendar_Date: Unknown
+				Source_Currentness_Reference: Ground Condition
+			Source_Citation_Abbreviation: None
+			Source_Contribution:
+				Source provided all information for the maximum 
+				overburden above the base of the Rosebud-Robinson 
+				coal zone, Colstrip coalfield, Montana
+		Process_Step:
+			Process_Description:
+				The overburden interpretations were derived by first
+				developing a grid representing the base of the
+				Rosebud-Robinson coal zone (including faults) using a
+				commercial gridding and contouring software package
+				(EarthVision; Dynamic Graphics, Inc.); the calculated grid
+				spacing was 200 x 200 meters.  This grid was then
+				subtracted from a composite Digital Elevation Model (DEM)
+				grid of topographic elevation for the entire coal field,
+				resulting in a grid of thickness values that could then be
+				contoured as overburden thickness isopachs.  Multiple
+				DEMs were required to build the composite DEM for the
+				Colstrip coal field.  Within the Lame Deer 30 x 60'
+				quadrangle (eastern and central parts of the coal field), 2
+				arc-second DEMs with a resolution of approximately 60
+				meters were used.  In contrast, the only DEM available for 
+				the western part of the Colstrip coal field (Hardin 30 x 60' 
+				quadrangle) was a 3 arc-second DEM with a resolution of 
+				about 90 meters.  The 3 arc-second DEM was resampled
+				to correspond to the higher resolution of the 2 arc-second
+				DEMs, and all DEMs were subsequently merged using the
+				'mosaic' command in ARC/INFO to create a composite
+				DEM for overburden calculations.
+				The overburden isopach map was then converted to a
+				contour output file in EarthVision, and subsequently
+				converted into a digital polygon coverage by using a
+				combination of programs ('ISMARC' and
+				'CONVERT-ISM.AML') furnished to the U.S. Geological
+				Survey by the Illinois State Geological Survey. This
+				overburden isopach coverage was then generalized using
+				a weed tolerance of 30 meters to reduce file size.  The
+				generalized cover was then converted to a shapefile for
+				incorporation as a theme in the ARCVIEW project. The
+				overburden thickness categories included in the theme (for
+				example, 0 - 100 ft, 100 - 200 ft, etc.) are consistent with
+				overburden thickness categories used in the tabulation of
+				total coal resources.
+			Process_Date: 19980000
+			Process_Contact:
+				Contact_Information:
+					Contact_Person_Primary:
+						Contact_Person: Steve Roberts
+						Contact_Organization: USGS Central Region Energy Resources Team
+					Contact_Address:
+						Address_Type: mailing address
+						Address:
+							Box 25046 MS 939
+							Denver Federal Center
+						City: Denver
+						State_or_Province: CO
+						Postal_Code: 80225-0046
+						Country: USA
+					Contact_Voice_Telephone: 303.236.7788
+Spatial_Data_Organization_Information:
+	Direct_Spatial_Reference_Method: Vector
+	Point_and_Vector_Object_Information:
+		SDTS_Terms_Description:
+			SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+			Point_and_Vector_Object_Count: 445
+Spatial_Reference_Information:
+	Horizontal_Coordinate_System_Definition:
+		Geographic:
+			Latitude_Resolution: .0001
+			Longitude_Resolution: .0001
+			Geographic_Coordinate_Units: Decimal degrees
+		Geodetic_Model:
+			Horizontal_Datum_Name: North American Datum 1927
+			Ellipsoid_Name: Clarke 1866
+			Semi-major_Axis: 6378206.4
+			Denominator_of_Flattening_Ratio: 294.98
+Entity_and_Attribute_Information:
+	Detailed_Description:
+		Entity_Type:
+			Entity_Type_Label: rsovb.dbf
+			Entity_Type_Definition: Shapefile Attribute Table
+			Entity_Type_Definition_Source: None
+		Attribute:
+			Attribute_Label: Area
+			Attribute_Definition: Area of polygon
+			Attribute_Definition_Source: Software computed
+			Attribute_Domain_Values:
+				Range_Domain:
+					Range_Domain_Minimum: 0.00000
+					Range_Domain_Maximum: 100834800.00000
+		Attribute:
+			Attribute_Label: Perimeter
+			Attribute_Definition: Perimeter of polygon
+			Attribute_Definition_Source: Software computed
+			Attribute_Domain_Values:
+				Range_Domain:
+					Range_Domain_Minimum: 0.00000
+					Range_Domain_Maximum: 462965.30000
+		Attribute:
+			Attribute_Label: Overburden
+			Attribute_Definition: Overburden thickness in ft.
+			Attribute_Definition_Source: User Defined
+			Attribute_Domain_Values:
+				Unrepresentable_Domain: Character field
+Distribution_Information:
+	Distributor:
+		Contact_Information:
+			Contact_Organization_Primary:
+				Contact_Organization: USGS Central Region Energy Resources Team
+			Contact_Address:
+				Address_Type: mailing address
+				Address:
+					Box 25046 MS 939
+					Denver Federal Center
+				City: Denver
+				State_or_Province: CO
+				Postal_Code: 80225-0046
+				Country: USA
+			Contact_Voice_Telephone: 303.236.1647
+	Distribution_Liability:
+		The US Geological Survey provides these geographic data
+		"as is."  The USGS makes no guarantee or warranty
+		concerning the accuracy of information contained in this
+		geographic data.  The USGS further makes no warranties,
+		either expressed or implied as to any other matter
+		whatsoever, including, without limitation, the condition of
+		the product, or its fitness for any particular purpose. The
+		burden for determining fitness for use lies entirely with the
+		user.  Although these data have been processed
+		successfully on USGS computers, no warranty,
+		expressed or implied, is made by the USGS regarding the
+		use of these data on any other system, nor does the fact of
+		distribution constitute or imply any such warranty. In no
+		event shall the USGS have any liability whatsoever for
+		payment of any consequential, incidental, indirect, special,
+		or tort damages of any kind, including, but not limited to,
+		any loss of profits arising out of use of or reliance on the
+		geographic data or arising out of the delivery, installation,
+		operation, or support by the USGS.
+Metadata_Reference_Information:
+	Metadata_Date: 19990000
+	Metadata_Contact:
+		Contact_Information:
+			Contact_Organization_Primary:
+				Contact_Organization: USGS Central Region Energy Resources Team
+				Contact_Person: Steve Roberts
+			Contact_Address:
+				Address_Type: mailing address
+				Address:
+					Box 25046 MS 939
+					Denver Federal Center
+				City: Denver
+				State_or_Province: CO
+				Postal_Code: 80225-0046
+				Country: USA
+			Contact_Voice_Telephone: 303.236.7788
+	Metadata_Standard_Name: FGDC CSDGM
+	Metadata_Standard_Version: 19940608

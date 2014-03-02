@@ -1,0 +1,311 @@
+Identification_Information:
+	Citation:
+		Citation_Information:
+			Originator: United States Geological Survey (USGS) Central Re
+			Publication_Date: 19990930
+			Title: Rscat.shp (Net Coal Thickness in the Colstrip Coalfield)
+			Geospatial_Data_Presentation_Form: map
+			Publication_Information:
+				Publication_Place: Denver
+				Publisher: USGS Central Region Energy Resources Team
+	Description:
+		Abstract:
+			This ArcView shapefile contains a polygon representation
+			of the total, net coal thickness map of
+			the Rosebud-Robinson coal zone in the Colstrip Coalfield
+			(Powder River Basin) Montana.  This theme was created
+			specifically for the National Coal Resources Assessment in
+			the Northern Rocky Mountains and Great Plains Region.
+		Purpose:
+			The Nation's coal resources are being assessed by the
+			USGS.  This assessment identifies and characterizes
+			the coal beds and coal zones that will provide the
+			bulk of the Nation's coal-derived energy during the
+			next few decades.  This assessment is different from
+			previous USGS assessments because digital files
+			and databases are being collected and stored in
+			standardized formats, and being analyzed using a
+			Geographic Information System (GIS).
+		Supplemental_Information:
+			The total, net coal thickness map theme represents a
+			digital polygon coverage of the total, net coal thickness
+			(isopach) map for the Rosebud-Robinson coal zone.
+			The original total, net coal isopach map for the
+			Rosebud-Robinson coal zone was constructed by
+			contouring a gridded data set of values derived from the
+			summation of net coal thickness (excluding partings) for all
+			coal beds within the coal zone at drill hole and outcrop
+			locations.  This map, therefore, reflects the distribution of
+			the cumulative (total) coal thickness for all coal beds within
+			the zone rather than the thickness of any individual coal
+			bed except in areas stratigraphically below the McKay coal
+			bed, where thickness values reflect the thickness of the
+			Robinson (or lower Robinson) coal bed alone.  Coal beds
+			less than 2.5 feet thick were not included in the data used
+			to construct the isopach map.  The map extent used for
+			the total, net coal isopach map of the Rosebud-Robinson
+			coal zone is constrained by the Crow and Northern
+			Cheyenne Indian Reservation boundaries, the outcrop (or
+			clinker contact) of the Robinson or lower Robinson coal
+			bed, and the outcrop (or clinker contact) of the Rosebud
+			coal bed.
+			About 300 data points (drill hole and outcrop locations)
+			were used in the calculation of the total, net coal
+			isopach map of the Rosebud-Robinson coal zone.  This
+			total includes published drill hole information, data from
+			operators of the Rosebud coal mine and limited data from
+			the Northern Cheyenne and Crow Indian Reservations.
+			The drill hole and outcrop data were imported into a
+			gridding and contouring software package (EarthVision;
+			Dynamic Graphics, Inc.).  An isopach (equal thickness) grid
+			was calculated and used to generate the total, net coal
+			isopach map.  The grid spacing used in this calculation
+			was 200 x 200 meters and the grid extent covers an area
+			of approximately 219,000 acres (342 mi2).  Minor editing of
+			the grid file was necessary to generate results more
+			consistent with our interpretations of the coal geology in
+			the study area.
+			Upon completion of the edits, the isopach map was
+			converted to a contour output file in EarthVision, and
+			subsequently converted into a digital polygon coverage by
+			using a combination of programs ('ISMARC' and
+			'CONVERT-ISM.AML') furnished to the U.S. Geological
+			Survey by the Illinois State Geological Survey.  This total,
+			net coal isopach coverage was then generalized using a
+			weed tolerance of 30 meters to reduce file size.  The
+			generalized cover was then converted to a shapefile for
+			incorporation as a theme in the ArcView project. The total,
+			net coal thickness categories as shown in the theme (for
+			example, 2.5 - 5.0 ft, 5.0 - 10 ft, etc.) are consistent with
+			total coal thickness categories used in the tabulation of
+			coal resources.
+	Time_Period_of_Content:
+		Time_Period_Information:
+			Single_Date/Time:
+				Calendar_Date: 19990000
+		Currentness_Reference: Publication Date
+	Status:
+		Progress: Complete
+		Maintenance_and_Update_Frequency: None planned
+	Spatial_Domain:
+		Bounding_Coordinates:
+			West_Bounding_Coordinate: -107.2459
+			East_Bounding_Coordinate: -106.4404
+			North_Bounding_Coordinate: 45.9821
+			South_Bounding_Coordinate: 45.6728
+	Keywords:
+		Theme:
+			Theme_Keyword_Thesaurus: None
+			Theme_Keyword: Total, net coal thickness
+			Theme_Keyword: Rosebud-Robinson coal zone
+			Theme_Keyword: Isopach map
+		Place:
+			Place_Keyword_Thesaurus: None
+			Place_Keyword: Rosebud County
+			Place_Keyword: Treasure County
+			Place_Keyword: Big Horn County
+			Place_Keyword: Montana
+			Place_Keyword: Colstrip Coalfield
+			Place_Keyword: Northern Rocky Mountains and Great Plains
+	Access_Constraints: None
+	Use_Constraints: None
+	Point_of_Contact:
+		Contact_Information:
+			Contact_Organization_Primary:
+				Contact_Organization: USGS Central Region Energy Resources Team
+				Contact_Person: Steve Roberts
+			Contact_Address:
+				Address_Type: mailing address
+				Address:
+					Box 25046 MS 939
+					Denver Federal Center
+				City: Denver
+				State_or_Province: CO
+				Postal_Code: 80225-0046
+				Country: USA
+			Contact_Voice_Telephone: 303.236.7788
+	Native_Data_Set_Environment:
+		Sun0S, 5.51 sun4d Unix
+		ArcView version 3.0
+		ARC/INFO version 7.1.2
+Data_Quality_Information:
+	Attribute_Accuracy:
+		Attribute_Accuracy_Report: No part of this data was field checked for accuracy.
+	Logical_Consistency_Report: Polygon features present
+	Completeness_Report:
+		The total, net coal thickness is limited to the
+		Rosebud-Robinson coal zone
+	Positional_Accuracy:
+		Horizontal_Positional_Accuracy:
+			Horizontal_Positional_Accuracy_Report:
+				Limited to software coordinate precision for geographic
+				coordinates.
+	Lineage:
+		Source_Information:
+			Source_Citation:
+				Citation_Information:
+					Originator: USGS Central Region Energy Resource (Tertiary Team).
+					Publication_Date: Unknown
+					Publication_Time: Unknown
+					Title: Northern Rocky Mountain and Great Plains Fort Union Stratifact Database.
+					Geospatial_Data_Presentation_Form: map
+			Type_of_Source_Media: Digital
+			Source_Time_Period_of_Content:
+				Time_Period_Information:
+					Single_Date/Time:
+						Calendar_Date: Unknown
+				Source_Currentness_Reference: Ground Condition
+			Source_Citation_Abbreviation: None
+			Source_Contribution:
+				This source provided the point data needed to generate an
+				EarthVision grid that represented the total, net coal
+				thickness of the Rosebud-Robinson coal zone.
+		Process_Step:
+			Process_Description:
+				The original total, net coal isopach map for the
+				Rosebud-Robinson coal zone was constructed by
+				contouring a gridded data set of values derived from the
+				summation of net coal thickness (excluding partings) for all
+				coal beds within the coal zone at drill hole and outcrop
+				locations.  This map, therefore, reflects the distribution of
+				the cumulative (total) coal thickness for all coal beds within
+				the zone rather than the thickness of any individual coal
+				bed except in areas stratigraphically below the McKay coal
+				bed, where thickness values reflect the thickness of the
+				Robinson (or lower Robinson) coal bed alone.  Coal beds
+				less than 2.5 feet thick were not included in the data used
+				to construct the isopach map.  The map extent used for
+				the total, net coal isopach map of the Rosebud-Robinson
+				coal zone is constrained by the Crow and Northern
+				Cheyenne Indian Reservation boundaries, the outcrop (or
+				clinker contact) of the Robinson or lower Robinson coal
+				bed, and the outcrop (or clinker contact) of the Rosebud
+				coal bed.
+				About 300 data points (drill hole and outcrop
+				locations) were used in the calculation of the total, net coal
+				isopach map of the Rosebud-Robinson coal zone.  This
+				total includes published drill hole information, data from
+				operators of the Rosebud coal mine and limited data from
+				the Northern Cheyenne and Crow Indian Reservations.
+				The drill hole and outcrop data were imported into a
+				gridding and contouring software package (EarthVision;
+				Dynamic Graphics, Inc.).  An isopach (equal thickness) grid
+				was calculated and used to generate the total, net coal
+				isopach map.  The grid spacing used in this calculation
+				was 200 x 200 meters and the grid extent covers an area
+				of approximately 219,000 acres (342 mi2).  Minor editing of
+				the grid file was necessary to generate results more
+				consistent with our interpretations of the coal geology in
+				the study area.  Upon completion of the edits, the isopach
+				map was converted to a contour output file in EarthVision,
+				and subsequently converted into a digital polygon
+				coverage by using a combination of programs ('ISMARC'
+				and 'CONVERT-ISM.AML') furnished to the U.S.
+				Geological Survey by the Illinois State Geological Survey.
+				This total, net coal isopach coverage was then generalized
+				using a weed tolerance of 30 meters to reduce file size.
+				The generalized cover was then converted to a shapefile
+				for incorporation as a theme in the ARCVIEW project. The
+				total, net coal thickness categories as shown in the theme
+				(for example, 2.5 - 5.0 ft, 5.0 - 10 ft, etc.) are consistent
+				with total coal thickness categories used in the tabulation
+				of coal resources.
+			Process_Date: 19990000
+			Process_Contact:
+				Contact_Information:
+					Contact_Organization_Primary:
+						Contact_Organization: USGS Central Region Energy Resources Team
+						Contact_Person: Steve Roberts
+					Contact_Address:
+						Address_Type: mailing address
+						Address:
+							Box 25046 MS 939
+							Denver Federal Center
+						City: Denver
+						State_or_Province: CO
+						Postal_Code: 80225-0046
+						Country: USA
+					Contact_Voice_Telephone: 303.236.7788
+Spatial_Data_Organization_Information:
+	Direct_Spatial_Reference_Method: Vector
+	Point_and_Vector_Object_Information:
+		SDTS_Terms_Description:
+			SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+			Point_and_Vector_Object_Count: 7
+Spatial_Reference_Information:
+	Horizontal_Coordinate_System_Definition:
+		Geographic:
+			Latitude_Resolution: .0001
+			Longitude_Resolution: .0001
+			Geographic_Coordinate_Units: Decimal degrees
+		Geodetic_Model:
+			Horizontal_Datum_Name: North American Datum 1927
+			Ellipsoid_Name: Clarke 1866
+			Semi-major_Axis: 6378206.4
+			Denominator_of_Flattening_Ratio: 294.98
+Entity_and_Attribute_Information:
+	Detailed_Description:
+		Entity_Type:
+			Entity_Type_Label: rscat.dbf
+			Entity_Type_Definition: Shapefile Attribute Table
+			Entity_Type_Definition_Source: None
+		Attribute:
+			Attribute_Label: Thickness
+			Attribute_Definition: Coal Thickness in ft.
+			Attribute_Definition_Source: User Defined
+			Attribute_Domain_Values:
+				Unrepresentable_Domain: Character field
+Distribution_Information:
+	Distributor:
+		Contact_Information:
+			Contact_Organization_Primary:
+				Contact_Organization: USGS Central Region Energy Resources Team
+			Contact_Address:
+				Address_Type: mailing address
+				Address:
+					Box 25046 MS 939
+					Denver Federal Center
+				City: Denver
+				State_or_Province: CO
+				Postal_Code: 80225-0046
+				Country: USA
+			Contact_Voice_Telephone: 303.236.1647
+	Distribution_Liability:
+		The US Geological Survey provides these geographic data
+		"as is."  The USGS makes no guarantee or warranty
+		concerning the accuracy of information contained in this
+		geographic data.  The USGS further makes no warranties,
+		either expressed or implied as to any other matter
+		whatsoever, including, without limitation, the condition of
+		the product, or its fitness for any particular purpose. The
+		burden for determining fitness for use lies entirely with the
+		user.  Although these data have been processed
+		successfully on USGS computers, no warranty,
+		expressed or implied, is made by the USGS regarding the
+		use of these data on any other system, nor does the fact of
+		distribution constitute or imply any such warranty. In no
+		event shall the USGS have any liability whatsoever for
+		payment of any consequential, incidental, indirect, special,
+		or tort damages of any kind, including, but not limited to,
+		any loss of profits arising out of use of or reliance on the
+		geographic data or arising out of the delivery, installation,
+		operation, or support by the USGS.
+Metadata_Reference_Information:
+	Metadata_Date: 19990000
+	Metadata_Contact:
+		Contact_Information:
+			Contact_Organization_Primary:
+				Contact_Organization: USGS Central Region Energy Resources Team
+				Contact_Person: Steve Roberts
+			Contact_Address:
+				Address_Type: mailing address
+				Address:
+					Box 25046 MS 939
+					Denver Federal Center
+				City: Denver
+				State_or_Province: CO
+				Postal_Code: 80225-0046
+				Country: USA
+			Contact_Voice_Telephone: 303.236.7788
+	Metadata_Standard_Name: FGDC CSDGM
+	Metadata_Standard_Version: 19940608

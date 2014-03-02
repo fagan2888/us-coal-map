@@ -1,0 +1,707 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator:
+        U.S. Geological Survey, Central Energy Resources
+        Team
+      Originator: Hettinger, R.D.
+      Originator: Roberts, L.N.R.
+      Originator: Biewick, L.R.H.
+      Originator: Kirschbaum, M.A.
+      Publication_Date: 2000
+      Title:
+        kai*fin (The final unioned file for the coal resource
+        calculation in the Kaiparowits Plateau study area,
+        southern Utah)
+      Publication_Information:
+        Publication_Place: Denver, CO
+        Publisher: U.S. Geological Survey
+      Other_Citation_Details:
+        in subdir: 125k (defines appropriate maximum scale for
+        data use)
+
+        chap. T, Geologic overview and resource assessment of 
+        coal in the Kaiparowits Plateau, southern Utah
+      Larger_Work_Citation:
+        Citation_Information:
+          Originator: Kirschbaum, M.A.
+          Originator: Roberts, L.N.R.
+          Originator: Biewick, L.R.H.
+          Publication_Date: 2000
+          Title:
+            Geologic Assessment of Coal in the Colorado
+            Plateau
+          Series_Information:
+            Series_Name:
+              U.S. Geological Survey Professional Paper
+            Issue_Identification: 1625-B 
+          Publication_Information:
+            Publication_Place: Denver, CO
+            Publisher: U.S. Geological Survey
+  Description:
+    Abstract:
+      These are shapefiles and polygon coverages that contain
+      numerous attributes of information on coal in the Calico and
+      A-sequences of the Upper Cretaceous Straight Cliffs
+      Formation in the Kaiparowits Plateau study area in southern
+      Utah. These layers were derived from a "union" process of
+      combining numerous polygon coverages using the Environmental
+      Systems Research Institute, Inc. (ESRI) Arc/Info UNION
+      command, and finally calculating coal tonnage in INFO. Net
+      coal thickness values are from 209 data points and represent
+      all coal beds that are more than 1 foot thick.
+      The outside polygon defines the base of the coal-bearing
+      Calico and A-sequences east of 112 degrees of longitude. The
+      northern boundary is delineated by the Paunsaugunt fault and
+      basal outcrops of volcanic rocks of Tertiary age.
+    Purpose:
+      The Nation's coal resources are being assessed by the USGS.
+      A fundamental component of this assessment work is to
+      compile digital geologic and geographic data into a
+      Geographic Information System (GIS). Use of this GIS allowed
+      for the spatial integration of data layers. This resulted in
+      the ability to display, analyze, and query data to answer
+      complex geo-spatial questions concerning coal resource
+      occurrence.
+
+      As part of this National Coal Assessment, Hettinger and
+      others, chap. T, have completed an assessment of the coal
+      deposits in the Calico and A-sequences of the Straight
+      Cliffs Formation, Kaiparowits Plateau of southern Utah.
+      Their report delineates the distribution of coal and
+      provides estimates of resources in the basin.
+      This data set is intended as a basemap layer for GIS
+      applications at a scale of 1:125,000 or less.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 1995
+    Currentness_Reference: compilation date
+  Status:
+    Progress: complete
+    Maintenance_and_Update_Frequency: unknown
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -112.0039707
+      East_Bounding_Coordinate: -111.0066559
+      North_Bounding_Coordinate: 37.94843707
+      South_Bounding_Coordinate: 37.0697418
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: Kaiparowits Plateau
+      Theme_Keyword: total coal
+      Theme_Keyword: overburden
+      Theme_Keyword: 7.5' quadrangles
+      Theme_Keyword: counties
+      Theme_Keyword: surface ownership
+      Theme_Keyword: coal ownership
+      Theme_Keyword: dip
+      Theme_Keyword: coal-bearing interval
+      Theme_Keyword: township and range
+      Theme_Keyword: reliability
+      Theme_Keyword: coal thickness
+      Theme_Keyword: Calico sequence boundary
+      Theme_Keyword: Colorado Plateau coal assessment
+      Theme_Keyword: Colorado Plateau
+      Theme_Keyword: National Coal Resource Assessment
+      Theme_Keyword: NCRA
+      Theme_Keyword: coal
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: Kaiparowits Plateau
+      Place_Keyword: Utah
+      Place_Keyword: Colorado Plateau
+      Place_Keyword: Kane County
+      Place_Keyword: Garfield County
+      Place_Keyword: southern Utah
+      Place_Keyword: Colorado Plateau coal assessment study area
+    Stratum:
+      Stratum_Keyword_Thesaurus: None
+      Stratum_Keyword: Straight Cliffs Formation
+      Stratum_Keyword: Calico and A-sequences
+      Stratum_Keyword: John Henry Member
+    Temporal:
+      Temporal_Keyword_Thesaurus: None
+      Temporal_Keyword: Upper Cretaceous
+  Access_Constraints: None
+  Use_Constraints:
+    CARE SHOULD BE TAKEN IN USING THE COAL THICKNESS VALUES CONTAINED
+    IN THIS COVERAGE. Coal thickness values in hypothetical areas
+    (item REL = 'hypo' for "hypothetical reliability") reflect
+    decreased levels of accuracy for calculated coal thickness based
+    on their distance from a data point. Limitations of the net coal
+    method used to calculate these resources characterize this data
+    set as being a GUIDE TO WHERE THE THICKEST NET COAL AREAS ARE
+    LIKELY TO BE. These data sets serve as an overall picture of the
+    distribution and relative amount of coal. These coverages
+    represent coal distribution based on the available data. These
+    data sets cannot be used for mine planning or to calculate
+    reserves. Additional work is required to determine the
+    mineability and economics of these coal deposits.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: U.S. Geological Survey
+        Contact_Person: Robert D. Hettinger
+      Contact_Address:
+        Address_Type: mailing address
+        Address: P.O. Box 25046, MS 939
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225
+        Country: USA
+      Contact_Voice_Telephone: (303)236-7770
+      Contact_Electronic_Mail_Address: rhettinger@usgs.gov
+  Data_Set_Credit:
+    Dale Teeters, former U.S. Bureau of Mines (USBM) digitized the
+    outcrop lines in PC ARC/INFO from a paper copy of the
+    1:125,000-scale geologic map of the Kaiparowits Plateau (Sargent
+    and Hansen, 1982).
+  Native_Data_Set_Environment:
+    SunOS, 5.5.1, sun4d UNIX, ARC/INFO
+    version 7.0.4
+
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: See Entity_Attribute_Information
+  Logical_Consistency_Report: Polygon and chain-node topology present
+  Completeness_Report: see Process steps
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report:
+        captured at 1:125,000
+        scale
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Sargent, K.A.
+          Originator: Hansen, D.E.
+          Publication_Date: 1982
+          Title:
+            Bedrock geologic map of the Kaiparowits
+            coal-basin area, Utah
+          Series_Information:
+            Series_Name:
+              USGS Miscellaneous
+              Investigations Map
+            Issue_Identification: Map I-1033-I
+      Source_Scale_Denominator: 125,000
+      Type_of_Source_Media: paper map
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1982
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Sargent and Hansen (1982)
+      Source_Contribution: geologic map
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Roberts, C.A.
+          Originator: McColly, R.A.
+          Originator: Anderson, N.B.
+          Originator: Gray, A.W.
+          Originator: Beach, R.A.
+          Publication_Date: 1993
+          Title:
+            Availability of Federally owned minerals for
+            exploration and development in western
+            States: Utah, 1988
+      Source_Scale_Denominator: 500,000
+      Type_of_Source_Media: paper maps
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1988
+        Source_Currentness_Reference: compilation date
+      Source_Citation_Abbreviation:
+        U.S. Bureau of Mines Special
+        Report
+      Source_Contribution:
+        Clark Roberts provided us with coal ownership
+        generalized to the section level in an INFO file that
+        we joined to a public PLSS
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator:
+            Utah State Geographic Information
+            Database (SGID)
+          Publication_Date: 1995
+          Title:
+            Public Land Survey System, Utah Division of
+            State Lands and Forestry, Logan, Utah
+      Source_Scale_Denominator: 24,000
+      Type_of_Source_Media: unknown (digitized off 24,000-scale quadrangle maps)
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1995
+        Source_Currentness_Reference:
+          we received the data during 1995 from the Utah
+          Trust Lands
+      Source_Citation_Abbreviation: SGID
+      Source_Contribution:
+        PLSS (section, township, range) for the
+        State of Utah
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Edwards, Thomas C.
+          Publication_Date: 1993
+          Title:
+            Utah land ownership map: based on
+            100,000-scale BLM maps
+      Source_Scale_Denominator: 100,000
+      Type_of_Source_Media: paper (digitized off 1:100,000-scale quadrangle maps)
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1995
+        Source_Currentness_Reference:
+          we received the data during 1995 from the former
+          USBM
+      Source_Citation_Abbreviation: Edwards (1993)
+      Source_Contribution:
+        digital land ownership for the State of Utah.
+        Information from: Bureau of Land Management Land Status
+        Maps, Utah Division of Wildlife Resources, U.S. Forest
+        Service, Bureau of Indian Affairs, and U.S. Geological
+        Survey. All maps printed at 1:100,000 scale.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator:
+            U.S. Dept of Commerce, Bureau of Census (See
+            also Process_Step:)
+          Publication_Date: 1990
+          Title: 1990 TIGER/line Precensus files
+      Source_Scale_Denominator: 100,000
+      Type_of_Source_Media: paper (digitized off 1:100,000-scale quadrangle maps)
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1990
+        Source_Currentness_Reference: compilation date
+      Source_Citation_Abbreviation: county coverage
+      Source_Contribution: state and county identification
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Wood, Gordon H., Jr.
+          Originator: Kehn, Thomas M.
+          Originator: Carter, M. Devereux
+          Originator: Culbertson, William C.
+          Publication_Date: 1983
+          Title:
+            Coal Resource Classification System of the
+            U.S. Geological Survey
+          Series_Information:
+            Series_Name: USGS Circular
+            Issue_Identification: 891
+      Type_of_Source_Media: paper report
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: unknown
+            Ending_Date: unknown
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Wood and others (1983)
+      Source_Contribution: coal resource classification system
+    Process_Step:
+      Process_Description:
+        The outcrop lines were originally digitized in PC
+        Arc/Info by the former USBM (Dale Teeters) from a paper
+        copy of the 1:125,000-scale geologic map of the
+        Kaiparowits Plateau (Sargent and Hansen, 1982). The
+        lines were converted from table coordinates to Lambert
+        with the following parameters:
+
+        Units METERS
+        Spheroid CLARKE1866
+        Parameters:
+        1st standard parallel 33 0 0.000
+        2nd standard parallel 45 0 0.000
+        central meridian -111 30 0.00
+        latitude of projection's origin 0 0 0.000
+        false easting (meters) 0.00000
+        false northing (meters) 0.00000
+
+        The data was later projected to UTM 12 for the coal
+        resource calculations, and then projected to geographic
+        decimal degrees.
+
+        The Calico and A-sequences contain as many as 30 beds
+        of coal that range from 1 to 59 feet in thickness
+        (Hettinger and others, chap. T) In order to better
+        understand the distribution of these coal beds, in
+        addition to constructing a total coal isopach map, a
+        series of isopach maps were constructed to estimate the
+        net coal in thickness categories of 1.0 - 2.4, 2.5 -
+        3.4, 3.5 - 7.4, 7.5 - 14.0, 14.1 - 20 and greater than
+        20 feet. Each isopach map was constructed using coal
+        data listed in appendix 1 of Hettinger and others,
+        chap. T. A value of "zero" was assigned to data points
+        that lack coal within the specified bed thickness
+        category.
+
+        The item 'THICK' is the result of creating contour
+        output files in the plot routine in EarthVision of
+        Dynamic Graphics, Inc. (DGI). The contour output file
+        was then run through a program (ISMARC) that converts
+        it to an arc input file. The ISMARC program originated
+        with the Illinois State Geological Survey (ILGS), and
+        was provided to us along with amls to further process
+        the data, by Colin Treworgy, Senior Geologist, ILGS.
+        The arc input file is then converted to a polygon
+        coverage in Arc/info by using Colin Treworgy's AML
+        program, "convert-ism". The coverage used to clip the
+        contours in every case was the coverage that defines
+        the base of the Calico sequence boundary. The following
+        is a description of the parameters used in gridding the
+        scattered data files to generate the grids in ISM:
+        Coordinate system: Universal Transverse Mercator (UTM)
+        Units: Meters UTM zone: 12 Ellipsoid: Clarke 1866
+        Semi-major axis in meters: 6378206.4 Semi-minor axis in
+        meters: 6356583.8 Grid size: 276 by 312 Grid range:
+        407508,503665 4098129,4203271
+        Treworgy's aml "convert-ism" assigns a value to the
+        item DEPTH, which is now changed to THICK, by taking
+        one-half the contour interval and adding it to the
+        minimum contour that defines a polygon. For example, if
+        the contour interval is 10, and a polygon is bounded by
+        the 10 and 20 contour lines, then the THICK value
+        assigned to that polygon is 15. To calculate coal
+        resources that can be characterized by a variety of
+        parameters, all data layers (individual coverages) must
+        be combined (UNIONed in Arc/Info) to compute the
+        geometric intersections of all the polygons. When
+        combining two polygon coverages in Arc/Info, specify a
+        fuzzy tolerance that is close to that of the original
+        coverages.
+
+        union %lyrscov% %thkcov% %outcov% {fuzzy_tolerance} /*
+        note: dropitems (%lyrscov% and %thkcov% # and -id) /*
+        check outcover in arcedit for extraneous polys that may
+        be created /* from computing the geometric intersection
+        of two polygon /* coverages (ie: sel cnty eq ' ').
+        Delete labels and arcs as /* needed, and reBUILD cover.
+        Display one of the items in ArcView for /* a quick
+        visual check before proceeding (or display in arcedit
+        /* or arcplot). additem %outcov%.pat %outcov%.pat
+        shtons_mil 7 7 n 1 INFO ARC SELECT %OUTCOV%.PAT /* The
+        following calculation is for area in square meters, /*
+        thickness in feet, and coal rank equal bituminous. /*
+        Note: .0002471 is the factor for converting area in
+        square /* meters to acres. 1800 short tons per
+        acre-foot is the weight /* of unbroken coal of
+        bituminous rank. THICK is measured in feet. CALC
+        SHTONS_MIL = AREA * .0002471 * THICK * 1800 / 1000000
+        /* Note that there is a space on either side of each
+        operator /* in the previous INFO command Q STOP
+        Revisions: Projected to UTM 12 and then to geographic
+        decimal degrees.
+      Process_Date:
+        1996
+
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Label Point
+      Point_and_Vector_Object_Count: 5222
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: String
+      Point_and_Vector_Object_Count: 11074
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 5223
+
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Geographic:
+      Latitude_Resolution: 12 meters (approx.)
+      Longitude_Resolution: 12 meters (approx.)
+      Geographic_Coordinate_Units: Decimal Degrees
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1927
+      Ellipsoid_Name: Clarke 1866
+      Semi-major_Axis: 6378206.4
+      Denominator_of_Flattening_Ratio:
+        294.98
+
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: KAI*FIN.PAT
+      Entity_Type_Definition: Polygon attribute table
+      Entity_Type_Definition_Source:
+        Laura Biewick, Laura Roberts, and Bob Hettinger,
+        USGS-GD-Central Energy Resources Team
+  Overview_Description:
+    Entity_and_Attribute_Overview:
+      Items in the Polygon Attribute Table
+
+      AREA
+      Area of poly/region in square coverage units
+      Computed Positive real numbers
+
+      PERIMETER
+      Perimeter of poly/region in coverage units
+      Computed Positive real numbers
+
+      KAI*FIN#
+      Internal feature number
+      Computed Sequential unique positive integer
+
+      KAI*FIN-ID
+      User-assigned feature number
+      User-defined Integer
+
+      QUAD
+      7.5' quadrangles Computed
+      USGS-NMD
+
+      CNTY
+      counties
+      U.S. Census TIGER/line files extracted by USGS-WRD
+
+      OVERB
+      maximum overburden overlying coal in the Calico and
+      A-sequences
+
+      Computed by USGS-GD-Central Energy Resources Team
+      The thickness of overburden is determined to the Calico
+      sequence boundary (located 50 to 100 ft below the base of
+      the John Henry Member). It was created by subtracting the
+      grid of the surface representing the elevation on the top of
+      the Calico sequence boundary from the grid representing the
+      earth's surface. To determine the grid of the earth's
+      surface we used the 1:250,000-scale Digital Elevation Model
+      (DEM) from the Escalante-west quadrangle. The original DEM
+      was read into Dynamic Graphics, Inc. (DGI) Earth Vision. The
+      grid spacing was too fine for our purpose so we used the
+      formula processing capabilities within Earth Vision to
+      coarsen the grid spacing to the same number of columns and
+      rows that were used for all the other grids. The coverage,
+      overb, is the resultant grid produced by subtracting the
+      grid for the structure of the Calico sequence boundary from
+      the coarsened DEM grid. The original info item that
+      contained overburden thickness information was DEPTH. The
+      item name was changed to OVERB and the character strings
+      within OVERB represent overburden categories in thousands of
+      feet as follows:
+
+      0-1 = 0-1000 ft
+      1-2 = 1000 - 2000 ft
+      2-3 = 2000 - 3000 ft
+      3-6 = 3000 - 6000 ft
+      6 = >6000 ft
+      -99 = internal polygons where overburden is 0
+
+      SURF (in kai_tfin and kaintfin)
+      Bureau of Land Management Land status Statewide Utah land
+      ownership coverage for Gap Analysis
+
+      This is the item that assigns a Bureau of Land Management
+      (BLM) land status category to each polygon. The info item
+      named SURF (for surface management status) contains the land
+      status in character strings as follows:
+
+      BLM = Bureau of Land Management
+      FS = Forest Service
+      NPS = National Park Service
+      NREC = National Recreation Area
+      STATE
+      PRIVATE
+      WATER
+
+      Land ownership boundaries covering the entire State of Utah
+      were manually digitized from Bureau of Land Management (BLM)
+      1:100,000-scale paper maps for the Utah Geographic Approach
+      to Planning Analysis Project (GAP) in 1993. That work
+      included digitizing additional land ownership categories
+      such as wilderness areas, wildlife reserves and Indian
+      reservations derived from the U.S. Forest Service, Utah
+      Division of Wildlife Resources, Bureau of Indian Affairs,
+      and the U.S. Geological Survey. All maps used were
+      1:100,000. The U.S. Geological Survey received permission to
+      use this data from the Utah Cooperative Fish and Wildlife
+      Research Unit, Utah State University, Logan, UT in 1997.
+      This information is not accurate for legal boundary, or
+      navigation purposes.
+
+      Later, land and mineral exchanges took place in Utah after
+      the Grand Staircase-Escalante National Monument was created
+      by Presidential Proclamation. In 1999, the updated data were
+      provided by the Utah School and Institutional Trust Lands
+      Administration (SITLA), and we incorporated those land and
+      mineral ownership changes into the data sets kai_tfin and
+      kaintfin.
+
+      COAL_OWN (in kai_tfin and kaintfin)
+      coal ownership (Federal or non-Federal) 
+      PLSS from Utah Trust Lands, INFO file from former USBM, and BLM 
+      1:100,000- scale Maps
+
+      This is the item that categorizes coal ownership based on
+      the work done by the former U.S. Bureau of Mines (USBM) for
+      their special report: Availability of Federally Owned
+      Minerals for Exploration and Development in Western States:
+      Utah, 1988. The method used by USBM to generate subsurface
+      mineral management status was to generalize to the section
+      level - a whole section defined as being whatever the
+      management status is for 50% or more of that section.
+      Additional information was added based on BLM
+      1:100,000-scale maps. The info item named COAL_OWN contains
+      information in character strings as follows:
+
+      fed = Federal coal
+      nonfed = nonfederal coal
+
+      Later, land and mineral exchanges took place in Utah after
+      the Grand Staircase-Escalante National Monument was created
+      by Presidential Proclamation. In 1999, the updated data were
+      provided by the Utah School and Institutional Trust Lands
+      Administration (SITLA), and we incorporated those land and
+      mineral ownership changes into the data sets kai_tfin and
+      kaintfin.
+
+      TR
+      township and range PLSS from Utah Trust Lands
+
+      REL
+      reliability (either identified or hypothetical) Computed
+      USGS-GD-Central Energy Resources Team
+
+      This is the item that assigns a category of either
+      identified (within three miles of a data point) or
+      hypothetical (greater than three miles from a data point).
+      The ARC/INFO BUFFER command was used to create the
+      reliability circles. The info item named REL contains the
+      reliability information in character strings as follows:
+
+      iden = identified
+      hypo = hypothetical
+      hole = internal polygons where no coal exists
+
+      DIP
+      inclination of coal-bearing strata within the Kaiparowits
+      Plateau 
+
+      This is the item that categorizes coal-bearing strata based
+      on ranges of stratal dip. The info item named DIP contains
+      the dip range information in character strings as follows:
+      0-6 = 0 to 6 deg dip
+      6-12 = 6 to 12 deg dip
+      12-25 = 12 to 25 deg dip
+      gt25 = greater than 25 deg dip
+
+      The range-of-dip was compiled at 1:125,000-scale from
+      structure contour lines and dip measurements shown on
+      1:24,000-scale published geologic maps of the Kaiparowits
+      Plateau. The range of dip map was used to help determine the
+      mineability of the coal resource based on inclination of
+      strata.
+
+      INT (in kaintfin)
+      coal-bearing interval (either total or partial)
+
+      This is the item that identifies where the coal-bearing
+      interval is preserved and where it has been partially
+      eroded, reflecting decreased levels of accuracy for
+      calculated resource. The info item named INT contains
+      information in character string as follows:
+
+      T = total coal-bearing interval 
+      P = partial coal-bearing interval
+
+      THICK (not included in kaintfin)
+      Total coal or net coal thickness, in feet, in the Calico and
+      A-sequences, Kaiparowits Plateau
+      USGS, Central Energy Resources Team
+
+      FEDCOAL (in kaintfin)
+      Coal Federally Owned? 
+      USGS, Central Energy Resources Team
+
+      FEDSURF (in kaintfin)
+      Surface Federally Owned?
+      USGS, Central Energy Resources Team
+    Entity_and_Attribute_Detail_Citation:
+      listed above
+
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization:
+          U.S. Geological Survey, Central Energy Resources
+          Team
+      Contact_Address:
+        Address_Type: mailing address
+        Address: P.O. Box 25046, MS 939
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225
+        Country: USA
+      Contact_Voice_Telephone: (303)236-7773
+  Distribution_Liability:
+    Disclaimer: Any use of trade, product, or company names in this
+    publication is for descriptive purposes only and does not imply
+    endorsement by the U.S. Government. Although these data have been
+    processed successfully on a computer system at the U.S.
+    Geological Survey, no warranty expressed or implied is made by
+    the USGS regarding the utility of the data on any other system,
+    nor shall the act of distribution constitute any such warranty.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name:
+          ARC/INFO coverage, export file and
+          shapefile
+        Format_Version_Number: ARC/INFO 7.0.4, ArcView 2.1
+      Digital_Transfer_Option:
+        Offline_Option:
+          Offline_Media: CD-ROM
+          Recording_Format: ISO 9660
+    Fees: none
+  Technical_Prerequisites:
+    need ARC/INFO 7.0.4 or greater and/or ArcView 2.1 or greater
+    and/or ArcExplorer (which can be downloaded free from
+    <URL:http://www.esri.com>) and/or other software that can read
+    ARC/INFO coverages, ARC/INFO export files, or shapefiles
+
+Metadata_Reference_Information:
+  Metadata_Date: 19971022
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization:
+          U.S. Geological Survey, Central Energy Resources
+          Team
+        Contact_Person: Laura R.H. Biewick
+      Contact_Address:
+        Address_Type: mailing address
+        Address: P.O. Box 25046, MS 939
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225
+        Country: USA
+      Contact_Voice_Telephone: (303)236-7773
+      Contact_Electronic_Mail_Address: lbiewick@usgs.gov
+  Metadata_Standard_Name:
+    FGDC Content Standards for Digital Geospatial
+    Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: Local Time
+  Metadata_Security_Information:
+    Metadata_Security_Classification_System: None
+    Metadata_Security_Classification: Unclassified
+    Metadata_Security_Handling_Description:
+      None
+
+      ------------------------------------------------------------------------
+      Generated by mp version 2.4.8 on Thu Sep 30 10:18:10 1999

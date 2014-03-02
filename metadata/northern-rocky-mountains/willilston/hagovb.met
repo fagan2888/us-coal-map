@@ -1,0 +1,267 @@
+Identification_Information:
+	Citation:
+		Citation_Information:
+			Originator: United states Geological Survey (USGS) Central Energy Team
+			Publication_Date: 19990930
+			Title: hagovb (overburden above the Hagel coal zone , Center-Falkirk coalfield)
+			Geospatial_Data_Presentation_Form: map
+			Series_Information:
+				Series_Name: U. S. Geological Survey Professional Paper
+				Issue_Identification: 1625-A
+			Publication_Information:
+				Publication_Place: Denver, CO
+				Publisher: USGS Central Energy Team
+	Description:
+		Abstract:
+			This coverage contains a representation of the overburden
+			in the Hagel Coal Zone area.  This area is part of the
+			National Coal Assessment Rocky Mountain Region, and
+			can be viewed in relation to roads, geology, and other
+			relevant themes of this area.
+		Purpose:
+			The Nation's coal resources are being assessed by the
+			USGS.  This assessment identifies and characterizes
+			the coal beds and coal zones that will provide the
+			bulk of the nation's coal-derived energy during the
+			next few decades.  This assessment is different from
+			previous USGS assessments because digital files
+			and databases are being stored and analyzed in
+			formats using a Geographic Information System
+			(GIS).
+	Time_Period_of_Content:
+		Time_Period_Information:
+			Single_Date/Time:
+				Calendar_Date: 19980000
+		Currentness_Reference: Publication Date
+	Status:
+		Progress: Complete
+		Maintenance_and_Update_Frequency: None planned
+	Spatial_Domain:
+		Bounding_Coordinates:
+			West_Bounding_Coordinate: -101.8152
+			East_Bounding_Coordinate: -100.9577
+			North_Bounding_Coordinate: 47.5686
+			South_Bounding_Coordinate: 47.0038
+	Keywords:
+		Theme:
+			Theme_Keyword_Thesaurus: None
+			Theme_Keyword: Theme_Keyword
+			Theme_Keyword: National Coal Assessment
+			Theme_Keyword: Overburden
+			Theme_Keyword: Coal
+		Place:
+			Place_Keyword_Thesaurus: None
+			Place_Keyword: Place_Keyword
+			Place_Keyword: North Dakota
+			Place_Keyword: Williston Basin
+			Place_Keyword: Hagel Coal Zone
+			Place_Keyword: Mercer County
+			Place_Keyword: McLean County
+			Place_Keyword: Oliver County
+	Access_Constraints: None
+	Use_Constraints: None
+	Point_of_Contact:
+		Contact_Information:
+			Contact_Organization_Primary:
+				Contact_Organization: USGS Energy ResourcesTeam
+				Contact_Person: Romeo Flores
+			Contact_Position: Geologist
+			Contact_Address:
+				Address_Type: mailing and physical address
+				Address:
+					Box 25046
+					MS 939
+					Denver Federal Center
+				City: Denver
+				State_or_Province: CO
+				Postal_Code: 80225
+				Country: USA
+			Contact_Voice_Telephone: 303)236.0104
+			Hours_of_Service: Monday-Friday 8:00-3:00 P.M.
+	Native_Data_Set_Environment:
+		ArcView version 3.0
+		Arcinfo 7.0
+		Sunos, 5.51 Sun4d Unix
+Data_Quality_Information:
+	Logical_Consistency_Report: Polygon features present
+	Completeness_Report: The overburden is limited to the extent of Hagel Coal Zone
+	Lineage:
+		Source_Information:
+			Source_Citation:
+				Citation_Information:
+					Originator: USGS Energy Resources Team
+					Publication_Date: Unpublished material
+					Publication_Time: Unknown
+					Title: USGS National Coal Resources Data System database
+					Geospatial_Data_Presentation_Form: map
+					Other_Citation_Details:
+						US Geological Survey
+						National Center
+						MS 956
+						Reston, VA
+						(attn. M.D. Carter)
+			Type_of_Source_Media: Digital
+			Source_Time_Period_of_Content:
+				Time_Period_Information:
+					Single_Date/Time:
+						Calendar_Date: 19990930
+				Source_Currentness_Reference: Publication Date
+			Source_Citation_Abbreviation: nome
+			Source_Contribution:
+				This source was used to model the top of zone elevation
+				surfce in earthVision surface modeling software.
+		Source_Information:
+			Source_Citation:
+				Citation_Information:
+					Originator: USGS EROS Data Center(comp.)
+					Publication_Date: Unpublished material
+					Publication_Time: Unknown
+					Title: 30-minute digital elevation models
+					Other_Citation_Details: http//edcwww.cr.usgs.gov
+			Source_Scale_Denominator: 250,000
+			Type_of_Source_Media: online
+			Source_Time_Period_of_Content:
+				Time_Period_Information:
+					Single_Date/Time:
+						Calendar_Date: 19880805
+				Source_Currentness_Reference: Publication Date
+			Source_Citation_Abbreviation: DEM
+			Source_Contribution:
+				This source was used to generate an earthVision grid
+				which represented the surfce elevation in the Hagel
+				coalfield.
+		Process_Step:
+			Process_Description:
+				Overburden-Modeled (using earthVision) top of zone
+				elevation using top of zone elevation value in dataset.
+				This value was then subtracted from USGS 250k dems to
+				create an output overburden grid.  Contours were created
+				from this overburden grid and brought into ArcInfo.  This
+				coverage was then converted to a shapefile in Arcview.
+			Process_Date: 19980000
+			Process_Contact:
+				Contact_Information:
+					Contact_Organization_Primary:
+						Contact_Organization: USGS Central Energy Team
+						Contact_Person: Margaret Ellis
+					Contact_Position: Geologist
+					Contact_Address:
+						Address_Type: mailing and physical address
+						Address:
+							Box 25046
+							MS 939
+							Denver Federal Center
+						City: Denver
+						State_or_Province: CO
+						Postal_Code: 80225
+						Country: USA
+					Contact_Voice_Telephone: 303)236.4608
+					Contact_Electronic_Mail_Address: mellis@usgs.gov
+					Hours_of_Service: Monday-Friday 8:00-3:00 P.M.
+Spatial_Data_Organization_Information:
+	Direct_Spatial_Reference_Method: Vector
+	Point_and_Vector_Object_Information:
+		SDTS_Terms_Description:
+			SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+			Point_and_Vector_Object_Count: 153
+Spatial_Reference_Information:
+	Horizontal_Coordinate_System_Definition:
+		Geographic:
+			Latitude_Resolution: .0001
+			Longitude_Resolution: .0001
+			Geographic_Coordinate_Units: Decimal degrees
+		Geodetic_Model:
+			Horizontal_Datum_Name: North American Datum 1927
+			Ellipsoid_Name: Clarke 1866
+			Semi-major_Axis: 6378206.4
+			Denominator_of_Flattening_Ratio: 294.98
+Entity_and_Attribute_Information:
+	Detailed_Description:
+		Entity_Type:
+			Entity_Type_Label: hagovb.dbf
+			Entity_Type_Definition: Shapefile Attribute Table
+			Entity_Type_Definition_Source: None
+		Attribute:
+			Attribute_Label: Area
+			Attribute_Definition: Area of polygon
+			Attribute_Definition_Source: Software computed
+			Attribute_Domain_Values:
+				Range_Domain:
+					Range_Domain_Minimum: 24.500
+					Range_Domain_Maximum: 146505504.000
+		Attribute:
+			Attribute_Label: Perimeter
+			Attribute_Definition: Perimeter of polygon
+			Attribute_Definition_Source: Software computed
+			Attribute_Domain_Values:
+				Range_Domain:
+					Range_Domain_Minimum: 19.899
+					Range_Domain_Maximum: 267790.188
+		Attribute:
+			Attribute_Label: Overburden
+			Attribute_Definition: Thickness
+			Attribute_Definition_Source: User Defined
+			Attribute_Domain_Values:
+				Unrepresentable_Domain: Character field
+Distribution_Information:
+	Distributor:
+		Contact_Information:
+			Contact_Organization_Primary:
+				Contact_Organization: USGS Central Energy Team
+			Contact_Address:
+				Address_Type: mailing and physical address
+				Address:
+					Box 25046
+					MS 939
+					Denver Federal Center
+				City: Denver
+				State_or_Province: CO
+				Postal_Code: 80225
+				Country: USA
+			Contact_Voice_Telephone: (303)-236-1647
+			Hours_of_Service: Monday through Friday, 8:00 AM- 3:00 PM
+	Distribution_Liability:
+		The US Geological survey provides these geographic data
+		"as is."  USGS makes no guarantee or warranty
+		concerning the accuracy of information contained in the
+		geographic data.  USGS further makes no warranties,
+		either expressed or implied as to any other matter
+		whatsoever, including, without limitation, the condition of
+		the product, or its fitness for any particular purpose. The
+		burden for determining fitness for use lies entirely with the
+		user.  Although these data have been processed
+		successfully on computers of USGS, no warranty,
+		expressed or implied, is made by USGS regarding the use
+		of these data on any other system, nor does the fact of
+		distribution constitute or imply any such warranty. In no
+		event shall the USGS have any liability whatsoever for
+		payment of any consequential, incidental, indirect, special,
+		or tort damages of any kind, including, but not limited to,
+		any loss of profits arising out of use of or reliance on the
+		geographic data or arising out of the delivery, installation,
+		operation, or support by USGS.
+Metadata_Reference_Information:
+	Metadata_Date: 19980000
+	Metadata_Review_Date: 19990000
+	Metadata_Future_Review_Date: 19990000
+	Metadata_Contact:
+		Contact_Information:
+			Contact_Organization_Primary:
+				Contact_Organization: USGS Energy ResourcesTeam
+				Contact_Person: Margaret Ellis
+			Contact_Position: Geologist
+			Contact_Address:
+				Address_Type: mailing and physical address
+				Address:
+					Box 25046
+					MS 939
+					Denver Federal Center
+				City: Denver
+				State_or_Province: CO
+				Postal_Code: 80225
+				Country: USA
+			Contact_Voice_Telephone: 303.236.4608
+			Contact_Electronic_Mail_Address: ellis@usgs.gov
+			Hours_of_Service: Monday-Friday 8:00-3:00 P.M.
+	Metadata_Standard_Name: FGDC CSDGM
+	Metadata_Standard_Version: 19940608

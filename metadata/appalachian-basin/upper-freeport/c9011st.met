@@ -1,0 +1,392 @@
+Metadata:
+  Identification_Information:
+    Citation:
+      Citation_Information:
+        Originator: Fred J. Calef III (compiler)
+        Publication_Date: 19990415
+        Title:
+          Structure Contours for the Upper Freeport Coal Bed in Maryland, Ohio,
+          Pennsylvania. and West Virginia; c9011ST.E00.
+        Larger_Work_Citation:
+          Citation_Information:
+            Originator: Northern and Central Appalachian Basin Coal Regions
+              Assessment Team
+            Publication_Date: 2000
+            Title:
+              2000 Resource Assessment of Selected Coal Beds and Zones in the
+              Northern and Central Appalachian Basin Coal Regions
+            Series_Information:
+              Series_Name: U.S. Geological Survey Professional Paper
+              Issue_Identification: PP1625-C
+            Publication_Information:
+              Publication_Place: Reston, VA
+              Publisher: U.S. Geological Survey  
+            Online_Linkage: http://greenwood.cr.usgs.gov/pub/ppapers/p1625c/
+    Description:
+      Abstract:
+        This dataset is a polygon coverage of the elevation of the top 
+        of the Upper Freeport coal bed, in feet above MSL. It was 
+        produced by gridding 100 meter cells from 12,945 point-source 
+        data [mainly from the National Coal Resources Data System (NCRDS) of the 
+        USGS] and arc files digitized from published structure contour maps 
+        using ARC/INFO GRID (Version 7.2.1) software. The grid was 
+        subsequently contoured in 200-foot intervals and converted to an
+        ARC/INFO polygon coverage. The elev_st item for each polygon reflects a 
+        value halfway between the bounding contour lines.
+        Coverage name: c9011st (011 is the bed code assigned to the Upper  
+        Freeport Coal bed). The coverage has been clipped to resource assessment 
+        areas that are being used in region 9 (the Appalachian basin) for 
+        the Upper Freeport coal bed.
+      Purpose:
+        The purpose of Professional Paper 1625 is to release the interpretation
+        of assessment and modeling data for the the top-producing coal beds in the
+        northern and central Appalachian Basin coal regions.
+        This dataset was used in the National Coal Resource Assessment Program 
+        to produce a structure map, which was used to calculate overburden thickness in
+        the evaluation of resources for the Upper Freeport coal bed in Region 9, the 
+        Appalachian basin. The dataset is useful for regional studies - not 
+        applicable to local scales.
+    Time_Period_of_Content:
+      Time_Period_Information:
+        Range_of_Dates/Times: 
+          Beginning_Date: 1970's
+          Ending_Date: 1997
+      Currentness_Reference: data collection and collation period
+    Status:
+      Progress: Complete
+      Maintenance_and_Update_Frequency: None planned
+    Spatial_Domain:
+      Bounding_Coordinates:
+        West_Bounding_Coordinate: -82.701
+        East_Bounding_Coordinate: -78.193
+        North_Bounding_Coordinate: 41.354
+        South_Bounding_Coordinate: 38.406
+    Keywords:
+      Theme:
+        Theme_Keyword_Thesaurus: Coal Resource Classification of the U.S. Geological Survey, USGS
+          Circular 891.
+        Theme_Keyword: coal
+        Theme_Keyword: coal resources
+        Theme_Keyword: coal structure
+        Theme_Keyword: bituminous
+        Theme_Keyword: geologic structure
+        Theme_Keyword: coal elevation
+        Theme_Keyword: outcrop
+        Theme_Keyword: USGS
+        Theme_Keyword: West Virginia Geological and Economic Survey
+        Theme_Keyword: Ohio Division of Geological Survey
+        Theme_Keyword: Maryland Geological Survey
+        Theme_Keyword: Pennsylvania Bureau of Topographic and Geologic Survey
+      Place:
+        Place_Keyword_Thesaurus: Geographic Names Information System
+        Place_Keyword: Appalachians
+        Place_Keyword: ALLEGANY County MD
+        Place_Keyword: GARRETT County MD
+        Place_Keyword: ATHENS County OH
+        Place_Keyword: BELMONT County OH
+        Place_Keyword: CARROLL County OH
+        Place_Keyword: COLUMBIANA County OH
+        Place_Keyword: COSHOCTON County OH
+        Place_Keyword: GALLIA County OH
+        Place_Keyword: GUERNSEY County OH
+        Place_Keyword: HARRISON County OH
+        Place_Keyword: HOCKING County OH
+        Place_Keyword: JACKSON County OH
+        Place_Keyword: JEFFERSON County OH
+        Place_Keyword: LAWRENCE County OH
+        Place_Keyword: MEIGS County OH
+        Place_Keyword: MONROE County OH
+        Place_Keyword: MORGAN County OH
+        Place_Keyword: MUSKINGUM County OH
+        Place_Keyword: NOBLE County OH
+        Place_Keyword: PERRY County OH
+        Place_Keyword: STARK County OH
+        Place_Keyword: TUSCARAWAS County OH
+        Place_Keyword: VINTON County OH
+        Place_Keyword: WASHINGTON County OH
+        Place_Keyword: ALLEGHENY County PA
+        Place_Keyword: ARMSTRONG County PA
+        Place_Keyword: BEAVER County PA
+        Place_Keyword: BUTLER County PA
+        Place_Keyword: CAMBRIA County PA
+        Place_Keyword: CLARION County PA
+        Place_Keyword: CLEARFIELD County PA
+        Place_Keyword: ELK County PA
+        Place_Keyword: FAYETTE County PA
+        Place_Keyword: GREENE County PA
+        Place_Keyword: INDIANA County PA
+        Place_Keyword: JEFFERSON County PA
+        Place_Keyword: SOMERSET County PA
+        Place_Keyword: WASHINGTON County PA
+        Place_Keyword: WESTMORELAND County PA
+        Place_Keyword: BARBOUR County WV
+        Place_Keyword: BROOKE County WV
+        Place_Keyword: GRANT County WV
+        Place_Keyword: HANCOCK County WV
+        Place_Keyword: JACKSON County WV
+        Place_Keyword: MARION County WV
+        Place_Keyword: MARSHALL County WV
+        Place_Keyword: MONONGALIA County WV
+        Place_Keyword: MINERAL County WV
+        Place_Keyword: OHIO County WV
+        Place_Keyword: PRESTON County WV
+        Place_Keyword: RANDOLPH County WV
+        Place_Keyword: TAYLOR County WV
+        Place_Keyword: TUCKER County WV
+        Place_Keyword: TYLER County WV
+        Place_Keyword: UPSHUR County WV
+        Place_Keyword: WETZEL County WV
+      Stratum:
+        Stratum_Keyword_Thesaurus: Geologic Names Unit Lexicon (GNULEX), 1996;
+          Stratigraphic Nomenclature Databases for the United States, It's possessions,
+          and Territories, U.S. Geological Survey Digital Data Series DDS-6, release 3.
+        Stratum_Keyword: Upper Freeport coal bed horizon
+        Stratum_Keyword: Upper Freeport coal
+        Stratum_Keyword: Upper Freeport
+        Stratum_Keyword: Allegheny Group
+        Stratum_Keyword: Conemaugh Group
+    Access_Constraints: none
+    Use_Constraints: to be used for regional analysis only
+    Point_of_Contact:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person:  Susan J. Tewalt
+          Contact_Organization: U.S. Geological Survey, Eastern Energy Resources Team
+        Contact_Address:
+          Address_Type: mailing address
+          Address: MS 956 National Center
+          City: Reston
+          State_or_Province: Virginia
+          Postal_Code: 20192
+          Country: USA
+        Contact_Voice_Telephone: 703-648-6437
+    Data_Set_Credit:
+      The stratigraphic data stored in the National Coal Resources Data System 
+      (NCRDS) were submitted since the middle 1970's through State cooperative 
+      programs. The data for the Upper Freeport coal bed was used with the 
+      permission and through the cooperation of coal geologists (primary 
+      contacts listed) at the West Virginia Geological and Economic Survey 
+      (Mitch Blake), the Pennsylvania Bureau of Topographic and Geologic Survey 
+      (James R. Shaulis and Viktoras W. Skema), the Ohio Division of Geological 
+      Survey (Richard W. Carlton) and the Maryland Geological Survey (Dave 
+      Brezinski). [WVGES, PAGS, OHGS, and MDGS, respectively.] It is recommended that
+      new data be obtained from the State geological surveys that are the original sources
+      of the information in this study.
+  Data_Quality_Information:
+    Attribute_Accuracy:
+      Attribute_Accuracy_Report:
+        Deductive_Estimate: The range of elevation values in the well-point 
+          source information was -500 to 3940 feet.  The range of elevation 
+          values in the digitized structure-line source was 100 to 3700 feet.  The 
+          resultant range of the gridded surface was -526 to 3950 feet; 
+          extrapolation was used over the x,y extent. The average 
+          absolute Z-error of the grid is unknown.
+    Logical_Consistency_Report: Topologically clean 
+    Completeness_Report: Input points were irregularly distributed over the
+      spatial extent of the study, therefore areas of sparse data will not 
+      reflect ground truth. There is a point coverage available (c9011dp) that contains
+      most publicly available point elevations used to create this map. The  
+      Upper Freeport coal was selected by name from the stratigraphic data 
+      base stored in StratiFact, a relational data base manager in use by the 
+      USGS National Coal Assessment. In some areas with no point data, the Upper Freeport
+      coal bed elevation was extrapolated from structure contour maps of other adjoining
+      coal beds.
+    Positional_Accuracy:
+      Horizontal_Positional_Accuracy:
+        Horizontal_Positional_Accuracy_Report: A wide variety of data sources 
+          were used as input to this data set. The worst horizontal error is 
+          expected to be approximately 1/4 mile. Original data were stored in 
+          NCRDS in latitude/longitude coordinates with a possible precision of 
+          decimal seconds. Some loss of precision was made upon conversion to 
+          StratiFact. Location coordinates were converted to Albers Equal Area 
+          projection (.01 meter precision) prior to gridding in ARC/INFO.
+      Vertical_Positional_Accuracy:
+        Vertical_Positional_Accuracy_Report: The raw input data 
+          represent values of the elevation above MSL of the top of the Upper 
+          Freeport Coal for each borehole or point of measurement.  
+          The original measurement errors associated with the topographic surface 
+          elevation are unknown; no verification of surface elevations at points
+          of measurement was made with any paper or digital reference.  In addition,
+          in Armstrong, Cambria,  Clarion, Elk, Indiana, Jefferson, and Westmoreland counties of  
+          Pennsylvania, the Lower Freeport and Lower Kittanning coal bed structure 
+          information was used to approximate Upper Freeport coal bed structure 
+          in areas where Upper Freeport coal bed structure data was absent or 
+          insufficient for direct interpretation.  Lower Freeport coal structure 
+          contours were raised 50 feet in elevation.  Lower Kittanning coal 
+          structure contours were raised 200 feet in elevation.  The vertical 
+          accuracy is estimated to be equivalent to 100 feet (half of one contour interval).
+    Lineage:
+      Process_Step:
+        Process_Description: Upper Freeport Coal data from NCRDS was downloaded 
+          to StratiFact.  Elevation on top of the Upper Freeport was searched from
+          the database and was subsequently exported to ARC/INFO and into 
+          a point coverage.
+        Process_Date: 1998
+      Process_Step:
+        Process_Description: Lower Freeport and Lower Kittanning coal bed 
+          structure information was used in Armstrong, Cambria, Clarion, Elk, 
+          Indiana, Jefferson, and Westmoreland counties in Pennsylvania and 
+          interpreted (elevation increased) to the approximate Upper Freeport 
+          coal bed structure. Lower Freeport coal structure contours were raised
+          50 feet in elevation.  Lower Kittanning coal structure contours were 
+          raised 200 feet in elevation. Source of Lower Kittanning and Lower 
+          Freeport data was the Pennsylvania Bureau of Topographic and Geologic 
+          Survey, Mineral Resource Report #92, Part 1, 1987. These data were 
+          digitized, edited, and appended from a paper source based on USGS 
+          7.5-minute quad sheets.
+        Process_Date: 1998
+      Process_Step:
+        Process_Description: Insufficient computer memory necessitated intersecting
+          the digitized lines and points with four overlapping quadrants that covered
+          the extent of the Upper Freeport bed. This created the need to perform the
+          following topogrid step for each of the four areas (labeled se, sw, nw, ne).
+        Process_Date: 1999
+      Process_Step:
+        Process_Description: Gridding of 12,945 elevations (ARC/INFO 7.2.1 GRID) 
+          with a limited number of anomalous data points removed to better 
+          reflect local structure. Final grid parameters used: TOPOGRID command 
+          utilizing the ANUDEM algorithm (uses a combination of inverse distance 
+          weighting, kriging, and spline-method like algorithms), 100 meter cell 
+          size, extrapolation over specified x,y extent.  Average Z-error is 
+          unknown, though expected to be within 100 feet (half contour interval).
+          Both digitized arcs from paper sources and points from the database were
+          input to topogrid command for each quadrant.
+        Process_Date: 1999
+      Process_Step:
+        Process_Description: The four quadrant grids created with topogrid were mosaiced
+          together.
+        Process_Date: 1999
+      Process_Step:
+        Process_Description: Mosaiced grid was contoured with a 200-foot interval using 
+          LATTICECONTOUR and made into an ARC/INFO line coverage representing 
+          Upper Freeport structure contours.
+        Process_Date: 1999
+      Process_Step:
+        Process_Description: Structure contours were converted into structure 
+          polygons using the convert-ism.aml program.  This program created polygon
+          labels with a value half way between the contour intervals on either 
+          side of the polygon. A decision was made to leave small contour 
+          polygons in the resulting file and not to subjectively remove them, 
+          even though they may be artificial.
+        Process_Date: 1999
+      Process_Step:
+        Process_Description: Structure coverage was projected into digital 
+          degrees using the PROJECT command into GEOGRAPHIC projection, NAD27 
+          datum, and digital degree units.
+        Process_Date: 1999
+  Spatial_Data_Organization_Information:
+    Direct_Spatial_Reference_Method: Vector
+    Point_and_Vector_Object_Information:
+      SDTS_Terms_Description:
+        SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+        Point_and_Vector_Object_Count: 6346
+  Spatial_Reference_Information:
+    Horizontal_Coordinate_System_Definition:
+      Geographic:
+        Latitude_Resolution: 0.00001
+        Longitude_Resolution: 0.00001
+        Geographic_Coordinate_Units: decimal degrees
+      Geodetic_Model:
+        Horizontal_Datum_Name:  North American Datum of 1927
+        Ellipsoid_Name: Clarke 1866
+        Semi-major_Axis: 6378206.4
+        Denominator_of_Flattening_Ratio:  294.98
+  Entity_and_Attribute_Information:
+    Detailed_Description:
+      Entity_Type:
+        Entity_Type_Label: c9011st.pat
+        Entity_Type_Definition: polygon attribute table for coverage
+        Entity_Type_Definition_Source: ARC/INFO
+      Attribute:
+        Attribute_Label: elev_st
+        Attribute_Definition: average elevation value of bounding structure 
+          contour lines.  NOTE: values of -9999 are assigned 
+          to eroded areas within the coal bed extent.
+        Attribute_Definition_Source: this study
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: -500 
+            Range_Domain_Maximum: 3900
+        Attribute_Value_Accuracy_Information:
+          Attribute_Value_Accuracy: 100
+          Attribute_Value_Accuracy_Explanation: elevation on top of the Upper 
+            Freeport coal bed (in feet) was created by subtraction of depth down
+            drill hole from the surface elevation of the drill hole, gridded, and
+            contoured to nearest 200 feet; accuracy plus or minus one half 
+            of one contour interval. NOTE: values of -999 are assigned 
+            to eroded or no-coal areas within the coal bed extent.
+    Detailed_Description:
+      Entity_Type:
+        Entity_Type_Label: c9011st.aat
+        Entity_Type_Definition: arc attribute table for coverage
+        Entity_Type_Definition_Source: ARC/INFO
+      Attribute:
+        Attribute_Label: elev_st
+        Attribute_Definition: elevation value of contour lines. NOTE: values of
+           -9999 are assigned to outcrop, which was used as a clipping polygon and
+            are not true elevation values.
+        Attribute_Definition_Source: ARC/INFO
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: -400 
+            Range_Domain_Maximum: 3800
+        Attribute_Value_Accuracy_Information:
+          Attribute_Value_Accuracy: 100
+          Attribute_Value_Accuracy_Explanation: elevation on top of the 
+            Upper Freeport coal bed in feet was created by subtraction of depth
+            down the drill hole from the drill hole surface elevation, gridded and
+            contoured to nearest 200 feet; accuracy plus or minus one half of one
+            contour interval. Surface elevations of drill holes were not compared
+            to any paper or digital reference.
+  Distribution_Information:
+    Distributor:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Susan J. Tewalt
+          Contact_Organization: U.S. Geological Survey, Eastern Energy Resources Team
+        Contact_Address:
+          Address_Type: mailing address
+          Address: MS 956 National Center
+          City: Reston
+          State_or_Province: Virginia
+          Postal_Code: 20192
+          Country: USA
+        Contact_Voice_Telephone: 703-648-6437
+    Resource_Description: USGS Professional Paper 1625-C: Chapter D, C9011ST.E00
+    Distribution_Liability:
+      Any use of trade, product, or firm names is for descriptive purposes only and
+      does not imply endorsement by the U.S. Government. Although these
+      data have been used by the U.S. Geological Survey (USGS), no warranty, 
+      expressed or implied, is made by the USGS as to the accuracy of the data
+      and related materials.  The act of distribution shall not constitute any
+      such warranty, and no responsibility is assumed by the USGS in the use
+      of these data, software, or related materials.
+    Standard_Order_Process:
+      Digital_Form:
+        Digital_Transfer_Information:
+          Format_Name: ARCE
+          Format_Version_Number: 7.2.1
+          Format_Information_Content: polygons of coal elevation
+        Digital_Transfer_Option: 
+          Online_Option: 
+            Computer_Contact_Information:
+              Network_Address:
+                Network_Resource_Name: http://greenwood.cr.usgs.gov/pub/ppapers/p1625c/
+      Fees: none
+  Metadata_Reference_Information:
+    Metadata_Date: 19990415
+    Metadata_Contact:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Susan J. Tewalt
+          Contact_Organization: U.S. Geological Survey, Eastern Energy Resources Team
+        Contact_Address:
+          Address_Type: mailing address
+          Address: MS 956 National Center
+          City: Reston
+          State_or_Province: Virginia
+          Postal_Code: 20192
+          Country: USA
+        Contact_Voice_Telephone: 703-648-6437
+    Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+    Metadata_Standard_Version: FGDC-STD-001-1998

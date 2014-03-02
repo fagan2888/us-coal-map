@@ -1,0 +1,579 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator:
+        U.S. Geological Survey, Central Energy Resources
+        Team
+      Originator: Fassett, J.E.
+      Publication_Date: 2000
+      Title:
+        sjb_fin (Final unioned polygon coverage used in coal
+        resource calculations, San Juan Basin, CO and NM)
+      Geospatial_Data_Presentation_Form: map
+      Publication_Information:
+        Publication_Place: Denver, CO USA
+        Publisher: U.S. Geological Survey
+      Other_Citation_Details:
+        in subdir 380k (defines appropriate maximum scale for
+        data use)
+
+        chap. Q, Geology and coal resources of the Upper
+        Cretaceous Fruitland Formation, San Juan Basin, New
+        Mexico and Colorado
+      Larger_Work_Citation:
+        Citation_Information:
+          Originator: Kirschbaum, M.A.
+          Originator: Roberts, L.N.R.
+          Originator: Biewick, L.R.H.
+          Publication_Date: 2000
+          Title:
+            Geologic Assessment of Coal in the Colorado
+            Plateau
+          Series_Information:
+            Series_Name:
+              U.S. Geological Survey Professional Paper
+            Issue_Identification: 1625-B
+          Publication_Information:
+            Publication_Place: Denver, CO
+            Publisher: U.S. Geological Survey
+  Description:
+    Abstract:
+      This is a shapefile and the final unioned polygon coverage
+      used to calculate coal resources of the Fruitland Formation,
+      San Juan Basin coal assessment area, Colorado and New
+      Mexico. Polygons that make up the final unioned polygons
+      include counties, 7.5' quadrangles, townships, surface and
+      coal ownership, reliability, overburden categories, and net
+      coal thickness categories. The final unioned coverage was
+      clipped by the resource boundary polygon, which is described
+      in the metadata file for the shapefile SJB_BND.
+    Purpose:
+      The Nation's coal resources are being assessed by the USGS.
+      This assessment identifies and characterizes the coal beds
+      and coal zones that will provide the bulk of the nation's
+      coal-derived energy during the next century. This assessment
+      is different from previous large-scale USGS assessments
+      because files and databases are being stored in a digital
+      format and are being analyzed using a Geographic Information
+      System (GIS).
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 19960000
+        Ending_Date: 20000000
+    Currentness_Reference: Publication Date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -108.5610
+      East_Bounding_Coordinate: -106.8396
+      North_Bounding_Coordinate: 37.3286
+      South_Bounding_Coordinate: 35.8405
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: coal
+      Theme_Keyword: National Coal Resource Assessment (NCRA)
+      Theme_Keyword: Colorado Plateau
+      Theme_Keyword: San Juan Basin
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: Colorado
+      Place_Keyword: New Mexico
+      Place_Keyword: San Juan Basin
+      Place_Keyword: McKinley County, NM
+      Place_Keyword: Sandoval County, NM
+      Place_Keyword: San Juan County, NM
+      Place_Keyword: Rio Arriba County, NM
+      Place_Keyword: La Plata County, CO
+      Place_Keyword: Archuleta County, CO
+    Stratum:
+      Stratum_Keyword_Thesaurus:
+        Geologic Names Unit Lexicon
+        (GNULEX) 
+      Stratum_Keyword: Ojo Alamo Sandstone
+      Stratum_Keyword: Kirtland Formation 
+      Stratum_Keyword: Farmington Sandstone
+      Stratum_Keyword: Farmington Sandstone Mbr of Kirtland Fm
+      Stratum_Keyword: Fruitland Formation
+      Stratum_Keyword: Pictured Cliffs Sandstone
+      Stratum_Keyword: Lewis Shale 
+      Stratum_Keyword: Huerfanito Bentonite
+      Stratum_Keyword: Huerfanito Bentonite Bed of Lewis Shale
+  Access_Constraints: None
+  Use_Constraints:
+    Appropriate maximum scale for data use is 380K. No restrictions,
+    however, comparison with other data sets on surface and mineral
+    ownership for the same area from other time periods might be
+    inaccurate due to inconsistencies resulting from changes in land
+    and mineral ownership and in mapping convention over time.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization:
+          U.S. Geological Survey, Central
+          Energy
+        Contact_Person: Fassett, J.E.
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: PO Box 25046 MS 939 Denver Federal Center
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225
+        Country: USA
+      Contact_Voice_Telephone: 303.236.0609
+      Contact_Electronic_Mail_Address: jfassett@usgs.gov
+  Security_Information:
+    Security_Handling_Description: None
+    Security_Classification: Unclassified
+    Security_Classification_System: None
+  Native_Data_Set_Environment: SunOS, 5.5.1, sun4d UNIX, ARC/INFO version 7.0.4 and ArcView 3.1
+
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: See Entity_Attribute_Information
+  Logical_Consistency_Report: Polygon topology present.
+  Completeness_Report: Complete.
+  Lineage:
+    Process_Step:
+      Process_Description:
+        An x, y extent greater than the resource area was used
+        to begin the unioning process and was clipped, as a
+        last step, by the polygon that limits the resource
+        area. County data used in unioned polygons are
+        described in metadata file sjb_cnty.met. Township and
+        range data are described in sjb_tr.met and was unioned
+        with the County coverage. 7.5 minute quadrangle data
+        are described in sjb_24qd.met and was unioned with the
+        previously unioned coverage.
+      Process_Date: 19980000
+    Process_Step:
+      Process_Description:
+        Ownership coverages from the San Juan Resource Area
+        (Colorado) and the New Mexico portion of the San Juan
+        Basin were processed, as described below, and
+        MAPJOINed. The resultant coverage was then snapped to
+        the San Juan Basin township coverage (which is a
+        combination of mapjoined 100k DLGs for the Colorado
+        portion and a New Mexico PLSS coverage that was
+        collected by the NM Bureau of Land Management (BLM)
+        from 7.5' USGS quadrangle maps) and CLEANed.
+        Labelerrors & slivers were then removed and the
+        coverage was rebuilt. The New Mexico surface ownership
+        theme, used to display existing land ownership, was
+        obtained from the New Mexico State BLM office in 1997.
+        The file projection was UTM 13, NAD 27. The following
+        information describes the work done by the BLM to
+        create the surface ownership coverage. The BLM Case
+        Recordation Data Base (CRDB) and the Status Data Base
+        are reviewed to determine the necessary data. The
+        realty specialist delineates the land ownership using
+        proper attributes and/or color code on a 7.5'
+        topographic map. The map is then reviewed for accuracy.
+        The information on New Mexico subsurface ownership was
+        obtained from the former U.S. Bureau of Mines (USBM,
+        Clark Roberts). The data is based on work done in 1987.
+        At that time acquired land status and mineral ownership
+        information was collected by the former USBM by reading
+        Master Title Plats and management documents. This data
+        is more accurate than 100K BLM maps published prior to
+        1987. The leasable minerals owned by the Federal
+        government are generalized to the section level. As
+        defined in this coverage, any section that contains a
+        leasable mineral commodity that is owned by the Federal
+        government in 50% or more of the areal extent of the
+        section, is flagged as Federal ownership for that
+        particular commodity for the entire section. Likewise,
+        sections that contain a leasable mineral commodity that
+        is owned by the Federal government in less than 50% of
+        the areal extent of the section are flagged as
+        nonfederal ownership for that particular commodity for
+        the entire section. The information on subsurface
+        ownership was acquired by the USGS as attributes in an
+        INFO file that tied mineral ownership to sections. The
+        USGS added this information to a public version of the
+        Public Land Survey System (PLSS) that was acquired from
+        the State of New Mexico via the New Mexico Resource
+        Geographic Information System Program (RGIS)
+        Clearinghouse Resource Data 1996 CD-ROM, Volume 1,
+        Version 1.0. The item PLSS_ID was added to join INFO
+        file data defining Federal Mineral ownership to the
+        PLSS. The item was populated by CALC PLSS_ID equals ((
+        QUAD * 100000000 ) + ( R * 100000 ) + ( T * 100 ) + (
+        SECTION )). Subsequently, this data was UNIONed and
+        SNAPped to the land ownership data described above,
+        which contained updated PLSS lines taken from a more
+        recent data set described in the discussion of the
+        township lines in this data set.
+
+        A visual inspection was performed using New Mexico 100k
+        Land Status quads and "Availability of Federal Mineral
+        Land Compared with Areas Favorable for Leasable
+        Minerals Coal and Geothermal in New Mexico", Bureau of
+        Mines, 1982. The USGS created a hardcopy map to verify.
+        The USGS populated item FEDMINS based on the values in
+        PLATE_II, III, IV, V, VI'; and populated item, SURF
+        based on OWN_NAME.
+
+        Colorado surface ownership originated from the
+        Geographic Approach to Planning (GAP) Analysis Program
+        (vintage 1995), scale 100K (see
+        //www.gap.uidaho.edu/GAP/Bulletins/6/SR_CO.htm) For
+        Colorado subsurface data, the USGS converted BLM data
+        from Mapping Overlay Statistical System (MOSS) export
+        files to Arc coverages. The data sets from BLM San Juan
+        Resource Area of Colorado were 7.5'-scale subsurface
+        maps that were originally digitized using Automated
+        Digitizing System (ADS) and converted to MOSS and then
+        converted to MOSS export format. The USGS used MOSSARC
+        to convert the files to Arc/Info and used special care
+        after conversion to look for slivers, labelerrors and
+        nodeerrors and cleaned them to create polygon topology.
+        The USGS then appended all the 7.5' quads, cleaned the
+        coverage and dissolved on item DATA to delete quad
+        lines.
+
+        The land and mineral ownership coverages for the
+        Colorado portion of the San Juan Basin were overlayed
+        via UNION / NO-JOIN. Overlaying dissimilar scales
+        creates slivers. Slivers were removed by using an aml
+        written for this application and by manual editing.
+        After deleting slivers coverage attributes were added
+        back in with JOINITEM. Coverage was checked against the
+        original BLM land status maps and edited as necessary.
+        SUMMARY -- This coverage portrays the current status of
+        what is commonly known as "surface ownership" in New
+        Mexico. More accurately stated, the coverage displays
+        land parcels which are attribute coded to the
+        organization that is responsible for managing the
+        surface of the land for that parcel. The coverage is
+        not intended to depict the entity that holds title to
+        the land, nor is it intended to depict subsurface
+        rights. DISCLAIMER -- The land ownership status records
+        contained in this data set are not the BLM's official
+        records of title. To obtain the official records,
+        consult the Master Title Plats and Historical Indices
+        available through the Public Room at the BLM New Mexico
+        State Office which is located at 1474 Rodeo Road in
+        Santa Fe, NM. No warranty is made by the BLM for use of
+        the data for purposes not intended by the BLM. CONTACT-
+        James Alm Bureau of Land Management New Mexico State
+        Office Geographic Sciences Team; NM95220 (505) 438-7541
+        The resultant coverage was unioned with the coverage
+        containing county, 7.5' quadrangle, and township data.
+      Process_Date: 19980000
+    Process_Step:
+      Process_Description:
+        A coverage was generated that contains polygons for
+        coal reliability categories of 'identified' and
+        'hypothetical'. It was generated using the BUFFER
+        command in ARC/INFO. Round buffers were generated at a
+        distance of three miles from a point of thickness for
+        'identified' and everything beyond three miles is
+        'hypothetical' (Wood and others, 1983). This coverage
+        was then unioned to the previously unioned coverage
+        containing Counties, 7.5' quadrangles, Townships, and
+        surface and mineral ownership.
+      Process_Date: 19980000
+    Process_Step:
+      Process_Description:
+        A coverage was generated from a gridded file of data
+        representing the overburden thickness to the base of
+        the coal-bearing Fruitland Formation (same as the top
+        of the Pictured Cliffs Sandstone). The overburden grid
+        is a result of subtracting the grid for the top of the
+        Pictured Cliffs Sandstone (see sjb_strc.met for details
+        of this grid file) from the grid of the earth's surface
+        in EarthVision (EV). The surface grid is a mosaic of
+        250K Digital Elevation Models of the San Juan Basin, NM
+        and CO parts, imported through EV. A map of the
+        overburden to the base of the Fruitland was plotted in
+        EV with a contour interval of 500 ft. The contour lines
+        were saved in a contour output file. The contour output
+        file was converted to a file in 'arc generate' format
+        using ISMARC and then converted to an ARC/INFO polygon
+        coverage using an Arc Macro Language program from the
+        Illinois State Geological Survey. In ARC/INFO, the
+        overburden coverages were unioned with the previously
+        unioned coverage of Counties, 7.5' quadrangles,
+        townships, surface and mineral ownership, and
+        reliability categories.
+      Process_Date: 19980000
+    Process_Step:
+      Process_Description:
+        A coverage was generated from a gridded file of data
+        from drill holes and measured sections that contain x,
+        y, data for location and values for the net coal
+        thickness for the Fruitland Formation. Details about
+        how this data file was generated from the Stratifact
+        data base are described in the metadata files
+        sjb_thk.met EarthVision was used to do the gridding.
+
+        The net coal thickness does not include coal beds that
+        are less than resource thickness, which for bituminous
+        coal is 1.2 ft. Contours defining the net coal
+        thickness categories for bituminous coal from USGS
+        circular 891, were generated from the grid. These
+        contour lines include 1.2 ft, 2.3, 3.5, 7.0, and 14.0.
+        The contour lines were saved in a contour output file.
+        The contour output file was converted to a file in 'arc
+        generate' format using ISMARC and then converted to an
+        ARC/INFO polygon coverage using an Arc Macro Language
+        program from the Illinois State Geological Survey. This
+        polygon coverage was unioned with the coverage created
+        from the previous union that contains data for
+        Counties, 7.5' quadrangles, Townships, surface and
+        mineral ownership, reliability categories, and
+        overburden categories.
+      Process_Date: 19980000
+    Process_Step:
+      Process_Description:
+        The ARC/INFO polygon coverage generated from all these
+        unions was then clipped using the Arc 'identity'
+        command. The 'input' coverage is described in a
+        metadata file called sjb_bnd.met. The 'identity'
+        coverage is the final unioned polygon. The 'output'
+        coverage is this sjb_fin polygon coverage. This
+        coverage was converted to a shapefile in ArcView.
+      Process_Date: 19980000
+
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 7284
+
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Geographic:
+      Latitude_Resolution: .0001
+      Longitude_Resolution: .0001
+      Geographic_Coordinate_Units: Decimal degrees
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum 1927
+      Ellipsoid_Name: Clarke 1866
+      Semi-major_Axis: 6378206.4
+      Denominator_of_Flattening_Ratio: 294.98
+
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: sjb_fin.dbf
+      Entity_Type_Definition: Shapefile Attribute Table
+      Entity_Type_Definition_Source: None
+    Attribute:
+      Attribute_Label: Area
+      Attribute_Definition: Area of polygon
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.00000
+          Range_Domain_Maximum: 0.00793
+    Attribute:
+      Attribute_Label: Perimeter
+      Attribute_Definition: Perimeter of polygon
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.00271
+          Range_Domain_Maximum: 0.80054
+    Attribute:
+      Attribute_Label: Hole
+      Attribute_Definition:
+        Holes are polygons within the resource polygon for
+        which resources were not reported because the coal is
+        less than resource thickness (1.2 ft). If hole equals
+        yes, then resources were not reported for that polygon.
+        If hole equals no or is blank, then a tonnage value for
+        that polygon was reported.
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Cntyname
+      Attribute_Definition: County name
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Name
+      Attribute_Definition: 7.5 minute quadrangle name
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: State
+      Attribute_Definition: State
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Block
+      Attribute_Definition:
+        Township and Range block
+        N - north
+        S - south
+        E - east
+        W - west
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Surf
+      Attribute_Definition:
+        Surface ownership
+
+        BLM - US Bureau of Land Management
+        FS - US Forest Service
+        BREC - US Bureau of Reclamation
+        STATE - State
+        PRIVATE - Private
+        NPS - National Park Service
+        SREC - State Recreational Area
+        TL - Tribal Lands
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field 
+    Attribute:
+      Attribute_Label: Fedmins
+      Attribute_Definition:
+        Federal mineral ownership
+
+        ALL - Federal government owns all minerals
+        COAL - Federal government owns the coal only
+        OGC - Federal government owns the oil, gas, and coal
+        only
+        OG - Federal government owns oil and gas only
+        NONE - Federal government owns none of the minerals
+        OTHER - other
+        OG+ - Federal government owns oil, gas and other
+        minerals
+        OGC+ - Federal government owns the oil, gas, coal and
+        other minerals
+        Blank - unknown
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Fedcoal
+      Attribute_Definition:
+        Fedcoal
+        yes - Federal government owns rights to the coal
+        no - Federal government does not own rights to the coal
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Rel
+      Attribute_Definition:
+        Reliability categories
+        hypo -- hypothetical
+        iden - identified
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Overb
+      Attribute_Definition:
+        Overburden categories - range of overburden to base of
+        Fruitland Formation. Thickness of overburden in 100s of
+        feet.
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Cthk_cat
+      Attribute_Definition:
+        Net coal thickness categories - range of net coal
+        thickness in beds > or equal to 1.2 ft. Thickness
+        categories are defined in Wood, and others, 1983, USGS
+        Circular 891. See metadata file sjb_thk.met for
+        description of net coal thickness.
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Fedsurf
+      Attribute_Definition: Surface Federally owned?
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization:
+          U.S. Geological Survey, Central
+          Energy
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: PO Box 25046 MS 939 Denver Federal Center
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225
+        Country: USA
+      Contact_Voice_Telephone: 303.236.4608
+  Resource_Description: Shapefile and ARC/INFO coverage
+  Distribution_Liability:
+    Any use of trade, product, or company names in this publication
+    is for descriptive purposes only and does not imply endorsement
+    by the U.S. Government. Although these data have been processed
+    successfully on a computer system at the U.S. Geological Survey,
+    no warranty expressed or implied is made by the USGS regarding
+    the utility of the data on any other system, nor shall the act of
+    distribution constitute any such warranty. Comparison with other
+    data sets on surface and mineral ownership for the same area from
+    other time periods might be inaccurate due to inconsistencies
+    resulting from changes in land and mineral ownership and in
+    mapping convention over time. This data is not a legal document
+    and is not intended to be used as such.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name:
+          ARC/INFO coverage, export file, and shapefile
+        Format_Version_Number: ARC/INFO 7.0.4, ArcView 2.1
+      Digital_Transfer_Option:
+        Offline_Option:
+          Offline_Media: CD-ROM
+          Recording_Format: ISO 9660
+    Fees: none
+  Technical_Prerequisites:
+    need ARC/INFO 7.0.4 or greater and/or ArcView 2.1 or greater
+    and/or ArcExplorer (which can be downloaded free from
+    <URL:http://www.esri.com>) and/or other software that can read
+    ARC/INFO coverages, ARC/INFO export files, and/or shapefiles
+
+Metadata_Reference_Information:
+  Metadata_Date: 19990203
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization:
+          U.S. Geological Survey, Central
+          Energy
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: PO Box 25046 MS 939 Denver Federal Center
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225
+        Country: USA
+      Contact_Voice_Telephone: 303.236.4608
+  Metadata_Standard_Name:
+    FGDC Content Standards for Digital Geospatial
+    Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Access_Constraints: None
+  Metadata_Security_Information:
+    Metadata_Security_Handling_Description: None
+    Metadata_Security_Classification: Unclassified
+    Metadata_Security_Classification_System:
+      None
+
+      ------------------------------------------------------------------------
+      Generated by mp version 2.4.8 on Thu Sep 30 14:21:13 1999

@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Joseph A. East</origin>
+<pubdate>2013</pubdate>
+<title>Coal Fields of the Conterminous United States: National Coal Resource Assessment Updated Version, Coal Provinces</title>
+<geoform>vector digital data</geoform>
+<serinfo>
+<sername>U.S. Geological Survey Open-File Report</sername>
+<issue>2012-1205</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Reston, VA</pubplace>
+<publish>U.S. Geological Survey</publish>
+</pubinfo>
+<onlink>http://pubs.usgs.gov/of/2012/1205/</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This dataset is a polygon shapefile representing the provinces of the coal fields of the conterminous United States. Resolution of data is 1:5,000,000. This data is based on an early USGS paper map that was a representation of the coal fields and major regions (Trumbull, 1960). The map was digitized and the provinces were added to the PDF portion of USGS OFR 96-092, Coal Fields of the Conterminous United States (Tully, 1996). The provinces were not included in the GIS portion of the publication, so it was necessary to digitize them for this publication.</abstract>
+<purpose>This dataset was compiled to update the Coal Fields Map of the Conterminous United States, OFR 96-092. The provinces did not exist in a GIS format, so a shapefile of their boundaries was created.</purpose>
+<supplinf>
+Sources used in the abstract and purpose include:
+&gt; Trumbull, J., 1960. Coal Fields of the United States (sheet 1): U.S. Geological Survey map. Scale 1:5,000,000.
+&gt; Tully, J., 1996. Coal Fields of the Conterminous United States. U.S. Geological Survey Open File Report 96-92. Scale 1:5,000,000.
+</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2013</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-124.733174</westbc>
+<eastbc>-66.949831</eastbc>
+<northbc>49.384359</northbc>
+<southbc>24.544089</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>ISO 19115 Topic Category</themekt>
+<themekey>Geoscientific Information</themekey>
+</theme>
+<theme>
+<themekt>USGS Thesaurus</themekt>
+<themekey>coal resources</themekey>
+<themekey>geologic maps</themekey>
+<themekey>geology</themekey>
+<themekey>geospatial datasets</themekey>
+</theme>
+<theme>
+<themekt>Alexandria Digital Library Feature Type Thesaurus</themekt>
+<themekey>mineral resource areas</themekey>
+</theme>
+<theme>
+<themekt>None</themekt>
+<themekey>Coal Fields Map of North America</themekey>
+<themekey>Coal</themekey>
+<themekey>Coal Provinces</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>North America</placekey>
+<placekey>United States</placekey>
+<placekey>Alabama</placekey>
+<placekey>Arizona</placekey>
+<placekey>Arkansas</placekey>
+<placekey>California</placekey>
+<placekey>Colorado</placekey>
+<placekey>Connecticut</placekey>
+<placekey>Delaware</placekey>
+<placekey>District of Columbia</placekey>
+<placekey>Florida</placekey>
+<placekey>Georgia</placekey>
+<placekey>Idaho</placekey>
+<placekey>Illinois</placekey>
+<placekey>Indiana</placekey>
+<placekey>Iowa</placekey>
+<placekey>Kansas</placekey>
+<placekey>Kentucky</placekey>
+<placekey>Louisiana</placekey>
+<placekey>Maine</placekey>
+<placekey>Maryland</placekey>
+<placekey>Massachusetts</placekey>
+<placekey>Michigan</placekey>
+<placekey>Minnesota</placekey>
+<placekey>Mississippi</placekey>
+<placekey>Missouri</placekey>
+<placekey>Montana</placekey>
+<placekey>Nebraska</placekey>
+<placekey>Nevada</placekey>
+<placekey>New Hampshire</placekey>
+<placekey>New Jersey</placekey>
+<placekey>New Mexico</placekey>
+<placekey>New York</placekey>
+<placekey>North Carolina</placekey>
+<placekey>North Dakota</placekey>
+<placekey>Ohio</placekey>
+<placekey>Oklahoma</placekey>
+<placekey>Oregon</placekey>
+<placekey>Pennsylvania</placekey>
+<placekey>Rhode Island</placekey>
+<placekey>South Carolina</placekey>
+<placekey>South Dakota</placekey>
+<placekey>Tennessee</placekey>
+<placekey>Texas</placekey>
+<placekey>Utah</placekey>
+<placekey>Vermont</placekey>
+<placekey>Virginia</placekey>
+<placekey>Washington</placekey>
+<placekey>West Virginia</placekey>
+<placekey>Wisconsin</placekey>
+<placekey>Wyoming</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Joseph A. East</cntper>
+<cntorg>U.S. Geological Survey</cntorg>
+</cntperp>
+<cntpos>Geologist</cntpos>
+<cntaddr>
+<addrtype>physical address</addrtype>
+<address>MS 956 National Center</address>
+<address>12201 Sunrise Valley Drive</address>
+<city>Reston</city>
+<state>VA</state>
+<postal>20192</postal>
+<country>U.S.A</country>
+</cntaddr>
+<cntvoice>703-648-6450</cntvoice>
+<cntfax>703-648-6419</cntfax>
+<cntemail>jeast@usgs.gov</cntemail>
+</cntinfo>
+</ptcontac>
+<native>Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.0.1770</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>Attribute accuracy was tested by manual comparison of the source with georeferenced digital printouts of the original USGS OFR 96-092.</attraccr>
+</attracc>
+<logic>Map elements were visually checked for overshoots, undershoots, duplicates, polygon closure and proper attribution.</logic>
+<complete>Data set complete. No data was intentionally omitted from the hard copy and digital source maps.</complete>
+<posacc>
+<horizpa>
+<horizpar>The shapefile is based on the Tully (1996) PDF.map. The shapefile was digitized by hand, with a RMS error not exceeding .005 when coordinating the digitizer. Visual comparison of the basins with the digital geologic map of North America displayed some offset, with the maximum being around 1 km.</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Trumbull, J.</origin>
+<pubdate>1960</pubdate>
+<title>Coal Fields of the United States (sheet 1)</title>
+<serinfo>
+<sername>U.S. Geological Survey Map</sername>
+<issue>None</issue>
+</serinfo>
+</citeinfo>
+</srccite>
+<srcscale>5000000</srcscale>
+<typesrc>Paper map</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1960</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Trumbull, J. (1960)</srccitea>
+<srccontr>Original Paper Map of the Coal Fields</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Tully, J.</origin>
+<pubdate>1996</pubdate>
+<title>Coal Fields of the Conterminous United States</title>
+<serinfo>
+<sername>Open File Report</sername>
+<issue>OFR 96-092</issue>
+</serinfo>
+<onlink>http://pubs.usgs.gov/of/1996/of96-092/</onlink>
+</citeinfo>
+</srccite>
+<srcscale>5000000</srcscale>
+<typesrc>PDF of map, and Arc Info Coverage.</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1996</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Tully, J. (1996)</srccitea>
+<srccontr>Digital update of Trumbull 1960 used as base GIS for project</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>The Coal provinces shapefile was digitized by hand from the printed PDF of OFR 96-092 (Tully, 1996). The projection of the printed map was Albers, so the digitized coverage was projected from Albers into geographic with a datum of NAD 1983. The coverage was exported as a shapefile and the polygons were populated with a Name attribute.</procdesc>
+<procdate>20110901</procdate>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>Joseph A, East</cntper>
+<cntorg>U.S. Geological Survey</cntorg>
+</cntperp>
+<cntpos>Geologist</cntpos>
+<cntaddr>
+<addrtype>physical address</addrtype>
+<address>MS 956 National Center</address>
+<address>12201 Sunrise Valley Drive</address>
+<city>Reston</city>
+<state>VA</state>
+<postal>20192</postal>
+<country>U.S.A</country>
+</cntaddr>
+<cntvoice>703-648-6450</cntvoice>
+<cntfax>703-648-6419</cntfax>
+<cntemail>jeast@usgs.gov</cntemail>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>G-polygon</sdtstype>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<geograph>
+<latres>0.001</latres>
+<longres>0.001</longres>
+<geogunit>Decimal degrees</geogunit>
+</geograph>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137.0</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>Coal_Provinces</enttypl>
+<enttypd>Six geographic provinces of the conterminous United States divided based on regional coal location.</enttypd>
+<enttypds>text</enttypds>
+</enttyp>
+<attr>
+<attrlabl>FID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Province</attrlabl>
+<attrdef>Province that coal polygon falls within</attrdef>
+<attrdefs>Tully, J (1996)</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Eastern</edomv>
+<edomvd>Eastern Province</edomvd>
+<edomvds>Tully, J (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Gulf Coast</edomv>
+<edomvd>Gulf Coast Province</edomvd>
+<edomvds>Tully, J (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Interior</edomv>
+<edomvd>Interior Province</edomvd>
+<edomvds>Tully, J (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Northern Great Plains</edomv>
+<edomvd>Northern Great Plains Province</edomvd>
+<edomvds>Tully, J (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Pacific Coast</edomv>
+<edomvd>Pacific Coast Province</edomvd>
+<edomvds>Tully, J (1996)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Rocky Mountain</edomv>
+<edomvd>Rocky Mountain Province</edomvd>
+<edomvds>Tully, J (1996)</edomvds>
+</edom>
+</attrdomv>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS Information Services</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>Box 25286</address>
+<city>Denver</city>
+<state>CO</state>
+<postal>80225</postal>
+<country>U.S.A.</country>
+</cntaddr>
+<cntvoice>1-888-ASK-USGS</cntvoice>
+<cntfax>303-202-4693</cntfax>
+<cntemail>http://store.usgs.gov/</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>USGS OFR 2012-1205</resdesc>
+<distliab>This digital publication was prepared by an agency of the United States Government. Neither the United States Government nor any agency thereof, nor any of their employees, makes any warranty, expressed or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed in this report, or represents that its use would not infringe privately owned rights. Reference therein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise does not necessarily constitute or imply its endorsement, recommendation, or favoring by the United States Government or any agency thereof. Any views and opinions of authors expressed herein do not necessarily state or reflect those of the United States Government or any agency thereof. Although all data published in this Open-File Report have been used by the U.S. Geological Survey (USGS), no warranty, expressed or implied, is made by the USGS as to the accuracy of the data and related materials and/or the functioning of the software. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the USGS in the use of these data, software, or related materials. Graphical map depictions are intended to be used within the map scale limits applicable to the source data. Although software enables the user to view data at various scales, the user is cautioned to refer to the source documentation for the appropriate map scale limitations.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>shapefile</formname>
+<formvern>1.0</formvern>
+<formcont>Coal field polygons with associated characteristics</formcont>
+<filedec>unzip</filedec>
+<transize>220 megabytes</transize>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://pubs.usgs.gov/of/2012/1205/Downloads/GIS.zip</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<techpreq>ArcGIS Desktop 9.X is required to open the map document</techpreq>
+</distinfo>
+<metainfo>
+<metd>20130710</metd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Joseph A. East</cntper>
+<cntorg>U.S. Geological Survey</cntorg>
+</cntperp>
+<cntpos>Geologist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>12201 Sunrise Valley Drive</address>
+<address>Mail Stop 956</address>
+<city>Reston</city>
+<state>VA</state>
+<postal>20192</postal>
+<country>U.S.A</country>
+</cntaddr>
+<cntvoice>703-648-6450</cntvoice>
+<cntfax>703-648-6419</cntfax>
+<cntemail>jeast@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+</metainfo>
+</metadata>

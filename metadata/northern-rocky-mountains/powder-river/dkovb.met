@@ -1,0 +1,287 @@
+Identification_Information:
+	Citation:
+		Citation_Information:
+			Originator: United States Geological Survey (USGS) Central Region Energy Resources Team.
+			Publication_Date: 19990930
+			Title: Dkovb.shp (Decker overburden)
+			Geospatial_Data_Presentation_Form: map
+			Publication_Information:
+				Publication_Place: Denver, CO
+				Publisher: USGS Central Region Energy Resources Team
+	Description:
+		Abstract:
+			This ArcView shapefile contains a representation of
+			thickness of overburden above the Anderson-Canyon coal
+			zone in the Decker coalfield, Powder River Basin,
+			Montana.  This theme was created specifically for the
+			National Coal Resources Assessment in the Northern
+			Rocky Mountains and Great Plains Region.
+		Purpose:
+			The Nation's coal resources are being assessed by the
+			USGS. This assessment identifies and characterizes the
+			coal beds and coal zones that will provide the bulk of the
+			Nation's coal-derived energy during the next few decades.
+			This assessment is different from previous USGS
+			assessments because digital files and databases are being
+			collected and stored in standardized formats, and being
+			analyzed using a Geographic Information System (GIS).
+		Supplemental_Information:
+			The overburden thickness map theme represents
+			a digital polygon coverage of the overburden isopach
+			(thickness) map for the Anderson-Canyon coal zone.
+			The overburden isopach map represents the
+			thickness of rock overlying the top of the
+			Anderson-Canyon coal zone.  The extent of the
+			overburden isopach map is constrained by the boundaries
+			of the Crow and Northern Cheyenne Indian Reservations,
+			the Montana state line, and the outcrop (or clinker contact)
+			of the Anderson coal bed, which defines the top of the
+			Anderson-Canyon coal zone.
+			A caveat to Anderson-Canyon coal zone overburden
+			relates to the area lying between the outcrops (or clinker
+			contacts) of the Anderson and Canyon (or lower Canyon)
+			coal beds, which define the top and base of the zone,
+			respectively.  Here the coal zone is exposed, and the area
+			technically falls within a category of no overburden.  For
+			this reason, this area is defined as "exposed coal zone" in
+			the overburden thickness coverage.  In addition, because
+			rocks (including coal beds) in the Anderson-Canyon coal
+			zone may extend from tens to hundreds of feet
+			stratigraphically below the top of the coal zone (Anderson
+			coal bed), the overburden as depicted in the coverage
+			represents a minimum overburden thickness.
+			The overburden interpretations were derived by
+			first developing a grid representing the top of the
+			Anderson-Canyon coal zone (including faults) using a
+			commercial gridding and contouring software package
+			(EarthVision; Dynamic Graphics, Inc.). This grid, which was
+			calculated using a grid spacing of 200 x 200 meters, was
+			then subtracted from a composite Digital Elevation Model
+			(DEM) grid of topographic elevation for the entire coal field,
+			resulting in a grid of thickness values that could then be
+			contoured as overburden thickness isopachs.  Multiple 2
+			arc-second DEMs with a resolution of approximately 60
+			meters were merged using the 'mosaic' command in
+			ARC/INFO to create the composite DEM grid used in the
+			overburden calculations.
+			The overburden isopach map was then converted to a
+			contour output file in EarthVision, and subsequently
+			converted into a digital polygon coverage by
+			using a combination of programs ('ISMARC' and
+			'CONVERT-ISM.AML') furnished to the U.S. Geological
+			Survey by the Illinois State Geological Survey. This
+			overburden isopach coverage was then generalized using
+			a weed tolerance of 30 meters to reduce file size.  The
+			generalized cover was then converted to a shapefile for
+			incorporation as a theme in the ARCVIEW project.  The
+			overburden thickness categories included in the theme (for
+			example, 0 - 100 ft, 100 - 200 ft, etc.) are consistent with
+			overburden thickness categories used in the tabulation of
+			total coal resources.
+	Time_Period_of_Content:
+		Time_Period_Information:
+			Single_Date/Time:
+				Calendar_Date: 19980000
+		Currentness_Reference: Publication Date
+	Status:
+		Progress: Complete
+		Maintenance_and_Update_Frequency: None planned
+	Spatial_Domain:
+		Bounding_Coordinates:
+			West_Bounding_Coordinate: -107.0209
+			East_Bounding_Coordinate: -105.8692
+			North_Bounding_Coordinate: 45.3536
+			South_Bounding_Coordinate: 44.9932
+	Keywords:
+		Theme:
+			Theme_Keyword_Thesaurus: None
+			Theme_Keyword: Anderson-Canyon coal zone
+			Theme_Keyword: Overburden thickness
+		Place:
+			Place_Keyword_Thesaurus: None
+			Place_Keyword: Montana
+			Place_Keyword: Rosebud County
+			Place_Keyword: Powder River County
+			Place_Keyword: Big Horn County
+			Place_Keyword: Powder River Basin
+			Place_Keyword: Decker coalfield
+	Access_Constraints: None
+	Use_Constraints: None
+	Point_of_Contact:
+		Contact_Information:
+			Contact_Organization_Primary:
+				Contact_Organization: USGS Central Region Energy Resources Team
+				Contact_Person: Steve Roberts
+			Contact_Address:
+				Address_Type: mailing address
+				Address:
+					Box 25046 MS 939
+					Denver Federal Center
+				City: Denver
+				State_or_Province: CO
+				Postal_Code: 80225-0046
+			Contact_Voice_Telephone: 303.236.7788
+	Native_Data_Set_Environment:
+		ArcView version 3.0
+		ARC/INFO  7.1.2
+		SUNOS, 5.6, SUN4U UNIX
+Data_Quality_Information:
+	Attribute_Accuracy:
+		Attribute_Accuracy_Report: No part of this data was checked for field accuracy.
+	Logical_Consistency_Report: Polygon features present
+	Completeness_Report:
+		Data is limited to overburden above the Anderson-Canyon
+		coal zone in the Decker coalfield.
+	Positional_Accuracy:
+		Horizontal_Positional_Accuracy:
+			Horizontal_Positional_Accuracy_Report:
+				Limited to software coordinate precision of geographic
+				coordinates
+	Lineage:
+		Source_Information:
+			Source_Citation:
+				Citation_Information:
+					Originator: USGS Central Region Energy Resources Team
+					Publication_Date: Unknown
+					Publication_Time: Unknown
+					Title: Northern Rocky Mountain and Great Plains Fort Union Stratifact Database.
+					Geospatial_Data_Presentation_Form: map
+			Type_of_Source_Media: Digital
+			Source_Time_Period_of_Content:
+				Time_Period_Information:
+					Single_Date/Time:
+						Calendar_Date: Unknown
+				Source_Currentness_Reference: Publication Date
+			Source_Citation_Abbreviation: None
+			Source_Contribution: This was the only source used for this shapefile.
+		Process_Step:
+			Process_Description:
+				The overburden interpretations were derived by first
+				developing a grid representing the top of the
+				Anderson-Canyon coal zone (including faults) using a
+				commercial gridding and contouring software package
+				(EarthVision; Dynamic Graphics, Inc.). This grid, which was
+				calculated using a grid spacing of 200 x 200 meters, was
+				then subtracted from a composite Digital Elevation Model
+				(DEM) grid of topographic elevation for the entire coal field,
+				resulting in a grid of thickness values that could then be
+				contoured as overburden isopachs.  Multiple 2
+				arc-second DEMs with a resolution of approximately 60
+				meters were merged using the 'mosaic' command in
+				ARC/INFO to create the composite DEM grid used in the
+				overburden calculations.
+				The overburden isopach map was then converted to a
+				contour output file in EarthVision, and subsequently
+				converted into a digital polygon coverage by
+				using a combination of programs ('ISMARC' and
+				'CONVERT-ISM.AML') furnished to the U.S. Geological
+				Survey by the Illinois State Geological Survey. This
+				overburden isopach coverage was then generalized using
+				a weed tolerance of 30 meters to reduce file size.  The
+				generalized cover was then converted to a shapefile for
+				incorporation as a theme in the ARCVIEW project.  The
+				overburden thickness categories included in the theme (for
+				example, 0 - 100 ft, 100 - 200 ft, etc.) are consistent with
+				overburden thickness categories used in the tabulation of
+				total coal resources.
+			Process_Date: Unknown
+			Process_Contact:
+				Contact_Information:
+					Contact_Organization_Primary:
+						Contact_Organization: USGS Central Region Energy Resources Team
+						Contact_Person: Steve Roberts
+					Contact_Address:
+						Address_Type: mailing address
+						Address:
+							Box 25046 MS 939
+							Denver Federal Center
+						City: Denver
+						State_or_Province: CO
+						Postal_Code: 80225-0046
+					Contact_Voice_Telephone: 303.236.7788
+Spatial_Data_Organization_Information:
+	Direct_Spatial_Reference_Method: Vector
+	Point_and_Vector_Object_Information:
+		SDTS_Terms_Description:
+			SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+			Point_and_Vector_Object_Count: 474
+Spatial_Reference_Information:
+	Horizontal_Coordinate_System_Definition:
+		Geographic:
+			Latitude_Resolution: .0001
+			Longitude_Resolution: .0001
+			Geographic_Coordinate_Units: Decimal degrees
+		Geodetic_Model:
+			Horizontal_Datum_Name: North American Datum 1927
+			Ellipsoid_Name: Clarke 1866
+			Semi-major_Axis: 6378206.4
+			Denominator_of_Flattening_Ratio: 294.98
+Entity_and_Attribute_Information:
+	Detailed_Description:
+		Entity_Type:
+			Entity_Type_Label: dkovb.dbf
+			Entity_Type_Definition: Shapefile Attribute Table
+			Entity_Type_Definition_Source: None
+		Attribute:
+			Attribute_Label: Areab
+			Attribute_Definition: Area of polygon
+			Attribute_Definition_Source: Software computed
+			Attribute_Domain_Values:
+				Range_Domain:
+					Range_Domain_Minimum: 0.0000
+					Range_Domain_Maximum: 983205.0000
+Distribution_Information:
+	Distributor:
+		Contact_Information:
+			Contact_Organization_Primary:
+				Contact_Organization: USGS Central Region Energy Resources Team
+			Contact_Address:
+				Address_Type: mailing address
+				Address:
+					Box 25046 MS 939
+					Denver Federal Center
+				City: Denver
+				State_or_Province: CO
+				Postal_Code: 80225-0046
+			Contact_Voice_Telephone: 303.236.1647
+	Distribution_Liability:
+		The US Geological Survey provides these geographic data
+		"as is."  The USGS makes no guarantee or warranty
+		concerning the accuracy of information contained in this
+		geographic data.  The USGS further makes no warranties,
+		either expressed or implied as to any other matter
+		whatsoever, including, without limitation, the condition of
+		the product, or its fitness for any particular purpose. The
+		burden for determining fitness for use lies entirely with the
+		user.  Although these data have been processed
+		successfully on USGS computers, no warranty,
+		expressed or implied, is made by the USGS regarding the
+		use of these data on any other system, nor does the fact of
+		distribution constitute or imply any such warranty. In no
+		event shall the USGS have any liability whatsoever for
+		payment of any consequential, incidental, indirect, special,
+		or tort damages of any kind, including, but not limited to,
+		any loss of profits arising out of use of or reliance on the
+		geographic data or arising out of the delivery, installation,
+		operation, or support by the USGS.
+Metadata_Reference_Information:
+	Metadata_Date: 19980000
+	Metadata_Review_Date: 19990000
+	Metadata_Future_Review_Date: 19990000
+	Metadata_Contact:
+		Contact_Information:
+			Contact_Organization_Primary:
+				Contact_Organization: USGS Central Region Energy Resources Team
+				Contact_Person: Steve Roberts
+			Contact_Address:
+				Address_Type: mailing address
+				Address:
+					Box 25046 MS 939
+					Denver Federal Center
+				City: Denver
+				State_or_Province: CO
+				Postal_Code: 80225-0046
+				Country: USA
+			Contact_Voice_Telephone: 303.236.7788
+	Metadata_Standard_Name: FGDC CSDGM
+	Metadata_Standard_Version: 19940608

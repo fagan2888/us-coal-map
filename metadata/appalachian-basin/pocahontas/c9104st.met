@@ -1,0 +1,318 @@
+Metadata:
+  Identification_Information:
+    Citation:
+      Citation_Information:
+        Originator: Philip Freeman
+        Publication_Date: 2000
+        Title:
+          Structure contours of Pocahontas No. 3 coal bed in Virginia and West 
+          Virginia: c9104st.e00
+        Larger_Work_Citation:
+          Citation_Information:
+            Originator: Northern and Central Appalachian Basin Coal Regions
+              Assessment Team
+            Publication_Date: 2000
+            Title:
+              2000 Resource Assessment of Selected Coal Beds and Zones in the
+              Northern and Central Appalachian Basin Coal Regions
+            Series_Information:
+              Series_Name: U.S. Geological Survey Professional Paper
+              Issue_Identification: PP1625-C
+            Publication_Information:
+              Publication_Place: Reston, VA
+              Publisher: U.S. Geological Survey  
+            Online_Linkage: http://greenwood.cr.usgs.gov/pub/ppapers/p1625c/
+    Description: 
+      Abstract:
+        This dataset represents the elevation of the Pocahontas No. 3 coal bed.  
+        The cover was created by gridding 5,392 elevation points. Many points 
+        originated from structure contour lines obtained digitally from West Virgina.  
+        In Virginia, data were searched from the StratiFact database created from the 
+        National Coal Resource Data System (NCRDS). Data from specific quadrangles in 
+        the StratiFact database from the West Virginia Geological and Economic Survey 
+        were also searched. The grid was created in Earthvision, was contoured and 
+        imported to ARC/INFO as polygons using an AML.  
+      Purpose:
+        The purpose of PP 1625-C is to release the interpretation of assessment and
+        modeling data for the the top-producing coal beds in the northern and 
+        central Appalachian Basin coal region.
+    Time_Period_of_Content:
+      Time_Period_Information:
+        Single_Date/Time:
+          Calendar_Date: 2000
+      Currentness_Reference: data collection and collation period
+    Status:
+      Progress: Complete
+      Maintenance_and_Update_Frequency: None planned
+    Spatial_Domain:
+      Bounding_Coordinates:
+        West_Bounding_Coordinate: -82.565
+        East_Bounding_Coordinate: -80.738
+        North_Bounding_Coordinate: 36.842
+        South_Bounding_Coordinate: 37.964
+    Keywords:
+      Theme:
+        Theme_Keyword_Thesaurus:
+          Coal Resource Classification of the U.S. Geological Survey, USGS
+          circular 891.
+        Theme_Keyword: Eastern Energy Team
+        Theme_Keyword: energy
+        Theme_Keyword: power
+        Theme_Keyword: resources
+        Theme_Keyword: coal
+        Theme_Keyword: coal resources
+        Theme_Keyword: coal structure
+        Theme_Keyword: elevation
+        Theme_Keyword: structure
+        Theme_Keyword: structure contour
+        Theme_Keyword: bituminous
+        Theme_Keyword: outcrop
+        Theme_Keyword: USGS
+        Theme_Keyword: West Virginia Geologic and Economic Survey
+        Theme_Keyword: Virginia Division of Mineral Resources
+        Theme_Keyword: Virginia Department of Mines, Minerals and Resources
+      Place:
+        Place_Keyword_Thesaurus: Geographic Names Information System
+        Place_Keyword: United States
+        Place_Keyword: West Virginia
+        Place_Keyword: Virginia
+        Place_Keyword: Appalachians
+        Place_Keyword: GREENBRIER County
+        Place_Keyword: FAYETTE County
+        Place_Keyword: RALEIGH County
+        Place_Keyword: MERCER County
+        Place_Keyword: SUMMERS County
+        Place_Keyword: WYOMING County
+        Place_Keyword: MCDOWELL County
+        Place_Keyword: LOGAN County
+        Place_Keyword: MINGO County
+        Place_Keyword: TAZEWELL County
+        Place_Keyword: BUCHANAN County
+        Place_Keyword: RUSSELL County
+        Place_Keyword: DICKENSON County
+        Place_Keyword: WISE County
+        Place_Keyword: SCOTT County
+      Stratum:
+        Stratum_Keyword_Thesaurus:
+          Geologic Names Unit Lexicon (GNULEX), 1996;
+          Stratigraphic Nomenclature Databases for the United States, It's
+          Possessions, and Territories, U.S. Geological Survey Digital Data
+          Series DDS-6, release 3.
+        Stratum_Keyword: Pennsylvanian
+        Stratum_Keyword: Lower Pennsylvanian
+        Stratum_Keyword: Pocahontas Formation
+        Stratum_Keyword: Pocahontas No. 3 coal bed
+    Access_Constraints: None
+    Use_Constraints: To be used for regional analysis only.
+    Point_of_Contact:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Philip Freeman (compiler)
+          Contact_Organization: U.S. Geological Survey, Eastern Energy Resources Team
+        Contact_Address:
+          Address_Type: mailing address
+          Address: MS 956 National Center
+          City: Reston
+          State_or_Province: Virginia
+          Postal_Code: 20192
+          Country: USA
+        Contact_Voice_Telephone: 703-648-6447
+    Data_Set_Credit:
+      The stratigraphic data stored in the National Coal Resources Data System (NCRDS)
+      was submitted from the middle 1970's through State cooperative programs. The 
+      data for the Pocahontas No. 3 coal bed was used with the permission and through
+      the cooperation of coal geologists (primary contacts listed) at the West 
+      Virginia Geological and Economic Survey (B. M. Blake, Jr.) and the Virginia 
+      Division of Mineral Resources (J. Nolde).
+  Data_Quality_Information:
+    Attribute_Accuracy:
+      Attribute_Accuracy_Report:
+        Deductive_Estimate: 
+          The range of the input data was from -641 to 2873 feet, msl, with a mean of 
+          1470 ft and a standard deviation of 691 ft. The grid from which these 
+          contours were obtained had a mean of 823 ft and a standard deviation of 
+          1692, with an average z error of 0.35 ft.  Limited manual editing attempted
+          to resolve minor differences between borehole data and elevation structure 
+          maps.  In areas of sparse data, the coverages will not reflect ground truth.  
+    Logical_Consistency_Report:
+      This data set does not contain dangles or redundant arcs. 
+    Completeness_Report: 
+      Input points were irregularly distributed over the spatial extent of the study 
+      area. 
+    Positional_Accuracy:
+      Horizontal_Positional_Accuracy:
+        Horizontal_Positional_Accuracy_Report: 
+          Locations of the input points used to create this cover are estimated to 
+          be accurately located within 1/4 mile. 
+      Vertical_Positional_Accuracy:
+        Vertical_Positional_Accuracy_Report: 
+          The raw input data represent elevation measurements that are believed to be 
+          accurate within 50 feet.  The elevations represent a calculation, i.e. 
+          subtraction of the depth of the Pocahontas No. 3 coal from the surface 
+          (topographic elevation) of the drillhole.  Surface elevations of the
+          drillholes in the database were not compared to any paper or digital 
+          reference.
+    Lineage:
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: West Virginia Geological and Economic Survey
+            Publication_Date: 1998
+            Title: 
+              Structure contour lines for the Pocahontas No. 3 coal by 7.5
+              minute quadrangle. 
+        Source_Scale_Denominator: 48,000
+        Type_Of_Source_Media:  transparency
+        Source_Time_Period_Of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 1980 - 1986
+          Source_Currentness_Reference: Publication Date
+        Source_Citation_Abbreviation: WV-1
+        Source_Contribution: 
+          Contour lines drawn on topographic quads were digitized; these files
+          were an additional source for West Virginia structure. The quads included
+          the following:  Amonate, Anawalt, Beckley, Bramwell, Crab Orchard, Crumpler, 
+          Gary, Keystone, Lester, Matoaka, Mcgraws, Mullens, Odd, Pineville, Rhodell, 
+          Tazewell North, Tiptop, War and Welch,
+      Process_Step:
+        Process_Description: 
+          Pocahontas No. 3 coal data from coal database printed, plotted and verified
+          against original data sources.
+        Process_Date: 1998
+      Process_Step:
+        Process_Description: 
+          All maps (WV-1) were manually digitized on a tablet using  ARC/INFO 
+          (version 7.2).  Arcs were created through manual labelling and editing
+          in order to create topology. 
+        Process_Date: 1998 
+      Process_Step:
+        Process_Description: 
+          Existing ARC/INFO coverage of structure contour lines obtained West Virginia
+          geological surveys on the Pocahontas No. 3 coal bed were converted to points 
+          (using arcpoint) with a 250 meter weed tolerance and the elevation 
+          attribute.  Points were given a unique id based on quadrangle. 
+        Process_Date: 1998 
+      Process_Step: 
+        Process_Description: 
+          Gridding of elevation and editing of data values in databases. 
+          EarthVision (v. 4.0) grid parameters used: minimum tension algorithm, 135 
+          meter cell size, extrapolation of values over specified x,y extent.  A 
+          generalized line file of 2 strike-slip faults which slice NW to SE across 
+          the coal bed in Virginia were used in the model.   Average absolute Z-error 
+          of the grid was 0.35 feet.
+        Process_Date: 1999
+      Process_Step:
+        Process_Description: 
+          The grid was contoured in EarthVision into 100 foot intervals.  
+        Process_Date: 1999 
+      Process_Step: 
+        Process_Description: 
+          Import of contours to ARC/INFO, using conversion ARC/INFO AML provided by 
+          Illinois State Geological Survey, and rectangular area ARC coverage (box) 
+          to enclose polygons.
+        Process_Date: 1999 
+      Process_Step: 
+        Process_Description:
+          This dataset was edited to resolve inconsistencies and to incorporate 
+          revisions.  Polygon topology was built and attributed using the codes 
+          described within this document.
+        Process_Date: 1999
+      Process_Step:
+        Process_Description: 
+          Structure coverage was clipped to resource assessment areas.
+        Process_Date: 1999
+      Process_Step:
+        Process_Description: Projected to geographic coordinates.
+        Process_Date: 1999
+  Spatial_Data_Organization_Information:         
+    Direct_Spatial_Reference_Method: Vector
+    Point_and_Vector_Object_Information
+      SDTS_Terms_Description
+        SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+        Point_and_Vector_Object_Count: 334
+  Spatial_Reference_Information:
+    Horizontal_Coordinate_System_Definition:
+      Geographic:
+        Latitude_Resolution: 0.0001
+        Longitude_Resolution: 0.0001
+        Geographic_Coordinate_Units: Decimal Degrees
+      Geodetic_Model:
+        Horizontal_Datum_Name:  North American Datum of 1927
+        Ellipsoid_Name: Clarke 1866
+        Semi-major_Axis: 6378206.4
+        Denominator_of_Flattening_Ratio:  294.98
+  Entity_and_Attribute_Information:
+    Detailed_Description:
+      Entity_Type:
+        Entity_Type_Label: c9104st.pat
+        Entity_Type_Definition: polygon attribute table for C9104ST coverage
+        Entity_Type_Definition_Source: ARC/INFO
+      Attribute:
+        Attribute_Label: elev_st
+        Attribute_Definition: 
+          Mid-range elevation value (ft) of 100 ft intervals in Pocahontas No. 3 
+          coal bed.
+        Attribute_Definition_Source: this study
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: -450
+            Range_Domain_Maximum: 3650
+            Attribute_units_of_measure: feet
+        Attribute_Value_Accuracy_Information:
+          Attribute_Value_Accuracy: 50
+          Attribute_Value_Accuracy_Explanation: half of one contour interval
+  Distribution_Information:
+    Distributor:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Philip Freeman
+          Contact_Organization: U.S. Geological Survey, Eastern Energy Resources Team
+        Contact_Address:
+          Address_Type: mailing address
+          Address: MS 956 National Center
+          City: Reston
+          State_or_Province: Virginia
+          Postal_Code: 20192
+          Country: USA
+        Contact_Voice_Telephone: 703-648-6447
+    Resource_Description: USGS Professional Paper 1625-C: Chapter G; c9104st.e00
+    Distribution_Liability:
+      Any use of trade, product, or firm names is for descriptive purposes
+      only and does not imply endorsement by the U.S. Government.  Although this
+      data has been used by the U.S. Geological Survey (USGS), no warranty,
+      expressed or implied, is made by the USGS as to the accuracy of the data
+      and related materials.  The act of distribution shall not constitute any
+      such warranty, and no responsibility is assumed by the USGS in the use
+      of these data, software, or related materials.
+    Standard_Order_Process:
+      Digital_Form:
+        Digital_Transfer_Information:
+          Format_Name: ARCE
+          Format_Version_Number: 7.2.1
+          Format_Information_Content: Polygonal structure contour coverage
+        Digital_Transfer_Option:
+          Online_Option:
+            Computer_Contact_Information:
+              Network_Address:
+                Network_Resource_Name: 
+                  http://greenwood.cr.usgs.gov/pub/ppapers/p1625c/
+      Fees: none
+  Metadata_Reference_Information:
+    Metadata_Date: 20000823
+    Metadata_Contact:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Philip Freeman (compiler)
+          Contact_Organization: U.S.Geological Survey, Eastern Energy Resources Team
+        Contact_Address:
+          Address_Type: mailing address
+          Address: MS 956 National Center
+          City: Reston
+          State_or_Province: Virginia
+          Postal_Code: 20192
+          Country: USA
+        Contact_Voice_Telephone: 703-648-6447 
+    Metadata_Standard_Name: 
+      FGDC Content Standards for Digital Geospatial Metadata
+    Metadata_Standard_Version: FGDC-STD-001-1998

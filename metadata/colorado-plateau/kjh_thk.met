@@ -1,0 +1,394 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator:
+        U.S. Geological Survey, Central Energy Resources
+        Team
+      Originator: Hettinger, R.D.
+      Originator: Roberts, L.N.R.
+      Originator: Biewick, L.R.H.
+      Originator: Kirschbaum, M.A.
+      Publication_Date: 2000
+      Title:
+        kjh_thk (Isopachs of the combined thickness of the
+        Calico and A-sequences of the Straight Cliffs Formation
+        in the Kaiparowits Plateau study area, southern Utah)
+      Publication_Information:
+        Publication_Place: Denver, CO
+        Publisher: U.S. Geological Survey
+      Other_Citation_Details:
+        in subdir: 125k (defines appropriate maximum scale for
+        data use)
+
+        chap. T, Geologic overview and resource assessment of 
+        coal in the Kaiparowits Plateau, southern Utah
+      Larger_Work_Citation:
+        Citation_Information:
+          Originator: Kirschbaum, M.A.
+          Originator: Roberts, L.N.R.
+          Originator: Biewick, L.R.H.
+          Publication_Date: 2000
+          Title:
+            Geologic Assessment of Coal in the Colorado
+            Plateau
+          Series_Information:
+            Series_Name:
+              U.S. Geological Survey Professional Paper
+            Issue_Identification: 1625-B 
+          Publication_Information:
+            Publication_Place: Denver, CO
+            Publisher: U.S. Geological Survey
+  Description:
+    Abstract:
+      This is a polygon coverage of isopachs of the combined
+      thickness of the Calico and A-sequences in the Kaiparowits
+      Plateau study area. The outside polygon defines the base of
+      the John Henry Member of the Straight Cliffs Formation east
+      of 112 degrees of longitude. The polygon includes areas
+      where the Calico and A-sequences have been partially eroded.
+      The northern boundary is delineated by the Paunsaugunt fault
+      and volcanic rocks of Tertiary age.
+    Purpose:
+      The Nation's coal resources are being assessed by the USGS.
+      A fundamental component of this assessment work is to
+      compile digital geologic and geographic data into a
+      Geographic Information System (GIS). Use of this GIS allowed
+      for the spatial integration of data layers. This resulted in
+      the ability to display, analyze, and query data to answer
+      complex geo-spatial questions concerning coal resource
+      occurrence.
+
+      This data set is intended as a basemap layer for GIS
+      applications at a scale of 1:125,000 or less.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 2000
+    Currentness_Reference: publication date
+  Status:
+    Progress: complete
+    Maintenance_and_Update_Frequency: none planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -112.0039707
+      East_Bounding_Coordinate: -111.0066559
+      North_Bounding_Coordinate: 37.94843707
+      South_Bounding_Coordinate: 37.0697418
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword:
+        Isopach showing the combined thickness of the Calico
+        and A- sequences
+      Theme_Keyword: coal-bearing interval
+      Theme_Keyword: Colorado Plateau coal assessment
+      Theme_Keyword: Colorado Plateau
+      Theme_Keyword: National Coal Resource Assessment
+      Theme_Keyword: NCRA
+      Theme_Keyword: coal
+      Theme_Keyword: Calico and A-sequences
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: Kaiparowits Plateau
+      Place_Keyword: southern Utah
+      Place_Keyword: Colorado Plateau
+      Place_Keyword: Kane County
+      Place_Keyword: Garfield County
+      Place_Keyword: Colorado Plateau coal assessment study area
+    Stratum:
+      Stratum_Keyword_Thesaurus: None
+      Stratum_Keyword: Straight Cliffs Formation
+      Stratum_Keyword: John Henry Member
+    Temporal:
+      Temporal_Keyword_Thesaurus: None
+      Temporal_Keyword: Upper Cretaceous
+  Access_Constraints: None
+  Use_Constraints: accurate at 1:125,000 scale or less
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: U.S. Geological Survey
+        Contact_Person: Robert D. Hettinger
+      Contact_Address:
+        Address_Type: mailing address
+        Address: P.O. Box 25046, MS 939
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225
+        Country: USA
+      Contact_Voice_Telephone: (303)236-7770
+      Contact_Electronic_Mail_Address: rhettinger@usgs.gov
+  Data_Set_Credit:
+    Dale Teeters, former U.S. Bureau of Mines (USBM) digitized the
+    outcrop lines in PC ARC/INFO from a paper copy of the
+    1:125,000-scale geologic map of the Kaiparowits Plateau (Sargent
+    and Hansen, 1982).
+  Native_Data_Set_Environment:
+    SunOS, 5.5.1, sun4d UNIX, ARC/INFO
+    version 7.0.4
+
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: See Entity_Attribute_Information
+    Quantitative_Attribute_Accuracy_Assessment:
+      Attribute_Accuracy_Value: See Explanation
+      Attribute_Accuracy_Explanation:
+        Described, where present, with each attribute defined
+        in the Entity and Attribute Section.
+  Logical_Consistency_Report: Polygon and chain-node topology present
+  Completeness_Report: see Process steps
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report:
+        captured at 1:125,000
+        scale
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Sargent, K.A.
+          Originator: Hansen, D.E.
+          Publication_Date: 1982
+          Title:
+            Bedrock geologic map of the Kaiparowits
+            coal-basin area, Utah
+          Series_Information:
+            Series_Name:
+              USGS Miscellaneous
+              Investigations Map
+            Issue_Identification: Map I-1033-I
+      Source_Scale_Denominator: 125,000
+      Type_of_Source_Media: paper map
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1982
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Sargent and Hansen (1982)
+      Source_Contribution: geologic map
+    Process_Step:
+      Process_Description:
+        The outcrop lines were originally digitized in PC
+        Arc/Info by the former USBM (Dale Teeters) from a paper
+        copy of the 1:125,000-scale geologic map of the
+        Kaiparowits Plateau (Sargent and Hansen, 1982). The
+        lines were converted from table coordinates to Lambert
+        with the following parameters:
+
+        Units METERS
+        Spheroid CLARKE1866
+        Parameters:
+        1st standard parallel 33 0 0.000
+        2nd standard parallel 45 0 0.000
+        central meridian -111 30 0.00
+        latitude of projection's origin 0 0 0.000
+        false easting (meters) 0.00000
+        false northing (meters) 0.00000
+
+        The data were later projected to UTM 12 for the coal
+        resource calculations, and then projected to geographic
+        decimal degrees. This file is the result of creating a
+        contour output file in the plot routine in Earth
+        Vision. The contour output file was then run through
+        the ISMARC program that converted the contour output
+        file into an Arc/Info GENERATE file. The Arc/Info
+        GENERATE file is then converted to a polygon coverage
+        in Arc/info by using Colin Treworgy's Arc Macro
+        Language (AML) program "convert-ism". The coverage used
+        to clip the contours in every case was the coverage
+        that represents Calico sequence boundary. Following is
+        a description of the parameters used in gridding the
+        scattered data files to generate the grids in ISM:
+
+        Coordinate system: Universal Transverse Mercator (UTM)
+        Units: Meters
+        UTM zone: 12
+        Ellipsoid: Clarke 1866
+        Semi-major axis in meters: 6378206.4
+        Semi-minor axis in meters: 6356583.8
+        Grid size: 276 by 312
+        Grid range: 407508,503665 4098129,4203271
+
+        Treworgy's aml "convert-ism" assigns a value to the
+        item DEPTH, which we changed to THICK, by taking
+        one-half the contour interval and adding it to the
+        minimum contour that defines a polygon. For example, if
+        the contour interval is 10, and a polygon is bounded by
+        the 10 and 20 contour lines, then the THICK value
+        assigned to that polygon is 15. Revisions: Projected to
+        UTM 12 and then to geographic decimal degrees.
+      Process_Date:
+        1995
+
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Label Point
+      Point_and_Vector_Object_Count: 123
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: String
+      Point_and_Vector_Object_Count: 367
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 125
+
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Geographic:
+      Latitude_Resolution: 12 meters (approx.)
+      Longitude_Resolution: 12 meters (approx.)
+      Geographic_Coordinate_Units: Decimal Degrees
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1927
+      Ellipsoid_Name: Clarke 1866
+      Semi-major_Axis: 6378206.4
+      Denominator_of_Flattening_Ratio:
+        294.98
+
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: KJH_THK.PAT
+      Entity_Type_Definition: Polygon attribute table
+      Entity_Type_Definition_Source:
+        Bob Hettinger and Laura Roberts, USGS-GD- Energy
+        Resource Surveys Team
+  Overview_Description:
+    Entity_and_Attribute_Overview:
+      Items in the Polygon Attribute Table
+
+      AREA
+      Area of poly/region in square coverage units
+      Computed Positive real numbers
+
+      PERIMETER
+      Perimeter of poly/region in coverage units
+      Computed Positive real numbers
+
+      KJH_THK#
+      Internal feature number
+      Computed Sequential unique positive integer
+
+      KJH_THK-ID
+      User-assigned feature number
+      User-defined Integer
+
+      THICK
+      combined thickness (in feet) of the Calico and A-sequences
+    Entity_and_Attribute_Detail_Citation: this document
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: KJH_THK.AAT
+      Entity_Type_Definition: Arc attribute table
+      Entity_Type_Definition_Source: ARC/INFO
+  Overview_Description:
+    Entity_and_Attribute_Overview:
+      Items in the Arc Attribute Table
+
+      FNODE#
+      Internal number of from-node
+      Computed Sequential unique positive integer
+
+      TNODE#
+      Internal number of to-node
+      Computed Sequential unique positive integer
+
+      LPOLY#
+      Internal number of poly to left of arc
+      Computed Sequential unique positive integer
+
+      RPOLY#
+      Internal number of poly to right of arc
+      Computed Sequential unique positive integer
+
+      LENGTH
+      Length of arc in coverage units
+      Computed Positive real numbers
+
+      KJH_THK#
+      Internal feature number
+      Computed Sequential unique positive integer
+
+      KJH_THK-ID
+      User-assigned feature number
+      User-defined Integer
+
+      THICK
+      combined thickness (in feet) of the Calico and A-sequences
+    Entity_and_Attribute_Detail_Citation:
+      this document
+
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization:
+          U.S. Geological Survey, Central Energy Resources
+          Team
+      Contact_Address:
+        Address_Type: mailing address
+        Address: P.O. Box 25046, MS 939
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225
+        Country: USA
+      Contact_Voice_Telephone: (303)236-7773
+  Distribution_Liability:
+    Disclaimer: Any use of trade, product, or company names in this
+    publication is for descriptive purposes only and does not imply
+    endorsement by the U.S. Government. Although these data have been
+    processed successfully on a computer system at the U.S.
+    Geological Survey, no warranty expressed or implied is made by
+    the USGS regarding the utility of the data on any other system,
+    or the accuracy and functioning of the data and related program
+    material, nor shall the act of distribution constitute any such
+    warranty, and no responsibility is assumed by the USGS in
+    connection therewith.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name:
+          ARC/INFO coverage, export file and
+          shapefile
+        Format_Version_Number: ARC/INFO 7.0.4, ArcView 2.1
+      Digital_Transfer_Option:
+        Offline_Option:
+          Offline_Media: CD-ROM
+          Recording_Format: ISO 9660
+    Fees: none
+  Technical_Prerequisites:
+    need ARC/INFO 7.0.4 or greater and/or ArcView 2.1 or greater
+    and/or ArcExplorer (which can be downloaded free from
+    <URL:http://www.esri.com>) and/or other software that can read
+    ARC/INFO coverages, ARC/INFO export files and shapefiles
+
+Metadata_Reference_Information:
+  Metadata_Date: 19971022
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization:
+          U.S. Geological Survey, GD,
+          Central Energy Resources Team
+      Contact_Address:
+        Address_Type: mailing address
+        Address: P.O. Box 25046, MS 939
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225
+        Country: USA
+      Contact_Voice_Telephone: (303)236-7773
+  Metadata_Standard_Name:
+    FGDC Content Standards for Digital Geospatial
+    Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: Local Time
+  Metadata_Security_Information:
+    Metadata_Security_Classification_System: None
+    Metadata_Security_Classification: Unclassified
+    Metadata_Security_Handling_Description:
+      None
+
+      ------------------------------------------------------------------------
+      Generated by mp version 2.4.8 on Thu Sep 30 12:33:47 1999

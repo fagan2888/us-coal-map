@@ -1,0 +1,424 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator:
+        U.S. Geological Survey, Central Energy Resources
+        Team
+      Originator: Brownfield, M.E.
+      Originator: Roberts, L.N.R.
+      Originator: Johnson, E.A.
+      Originator: Mercier, T.J.
+      Publication_Date: 2000
+      Title:
+        dan*_fin (The final unioned polygons for the coal
+        resource calculation in the Danforth Hills coal field)
+      Geospatial_Data_Presentation_Form: map
+      Publication_Information:
+        Publication_Place: Denver, CO USA
+        Publisher: U.S. Geological Survey
+      Other_Citation_Details:
+        in subdir 100k (defines appropriate maximum scale for
+        data use) 
+
+        chap. M, Assessment of the distribution and resources of coal
+        in the Fairfield Coal Group of the Williams Fork Formation,  
+        Danforth Hills coal field, northwest Colorado 
+      Larger_Work_Citation:
+        Citation_Information:
+          Originator: Kirschbaum, M.A.
+          Originator: Roberts, L.N.R.
+          Originator: Biewick, L.R.H.
+          Publication_Date: 2000
+          Title:
+            Geologic Assessment of Coal in the Colorado
+            Plateau
+          Series_Information:
+            Series_Name:
+              U.S. Geological Survey Professional Paper
+            Issue_Identification: 1625-B
+          Publication_Information:
+            Publication_Place: Denver, CO
+            Publisher: U.S. Geological Survey
+  Description:
+    Abstract:
+      Final unioned polygon coverages and shapefiles used to
+      calculate coal resources of the A through G coal zones,
+      Danforth Hills coal field, northwestern Colorado. Dana_fin
+      was used for the A coal zone; Danb_fin was used for the B
+      coal zone; etc. Polygons that make up the final unioned
+      polygons include counties, 7.5' quadrangles, townships,
+      surface and coal ownership, lease boundaries, overburden,
+      and coal thickness categories. The final coverages were
+      clipped to the resource areas for each coal zone, which are
+      described in the metadata files for the *_bnd coverages.
+    Purpose:
+      The Nation's coal resources are being assessed by the USGS.
+      This assessment identifies and characterizes the coal beds
+      and coal zones that will provide the bulk of the nation's
+      coal-derived energy during the next century. This assessment
+      is different from previous large-scale USGS assessments
+      because files and databases are being stored in a digital
+      format and are being analyzed using a Geographic Information
+      System (GIS).
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 2000
+    Currentness_Reference: Publication Date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -108.0731
+      East_Bounding_Coordinate: -107.6914
+      North_Bounding_Coordinate: 40.3360
+      South_Bounding_Coordinate: 40.0832
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: coal
+      Theme_Keyword: coal resources
+      Theme_Keyword: USGS
+      Theme_Keyword: bituminous
+      Theme_Keyword: USGS Circular 891
+      Theme_Keyword: National Coal Resource Assessment (NCRA)
+      Theme_Keyword: Colorado Plateau Coal Assessment
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: Danforth Hills
+      Place_Keyword: Piceance Basin
+      Place_Keyword: Colorado
+      Place_Keyword: Colorado Plateau
+      Place_Keyword: Moffat County
+      Place_Keyword: Rio Blanco County
+    Stratum:
+      Stratum_Keyword_Thesaurus:
+        Geologic Names Unit Lexicon
+        (GNULEX), 1996
+      Stratum_Keyword: Williams Fork Formation
+      Stratum_Keyword: Upper Cretaceous
+      Stratum_Keyword: Mesaverde Group
+  Access_Constraints: None
+  Use_Constraints: 1:100000 scale
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization:
+          U.S. Geological Survey, Central
+          Energy
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: PO Box 25046 MS 939 Denver Federal Center
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225
+        Country: USA
+      Contact_Voice_Telephone:
+        303.236.4608
+
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report:
+      All attributes are consistent with
+      original source databases
+  Logical_Consistency_Report: topologically clean
+  Completeness_Report: see Process steps
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator:
+            U.S. Geological Survey, Central Energy
+            Team
+          Publication_Date: Unknown
+          Title:
+            All files needed for coal resource
+            calculation and reports, Danforth Hills
+            unioned polygons
+          Geospatial_Data_Presentation_Form: map
+      Type_of_Source_Media: other
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 19990208
+        Source_Currentness_Reference: Publication Date
+      Source_Citation_Abbreviation: n/a
+      Source_Contribution:
+        all files necessary to complete coal
+        resource calculations
+    Process_Step:
+      Process_Description:
+        An x, y extent greater than the resource area was used
+        to begin the unioning process and was clipped, as a
+        last step, by the polygon that limits the resource
+        area. County data used in unioned polygons are
+        described in metadata file dan_cnty.met. 7.5 minute
+        quadrangle data are described in dan24qd.met and was
+        unioned with county coverage. Township and range data
+        are described in dan_tr.met and was unioned with the
+        previously unioned coverage.
+      Process_Date: 19990208
+    Process_Step:
+      Process_Description:
+        A coverage was generated from digital data on the
+        surface ownership and energy minerals owned by the
+        Federal government in the BLM Little Snake River
+        and White River Field Office areas. The original
+        source of the data was from the U.S. Bureau of Land
+        Management, captured at a scale of 24,000. The original
+        data came from BLM in two coverages, one for surface
+        ownership and one for mineral ownership. The USGS
+        Energy Team unioned the two coverages into one. Slivers
+        that resulted from inexact overlay were eliminated.
+        This new coverage for ownership was snapped to the
+        township and range coverage because the ownership
+        polygons are very often coincident with township and
+        range polygons, This process was an effort to eliminate
+        slivers along township lines. The resultant coverage
+        was unioned with the coverage containing county, 7.5'
+        quadrangle, and township data. These data layers are
+        described in dan_cnty.met, dan_24k.met, and dan_tr.met.
+      Process_Date: 19990209
+    Process_Step:
+      Process_Description:
+        A coverage was then unioned to the previously unioned
+        coverage that is polygons of the state and federal coal
+        leases in the Danforth Hills coal field. This coverage
+        is described in dan_leas.met. Coal resources were not
+        calculated within the boundaries of the lease areas.
+      Process_Date: 19990209
+    Process_Step:
+      Process_Description:
+        A coverage was generated from a gridded file of data
+        representing the overburden thickness to the base of
+        each of the coal zones. The overburden grid is a result
+        of subtracting the grid for the top of the Trout Creek
+        Sandstone Mbr. from the grid of the earth's surface in
+        EarthVision. The surface grid is a Digital Elevation
+        Model of the Danforth Hills study area imported through
+        EarthVision. In ARC/INFO, the overburden coverage was
+        unioned with the unioned overage created in process
+        step 3.
+      Process_Date: 19990209
+    Process_Step:
+      Process_Description:
+        A coverage was generated from a gridded file of data
+        from drill holes and measured sections that contain x,
+        y, data for location and values for the net coal
+        thickness for each of the coal zones. Details about how
+        this data file was generated from the Stratifact data
+        base are described in the metadata file dan_thk.met
+        EarthVision was used to do the gridding. The net coal
+        thickness does not include coal beds that are less than
+        resource thickness, which for bituminous coal is 1.2
+        ft. Contours defining the coal thickness categories for
+        bituminous coal from USGS Circular 891, were generated
+        from the grid. The lines were then converted to
+        ARC/INFO polygon coverage using an Arc Macro Language
+        program provided by Illinois State Geological Survey.
+        This polygon coverage was unioned with the unioned
+        coverage created in process step 4.
+      Process_Date: 19990212
+    Process_Step:
+      Process_Description:
+        The ARC/INFO polygon coverages generated in process
+        step 5 were then clipped using the Arc 'identity'
+        command. The input coverages are described in metadata
+        files dan*_bnd.met. The identity coverages are the
+        polygons generated from process step 5 and the output
+        coverages are these dan*_fin polygon coverages. These
+        coverages were converted to shapefiles in ArcView. 
+
+        A detailed description of the methodology for
+        calculating coal resources for the Colorado Plateau is
+        contained in Roberts and other, chap. C.
+      Process_Date:
+        19990212
+
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 1524
+
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Geographic:
+      Latitude_Resolution: .0001
+      Longitude_Resolution: .0001
+      Geographic_Coordinate_Units: Decimal degrees
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum 1927
+      Ellipsoid_Name: Clarke 1866
+      Semi-major_Axis: 6378206.4
+      Denominator_of_Flattening_Ratio:
+        294.98
+
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: dan*_fin.dbf
+      Entity_Type_Definition: Shapefile Attribute Table
+      Entity_Type_Definition_Source: None
+    Attribute:
+      Attribute_Label: Area
+      Attribute_Definition: Area of polygon
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.00000
+          Range_Domain_Maximum: 0.00441
+    Attribute:
+      Attribute_Label: Perimeter
+      Attribute_Definition: Perimeter of polygon
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.00038
+          Range_Domain_Maximum: 0.77093
+    Attribute:
+      Attribute_Label: Hole
+      Attribute_Definition:
+        Area where coal thickness is less than
+        resource thickness.
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: County
+      Attribute_Definition: name of county
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Quad
+      Attribute_Definition: name of 7.5 minute quadrangle
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Surf
+      Attribute_Definition:
+        Surface ownership
+        BLM - US Bureau of Land Management
+        FS - US Forest Service
+        DOE - US Department of Energy
+        BREC - US Bureau of Reclamation
+        SDOW - State Department of Wildlife
+        STATE - State
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Fedmins
+      Attribute_Definition:
+        Federal mineral ownership
+        ALL - Federal government owns all minerals
+        COAL - Federal government owns the coal only
+        OGC - Federal government owns oil, gas, and coal, only
+        OG - Federal government owns oil and gas only
+        NONE - Federal government owns none of the minerals
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Township
+      Attribute_Definition:
+        township number, range number, and direction
+        N - north
+        S - south
+        E - east
+        W - west
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Lease
+      Attribute_Definition:
+        specifies whether polygon falls within leased area or
+        not if blank or no, polygon does not fall within leased
+        area
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Overb
+      Attribute_Definition:
+        Overburden categories - range of overburden to base of
+        coal zones. Thickness of overburden in 100s of feet.
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Cthk_cat
+      Attribute_Definition:
+        Net coal thickness categories as defined in Wood, and
+        others, 1983.
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain:
+          Character field
+
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization:
+          U.S. Geological Survey, Central
+          Energy
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: PO Box 25046 MS 939 Denver Federal Center
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225
+        Country: USA
+      Contact_Voice_Telephone: 303.236.4608
+  Distribution_Liability:
+    Any use of trade, product, or company names in this publication
+    is for descriptive purposes only and does not imply endorsement
+    by the U.S. Government. Although these data have been processed
+    successfully on a computer system at the U.S. Geological Survey,
+    no warranty expressed or implied is made by the USGS regarding
+    the utility of the data on any other system, nor shall the act of
+    distribution constitute any such warranty. 
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ARC/INFO coverage, export file, shapefile
+        Format_Version_Number: ARC/INFO 7.0.4, ArcView 2.1
+      Digital_Transfer_Option:
+        Offline_Option:
+          Offline_Media: CD-ROM
+          Recording_Format: ISO 9660
+    Fees: none
+  Technical_Prerequisites:
+    need ARC/INFO 7.0.4 or greater and/or ArcView 2.1 or greater
+    and/or ArcExplorer (which can be downloaded free from
+    <URL:http://www.esri.com>) and/or other software that can read
+    ARC/INFO coverages, ARC/INFO export files and/or shapefiles 
+
+Metadata_Reference_Information:
+  Metadata_Date: 19990203
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization:
+          U.S. Geological Survey, Central
+          Energy
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: PO Box 25046 MS 939 Denver Federal Center
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225
+        Country: USA
+      Contact_Voice_Telephone: 303.236.4608
+  Metadata_Standard_Name: FGDC CSDGM
+  Metadata_Standard_Version:
+    FGDC-STD-001-1998
+
+    ------------------------------------------------------------------------
+    Generated by mp version 2.4.8 on Wed Sep 29 12:38:30 1999

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Eastern Energy Resources Science Center</origin>
+<pubdate>2013</pubdate>
+<title>Unassessed Mesozoic Basins</title>
+<geoform>vector digital data</geoform>
+<serinfo>
+<sername>U.S. Geological Survey Open-File Report</sername>
+<issue>2012-1205</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Reston, VA</pubplace>
+<publish>U.S. Geological Survey</publish>
+</pubinfo>
+<onlink>http://pubs.usgs.gov/of/2012/1205/</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This dataset is a polygon shapefile representing unassessed Mesozoic (Triassic) basins of the Eastern U.S. The shapefiles were digitized off of a printed map that was done by the Delaware Geological Survey. The scale of the map that was digitized is 1:1,000,000. The map demonstrates the maximum extent of several basins, and their qualitatively assessed potential for coal. These basins have not been quantitatively assessed by the U.S. Geological Survey.</abstract>
+<purpose>This dataset was compiled to update the Coal Fields Map of the Conterminous United States, OFR 96-092. It was included to demonstrate potential for coal basins and exploration in areas that have not previously been considered.</purpose>
+<supplinf>
+Sources used in the abstract and purpose include:
+&gt; Benson, R. 1992. Map of Exposed and Buried Early Mesozoic Rift Basins/Synrift Rocks of the U.S. Middle Atlantic Continental Margin. Delaware Geological Survey Miscellaneous Map Series No. 5. Scale 1:1,000,000
+</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2013</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-85.066124</westbc>
+<eastbc>-72.424220</eastbc>
+<northbc>42.680042</northbc>
+<southbc>31.142551</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>ISO 19115 Topic Category</themekt>
+<themekey>Geoscientific Information</themekey>
+</theme>
+<theme>
+<themekt>USGS Thesaurus</themekt>
+<themekey>coal resources</themekey>
+<themekey>geologic maps</themekey>
+<themekey>geology</themekey>
+<themekey>geospatial datasets</themekey>
+</theme>
+<theme>
+<themekt>Alexandria Digital Library Feature Type Thesaurus</themekt>
+<themekey>mineral resource areas</themekey>
+</theme>
+<theme>
+<themekt>none</themekt>
+<themekey>Coal Fields Map of North America</themekey>
+<themekey>Coal</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>North America</placekey>
+<placekey>United States</placekey>
+<placekey>Connecticut</placekey>
+<placekey>Delaware</placekey>
+<placekey>District of Columbia</placekey>
+<placekey>Georgia</placekey>
+<placekey>Maryland</placekey>
+<placekey>Massachusetts</placekey>
+<placekey>New Jersey</placekey>
+<placekey>New York</placekey>
+<placekey>North Carolina</placekey>
+<placekey>Pennsylvania</placekey>
+<placekey>South Carolina</placekey>
+<placekey>Virginia</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Joseph A. East</cntper>
+<cntorg>U. S. Geological Survey - Eastern Energy Resources Science Center</cntorg>
+</cntperp>
+<cntpos>Geologist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>12201 Sunrise Valley Drive, MS 956</address>
+<city>Reston</city>
+<state>VA</state>
+<postal>20192</postal>
+<country>United States of America</country>
+</cntaddr>
+<cntvoice>703-648-6450</cntvoice>
+<cntfax>703-648-6419</cntfax>
+<cntemail>jeast@usgs.gov</cntemail>
+</cntinfo>
+</ptcontac>
+<datacred>Technical reviews for this publication were provided by Leslie Ruppert, Christopher Garrity, Susan Tewalt, Lee Osmonson, James Luppens and James Coleman.</datacred>
+<native>Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.0.1770</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>Attribute accuracy was tested by manual comparison of the source with georeferenced digital printouts of the original publication, hard copy printouts and/or symbolized display of the digital geologic data on an interactive computer graphic system.</attraccr>
+</attracc>
+<logic>Map elements were visually checked for overshoots, undershoots, duplicates, polygon closure and proper attribution.</logic>
+<complete>Data set complete. No data was intentionally omitted from the hard copy and digital source maps.</complete>
+<posacc>
+<horizpa>
+<horizpar>The digital file and shapefile was digitized by hand, with a RMS error not exceeding .005 when coordinating the digitizer. Visual comparison of the basins with the digital geologic map of North America displayed some offset, with the maximum being around 1 km.</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Benson, R.</origin>
+<pubdate>1992</pubdate>
+<title>Map of Exposed and Buried Early Mesozoic Rift Basins/Synrift Rocks of the U.S. Middle Atlantic Continental Margin.</title>
+<serinfo>
+<sername>Delaware Geological Survey Miscellaneous Map Series</sername>
+<issue>5</issue>
+</serinfo>
+<onlink>http://dspace.udel.edu:8080/dspace/handle/19716/4289</onlink>
+</citeinfo>
+</srccite>
+<srcscale>1000000</srcscale>
+<typesrc>PDF scan of paper map.</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1992</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Benson, R. (1992)</srccitea>
+<srccontr>Outline of basins</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>The Mesozoic basins shapefile was digitized by hand from the paper map Benson (1992). The coverage was projected from UTM 18 with a datum of NAD 1927 into geographic, and the datum was converted using the ESRI NADCON datum conversion. The coverage was exported as a shapefile and the polygons were populated with attributes.</procdesc>
+<srcused>D:/tully/Reboot/Mesozoic Basins/East_Coast_Mesozoic_Basin_AUs/Shapefiles/50700561_South Georgia Basin/South Georgia Basin AU</srcused>
+<procdate>20110726</procdate>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>Joseph A. East</cntper>
+<cntorg>U.S. Geological Survey</cntorg>
+</cntperp>
+<cntpos>Geologist</cntpos>
+<cntaddr>
+<addrtype>physical address</addrtype>
+<address>MS 956 National Center</address>
+<address>12201 Sunrise Valley Drive</address>
+<city>Reston</city>
+<state>VA</state>
+<postal>20192</postal>
+<country>U.S.A.</country>
+</cntaddr>
+<cntvoice>703-648-6450</cntvoice>
+<cntfax>703-648-6419</cntfax>
+<cntemail>jeast@usgs.gov</cntemail>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>G-polygon</sdtstype>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<geograph>
+<latres>0.001</latres>
+<longres>0.001</longres>
+<geogunit>Decimal degrees</geogunit>
+</geograph>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137.0</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>Unassessed Mesozoic Basins</enttypl>
+<enttypd>Polygons defining boundaries of basins that have not been quantitatively assessed for coal potential.</enttypd>
+<enttypds>Unassessed Mesozoic Basins</enttypds>
+</enttyp>
+<attr>
+<attrlabl>FID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Coal</attrlabl>
+<attrdef>Potential of basin to contain measurable coal</attrdef>
+<attrdefs>USGS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Unknown Coal Potential</edomv>
+<edomvd>Unknown potential of coal in the basin</edomvd>
+<edomvds>Benson, R. (1992)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Coal Present</edomv>
+<edomvd>Coal has been found and recorded in the basin</edomvd>
+<edomvds>Benson, R. (1992)</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>No Coal Present</edomv>
+<edomvd>Coal has not been found, or found in minimal amounts in the basin</edomvd>
+<edomvds>Benson, R. (1992)</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Basin</attrlabl>
+<attrdef>Name of Basin</attrdef>
+<attrdefs>Benson, R. (1992)</attrdefs>
+<attrdomv>
+<udom>Unique names for individual basins.</udom>
+</attrdomv>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS Information Services</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>Box 25286</address>
+<city>Denver</city>
+<state>CO</state>
+<postal>80225</postal>
+<country>U.S.A.</country>
+</cntaddr>
+<cntvoice>1-888-ASK-USGS</cntvoice>
+<cntfax>303-202-4693</cntfax>
+<cntemail>http://store.usgs.gov/</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>USGS OFR 2012-1205</resdesc>
+<distliab>This digital publication was prepared by an agency of the United States Government. Neither the United States Government nor any agency thereof, nor any of their employees, makes any warranty, expressed or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed in this report, or represents that its use would not infringe privately owned rights. Reference therein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise does not necessarily constitute or imply its endorsement, recommendation, or favoring by the United States Government or any agency thereof. Any views and opinions of authors expressed herein do not necessarily state or reflect those of the United States Government or any agency thereof. Although all data published in this Open-File Report have been used by the U.S. Geological Survey (USGS), no warranty, expressed or implied, is made by the USGS as to the accuracy of the data and related materials and/or the functioning of the software. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the USGS in the use of these data, software, or related materials. Graphical map depictions are intended to be used within the map scale limits applicable to the source data. Although software enables the user to view data at various scales, the user is cautioned to refer to the source documentation for the appropriate map scale limitations.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>shapefile</formname>
+<formvern>1.0</formvern>
+<formcont>Coal field polygons with associated characteristics</formcont>
+<filedec>unzip</filedec>
+<transize>220 megabytes</transize>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://pubs.usgs.gov/of/2012/1205/Downloads/GIS.zip</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<techpreq>ArcGIS Desktop 9.X is required to open the map document</techpreq>
+</distinfo>
+<metainfo>
+<metd>20130710</metd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Joseph A. East</cntper>
+<cntorg>U.S. Geological Survey</cntorg>
+</cntperp>
+<cntpos>Geologist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>12201 Sunrise Valley Drive</address>
+<address>Mail Stop 956</address>
+<city>Reston</city>
+<state>VA</state>
+<postal>20192</postal>
+<country>U.S.A</country>
+</cntaddr>
+<cntvoice>703-648-6450</cntvoice>
+<cntfax>703-648-6419</cntfax>
+<cntemail>jeast@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+</metainfo>
+</metadata>

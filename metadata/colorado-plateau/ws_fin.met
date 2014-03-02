@@ -1,0 +1,526 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator:
+        U.S. Geological Survey, Central Energy Resources
+        Team
+      Originator: Dubiel, R.F.
+      Originator: Kirschbaum, M.A.
+      Originator: Roberts, L.N.R.
+      Originator: Mercier, T.J.
+      Originator: Heinrich, A.
+      Publication_Date: 2000
+      Title:
+        ws_fin (Final unioned file used for coal resource
+        calculations, southern Wasatch Plateau)
+      Geospatial_Data_Presentation_Form: map
+      Publication_Information:
+        Publication_Place: Denver, CO USA
+        Publisher: U.S. Geological Survey
+      Other_Citation_Details:
+        In subdir 100k (defines appropriate maximum scale for
+        data use)
+
+        chap. S, Geology and coal resources of the Blackhawk
+        Formation in the southern Wasatch Plateau, central Utah
+      Larger_Work_Citation:
+        Citation_Information:
+          Originator: Kirschbaum, M.A.
+          Originator: Roberts, L.N.R.
+          Originator: Biewick, L.R.H.
+          Publication_Date: 2000
+          Title:
+            Geologic Assessment of Coal in the Colorado
+            Plateau
+          Series_Information:
+            Series_Name:
+              U.S. Geological Survey Professional Paper
+            Issue_Identification: 1625-B 
+          Publication_Information:
+            Publication_Place: Denver, CO
+            Publisher: U.S. Geological Survey
+  Description:
+    Abstract:
+      This is a shapefile and the final unioned polygon coverage
+      used to calculate coal resources of the lower Blackhawk
+      Formation in the southern Wasatch coal assessment area.
+      Polygons that make up the final unioned polygons include
+      counties, 7.5' quadrangles, townships, surface and coal
+      ownership, reliability, overburden categories, and net coal
+      thickness categories. The final unioned coverage was clipped
+      by the resource boundary polygon, which is described in the
+      metadata file for the shapefile WS_BND.
+    Purpose:
+      The Nation's coal resources are being assessed by the USGS.
+      This assessment identifies and characterizes the coal beds
+      and coal zones that will provide the bulk of the nation's
+      coal-derived energy during the next century. This assessment
+      is different from previous large-scale USGS assessments
+      because files and databases are being stored in a digital
+      format and are being analyzed using a Geographic Information
+      System (GIS).
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 20000000
+    Currentness_Reference: Publication Date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -111.5252
+      East_Bounding_Coordinate: -111.1998
+      North_Bounding_Coordinate: 39.2492
+      South_Bounding_Coordinate: 38.6676
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: coal
+      Theme_Keyword: National Coal Resource Assessment (NCRA)
+      Theme_Keyword: Colorado Plateau
+      Theme_Keyword: Final unioned polygon
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: Colorado Plateau
+      Place_Keyword: Utah
+      Place_Keyword: Wasatch Plateau
+      Place_Keyword: southern Wasatch Plateau
+    Stratum:
+      Stratum_Keyword_Thesaurus:
+        Geologic Names Unit Lexicon
+        (GNULEX)
+      Stratum_Keyword: Blackhawk Formation
+      Stratum_Keyword: Star Point Sandstone
+  Access_Constraints: None
+  Use_Constraints:
+    Appropriate maximum scale for data use is 100k. No restrictions,
+    however, comparison with other data sets on surface and mineral
+    ownership for the same area from other time periods might be
+    inaccurate due to inconsistencies resulting from changes in land
+    and mineral ownership and in mapping convention over time.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization:
+          U.S. Geological Survey, Central
+          Energy
+        Contact_Person: Dubiel, R.F.
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: PO Box 25046 MS 939 Denver Federal Center
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225
+        Country: USA
+      Contact_Voice_Telephone: 303.236.1540
+  Security_Information:
+    Security_Handling_Description: None
+    Security_Classification: Unclassified
+    Security_Classification_System: None
+  Native_Data_Set_Environment:
+    SunOS, 5.5.1, sun4d UNIX, ARC/INFO version 7.0.4 and ArcView 3.1
+
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: See Entity_Attribute_Information
+  Logical_Consistency_Report: Polygon topology present.
+  Completeness_Report: Complete.
+  Lineage:
+    Process_Step:
+      Process_Description:
+        An x, y extent greater than the resource area was used
+        to begin the unioning process and was clipped, as a
+        last step, by the polygon that limits the resource
+        area. County data used in unioned polygons are
+        described in metadata file ws_cnty.met. Township and
+        range data are described in ws_tr.met and was unioned
+        with the County coverage. 7.5 minute quadrangle data
+        are described in ws24qd.met and was unioned with the
+        previously unioned coverage.
+      Process_Date: 19980000
+    Process_Step:
+      Process_Description:
+        A polygon coverage was created that contains land
+        status and Federal mineral ownership in the Uinta Basin
+        and surrounding area, northeastern Utah. This ownership
+        coverage was clipped by a box with x, y extent slightly
+        larger than the resource area of the southern Wasatch
+        Plateau and was ultimately unioned with the previously
+        unioned polygon of County, 7.5' quadrangle and
+        Townships. Following is a detailed description of how
+        the coverage for surface and mineral ownership was
+        generated. It was derived by intersection and overlay
+        of two ARC/INFO coverages, one of land ownership and
+        another of Federal oil, gas, coal and other minerals
+        ownership. The coverage of land status was extracted
+        from the Statewide Utah land ownership coverage for Gap
+        Analysis. The coverage of mineral ownership was created
+        using an INFO file that contained items (fields) that
+        categorize oil, gas, coal and other minerals ownership
+        based on the work done by the former U.S. Bureau of
+        Mines (USBM) for their special report- 'Availability of
+        Federally Owned Minerals for Exploration and
+        Development in Western States, Utah, 1988'. The method
+        used by USBM to generate subsurface mineral management
+        status was to generalize to the section level. Each
+        whole section is defined as being the management status
+        for 50% or more of that section. This INFO file was
+        joined to a portion of the Statewide Public Land Survey
+        System (PLSS) from Utah Trust Lands Administration on a
+        common item that defined section, township, range and
+        quadrant. The coverages were subsequently integrated
+        using the Arc/Info UNION command to produce an output
+        coverage that contains both surface and mineral
+        ownership. The coverage was then dissolved to remove
+        extraneous section lines. The union of coverages of
+        dissimilar scale will produce an inordinate amount of
+        sliver polygons. This problem was resolved by using an
+        aml to automate the removal of polygons smaller than
+        100,000 km.sq. This aml works best on coverages
+        containing no added attributes, therefore the Arc/Info
+        UNION/NOJOIN option was used to create the initial
+        coverage. The remaining sliver polygons were edited
+        manually or by use of editing amls. The manual editing
+        process was performed systematically by 100K-scale
+        quadrangle until all node errors and obvious polygon
+        errors were corrected. The coverage was checked against
+        the 1995 State of Utah Land Aministration map for
+        surface accuracy and the 1988 Bureau of Mines mineral
+        status maps for Federally-owned minerals accuracy.
+        Following elimination of slivers, the original
+        attributes were added back into the coverage with the
+        Arc/Info JOINITEM command. The output coverage contains
+        two added attributes, SURF and FEDMINS, which identify
+        surface ownership and Federal mineral ownership. The
+        item SURF was populated by using the surface ownership
+        coding scheme developed by the USGS Energy Resources
+        Program's Federal Lands Assessment project. Ownership
+        from item NAMES in the original land ownership coverage
+        were consolidated in item SURF. The item FEDMINS was
+        populated based on values in PLATE_II and PLATE_III of
+        the original Federally-owned minerals coverage. Only
+        items SURF and FEDMINS were retained in the output
+        coverage. The coverage was carefully checked against
+        the original coverages in ArcView and edited as
+        necessary in Arcedit.
+
+        Later, land and mineral exchanges took place in Utah
+        after the Grand Staircase-Escalante National Monument
+        was created by Presidential Proclamation. In 1999, the
+        updated data were provided by the Utah School and
+        Institutional Trust Lands Administration (SITLA), and
+        the USGS incorporated those land and mineral ownership
+        changes into this data set.
+
+        Use_Constraints-- The surface and mineral management
+        status are published as general planning and management
+        tools. The official land records in the respective
+        offices of the Bureau of Land Management or other
+        responsible Federal agencies should be checked for
+        up-to-date status on any specific tract of land.
+      Process_Date: 19970000
+    Process_Step:
+      Process_Description:
+        A coverage was generated that contains polygons for
+        coal reliability categories of 'identified' and
+        'hypothetical'. It was generated using the BUFFER
+        command in ARC/INFO. Round buffers were generated at a
+        distance of three miles from a point of thickness for
+        'identified' and everything beyond three miles is
+        'hypothetical' (Wood and others, 1983). This coverage
+        was then unioned to the previously unioned coverage
+        containing Counties, 7.5' quadrangles, Townships, and
+        ownership.
+      Process_Date: 19980000
+    Process_Step:
+      Process_Description:
+        A coverage was generated from a gridded file of data
+        representing the overburden thickness to the base of
+        the coal-bearing Blackhawk Formation (same as the top
+        of the Star Point Sandstone). The overburden grid is a
+        result of subtracting the grid for the top of the Star
+        Point Sandstone (see was_strc.met for details of this
+        grid file) from the grid of the earth's surface in
+        EarthVision (EV). The surface grid is a mosaic of 24K
+        Digital Elevation Models of the southern Wasatch
+        Plateau imported through EV. A map of the overburden to
+        the base of the Blackhawk was plotted in EV with a
+        contour interval of 500 ft. The contour lines were
+        saved in a contour output file. The contour output file
+        was converted to a file in 'arc generate' format using
+        ISMARC and then converted to an ARC/INFO polygon
+        coverage using an Arc Macro Language program from the
+        Illinois State Geological Survey. In ARC/INFO, the
+        overburden coverages were unioned with the previously
+        unioned coverage of Counties, 7.5' quadrangles,
+        townships, and surface and mineral ownership, and
+        reliability categories.
+      Process_Date: 19980000
+    Process_Step:
+      Process_Description:
+        A coverage was generated from a gridded file of data
+        from drill holes and measured sections that contain x,
+        y, data for location and values for the net coal
+        thickness for the lower Blackhawk Formation. Details
+        about how this data file was generated from the
+        Stratifact data base are described in the metadata
+        files ws_thk.met. EarthVision was used to do the
+        gridding. The net coal thickness does not include coal
+        beds that are less than resource thickness, which for
+        bituminous coal is 1.2 ft. Contours defining the net
+        coal thickness categories for bituminous coal from USGS
+        circular 891, were generated from the grid. These
+        contour lines include 1.2 ft, 2.3, 3.5, 7.0, and 14.0.
+        The contour lines were saved in a contour output file.
+        The contour output file was converted to a file in 'arc
+        generate' format using ISMARC and then converted to an
+        ARC/INFO polygon coverage using an Arc Macro Language
+        program from the Illinois State Geological Survey. This
+        polygon coverage was unioned with the coverage created
+        from the previous union that contains data for
+        Counties, 7.5' quadrangles, Townships, surface and
+        mineral ownership, reliability categories, and
+        overburden categories..
+      Process_Date: 19980000
+    Process_Step:
+      Process_Description:
+        The ARC/INFO polygon coverage generated from all these
+        unions was then clipped using the Arc 'identity'
+        command. The 'input' coverage is the 'resource polygon'
+        described in a metadata file called ws_bnd.met. The
+        'identity' coverage is the final unioned polygon. The
+        'output' coverage is this ws_fin polygon coverage. This
+        coverage was converted to a shapefile in ArcView.
+      Process_Date:
+        19980000
+
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 856
+
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Geographic:
+      Latitude_Resolution: .0001
+      Longitude_Resolution: .0001
+      Geographic_Coordinate_Units: Decimal degrees
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum 1927
+      Ellipsoid_Name: Clarke 1866
+      Semi-major_Axis: 6378206.4
+      Denominator_of_Flattening_Ratio:
+        294.98
+
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: ws_fin.dbf
+      Entity_Type_Definition: Shapefile Attribute Table
+      Entity_Type_Definition_Source: None
+    Attribute:
+      Attribute_Label: Area
+      Attribute_Definition: Area of polygon
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.00000
+          Range_Domain_Maximum: 0.00271
+    Attribute:
+      Attribute_Label: Perimeter
+      Attribute_Definition: Perimeter of polygon
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.00283
+          Range_Domain_Maximum: 0.59785
+    Attribute:
+      Attribute_Label: Hole
+      Attribute_Definition:
+        Holes are polygons within the resource polygon for
+        which resources were not reported because the coal is
+        less than resource thickness (1.2ft). If hole equals
+        yes, then resources were not reported for that polygon;
+        if hole equals no or is blank, then a tonnage value for
+        that polygon is reported.
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Shatz
+      Attribute_Definition:
+        Polygons within the resource polygon that are within a
+        zone of highly shattered rock.
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Cntyname
+      Attribute_Definition: County name
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Name
+      Attribute_Definition: 7.5 minute quadrangle name
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Tr
+      Attribute_Definition:
+        Township and Range block
+        N - north
+        S - south
+        E - east
+        W - west
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Surf
+      Attribute_Definition:
+        Surface ownership
+
+        BLM (Bureau of Land Management)
+        DOD (Department of Defense)
+        FS (Forest Service)
+        FSRA (Forest Service Recreation Area)
+        FSWA (Forest Service Wilderness Area)
+        FWS (Fish and Wildlife Service)
+        NPS (National Park Service)
+        PRIVATE (Private)
+        SP (State Parks)
+        STATE (State)
+        SWA (State Wildlife Area)
+        TL (Tribal Lands, BIA)
+        WATER (Water)
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Fedcoal
+      Attribute_Definition:
+        Federal coal ownership
+
+        Yes - Federal government owns rights to the coal
+        No - Federal government does not own rights to the coal
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Rel
+      Attribute_Definition:
+        Reliability categories
+
+        hypo - hypothetical
+        iden - identified
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Overb
+      Attribute_Definition:
+        Overburden categories - range of overburden to base of
+        Blackhawk Formation. Thickness of overburden in 100s of
+        feet.
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Cthk_cat
+      Attribute_Definition:
+        Net coal thickness categories - range of net coal
+        thickness in beds > or equal to 1.2 ft. Thickness
+        categories are defined in Wood, and others, 1983, USGS
+        Circular 891 for coal of bituminous rank. See metadata
+        file ws_thk.met for description of net coal thickness.
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Fedsurf
+      Attribute_Definition: Surface Federally owned?
+      Attribute_Definition_Source: User defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain:
+          character field
+
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization:
+          U.S. Geological Survey, Central
+          Energy
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: PO Box 25046 MS 939 Denver Federal Center
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225
+        Country: USA
+      Contact_Voice_Telephone: 303.236.4608
+  Resource_Description: Shapefile and ARC/INFO coverage
+  Distribution_Liability:
+    Any use of trade, product, or company names in this publication
+    is for descriptive purposes only and does not imply endorsement
+    by the U.S. Government. Although these data have been processed
+    successfully on a computer system at the U.S. Geological Survey,
+    no warranty expressed or implied is made by the USGS regarding
+    the utility of the data on any other system, nor shall the act of
+    distribution constitute any such warranty. Comparison with other
+    data set on surface and mineral ownership for the same area from
+    other time periods might be inaccurate due to inconsistencies
+    resulting from changes in land and mineral ownership and in
+    mapping convention over time. This data is not a legal document
+    and is not intended to be used as such.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name:
+          ARC/INFO coverage, export file, and
+          shapefile
+      Digital_Transfer_Option:
+        Offline_Option:
+          Offline_Media: CD-ROM
+          Recording_Format: ISO 9660
+    Fees: none
+  Technical_Prerequisites:
+    need ARC/INFO 7.0.4 or greater and/or ArcView 2.1 or greater
+    and/or ArcExplorer (which can be downloaded free from
+    <http://www.esri.com>) and/or other software that can read
+    ARC/INFO coverages, ARC/INFO export files, or shapefiles
+
+Metadata_Reference_Information:
+  Metadata_Date: 19990203
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization:
+          U.S. Geological Survey, Central
+          Energy
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: PO Box 25046 MS 939 Denver Federal Center
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225
+        Country: USA
+      Contact_Voice_Telephone: 303.236.4608
+  Metadata_Standard_Name:
+    FGDC Content Standards for Digital Geospatial
+    Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Access_Constraints: None
+  Metadata_Security_Information:
+    Metadata_Security_Handling_Description: None
+    Metadata_Security_Classification: Unclassified
+    Metadata_Security_Classification_System:
+      None
+
+      ------------------------------------------------------------------------
+      Generated by mp version 2.4.8 on Thu Sep 30 15:12:17 1999

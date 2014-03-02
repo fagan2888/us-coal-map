@@ -1,0 +1,390 @@
+Metadata:
+  Identification_Information:
+    Citation:
+      Citation_Information:
+        Originator:  Susan J. Tewalt
+        Publication_Date: 2000
+        Title:
+          Map showing generalized overburden thickness isopleths of the Upper Freeport Coal Bed in 
+          Pennsylvania, Ohio, West Virginia, and Maryland
+        Larger_Work_Citation:
+          Citation_Information:
+            Originator: Northern and Central Appalachian Basin Coal Regions
+              Assessment Team
+            Publication_Date: 2000
+            Title:
+              2000 Resource Assessment of Selected Coal Beds and Zones in the
+              Northern and Central Appalachian Basin Coal Regions
+            Series_Information:
+              Series_Name: U.S. Geological Survey Professional Paper
+              Issue_Identification: PP1625-C
+            Publication_Information:
+              Publication_Place: Reston, VA
+              Publisher: U.S. Geological Survey  
+            Online_Linkage: http://greenwood.cr.usgs.gov/pub/ppapers/p1625c/
+    Description:
+      Abstract:
+        This dataset is a generalized polygon coverage of the thickness of the overburden 
+        for the Upper Freeport Coal bed, in feet. It was produced by importing
+        1:250,000 and 1:100,000 scale digital elevation models (DEM'S) into ARC
+        and merging the lattices into one.  In ARC/INFO GRID, the structure elevation grid 
+        (created in ARC from point and contour line data using TOPOGRID) was subtracted
+        from the DEM, creating overburden thickness. [In areas of inadequate data
+        control on the Upper Freeport coal bed, mapped elevations from other coal
+        beds were projected to the stratigraphic level of the Upper Freeport in order to
+        create the structure contour map subsequently used to calculate overburden.
+        Thus in areas of sparse data or where the coal's elevation was projected
+        the overburden thickness can be considered suspect.]  The overburden grid was
+        contoured into 200, 500, 1000, and 2000 foot isolines and is presented clipped to the
+        areal extent of the Upper Freeport coal used in the USGS Appalachian coal assessment.
+        In areas of steep relief (largely in parts of Pennsylvania and West Virginia), 
+        a distance of 384 meters from the Upper Freeport crop boundary was used (based on
+        40 randomly sampled points that were arithmetically averaged) to estimate the
+        the 200-foot isopleth, where computer-generated thickness inconsistencies occurred.  Coverage 
+        is called c9011ob (011 being the numeric code assigned to the Upper Freeport coal bed).
+        Polygon attributes include a code for the USGS overburden category (Wood and
+        others (1983).
+      Purpose:
+        The purpose of Professional Paper 1625 is to release the interpretation
+        of assessment and modeling data for the the top-producing coal beds in the
+        northern and central Appalachian Basin coal regions.
+        This dataset was used in the National Coal Resource Assessment Program
+        to classify coal resources for the Upper Freeport coal bed in Region 9,
+        the Appalachians.  The dataset has been generalized and is useful in regional
+        studies - not applicable to local scales. 
+    Time_Period_of_Content:
+      Time_Period_Information:
+        Single_date/Time: 
+          Calendar_Date: 1999
+      Currentness_Reference: data collection and collation period
+    Status:
+      Progress: Complete
+      Maintenance_and_Update_Frequency: None planned
+    Spatial_Domain:
+      Bounding_Coordinates:
+        West_Bounding_Coordinate: -82.701
+        East_Bounding_Coordinate: -78.193
+        North_Bounding_Coordinate: 41.354
+        South_Bounding_Coordinate: 38.406
+    Keywords:
+      Theme:
+        Theme_Keyword_Thesaurus:
+          Coal Resource Classification of the U.S. Geological Survey, USGS
+          Circular 891.
+        Theme_Keyword: coal
+        Theme_Keyword: coal resources
+        Theme_Keyword: coal overburden
+        Theme_Keyword: bituminous
+        Theme_Keyword: geologic structure
+        Theme_Keyword: outcrop
+        Theme_Keyword: USGS
+        Theme_Keyword: West Virginia Geological and Economic Survey
+        Theme_Keyword: Ohio Division of Geological Survey
+        Theme_Keyword: Maryland Geological Survey
+        Theme_Keyword: Pennsylvania Bureau of Topographic and Geologic Survey
+      Place:
+        Place_Keyword_Thesaurus: Geographic Names Information System
+        Place_Keyword: Appalachians
+        Place_Keyword: ALLEGANY County MD
+        Place_Keyword: GARRETT County MD
+        Place_Keyword: ATHENS County OH
+        Place_Keyword: BELMONT County OH
+        Place_Keyword: CARROLL County OH
+        Place_Keyword: COLUMBIANA County OH
+        Place_Keyword: COSHOCTON County OH
+        Place_Keyword: GALLIA County OH
+        Place_Keyword: GUERNSEY County OH
+        Place_Keyword: HARRISON County OH
+        Place_Keyword: HOCKING County OH
+        Place_Keyword: JACKSON County OH
+        Place_Keyword: JEFFERSON County OH
+        Place_Keyword: LAWRENCE County OH
+        Place_Keyword: MEIGS County OH
+        Place_Keyword: MONROE County OH
+        Place_Keyword: MORGAN County OH
+        Place_Keyword: MUSKINGUM County OH
+        Place_Keyword: NOBLE County OH
+        Place_Keyword: PERRY County OH
+        Place_Keyword: STARK County OH
+        Place_Keyword: TUSCARAWAS County OH
+        Place_Keyword: VINTON County OH
+        Place_Keyword: WASHINGTON County OH
+        Place_Keyword: ALLEGHENY County PA
+        Place_Keyword: ARMSTRONG County PA
+        Place_Keyword: BEAVER County PA
+        Place_Keyword: BUTLER County PA
+        Place_Keyword: CAMBRIA County PA
+        Place_Keyword: CLARION County PA
+        Place_Keyword: CLEARFIELD County PA
+        Place_Keyword: ELK County PA
+        Place_Keyword: FAYETTE County PA
+        Place_Keyword: GREENE County PA
+        Place_Keyword: INDIANA County PA
+        Place_Keyword: JEFFERSON County PA
+        Place_Keyword: SOMERSET County PA
+        Place_Keyword: WASHINGTON County PA
+        Place_Keyword: WESTMORELAND County PA
+        Place_Keyword: BARBOUR County WV
+        Place_Keyword: BROOKE County WV
+        Place_Keyword: GRANT County WV
+        Place_Keyword: HANCOCK County WV
+        Place_Keyword: JACKSON County WV
+        Place_Keyword: MARION County WV
+        Place_Keyword: MARSHALL County WV
+        Place_Keyword: MONONGALIA County WV
+        Place_Keyword: MINERAL County WV
+        Place_Keyword: OHIO County WV
+        Place_Keyword: PRESTON County WV
+        Place_Keyword: RANDOLPH County WV
+        Place_Keyword: TAYLOR County WV
+        Place_Keyword: TUCKER County WV
+        Place_Keyword: TYLER County WV
+        Place_Keyword: UPSHUR County WV
+        Place_Keyword: WETZEL County WV
+      Stratum:
+        Stratum_Keyword_Thesaurus:
+          Geologic Names Unit Lexicon (GNULEX), 1996;
+          Stratigraphic Nomenclature Databases for the United States, It's
+          possessions, and Territories, U.S. Geological Survey Digital Data
+          Series DDS-6, release 3.
+        Stratum_Keyword: Upper Freeport coal bed horizon
+        Stratum_Keyword: Upper coal
+        Stratum_Keyword: Upper Freeport
+        Stratum_Keyword: Allegheny Group
+        Stratum_Keyword: Conemaugh Group
+    Access_Constraints: none
+    Use_Constraints: to be used for regional analysis only
+    Point_of_Contact:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person:  Susan J. Tewalt
+          Contact_Organization: U.S. Geological Survey, Eastern Energy Resources Team
+        Contact_Address:
+          Address_Type: mailing address
+          Address: MS 956 National Center
+          City: Reston
+          State_or_Province: Virginia
+          Postal_Code: 20192
+          Country: USA
+        Contact_Voice_Telephone: 703-648-6437
+    Data_Set_Credit:
+      Stratigraphic data stored in the National Coal Resources Data System (NCRDS)
+      were used to create parts of the Upper Freeport structure map which was used
+      to create the overburden shown on this coverage.  Existing point and map data
+      for the Upper Freeport coal bed were used with the permission and through
+      the cooperation of coal geologists (primary contacts listed) at the West 
+      Virginia Geological and Economic Survey (Mitch Blake and Nick Fedorko), the Pennsylvania
+      Bureau of Topographic and Geologic Survey (James R. Shaulis and Viktoras
+      W. Skema), the Ohio Division of Geological Survey (Richard W. Carlton)
+      and the Maryland Geological Survey (Dave Brezinski). [WVGES, PAGS, OHGS,
+      and MDGS, respectively.] Structure contour maps for other coal beds
+      from these sources were used of neccessity to create the structure contours for
+      the Upper Freeport where data were scarce.  It is recommended that new data be
+      obtained from the State geological surveys that are the original sources of 
+      information used in this study.
+  Data_Quality_Information:
+    Attribute_Accuracy:
+      Attribute_Accuracy_Report:
+        Deductive Estimate: Because many small-scale features were removed (individual
+          hills and upper reaches of erosional features), local accuracy is estimated to be
+          poor. In addition, the structure contour map of the coal bed used to create this
+          coverage is known to be less reliable where data from other coal bed elevations were used. 
+    Logical_Consistency_Report: Topologically clean 
+    Completeness_Report:  The polygons in this coverage are a generalized representation
+      of overburden thickness based on categories prescribed by USGS Circular 891 adn clipped
+      to the areas of resource assessment for the Upper Freeport coal bed.
+    Positional_Accuracy:
+      Horizontal_Positional_Accuracy:
+        Horizontal_Positional_Accuracy_Report: The grid cell sizes used to create this
+          file were 200 meter square. The contouring routine may go to either side
+          of a cell, therfore horizontal accuracy is estimated to minimally be 
+          100 meters.
+      Vertical_Positional_Accuracy:
+        Vertical_Positional_Accuracy_Report: The data values from which polygons were
+          derived represent the subtraction of the top of the Upper Freeport Coal from
+          a DEM lattice. The original measurement errors associated with the DEM vary
+          with scale;  errors associated with the structure contour map are likely to be
+          on the order of 50 feet.  These errors are likely to be cumulative.  The 
+          grid which produced the contours for this coverage's polygons had a maximum value for
+          overburden thickness of slightly more than 2000 feet within the resource areas shown
+          on this coverage.
+    Lineage:
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: U.S. Geological Survey
+            Publication_Date: 1999
+            Title: 
+              ARC grid c9011st_g- structure on top of the Fire Clay coal zone
+        Source_Scale_Denominator: 100000
+        Type_Of_Source_Media: online
+        Source_Time_Period_Of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 1999
+          Source_Currentness_Reference: Publication Date
+        Source_Citation_Abbreviation: UF-1
+        Source_Contribution: 
+          This file provided elevation of the Upper Freeport coal.
+      Process_Step: 
+        Process_Description: The DEM for region 9 was resampled using RESAMPLE in ARC/INFO
+          to a cell size of 200 meters.  The 200 meter cell size is equal to the cell size
+          for the structure grid for the Upper Freeport.
+        Process_Date: 1999
+      Process_Step: 
+        Process_Description: Using ARC/INFO GRID, the Upper Freeport structure grid was
+          subtracted from the DEM to create an overburden grid.
+        Process_Date: 1999
+      Process_Step: 
+        Process_Description: Isopleths of the overburden were created using LATTICECONTOUR
+          in ARC/INFO.  Isopleth interval was 100 feet.
+        Process_Date: 1999
+      Process_Step: 
+        Process_Description: Using the CONVERT-ISM.AML, the overburden isopleths were used
+          to interpolate the values of areas in between isopleths as half the values between
+          isopleth lines.  These areas were turned into polygons.
+        Process_Date: 1999
+      Process_Step: 
+        Process_Description: The overburden polygons were labeled in the OB_CAT attribute
+          according to USGS Circular 891 for overburden categories.
+        Process_Date: 1999
+      Process_Step: 
+        Process_Description: Polygons that collapsed into single lines were removed in
+          ARCEDIT.  
+        Process_Date: 1999
+      Process_Step: 
+        Process_Description: The Upper Freeport crop coverage was used to CLIP the
+          overburden coverage to limit its extent to the crop.
+        Process_Date: 1999
+      Process_Step: 
+        Process_Description: Some errors were noted where the 200-foot isolines
+          intersected the crop boundary.  Forty points were randomly selected along the 200-
+          foot isopleths and the distance measured perpendicular to the crop.  These distances
+          were averaged (non-geometric) and the resulting distance (384 meters) used to
+          BUFFER inside the outcrop line to interpolate a 200-foot isoline.  Old 200-500 foot
+          polygons that intersected the buffered polygon were changed to the 0-200 foot
+          category; areas that did not intersect kept their original category value.
+        Process_Date: 1999
+      Process_Step: 
+        Process_Description:  Due to the large cell sizes used in the grid subtraction and errors
+          in source UF-1 (especially where other beds were interpolated to the Upper Freeport
+          stratigraphic level), some overburden polygons of intermediate thicknesses were missing (i.e.
+          500-1000 ft polygons were adjacent to 0-200 polygons, missing the 200-500).  These polygons
+          were manually relabeled to the lower appropriate category (in this example,
+          200-500).
+        Process_Date: 1999
+      Process_Step: 
+        Process_Description: The coverage was updated with internal no-coal areas.
+        Process_Date: 1999
+      Process_Step: 
+        Process_Description: Coverage projected to geographic.
+        Process_Date: 1999
+  Spatial_Data_Organization_Information:
+    Direct_Spatial_Reference_Method: Vector
+    Point_and_Vector_Object_Information:
+      SDTS_Terms_Description:
+        SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+        Point_and_Vector_Object_Count: 7032
+  Spatial_Reference_Information:
+    Horizontal_Coordinate_System_Definition:
+      Geographic:
+        Latitude_Resolution: 0.0001
+        Longitude_Resolution: 0.0001
+        Geographic_Coordinate_Units: Decimal Degrees
+      Geodetic_Model:
+        Horizontal_Datum_Name:  North American Datum of 1927
+        Ellipsoid_Name: Clarke 1866
+        Semi-major_Axis: 6378206.4
+        Denominator_of_Flattening_Ratio:  294.98
+  Entity_and_Attribute_Information:
+    Detailed_Description:
+      Entity_Type:
+        Entity_Type_Label: c9011ob.pat
+        Entity_Type_Definition: polygon attribute table for coverage
+        Entity_Type_Definition_Source: ARC/INFO
+      Attribute:
+        Attribute_Label: OB_CAT
+        Attribute_Definition: numeric code assigned to categories defined in
+          USGS Circular 891.
+        Attribute_Definition_Source: this study
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 103
+            Enumerated_Domain_Value_Definition: '103' 0 to 200 feet
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 105
+            Enumerated_Domain_Value_Definition: '105' 200 to 500 feet
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 106
+            Enumerated_Domain_Value_Definition: '106' 500 to 1000 feet
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 107
+            Enumerated_Domain_Value_Definition: '107' 1000 to 2000 feet
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 108
+            Enumerated_Domain_Value_Definition: '108' 2000 to 3000 feet 
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 999
+            Enumerated_Domain_Value_Definition: '999' "no coal" area for which
+              overburden does not exist
+            Enumerated_Domain_Value_Definition_Source: Susan J. Tewalt
+        Attribute_Value_Accuracy_Information:
+          Attribute_Value_Accuracy: 100
+          Attribute_Value_Accuracy_Explanation: Elevation on top of the Upper Freeport
+            coal bed in feet was created by the subtraction of depth down the
+            drill hole from surface elvation. Values were gridded in EarthVision and the
+            grid imported to ARC/INFO in ASCII format. Subtraction of this surface from 
+            a 200m cell topographic grid was then contoured into varying intervals,
+            200, 500, 1000, 2000 and 3000. Because of the generalization of this coverage,
+            100 feet would be the likely accuracy.        
+  Distribution_Information:
+    Distributor:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Susan J. Tewalt
+          Contact_Organization: U.S. Geological Survey, Eastern Energy Resources Team
+        Contact_Address:
+          Address_Type: mailing address
+          Address: MS 956 National Center
+          City: Reston
+          State_or_Province: Virginia
+          Postal_Code: 20192
+          Country: USA
+        Contact_Voice_Telephone: 703-648-6437
+    Resource_Description: USGS Professional Paper 1625-C: Chapter D, c9011OB.e00
+    Distribution_Liability:
+      Any use of trade, product, or firm names is for descriptive purposes only and
+      does not imply endorsement by the U.S. Government. Although these
+      data have been used by the U.S. Geological Survey (USGS), no warranty, 
+      expressed or implied, is made by the USGS as to the accuracy of the data
+      and related materials.  The act of distribution shall not constitute any
+      such warranty, and no responsibility is assumed by the USGS in the use
+      of these data, software, or related materials.
+    Standard_Order_Process:
+      Digital_Form:
+        Digital_Transfer_Information:
+          Format_Name: ARCE
+          Format_Version_Number: 7.1.1
+        Digital_Transfer_Option:
+          Online_Option:
+            Computer_Contact_Information:
+              Network_Address:
+                Network_Resource_Name: http://greenwood.cr.usgs.gov/pub/ppapers/p1625c/
+      Fees: none  
+  Metadata_Reference_Information:
+    Metadata_Date: 19990505
+    Metadata_Contact:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Susan J. Tewalt
+          Contact_Organization: U.S. Geological Survey, Eastern Energy Resources Team
+        Contact_Address:
+          Address_Type: mailing address
+          Address: MS 956 National Center
+          City: Reston
+          State_or_Province: Virginia
+          Postal_Code: 20192
+          Country: USA
+        Contact_Voice_Telephone: 703-648-6437
+    Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+    Metadata_Standard_Version: FGDC-STD-001-1998

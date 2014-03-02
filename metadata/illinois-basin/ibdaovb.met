@@ -1,0 +1,344 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: U.S. Geological Survey Central Region Energy Resources Team
+      Publication_Date: 2002
+      Title: Overburden thickness of the Danville and Baker coal zone in the Illinois Basin
+      Geospatial_Data_Presentation_Form: map
+      Series_Information:
+        Series_Name: U.S. Geological Survey Professional Paper
+        Issue_Identification: 1625-D
+      Publication_Information:
+        Publication_Place: Denver, Colorado
+        Publisher: U.S. Geological Survey
+      Larger_Work_Citation:
+        Citation_Information:
+          Originator: J.R. Hatch (ed.)
+          Originator: R.H. Affolter (ed.)
+          Publication_Date: 2002
+          Title: Resource Assessment of the Springfield, Herrin, and Danville and Baker Coals in the Illinois Basin
+          Series_Information:
+            Series_Name: U.S. Geological Survey Professional Paper
+            Issue_Identification: 1625-D
+          Publication_Information:
+            Publication_Place: Denver, Colorado
+            Publisher: U.S. Geological Survey
+          Larger_Work_Citation:
+            Citation_Information:
+              Originator: U.S. Geological Survey
+              Publication_Date: 2002
+              Title: National Coal Resource Assessment
+              Series_Information:
+                Series_Name: U.S. Geological Survey Professional Paper
+                Issue_Identification: 1625
+              Publication_Information:
+                Publication_Place: Denver, Colorado
+                Publisher: U.S. Geological Survey
+  Description:
+    Abstract:
+      As part of the U.S. Geological Survey's National Coal
+      Assessment Program for the Illinois Basin, the Illinois,
+      Indiana, and Kentucky Geological Surveys each produced
+      statewide overburden maps for the Daville/Baker coal zone.
+      To better provide a regional view of trends in this coal
+      bed,
+      the three individual files were merged together into a
+      single basin-wide coverage.
+    Purpose:
+      Coal overburden maps are fundamental to coal resource
+      analysis. Regional views assist planners and policy-makers
+      in their tasks.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 19960801
+        Ending_Date: 19990701
+    Currentness_Reference: publication date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -90.6057
+      East_Bounding_Coordinate: -86.8525
+      North_Bounding_Coordinate: 41.4886
+      South_Bounding_Coordinate: 37.1575
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: coal
+      Theme_Keyword: coal overburden
+      Theme_Keyword: Danville coal
+      Theme_Keyword: Baker coal
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: Illinois Basin
+      Place_Keyword: Eastern Interior Basin
+      Place_Keyword: Illinois
+      Place_Keyword: Indiana
+      Place_Keyword: Kentucky
+  Access_Constraints: None
+  Use_Constraints:
+    Acknowledgement of the Indiana, Illinois, and Kentucky
+    Geological Surveys would be expected in products derived
+    from these data.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Kentucky Geological Survey
+        Contact_Person: William Andrews
+      Contact_Position: Geologist, Energy and Minerals Section
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 228 Mining and Mineral Resources Bldg., Univ. of Kentucky
+        City: Lexington
+        State_or_Province: Kentucky
+        Postal_Code: 40506-0107
+        Country: USA
+      Contact_Voice_Telephone: 859-257-5500
+      Contact_Facsimile_Telephone: 859-257-1147
+      Contact_Electronic_Mail_Address: wandrews@kgs.mm.uky.edu
+      Hours_of_Service: 8:00 AM to noon, 1:00 PM to 5:00 PM, Mon. thru Fri.
+  Native_Data_Set_Environment:
+    ArcView version 3.1 shapefile format
+    \west\ncatest\ib\ib_daovrdd.shp
+Data_Quality_Information:
+  Completeness_Report:
+    Polygon files from the three states were converted to
+    raster grids with 200-meter cell sizes. The individual
+    grids were merged, then smoothed with a majorityfilter
+    function, then converted back to vector polygon format. The
+    most generalized attributes from the three states were used
+    to ensure uniformity within the regional view.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: No tests were performed.
+  Lineage:
+    Source_Information:
+      Type_of_Source_Media: CD-ROM
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 19960801
+            Ending_Date: 19991001
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: USGS-CDROM
+      Source_Contribution:
+        provided component state-wide files used for compilation of
+        basin-wide coverages.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: U.S. Geological Survey
+          Originator: Illinois State Geological Survey, Indiana Geological
+          Publication_Date: 19991001
+          Title: Draft copy, 1999 National Coal Resource Assessment of theSpringfield, Herrin, and Danville Baker Coals in theIllinois Basin
+          Edition: draft
+          Geospatial_Data_Presentation_Form: map
+          Publication_Information:
+            Publication_Place: Bloomington, IN
+            Publisher: Indiana Geological Survey
+          Online_Linkage: http://adamite.igs.indiana.edu/index.htm
+          Larger_Work_Citation:
+            Citation_Information:
+              Originator: U.S. Geological Survey
+              Publication_Date: 19991001
+              Title: National Coal Assessment - Illinois Basin
+              Publication_Information:
+                Publication_Place: Denver, CO
+                Publisher: U.S. Geological Survey
+              Online_Linkage: http://www.usgs.gov
+      Type_of_Source_Media: CD-ROM
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 19960801
+            Ending_Date: 19991001
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: USGS-CDROM
+      Source_Contribution:
+        provided component state-wide files used for compilation of
+        basin-wide coverages.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: U.S. Geological Survey
+          Originator: Illinois State Geological Survey, Indiana Geological
+          Publication_Date: 19991001
+          Title: Draft copy, 1999 National Coal Resource Assessment of theSpringfield, Herrin, and Danville/Baker Coal Beds in theIllinois Basin
+          Edition: draft
+          Geospatial_Data_Presentation_Form: map
+          Publication_Information:
+            Publication_Place: Bloomington, IN
+            Publisher: Indiana Geological Survey
+          Online_Linkage: http://adamite.igs.indiana.edu/index.htm
+          Larger_Work_Citation:
+            Citation_Information:
+              Originator: U.S. Geological Survey
+              Publication_Date: 19991001
+              Title: National Coal Assessment - Illinois Basin
+              Publication_Information:
+                Publication_Place: Denver, CO
+                Publisher: U.S. Geological Survey
+              Online_Linkage: http://www.usgs.gov
+      Type_of_Source_Media: CD-ROM
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 19960801
+            Ending_Date: 19991001
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: USGS-CDROM
+      Source_Contribution:
+        provided component state-wide files used for compilation of
+        basin-wide coverages.
+    Process_Step:
+      Process_Description:
+        (1) Component vector files were converted to 200-meter
+        raster grids. (2) Grids were reclassified to consistent
+        attribute scheme. (3) Grids were merged into one large
+        grid, using the Arc "Merge" command. (4) Gaps along state
+        boundaries were filled with the Arc "EuclidianAllocation"
+        algorithm. (5) The Arc "Majority Filter" algorithm was run
+        to remove speckles, and reduce sharp angles. (6) The final
+        grid was converted back to vector polygon format. (7) A
+        legend field was added to the attributes to supplement the
+        grid codes.
+      Source_Used_Citation_Abbreviation: USGS-CDROM
+      Process_Date: 20000401
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: William Andrews
+            Contact_Organization: Kentucky Geological Survey
+          Contact_Position: Geologist, Energy and Minerals Section
+          Contact_Address:
+            Address_Type: mailing and physical address
+            Address: 228 Mining and Mineral Resources Bldg., Univ. of Kentucky
+            City: Lexington
+            State_or_Province: Kentucky
+            Postal_Code: 40506-0107
+            Country: USA
+          Contact_Voice_Telephone: 859-257-5500
+          Contact_Facsimile_Telephone: 859-257-1147
+          Contact_Electronic_Mail_Address: wandrews@kgs.mm.uky.edu
+          Hours_of_Service: 8:00 AM to noon, 1:00 PM to 5:00 PM, Mon. thru Fri.
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 286
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Geographic:
+      Latitude_Resolution: 0.002
+      Longitude_Resolution: 0.002
+      Geographic_Coordinate_Units: Decimal Degrees
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: ib_daovrdd.dbf
+      Entity_Type_Definition: Shapefile Attribute Table
+    Attribute:
+      Attribute_Label: Gridcode
+      Attribute_Definition: numeric code for overburden categories
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 1
+          Range_Domain_Maximum: 3
+    Attribute:
+      Attribute_Label: Legend
+      Attribute_Definition: english description of overburden categories
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+  Overview_Description:
+    Entity_and_Attribute_Overview:
+      Areas defined as "no coal" or "Insufficient Data" are
+      where the *position* of the coals is identifiable using the
+      surrounding stratigraphy, but there is no coal preserved in
+      the rock record.  They are areas within the outcrop extent
+      of the coal beds where we have data essentially
+      demonstrating zero coal thickness.  In addition, given that
+      these regional datasets are a compilation of data
+      generated by each of the three states (Kentucky, Illinois,
+      Indiana) within the Illinois basin, some dIscrepencies
+      between states may exist. For instance, "Channels" have
+      been defined and are represented in Illinois and Kentucky
+      but have been extracted out of the coal extent in Indiana.
+      In addition, some features have been defined as
+      "Unassessed."  These are areas which exist within the
+      coal extent but have not been assessed and have
+      no value.
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: USGS Information Services
+      Contact_Address:
+        Address_Type: mailing address
+        Address: Box 25286 Denver Federal Center
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225
+        Country: USA
+      Contact_Voice_Telephone: 1-888-ASK-USGS
+      Contact_Facsimile_Telephone: 303-202-4693
+      Contact_Electronic_Mail_Address: ask@usgs.gov
+  Resource_Description: USGS Professional Paper 1625-D
+  Distribution_Liability:
+    This Compact Disc-Read Only Memory (CD-ROM) publication was
+    prepared by an agency of the United States Government. Neither the
+    United States Government nor any agency thereof, nor any of their
+    employees, makes any warranty, expressed or implied, or assumes any
+    legal liability or responsibility for the accuracy, completeness,
+    or usefulness of any information, apparatus, product, or process
+    disclosed in this report, or represents that its use would not
+    infringe privately owned rights. Reference therein to any specific
+    commercial product, process, or service by trade name, trademark,
+    manufacturer, or otherwise does not necessarily constitute or imply
+    its endorsement, recommendation, or favoring by the United States
+    Government or any agency thereof.
+
+    Although all data and software published on this CD-ROM are used by
+    the U.S. Geological Survey, no warranty, expressed or implied, is
+    made by the U.S. Geological Survey as to the accuracy of the data
+    and related materials and (or) the functioning of the software. The
+    act of distribution shall not constitute any such warranty, and no
+    responsibility is assumed by the U.S. Geological Survey in the use
+    of these data, software, or related materials.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ArcView shapefile
+        Format_Version_Number: 1.0
+        Format_Information_Content: Geographic features and attribute data
+        File_Decompression_Technique: unzip
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: http://energy.cr.usgs.gov/coal/nca/
+    Fees: none
+Metadata_Reference_Information:
+  Metadata_Date: 20000719
+  Metadata_Review_Date: 20020328
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Kentucky Geological Survey
+        Contact_Person: William Andrews
+      Contact_Position: Geologist, Energy and Minerals Section
+      Contact_Address:
+        Address_Type: Mailing and physical address
+        Address: 228 Mining and Mineral Resources Bldg., Univ. of Kentucky
+        City: Lexington
+        State_or_Province: Kentucky
+        Postal_Code: 40506-0107
+        Country: USA
+      Contact_Voice_Telephone: 859-257-5500
+      Contact_Facsimile_Telephone: 859-257-1147
+      Contact_Electronic_Mail_Address: wandrews@kgs.mm.uky.edu
+      Hours_of_Service: 8:00 AM to noon, 1:00 PM to 5:00 PM, Mon. thru Fri.
+  Metadata_Standard_Name: Content Standard for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998

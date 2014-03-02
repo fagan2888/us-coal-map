@@ -1,0 +1,482 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: U.S. Geological Survey, Central Energy Resources Team
+      Originator: Johnson, E.A.
+      Originator: Roberts, L.N.R.
+      Originator: Brownfield, M.E.
+      Publication_Date: 2000
+      Title:
+        yam*_fin (Final unioned file for Yampa coal field
+        resource calculations)
+      Geospatial_Data_Presentation_Form: map
+      Publication_Information:
+        Publication_Place: Denver, CO USA
+        Publisher: U.S. Geological Survey
+      Other_Citation_Details:
+        In subdir 500k (defines appropriate maximum scale for
+        data use)
+
+        chap. P, Geology and resource assessment of the middle
+        and upper coal groups in the Yampa coal field,
+        northwestern Colorado 
+      Larger_Work_Citation:
+        Citation_Information:
+          Originator: Kirschbaum, M.A.
+          Originator: Roberts, L.N.R.
+          Originator: Biewick, L.R.H.
+          Publication_Date: 2000
+          Title:
+            Geologic Assessment of Coal in the Colorado
+            Plateau
+          Series_Information:
+            Series_Name:
+              U.S. Geological Survey Professional Paper
+            Issue_Identification: 1625-B 
+          Publication_Information:
+            Publication_Place: Denver, CO
+            Publisher: U.S. Geological Survey
+  Description:
+    Abstract:
+      These are shapefiles and final unioned polygon coverages
+      used to calculate coal resources of the A through D coal
+      zones, Yampa coal field, northwestern Colorado. Yama_fin was
+      used for the A coal zone, yamb_fin was used for the B coal
+      zone, etc. Polygons that make up the final unioned polygons
+      include counties, 7.5' quadrangles, townships, surface and
+      coal ownership, leased areas, net coal thickness categories,
+      and overburden categories.
+
+      The final unioned coverage for each coal zone, was clipped
+      by the resource boundary polygon of each coal zone. These
+      polygons are described in the metadata files for the yam_bnd
+      coverages.
+    Purpose:
+      The Nation's coal resources are being assessed by the USGS.
+      This assessment identifies and characterizes the coal beds
+      and coal zones that will provide the bulk of the nation's
+      coal-derived energy during the next century. This assessment
+      is different from previous large-scale USGS assessments
+      because files and databases are being stored in a digital
+      format and are being analyzed using a Geographic Information
+      System (GIS).
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 19950000
+        Ending_Date: 19980000
+    Currentness_Reference: Processing Date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -107.8897
+      East_Bounding_Coordinate: -106.9577
+      North_Bounding_Coordinate: 40.6013
+      South_Bounding_Coordinate: 40.2496
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: coal
+      Theme_Keyword: National Coal Resource Assessment
+      Theme_Keyword: NCRA
+      Theme_Keyword: coal thickness
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: Colorado
+      Place_Keyword: Green River Basin
+      Place_Keyword: Sand Wash Basin
+      Place_Keyword: Yampa coal field
+      Place_Keyword: Routt County
+      Place_Keyword: Moffat County
+      Place_Keyword: Rio Blanco County
+    Stratum:
+      Stratum_Keyword_Thesaurus: Geologic Names Unit Lexicon (GNULEX)
+      Stratum_Keyword: Mesaverde Group
+      Stratum_Keyword: Williams Fork Formation
+      Stratum_Keyword: Iles Formation
+      Stratum_Keyword: Trout Creek Sandstone Mbr.
+      Stratum_Keyword: Twentymile Sandstone Mbr.
+  Access_Constraints: None
+  Use_Constraints:
+    Appropriate maximum scale for data use is 500k. No restrictions,
+    however, comparison with other data sets on surface and mineral
+    ownership for the same area from other time periods might be
+    inaccurate due to inconsistencies resulting from changes in land
+    and mineral ownership and in mapping convention over time.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: U.S. Geological Survey, Central Energy
+        Contact_Person: Johnson, E.A.
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: PO Box 25046 MS 939 Denver Federal Center
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225
+        Country: USA
+      Contact_Voice_Telephone: 303.236.4857
+  Security_Information:
+    Security_Handling_Description: None
+    Security_Classification: Unclassified
+    Security_Classification_System: None
+  Native_Data_Set_Environment:
+    SunOS, 5.5.1, sun4d UNIX, ARC/INFO version 7.0.4 and ArcView 3.1
+
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: See Entity_Attribute_Information
+  Logical_Consistency_Report: Polygon topology present.
+  Completeness_Report: Complete
+  Lineage:
+    Process_Step:
+      Process_Description:
+        An x, y extent greater than the resource area was used
+        to begin the unioning process and was clipped, as a
+        last step, by the polygon that limits the resource
+        area. County data used in unioned polygons are
+        described in metadata file yam_cnty.met. Township and
+        range data are described in yam_tr.met and was unioned
+        with the County coverage. 7.5 minute quadrangle data
+        are described in yam24qd.met and was unioned with the
+        previously unioned coverage.
+      Process_Date: 19980000
+    Process_Step:
+      Process_Description:
+        A surface and mineral ownership coverage of the Yampa
+        coal field was created from two ARC/INFO coverages
+        received from the Bureau of Land Management (BLM),
+        Craig District Office. The ownership coverages are for
+        the Little Snake River Resource Area (LSRA) of the BLM.
+        Contact at BLM - Pam Levitt, Craig District Office. The
+        BLM LSRA land and mineral ownership data was 24,000
+        scale in the 1980's by contractor in the Lambert
+        projection. The data was converted to AMS (Automated
+        Mapping System) in the early 1990's where it was
+        combined with Mineral ownership to create a Land lines
+        theme. The data was once again converted when BLM
+        switched over the ADS (Automated Digitizing System).
+        The data was converted to UTM Zone 13 when it was
+        converted to ADS. At that point the data was snapped to
+        a digitized PLS (Public Land Survey). Once the data was
+        verified it was converted and used in MOSS (Map Overlay
+        Statistical System) in the mid 1990's. All the
+        individual 24k quads were merged together in MOSS and
+        then converted to a MOSS export format. The data was
+        FTP'd from the PRIME in Denver to a local PC and run
+        through the MOSS2DXF translator. Once the data was in
+        an AutoCAD format the individual segments were joined
+        into continuous lines and the interior lines separating
+        mineral status were removed. The data was then snapped
+        to the AutoCAD GCDB (Geographic Coordinate Data Base)
+        layer.
+
+        Once the BLM converted to the UNIX based ARC/INFO GIS
+        system the data was brought in. A DXF file was made in
+        AutoCAD and brought into ARC/INFO utilizing the DXFARC
+        command. The ADS files were converted to the UNIX based
+        ARC/INFO system in 1996-1997. Once the landlines
+        coverage was brought into ARC the landstatus lines were
+        removed to create a separate mineral status layer.
+        Problems occurred while using the dissolve command so
+        all work was done in ARCEDIT by hand. Once the
+        individual quads were cleaned they were merged into
+        100K blocks. At this point the dissolve command had
+        been fixed so dissolve was used in the merged 100K
+        maps. Once those maps were clean they were once again
+        merged and DISSOLVEd and CLEANed creating a Resource
+        Area Wide coverage.
+
+        Within the Yampa and Danforth Hills coal assessment
+        areas, the USGS UNIONed the surface and mineral
+        ownership coverages and processed sliver areas by
+        snapping to the surface data. USGS incorporated updated
+        BLM data that was received 4/98. Data was verified by
+        the various BLM offices in 12/98. This coverage was
+        snapped to the township lines that the USGS used for
+        the Piceance basin (see metadata file yam_tr.met). The
+        resultant ownership coverage was unioned with the
+        coverage containing county, 7.5' quadrangle, and
+        township data.
+      Process_Date: 19980000
+    Process_Step:
+      Process_Description:
+        A coverage was then unioned to the previously unioned
+        coverage that is polygons of the state and federal coal
+        leases and the mined-out areas in the Yampa coal field.
+        This coverage is described in yam_leas.met. Coal
+        resources were not calculated within the boundaries of
+        the leased and mined-out areas.
+      Process_Date: 19980000
+    Process_Step:
+      Process_Description:
+        A coverage was generated from a gridded file of data
+        representing the overburden thickness to the base of
+        each of the coal zones. The overburden grid for the
+        base of the A coal zone is a result of subtracting the
+        grid for the top of the Trout Creek Sandstone (SS) Mbr.
+        (base of the A coal zone) from the grid of the earth's
+        surface in EarthVision (EV). The surface grid is a 250k
+        Digital Elevation Model of the Yampa study area
+        imported through EV. The overburden grid for the base
+        of the B coal zone is a result of adding the grid file
+        for the combined thickness of the A coal zone and the A
+        barren interval to the gridded surface of the top of
+        the Trout Creek SS Mbr. This process results in a
+        'pseudo' structure grid for the base of the B coal
+        zone. This grid was subtracted from the grid of the
+        surface topography to create an overburden grid to the
+        base of the B coal zone. The base of the C zone is
+        equivalent to the horizon for the top of the Twentymile
+        SS Mbr. in the Yampa coal field. The overburden grid
+        for the base of the C coal zone is a result of adding
+        the grid file for the thickness of the interval between
+        the top of the Trout Creek SS Mbr. and the top of the
+        Twentymile SS Mbr. to the top of the gridded surface of
+        the Trout Creek SS Mbr. This process results in a
+        'pseudo' structure grid for the base of the C coal
+        zone. This grid was subtracted from the grid of the
+        surface topography to create an overburden grid to the
+        base of the C coal zone.
+
+        The base of the D zone is equivalent to the horizon for
+        the top of the Big White sandstone (also known as Fuhr
+        Gulch or Fish Creek sandstone) in the Yampa coal field.
+        The overburden grid for the base of the D coal zone is
+        a result of adding the grid file for the thickness of
+        the interval between the top of the Trout Creek SS Mbr.
+        and the top of the Big White sandstone (aka, Fuhr Gulch
+        or Fish Creek sandstone) to the top of the gridded
+        surface of the Trout Creek SS. This process results in
+        a 'pseudo' structure grid for the base of the D coal
+        zone. This grid was subtracted from the grid of the
+        surface topography to create an overburden grid to the
+        base of the D coal zone.
+
+        Maps of the overburden for each coal zone was plotted
+        in EV with a contour interval of 500 ft. The contour
+        lines were saved in a contour output file. The contour
+        output file was converted to a file in 'arc generate'
+        format using ISMARC and then converted to an ARC/INFO
+        polygon coverage using an Arc Macro Language (AML)
+        program from the Illinois State Geological Survey. In
+        ARC/INFO, the overburden coverages were unioned with
+        the previously unioned coverages that contain polygon
+        data for County, 7.5' quadrangles, Townships, surface
+        and mineral ownership, and leased areas.
+      Process_Date: 19980000
+    Process_Step:
+      Process_Description:
+        A coverage was generated from a gridded file of data
+        from drill holes and measured sections that contain x,
+        y, data for location and values for the net coal
+        thickness for each of the coal zones. Details about how
+        this data file was generated from the Stratifact data
+        base are described in the metadata files Yam_thk.met
+        EarthVision was used to do the gridding. The net coal
+        thickness does not include coal beds that are less than
+        resource thickness, which for bituminous coal is 1.2
+        ft. Contours defining the net coal thickness categories
+        for bituminous coal from USGS circular 891, were
+        generated from the grid. These contour lines include
+        1.2 ft, 2.3, 3.5, 7.0, and 14.0.
+
+        The contour lines were saved in a contour output file.
+        The contour output file was converted to a file in 'arc
+        generate' format using ISMARC and then converted to an
+        ARC/INFO polygon coverage using an Arc Macro Language
+        (AML) program from the Illinois State Geological
+        Survey. This polygon coverage was unioned with the
+        coverage created from the previous union.
+      Process_Date: 19980000
+    Process_Step:
+      Process_Description:
+        The ARC/INFO polygon coverages generated from all these
+        unions were then clipped using the Arc 'identity'
+        command. The 'input' coverage is described in a
+        metadata file called yam_bnd.met. The 'identity'
+        coverages are the final unioned polygons. The 'output'
+        coverages are these yama_fin, yamb_fin, yamc_fin, and
+        yamd_fin polygon coverages. These coverages were
+        converted to shapefiles in ArcView.
+      Process_Date:
+        19980000
+
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 1421
+
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Geographic:
+      Latitude_Resolution: .0001
+      Longitude_Resolution: .0001
+      Geographic_Coordinate_Units: Decimal degrees
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum 1927
+      Ellipsoid_Name: Clarke 1866
+      Semi-major_Axis: 6378206.4
+      Denominator_of_Flattening_Ratio:
+        294.98
+
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: yam*_fin.dbf
+      Entity_Type_Definition: Shapefile Attribute Table
+      Entity_Type_Definition_Source: None
+    Attribute:
+      Attribute_Label: Area
+      Attribute_Definition: Area of polygon
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.00000
+          Range_Domain_Maximum: 0.00382
+    Attribute:
+      Attribute_Label: Perimeter
+      Attribute_Definition: Perimeter of polygon
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.00347
+          Range_Domain_Maximum: 0.74247
+    Attribute:
+      Attribute_Label: Cntyname
+      Attribute_Definition: County name
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Name
+      Attribute_Definition: 7.5 minute quadrangle name
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Block
+      Attribute_Definition:
+        Township and Range block
+
+        N - north
+        S - south
+        E - east
+        W - west
+
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Surf
+      Attribute_Definition:
+        Surface ownership
+
+        BLM - US Bureau of Land Management
+        FS - US Forest Service
+        DOE - US Department of Energy
+        BREC - US Bureau of Reclamation
+        SDOW - State Department of Wildlife
+        STATE - State
+        PRIVATE - Private
+
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Fedmins
+      Attribute_Definition:
+        Federal mineral ownership
+
+        ALL - Federal government owns all minerals
+        COAL - Federal government owns the coal only
+        OGC - Federal government owns the oil, gas, and coal only
+        OG - Federal government owns oil and gas only
+        NONE - Federal government owns none of the minerals
+        OTHER - other
+
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: Overb
+      Attribute_Definition:
+        Overburden categories - range of overburden to base of
+        coal zones. Thickness of overburden in 100s of feet.
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Unrepresentable_Domain:
+          Character field
+
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: U.S. Geological Survey, Central Energy
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: PO Box 25046 MS 939 Denver Federal Center
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225
+        Country: USA
+      Contact_Voice_Telephone: 303.236.4608
+  Resource_Description: Shapefile and ARC/INFO coverage
+  Distribution_Liability:
+    Any use of trade, product, or company names in this publication
+    is for descriptive purposes only and does not imply endorsement
+    by the U.S. Government. Although these data have been processed
+    successfully on a computer system at the U.S. Geological Survey,
+    no warranty expressed or implied is made by the USGS regarding
+    the utility of the data on any other system, nor shall the act of
+    distribution constitute any such warranty. Comparison with other
+    data set on surface and mineral ownership for the same area from
+    other time periods might be inaccurate due to inconsistencies
+    resulting from changes in land and mineral ownership and in
+    mapping convention over time. This data is not a legal document
+    and is not intended to be used as such.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ARC/INFO coverage, export file and shapefile
+        Format_Version_Number: ARC/INFO 7.0.4, ArcView 2.1
+      Digital_Transfer_Option:
+        Offline_Option:
+          Offline_Media: CD-ROM
+          Recording_Format: ISO 9660
+    Fees: none
+  Technical_Prerequisites:
+    need ARC/INFO 7.0.4 or greater and/or ArcView 2.1 or greater
+    and/or ArcExplorer (which can be downloaded free from
+    <URL:http://www.esri.com>) and/or other software that can read
+    ARC/INFO coverages, ARC/INFO export files, and/or shapefiles
+
+Metadata_Reference_Information:
+  Metadata_Date: 19990203
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: U.S. Geological Survey, Central Energy
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: PO Box 25046 MS 939 Denver Federal Center
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225
+        Country: USA
+      Contact_Voice_Telephone: 303.236.4608
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Access_Constraints: None
+  Metadata_Security_Information:
+    Metadata_Security_Handling_Description: None
+    Metadata_Security_Classification: Unclassified
+    Metadata_Security_Classification_System:
+      None
+
+      ------------------------------------------------------------------------
+      Generated by mp version 2.4.8 on Thu Oct 14 11:55:43 1999

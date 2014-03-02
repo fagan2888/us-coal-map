@@ -1,0 +1,484 @@
+Metadata:
+  Identification_Information:
+    Citation:
+      Citation_Information:
+        Originator: Susan J. Tewalt
+        Publication_Date: 2000
+        Title:
+          Potentially minable thickness of the Pond Creek Coal Zone in Kentucky, West Virginia,
+          and Virginia:
+        Larger_Work_Citation:
+          Citation_Information:
+            Originator: Northern and Central Appalachian Basin Coal Regions
+              Assessment Team
+            Publication_Date: 2000
+            Title:
+              2000 Resource Assessment of Selected Coal Beds and Zones in the
+              Northern and Central Appalachian Basin Coal Regions
+            Series_Information:
+              Series_Name: U.S. Geological Survey Professional Paper
+              Issue_Identification: PP1625-C
+            Publication_Information:
+              Publication_Place: Reston, VA
+              Publisher: U.S. Geological Survey
+            Online_Linkage: http://greenwood.cr.usgs.gov/pub/ppapers/p1625c/
+    Description:
+      Abstract:
+        This dataset is a polygon coverage of minable thickness for the Pond
+        Creek coal zone in Kentucky, West Virginia, and Virginia.  The coverage
+        was created by gridding 4,391 points and contouring the grid with 1.17-ft
+        intervals. The polygons have elevation values halfway between the bounding
+        contour arc values. 
+
+        Introduction:
+        This map is one of many Geographic Information System (GIS) products of
+        the National Coal Assessment that is being conducted by the U.S.
+        Geological Survey in cooperation with State geological surveys and
+        other Federal and State agencies.  The Middle Pennsylvanian Pottsville
+        Group Pond Creek coal is an important resource in the Central
+        Appalachian Basin coal region and has been mined for the last one
+        hundred years.  The Pond Creek coal is most commonly referred to as
+        the Lower Elkhorn in Kentucky, the Imboden in Virginia, and the
+        Eagle in West Virginia.  The Pond Creek coal and  its equivalent beds
+        occur within a zone of coal-bearing rocks that contain a number of
+        distinct coals.  This resource model for the Pond Creek coal must be
+        considered provisional, because the correlation of the zone continues to be
+        evaluated in West Virginia.
+      Purpose:
+        The purpose of 1625 is to release the interpretation of assessment and
+        modeling data for the the top-producing coal beds in the northern and
+        central Appalachian Basin coal region. This isopach contour dataset was
+        used to calculate coal resources. This dataset honors data submitted for
+        the asessment from the Kentucky Geological Survey; therefore contour
+        lines may not match across State lines (see Process Steps).
+    Time_Period_of_Content:
+      Time_Period_Information:
+        Single_Date/Time:
+          Calendar_Date: 2000
+      Currentness_Reference: data collection and collation period
+    Status:
+      Progress: Complete
+      Maintenance_and_Update_Frequency: None planned
+    Spatial_Domain:
+      Bounding_Coordinates:
+        West_Bounding_Coordinate: -84.336
+        East_Bounding_Coordinate: -80.629
+        North_Bounding_Coordinate: 38.387
+        South_Bounding_Coordinate: 36.583
+    Keywords:
+      Theme:
+        Theme_Keyword_Thesaurus:
+          Coal Resource Classification of the U.S. Geological Survey, USGS
+          circular 891.
+        Theme_Keyword: Eastern Energy Team
+        Theme_Keyword: energy
+        Theme_Keyword: power
+        Theme_Keyword: resources
+        Theme_Keyword: coal
+        Theme_Keyword: coal resources
+        Theme_Keyword: coal structure
+        Theme_Keyword: bituminous
+        Theme_Keyword: outcrop
+        Theme_Keyword: USGS
+        Theme_Keyword: Kentucky Geological Survey (KGS)
+        Theme_Keyword: West Virginia Geological and Economic Survey (WVGES)
+        Theme_Keyword: Virginia Division of Mineral Resources (VDMR)
+        Theme_Keyword: Virginia Department of Mines, Minerals and Resources
+      Place:
+        Place_Keyword_Thesaurus: Geographic Names Information System
+        Place_Keyword: United States
+        Place_Keyword: Kentucky
+        Place_Keyword: West Virginia
+        Place_Keyword: Virginia
+        Place_Keyword: Appalachians
+        Place_Keyword: BELL County
+        Place_Keyword: BOONE County
+        Place_Keyword: BREATHITT County
+        Place_Keyword: BUCHANAN County
+        Place_Keyword: CLAY County
+        Place_Keyword: DICKENSON County
+        Place_Keyword: FAYETTE County
+        Place_Keyword: FLOYD County
+        Place_Keyword: HARLAN County
+        Place_Keyword: JOHNSON County
+        Place_Keyword: KANAWHA County
+        Place_Keyword: KNOX County
+        Place_Keyword: LAUREL County
+        Place_Keyword: LEE County
+        Place_Keyword: LETCHER County
+        Place_Keyword: LINCOLN County
+        Place_Keyword: LOGAN County
+        Place_Keyword: MARTIN County
+        Place_Keyword: MCCREARY County
+        Place_Keyword: MCDOWELL County
+        Place_Keyword: MINGO County
+        Place_Keyword: NICHOLAS County
+        Place_Keyword: NORTON County
+        Place_Keyword: OWSLEY County
+        Place_Keyword: PIKE County
+        Place_Keyword: RALEIGH County
+        Place_Keyword: WAYNE County
+        Place_Keyword: WHITLEY County
+        Place_Keyword: WISE County
+        Place_Keyword: WOLFE County
+        Place_Keyword: WYOMING County
+      Stratum:
+        Stratum_Keyword_Thesaurus:
+          Geologic Names Unit Lexicon (GNULEX), 1996;
+          Stratigraphic Nomenclature Databases for the United States, It's
+          Possessions, and Territories, U.S. Geological Survey Digital Data
+          Series DDS-6, release 3.
+        Stratum_Keyword: Pennsylvanian
+        Stratum_Keyword: Middle Pennsylvanian
+        Stratum_Keyword: Pikeville Formation
+        Stratum_Keyword: Kanawha Formation
+        Stratum_Keyword: Wise Formation
+        Stratum_Keyword: Pottsville Group
+        Stratum_Keyword: Breathitt Group
+        Stratum_Keyword: Pond Creek Coal
+        Stratum_Keyword: Lower Elkhorn Coal
+        Stratum_Keyword: Eagle Coal
+        Stratum_Keyword: Imboden Coal
+        Stratum_Keyword: Little Creek Coal
+        Stratum_Keyword: Blue Gem Coal
+        Stratum_Keyword: Bruin Coal
+        Stratum_Keyword: Campbell Creek Coal
+        Stratum_Keyword: Freeburn Coal
+        Stratum_Keyword: Howard Coal
+        Stratum_Keyword: Little Eagle Coal
+        Stratum_Keyword: No. 2 Gas
+        Stratum_Keyword: Path Fork Coal
+        Stratum_Keyword: Rich Mountain Coal
+        Stratum_Keyword: Straight Creek Coal
+        Stratum_Keyword: Upper Bolling Coal
+        Stratum_Keyword: Vires Coal
+        Stratum_Keyword: Wallins Creek Coal
+        Stratum_Keyword: Wolf Creek Coal
+    Access_Constraints: None
+    Use_Constraints: To be used for regional analysis only.
+    Point_of_Contact:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Susan J. Tewalt (compiler)
+          Contact_Organization: U.S. Geological Survey, Eastern Energy Resources Team
+        Contact_Address:
+          Address_Type: mailing address
+          Address: MS 956 National Center
+          City: Reston
+          State_or_Province: Virginia
+          Postal_Code: 20192
+          Country: USA
+        Contact_Voice_Telephone: 703-648-6437
+    Data_Set_Credit:
+      State Geological Surveys maintain the most recent coal maps and have provided
+      the USGS with the most up to date data at the time of the assessment.
+      Primary contacts at the State surveys for this product include: KY- G.
+      Weisenfluh; WV- B. M. Blake, Jr.; VA- R. Sites. Information for Kentucky can
+      be found online at: http://www.uky.edu/KGS/home.htm.
+  Data_Quality_Information:
+    Attribute_Accuracy:
+      Attribute_Accuracy_Report:
+        Deductive_Estimate: The point data used to create this map had a mean thickness
+          of 2.9 feet with a standard deviation of 1.4 feet. The resulting grid had
+          a mean of 2.5 feet and a standard deviation of 1.7 feet. The average absolute
+          mean error was 0.11 feet, which is 1 percent of the range of values.
+    Logical_Consistency_Report:
+      Topology for this data set was built using the CLEAN command within
+      ARC/INFO, version 7.2.1.  This command eliminates dangling nodes,
+      calculates intersections of arcs, eliminates redundant arcs, and
+      creates a polygon attribute table.  This data set does not contain
+      dangles or redundant arcs.
+    Completeness_Report:
+      This dataset is a representation of the potentially minable thickness of Pond Creek
+      coal.  The source data are believed to be the most up to date at the time of
+      collection.  In Kentucky, map is based on existing data in the Kentucky Geological
+      Survey coal information database (KCRIS) as of 1997. State agencies reviewed the
+      dataset for completeness. Tennessee is not included in this dataset.
+    Lineage:
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: U.S. Geological Survey
+            Publication_Date: 1999
+            Title:
+              ARC coverage c9120oc
+        Source_Scale_Denominator: 100000
+        Type_Of_Source_Media: disc
+        Source_Time_Period_Of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 1999
+          Source_Currentness_Reference: Publication Date
+        Source_Citation_Abbreviation: PC-1
+        Source_Contribution:
+          This file gave outcrop/resource areas for the Pond Creek in Kentucky,
+          Virginia, and West Virginia.
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Kentucky Geological Survey
+            Publication_Date: 1999
+            Title:
+              Lek_thk.e00: ARC coverage of thickness in export format for Lower Elkhorn 
+              (Pond Creek) coal in Kentucky
+        Source_Scale_Denominator: 24000
+        Type_Of_Source_Media: online
+        Source_Time_Period_Of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 1999
+          Source_Currentness_Reference: Publication Date
+        Source_Citation_Abbreviation: KY-1
+        Source_Contribution:
+          This file provided thickness polygons for Pond Creek coal in Kentucky.
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: West Virginia Geological and Economic Survey
+            Publication_Date: 1998
+            Title:
+              WVGES StratiFact database
+        Source_Scale_Denominator: 24000
+        Type_Of_Source_Media: online
+        Source_Time_Period_Of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 1980 - 1998
+          Source_Currentness_Reference: Publication Date
+        Source_Citation_Abbreviation: WV-1
+        Source_Contribution:
+          This database provided thicknesses for the Pond Creek in West Virginia.
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Virginia Division of Mineral Resources
+            Publication_Date: 1998
+            Title:
+              Pond Creek data (Imboden coal) from National Coal Resources Data System
+              in StratiFact.
+        Source_Scale_Denominator: 24000
+        Type_Of_Source_Media: online
+        Source_Time_Period_Of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 1980 - 1986
+          Source_Currentness_Reference: Publication Date
+        Source_Citation_Abbreviation: VA-1
+        Source_Contribution:
+          This database provided thickness information for the Pond Creek in Virginia.
+      Process_Step:
+        Process_Description:
+          1. All appropriate thickness data from KCRIS databases on Lower Elkhorn coal were
+          plotted on 1:100,000-scale base maps and overlain with facies lines representing
+          coal bed discontinuities. Coal thickness isolines were hand drawn for standard 
+          USGS thickness categories (Wood and others, 1983). Contours were drawn by
+          KGS so that they did not cross facies boundaries, as these are considered
+          discontinuities of the bed. Isolated values that were inconsistent with 
+          surrounding data were ignored in order to avoid overly complex maps. Additional
+          contour line (24") added for area of Blue Gem mining, due to
+          historical practice of mining thin beds of this coal by
+          underground methods.
+          2. Vector polygons were digitized in ARC/INFO and encoded
+          with category labels to create data source KY-1. Contributions by :
+          G. Weisenfluh and E. Thacker.
+        Process_Date: 1998
+      Process_Step:
+        Process_Description: NCRDS data downloaded for Virginia (VA-1). Pond Creek (Imboden coal
+          in Virginia) data were checked against original records for the Appalachia 7.5'
+          quad (which had been verified and correlated by VDMR). Correlations
+          for the Pond Creek were verified or created by USGS for the
+          remainder of the Virginia dataset.
+        Process_Date: 1998 
+      Process_Step:
+        Process_Description: Existing ARC/INFO coverage of Pond Creek thickness (KY-1)
+          obtained from Kentucky Geological Survey were projected to Albers from UTM
+          coordinates and clipped to State line file. 
+        Process_Date: 1999 
+      Process_Step: 
+        Process_Description: Pond Creek thicknesses were searched from the Virginia database
+          (VA-1) and merged with data searched from the West Virginia StratiFact database
+          (WV-1).  The resulting data were projected to Albers coordinates from
+          geographic coordinates in EarthVision.
+        Process_Date: 1999
+      Process_Step: 
+        Process_Description: Data were gridded using 325 meter cell size, isopach
+          algorithm, extrapolation, exact z range, 4 neighboring point search, and
+          a vertical faults file. Grid was contoured and examined.  The final grid
+          was contoured using 1.17-foot intervals and made into an ASCII file. 
+        Process_Date: 1999 
+      Process_Step: 
+        Process_Description: ASCII contour lines imported to ARC/INFO as polygons using
+          ARC AML from Illinois State Geological Survey, clipping with a simple polygon.
+        Process_Date: 1999 
+      Process_Step: 
+        Process_Description: File was manually edited to fix polygons with no labels
+          and erroneous labels.  
+        Process_Date: 1999
+      Process_Step: 
+        Process_Description: Kentucky part of isopach file removed using ERASE with 
+          Kentucky thickness file clipped to State line. Deleted any extraneous arcs.
+        Process_Date: 1999
+      Process_Step: 
+        Process_Description: Mapjoined clipped Kentucky thickness file with West Virginia
+          and Virginia part of thickness cover.
+        Process_Date: 1999
+      Process_Step:
+        Process_Description: Thickness coverage was clipped to resource assessment areas
+          and updated with internal no-coal areas.
+        Process_Date: 1999
+      Process_Step: 
+        Process_Description:
+          This dataset was edited to resolve inconsistencies and to incorporate geologic
+          revisions.  Polygon topology was built and attributed using the codes described 
+          within this document.
+        Process_Date: 1999
+      Process_Step:
+        Process_Description: Projected to geographic coordinates.
+        Process_Date: 1999
+  Spatial_Data_Organization_Information:
+    Direct_Spatial_Reference_Method: Vector
+    Point_and_Vector_Object_Information
+      SDTS_Terms_Description
+        SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+        Point_and_Vector_Object_Count: 2901
+  Spatial_Reference_Information:
+    Horizontal_Coordinate_System_Definition:
+      Geographic:
+        Latitude_Resolution: 0.0001
+        Longitude_Resolution: 0.0001
+        Geographic_Coordinate_Units: Decimal Degrees
+      Geodetic_Model:
+        Horizontal_Datum_Name:  North American Datum of 1927
+        Ellipsoid_Name: Clarke 1866
+        Semi-major_Axis: 6378206.4
+        Denominator_of_Flattening_Ratio:  294.98
+  Entity_and_Attribute_Information:
+    Detailed_Description:
+      Entity_Type:
+        Entity_Type_Label: c9120is.pat
+        Entity_Type_Definition: polygon attribute table for C9120IS coverage
+        Entity_Type_Definition_Source: ARC/INFO
+      Attribute:
+        Attribute_Label: thick
+        Attribute_Definition:
+          An thickness value halfway between the bounding contour line values.
+          Values of 0 indicate internal no-coal areas.
+        Attribute_Definition_Source: this study
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 0 
+            Enumerated_Domain_Value_Definition:
+              0 thickness coal
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 0.585 
+            Enumerated_Domain_Value_Definition:
+              < 1.17 feet
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 1.745 
+            Enumerated_Domain_Value_Definition:
+              1.17 - 2.34 feet
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 2.167 
+            Enumerated_Domain_Value_Definition:
+              thickness value unique to area of "Blue Gem" coal, which is mined
+              with thinner criteria. See Chapter G of PP1625-C for explanation.
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 2.915
+            Enumerated_Domain_Value_Definition:
+              2.34 - 3.5 feet
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 4.085 
+            Enumerated_Domain_Value_Definition:
+              3.5 - 4.67 feet
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 5.245 
+            Enumerated_Domain_Value_Definition:
+              4.67 - 5.84 feet
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 6.415 
+            Enumerated_Domain_Value_Definition:
+              5.84 - 7.0 feet
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 7.585
+            Enumerated_Domain_Value_Definition:
+              7.0 - 8.17 feet
+            Enumerated_Domain_Value_Definition_Source: USGS
+      Attribute:
+        Attribute_Label: is_cat
+        Attribute_Definition:
+          A unique code assigning thicknesses into USGS intervals specified
+          in Wood and others (1983).
+          Values of 0 indicate internal no-coal areas.
+        Attribute_Definition_Source: this study
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 101 
+            Enumerated_Domain_Value_Definition:
+              '101' is 1.17 - 2.34 feet
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 102 
+            Enumerated_Domain_Value_Definition:
+              '102' is 2.34 - 3.51 feet
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 103 
+            Enumerated_Domain_Value_Definition:
+              '103' is 3.51 - 7.02 feet
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 104 
+            Enumerated_Domain_Value_Definition:
+              '104' is 7.02 - 14  feet
+            Enumerated_Domain_Value_Definition_Source: USGS
+  Distribution_Information:
+    Distributor:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Susan J. Tewalt (compiler)
+          Contact_Organization: U.S. Geological Survey, Eastern Energy Resources Team
+        Contact_Address:
+          Address_Type: mailing address
+          Address: MS 956 National Center
+          City: Reston
+          State_or_Province: Virginia
+          Postal_Code: 20192
+          Country: USA
+        Contact_Voice_Telephone: 703-648-6447
+    Resource_Description: USGS Professional Paper 1625-C: Chapter G; c9120is.e00
+    Distribution_Liability:
+      Any use of trade, product, or firm names is for descriptive purposes
+      only and does not imply endorsement by the U.S. Government.  Although these
+      data have been used by the U.S. Geological Survey (USGS), no warranty,
+      expressed or implied, is made by the USGS as to the accuracy of the data
+      and related materials.  The act of distribution shall not constitute any
+      such warranty, and no responsibility is assumed by the USGS in the use
+      of these data, software, or related materials.
+    Standard_Order_Process:
+      Digital_Form:
+        Digital_Transfer_Information:
+          Format_Name: ARCE
+          Format_Version_Number: 7.2.1
+          Format_Information_Content: Polygonal coal thickness coverage
+        Digital_Transfer_Option:
+          Online_Option:
+            Computer_Contact_Information:
+              Network_Address:
+                Network_Resource_Name:
+                  http://greenwood.cr.usgs.gov/pub/ppapers/p1625c/
+      Fees: none
+  Metadata_Reference_Information:
+    Metadata_Date: 20000403
+    Metadata_Contact:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Susan J. Tewalt (compiler)
+          Contact_Organization: U.S.Geological Survey, Eastern Energy Resources Team
+        Contact_Address:
+          Address_Type: mailing address
+          Address: MS 956 National Center
+          City: Reston
+          State_or_Province: Virginia
+          Postal_Code: 20192
+          Country: USA
+        Contact_Voice_Telephone: 703-648-6437
+    Metadata_Standard_Name:
+      FGDC Content Standards for Digital Geospatial Metadata
+    Metadata_Standard_Version: FGDC-STD-001-1998

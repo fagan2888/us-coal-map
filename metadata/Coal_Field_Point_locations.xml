@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>East, J.A.</origin>
+<pubdate>2013</pubdate>
+<title>Coal Fields of the Conterminous United States: National Coal Resource Assessment Updated Version, point locations</title>
+<geoform>vector digital data</geoform>
+<serinfo>
+<sername>Open File Report</sername>
+<issue>2012-1205</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Reston, VA</pubplace>
+<publish>U.S. Geological Survey</publish>
+</pubinfo>
+<onlink>http://pubs.usgs.gov/of/2012/1205</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>
+This dataset is a point shapefile representing the approximate
+location of fields or areas of named coal fields in the conterminous
+United States. The point locations were digitized from a
+georeferenced copy of the PDF of USGS OFR 96-092 (Tully, 1996), and
+Coal Age (2010), Hildebrand (1978), and Mason and Erwin (1955)
+</abstract>
+<purpose>
+This dataset was compiled to update the Coal Fields Map of the
+Conterminous United States, OFR 96-092.
+</purpose>
+<supplinf>
+Sources used in the abstract and purpose include:
+&gt;Tully, J., 1996. Coal Fields of the Conterminous United States. U.S. Geological Survey Open File Report 96-92. Scale 1:5,000,000.
+&gt;Coal Age, 2010, Keystone Coal Industry Manual -- Coal Geology of New Mexico: Jacksonville, Florida, Mining Media International, p. 517-527.
+&gt;Coal Age, 2010, Keystone Coal Industry Manual -- Coal Geology of Colorado: Jacksonville, Florida, Mining Media International, p. 443-455.
+&gt;Coal Age, 2010, Keystone Coal Industry Manual -- Coal Geology of Utah: Jacksonville, Florida, Mining Media International, p. 577-585.
+&gt;Coal Age, 2010, Keystone Coal Industry Manual -- Coal Geology of Washington: Jacksonville, Florida, Mining Media International, p. 592-599.
+&gt;Hildebrand, R., 1978, Coal Deposits of California -- A selected Annotated Bibliography: California Geology, Vol 31, No. 12, 282-286.
+&gt;Mason, R., Erwin, M., 1955, Coal Resources of Oregon: U.S. Geological Survey Circular 362, 9p.
+</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2013</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-126.375440</westbc>
+<eastbc>-72.998693</eastbc>
+<northbc>51.266116</northbc>
+<southbc>25.431503</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>ISO 19115 Topic Category</themekt>
+<themekey>Geoscientific Information</themekey>
+</theme>
+<theme>
+<themekt>USGS Thesaurus</themekt>
+<themekey>coal resources</themekey>
+<themekey>geologic maps</themekey>
+<themekey>geology</themekey>
+<themekey>geospatial datasets</themekey>
+</theme>
+<theme>
+<themekt>Alexandria Digital Library Feature Type Thesaurus</themekt>
+<themekey>mineral resource areas</themekey>
+</theme>
+<theme>
+<themekt>none</themekt>
+<themekey>Coal Fields Map of North America</themekey>
+<themekey>Coal</themekey>
+<themekey>Coal Fields</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>North America</placekey>
+<placekey>United States</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Joseph A. East</cntper>
+<cntorg>USGS</cntorg>
+</cntperp>
+<cntpos>Geologist</cntpos>
+<cntaddr>
+<addrtype>physical address</addrtype>
+<address>MS 956 National Center</address>
+<address>12201 Sunrise Valley Drive</address>
+<city>Reston</city>
+<state>VA</state>
+<postal>20192</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>703-648-6450</cntvoice>
+<cntfax>703-648-6419</cntfax>
+<cntemail>jeast@usgs.gov</cntemail>
+</cntinfo>
+</ptcontac>
+<datacred>Technical reviews for this publication were provided by Leslie Ruppert, Christopher Garrity, Susan Tewalt, Lee Osmonson, James Luppens and James Coleman.</datacred>
+<native>Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.0.1770</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>Attribute accuracy was tested by manual comparison of the source with georeferenced digital printouts of the original USGS OFR 96-092</attraccr>
+</attracc>
+<logic>Map elements were visually checked for overshoots, undershoots, duplicates, polygon closure and proper attribution. All polygons were created from existing shapefiles or coverages that had already gone through the USGS publications process.</logic>
+<complete>Data set complete. No data were intentionally omitted from the hard copy and digital source maps.</complete>
+<posacc>
+<horizpa>
+<horizpar>The shapefile is based on the Tully (1996) map, which does not have an entry for Positional Accuracy in its metadata. The coal field labels on the PDF were representations of generalized areas where the coal fields are located. A point was placed in the most likely location for the coal field. This point file should be considered for labeling purposes only.</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Trumbull, J</origin>
+<pubdate>1960</pubdate>
+<title>Coal Fields of the United States (sheet 1)</title>
+<geoform>map</geoform>
+<serinfo>
+<sername>U.S. Geological Survey Map</sername>
+<issue>None</issue>
+</serinfo>
+</citeinfo>
+</srccite>
+<srcscale>5000000</srcscale>
+<typesrc>paper</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1960</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Trumbull, 1960</srccitea>
+<srccontr>Original Paper Map of the Coal Fields</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Tully, J</origin>
+<pubdate>1996</pubdate>
+<title>Coal Fields of the Conterminous United States.</title>
+<geoform>vector digital data</geoform>
+<serinfo>
+<sername>Open File Report</sername>
+<issue>OFR 96-092</issue>
+</serinfo>
+<onlink>http://pubs.usgs.gov/of/1996/of96-092/</onlink>
+</citeinfo>
+</srccite>
+<srcscale>5000000</srcscale>
+<typesrc>PDF of map, and Arc Info Coverage.</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1996</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Tully, 1996</srccitea>
+<srccontr>Digital update of Trumbull 1960 used as base GIS for project</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Coal Age</origin>
+<origin>Mining Media International</origin>
+<pubdate>2010</pubdate>
+<title>Keystone Coal Industry Manual -- Coal Geology of New Mexico</title>
+<serinfo>
+<sername>Keystone Coal Industry Manual</sername>
+<issue>2010 p 517-527</issue>
+</serinfo>
+</citeinfo>
+</srccite>
+<typesrc>paper</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2010</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Coal Age A</srccitea>
+<srccontr>Point Locations of New Mexico fields</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Coal Age</origin>
+<origin>Mining Media International</origin>
+<pubdate>2010</pubdate>
+<title>Keystone Coal Industry Manual -- Coal Geology of Colorado</title>
+<serinfo>
+<sername>Keystone Coal Industry Manual</sername>
+<issue>2010 p 577-585</issue>
+</serinfo>
+</citeinfo>
+</srccite>
+<typesrc>paper</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2010</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Coal Age B</srccitea>
+<srccontr>Point Locations of Colorado fields</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Coal Age</origin>
+<origin>Mining Media International</origin>
+<pubdate>2010</pubdate>
+<title>Keystone Coal Industry Manual -- Coal Geology of Utah</title>
+<serinfo>
+<sername>Keystone Coal Industry Manual</sername>
+<issue>2010 p 577-585</issue>
+</serinfo>
+</citeinfo>
+</srccite>
+<typesrc>paper</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2010</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Coal Age C</srccitea>
+<srccontr>Point Locations of Utah fields</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Coal Age</origin>
+<origin>Mining Media International</origin>
+<pubdate>2010</pubdate>
+<title>Keystone Coal Industry Manual -- Coal Geology of Washington</title>
+<serinfo>
+<sername>Keystone Coal Industry Manual</sername>
+<issue>2010 p 592-599</issue>
+</serinfo>
+</citeinfo>
+</srccite>
+<typesrc>paper</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2010</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Coal Age D</srccitea>
+<srccontr>Point Locations of Washington fields</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>California Geological Survey</origin>
+<origin>Hildebrand, R.</origin>
+<pubdate>1978</pubdate>
+<title>Coal Deposits of California -- A selected Annotated Bibliography</title>
+<serinfo>
+<sername>California Geology</sername>
+<issue>Vol 31, No 12</issue>
+</serinfo>
+</citeinfo>
+</srccite>
+<typesrc>paper</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1978</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Hildebrand, 1978</srccitea>
+<srccontr>Point Locations of Califronia fields</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Mason, R.</origin>
+<origin>Erwin, M.</origin>
+<pubdate>1955</pubdate>
+<title>Coal Resources of Oregon</title>
+<serinfo>
+<sername>U.S. Geological Survey Circular</sername>
+<issue>362</issue>
+</serinfo>
+</citeinfo>
+</srccite>
+<typesrc>paper</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1955</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Mason and Erwin, 1955</srccitea>
+<srccontr>Point Locations of Oregon fields</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>The coal_fields shapefile is based on the PDF for the USGS OFR 96-092 Coalfields of the Conterminous United States (Tully, 1996). The PDF was exported as a tiff file and georeferenced in Albers Equal Area Conic, 1983 Datum. A point shapefile was created and placed on top of the georeferenced tiff. Points were digitized based on the location of the field labels. Simlar processes were used for digitizing points in Washington, Oregon, California, Utah, Colorado and New Mexico. A text attribute column labeled NAME was created in the shapefile. The points were then attributed based on the publications. The file was then projected to Geographic NAD 1983.</procdesc>
+<procdate>20110901</procdate>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>Joseph East</cntper>
+<cntorg>U.S. Geological Survey</cntorg>
+</cntperp>
+<cntpos>Geologist</cntpos>
+<cntaddr>
+<addrtype>physical address</addrtype>
+<address>12201 Sunrise Valley Drive</address>
+<address>MS 956 National Center</address>
+<city>Reston</city>
+<state>VA</state>
+<postal>20192</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>703-648-6450</cntvoice>
+<cntfax>703-648-6419</cntfax>
+<cntemail>jeast@usgs.gov</cntemail>
+<hours>7:00AM - 3:30PM</hours>
+<cntinst>Preferred contact method is electronic mail.</cntinst>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Point</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>Label point</sdtstype>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137.0</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>Coal_Field_Point_locations</enttypl>
+<enttypd>Names of coal fields defined by a point shapefile</enttypd>
+<enttypds>text</enttypds>
+</enttyp>
+<attr>
+<attrlabl>FID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Field_Name</attrlabl>
+<attrdef>Unique name of coal field</attrdef>
+<attrdefs>Tully, J (1996), Coal Age A (2010), Coal Age B (2010), Coal Age C (2010), Coal Age D (2010), Hildebrand (1978), Mason and Erwin (1955)</attrdefs>
+<attrdomv>
+<udom>Unique names for individual coal fields.</udom>
+</attrdomv>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS Information Services</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>Box 25286</address>
+<city>Denver</city>
+<state>CO</state>
+<postal>80225</postal>
+<country>U.S.A.</country>
+</cntaddr>
+<cntvoice>1-888-ASK-USGS</cntvoice>
+<cntfax>303-202-4693</cntfax>
+<cntemail>&lt;http://store.usgs.gov/&gt;</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>USGS OFR 2012-1205</resdesc>
+<distliab>This digital publication was prepared by an agency of the United States Government. Neither the United States Government nor any agency thereof, nor any of their employees, makes any warranty, expressed or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed in this report, or represents that its use would not infringe privately owned rights. Reference therein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise does not necessarily constitute or imply its endorsement, recommendation, or favoring by the United States Government or any agency thereof. Any views and opinions of authors expressed herein do not necessarily state or reflect those of the United States Government or any agency thereof. Although all data published in this Open-File Report have been used by the U.S. Geological Survey (USGS), no warranty, expressed or implied, is made by the USGS as to the accuracy of the data and related materials and/or the functioning of the software. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the USGS in the use of these data, software, or related materials. Graphical map depictions are intended to be used within the map scale limits applicable to the source data. Although software enables the user to view data at various scales, the user is cautioned to refer to the source documentation for the appropriate map scale limitations.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>shapefile</formname>
+<formvern>1.0</formvern>
+<formcont>Coal field polygons with associated characteristics</formcont>
+<filedec>unzip</filedec>
+<transize>220 megabytes</transize>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://pubs.usgs.gov/of/2012/1205/Downloads/GIS.zip</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<techpreq>ArcGIS Desktop 9.X is required to open the ArcMap document</techpreq>
+</distinfo>
+<metainfo>
+<metd>20130710</metd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Joseph A. East</cntper>
+<cntorg>U.S. Geological Survey</cntorg>
+</cntperp>
+<cntpos>Geologist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>12201 Sunrise Valley Drive, Mail Stop 956</address>
+<city>Reston</city>
+<state>VA</state>
+<postal>20192</postal>
+<country>U.S.A.</country>
+</cntaddr>
+<cntvoice>703-648-6450</cntvoice>
+<cntfax>703-648-6419</cntfax>
+<cntemail>jeast@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+</metainfo>
+</metadata>
