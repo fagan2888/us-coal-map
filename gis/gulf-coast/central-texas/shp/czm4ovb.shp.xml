@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>United States Geological Survey (USGS)</origin>
+				<pubdate>2011</pubdate>
+				<title>Total overburden contours of the Central-Zone 4 coal bed (in USGS overburden intervals) in Central Texas</title>
+				<serinfo>
+					<sername>AAPG Discovery Series/AAPG Studies in Geology</sername>
+					<issue>No. 14/No. 62</issue>
+				</serinfo>
+				<geoform>vector digital data</geoform><pubinfo><pubplace>Tulsa, OK</pubplace><publish>American Association of Petroleum Geologists</publish></pubinfo><lworkcit><citeinfo><origin>U.S. Geological Survey</origin><pubdate>2011</pubdate><title>Geologic Assessment of Coal in the Gulf of Mexico Coastal Plain, U.S.A.</title><serinfo><sername>AAPG Discovery Series/AAPG Studies in Geology</sername><issue>No. 14/No. 62</issue></serinfo><pubinfo><pubplace>Tulsa, OK</pubplace><publish>American Association of Petroleum Geologists</publish></pubinfo></citeinfo></lworkcit><ftname Sync="TRUE">czm4ovb</ftname><onlink Sync="TRUE">\\IGSAAAHMWSG223\D$\Data_New\GIS\AAPG\Chapter_20_GIS\Central Texas Study Area\data\czm4ovb\czm4ovb.shp</onlink></citeinfo>
+		</citation>
+		<descript>
+			<abstract>
+This data set is a polygon coverage of the cumulative overburden of
+Central-Zone 4, in feet, over extent of the Central-Zone 4 coal and its horizon (stratigraphic equivalent) in
+Central Texas only.
+The coverage was produced by gridding more than 750 public and confidential point-
+source data from the National Coal Resources Data System (NCRDS) of the USGS, using
+EarthVision (Version 4.0.2) software, subsequently contoured into 6-inch intervals,
+and imported to ARC/INFO. The 'overburden' item for each polygon reflects a value
+in feet halfway between the bounding contour lines.  This value represents results of
+gridding which averages point values within cells, therefore, public point data may
+not always match values represented in the overburden data layer.
+</abstract>
+			<purpose>
+This data set was used in the National Coal Resource Assessment Program
+in the regional evaluation of resources for the coal Central-Zone 4 in
+the Gulf Coast region. The data set is useful for regional studies-
+not applicable to local scales.
+</purpose>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>1970's</begdate>
+					<enddate>1997</enddate>
+				</rngdates>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-96.76</westbc>
+				<eastbc>-96.57</eastbc>
+				<northbc>30.95</northbc>
+				<southbc>31.14</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">-96.759285</leftbc><rightbc Sync="TRUE">-96.568939</rightbc><bottombc Sync="TRUE">30.951662</bottombc><topbc Sync="TRUE">31.142159</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>Theme_Keyword_Thesaurus</themekt>
+				<themekey>coal</themekey>
+				<themekey>coal resources</themekey>
+				<themekey>coal overburden</themekey>
+				<themekey>lignite</themekey>
+				<themekey>isopach</themekey>
+				<themekey>outcrop</themekey>
+				<themekey>USGS</themekey>
+			</theme>
+			<place>
+				<placekt>Geographic Names Information System</placekt>
+				<placekey>Gulf Coast Region</placekey>
+				<placekey>Freestone County, TX</placekey>
+				<placekey>Limestone County, TX</placekey>
+				<placekey>Robertson County, TX</placekey>
+				<placekey>Leon County, TX</placekey>
+				<placekey>Milam County, TX</placekey>
+				<placekey>Lee County, TX</placekey>
+				<placekey>Bastrop County, TX</placekey>
+			</place>
+			<stratum>
+				<stratkt>Stratum_Keyword_Thesaurus</stratkt>
+				<stratkey>Wilcox Group</stratkey>
+				<stratkey>Paleocene-Eocene</stratkey>
+			</stratum>
+		</keywords>
+		<accconst>none</accconst>
+		<useconst>none</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Peter D. Warwick</cntper>
+				</cntperp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>MS 956 National Center</address>
+					<city>Reston</city>
+					<state>Virginia</state>
+					<postal>20192</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>703-648-6469</cntvoice>
+				<cntpos>Geologist</cntpos><cntemail>pwarwick@usgs.gov</cntemail></cntinfo>
+		</ptcontac>
+		<datacred>
+The stratigraphic data stored in the NCRDS has been submitted by
+State Geological Surveys and USGS scientists since its inception
+in the middle 1970's through state cooperative programs. The data
+for the Central-Zone 4 coal bed was used with the permission and through
+the cooperation of coal geologists (primary contacts listed) at the
+State of Texas Bureau of Economic Geology and the State of Texas
+Railroad Commission
+</datacred>
+		<native Sync="TRUE">Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.1.3000</native><natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>
+The range of overburden values in the point-source
+information was -132 to 325 feet.  The resultant range of the gridded
+surface was 0-457 feet; extrapolation was used over the  x,y extent.
+The average absolute Z-error of the grid was 0.127 percent of the range.
+</attraccr>
+		</attracc>
+		<logic>Topologically clean</logic>
+		<complete>
+Input points were irregularly distributed over the
+spatial extent of the study, therefore areas of sparse data will not
+reflect ground truth.  Central-Zone 4 cumulative coal overburden were
+selected by name from the stratigraphic data base stored in StratiFact, a
+relational data base manager in use by the USGS National Coal Assessment.
+The original data submitted to NCRDS may not have had the Zone
+identified, a task performed within StratiFact by examining data in
+cross sections. Data used were selected by geologist from the database.
+</complete>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>NCRDS, USGS</origin>
+						<pubdate>1995</pubdate>
+						<title>NCRDS Digital Data Set</title>
+					</citeinfo>
+				</srccite>
+				<typesrc>on-line data base</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>1995</begdate>
+							<enddate>2000</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>NCRDS- National Coal Resources Data System;BEG-Bureau of Economic Geology; RRC-Railroad Commission</srccitea>
+				<srccontr>NCRDS- point-source data</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>
+Central-Zone 4 data from NCRDS printed and verified against
+original data sources where possible.  New data collected from the BEG and the RRC,
+and entered into NCRDS.
+</procdesc>
+				<procdate>1995-1998</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>
+Corrections made to NCRDS (including the new BEG and RRC
+data) in StratiFact.
+</procdesc>
+				<procdate>1996-1998</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>
+Editing and correlation of individual data bases in StratiFact to
+eliminate data coding differences between data sets.
+</procdesc>
+				<procdate>1998</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>
+Editing of overburden and further addition and refinement
+of data values to place in StratiFact data bases.  The data were filtered in StratiFact and
+filtered in EarthVision (v.4.0.2) in geographic coordinates.  The data are gridded and grid
+parameters used were a default 92 X 108 grid, X range -95.90438 to -94.69272, Y range
+32.62942 to 33.30208, extrapolation of values over specified x,y extent plus 5%.  Contour
+intervals at irregular intervals at 0-1.5 ft,1.5-2.5 ft, 2.5-5 ft, 5-10 ft, 10-20 ft, 20-30 ft. to
+follow USGS Circular 891
+</procdesc>
+				<procdate>1999</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>
+Grid was contoured in EarthVision into 0.5-foot intervals,
+using 0 to 30 feet as limits.  Contour file was graphically edited in EarthVision
+to fit the geology of the area.
+</procdesc>
+				<procdate>1999</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>
+Grid was projected into Albers and regridded using the original
+graphically edited grid to decrease the cell size so that the small polygons in the limiting
+unioned coverage used for volume calculations will have a grid value to use for each small
+199.19 X 196.68.
+</procdesc>
+				<procdate>1999</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>
+Import of contours to ARC/INFO for the entire area,
+using conversion ARC/INFO AML provided by Illinois State Geological Survey,
+and rectangular area ARC coverage (box) to enclose polygons.  Polygons graphically
+labeled in ARC/EDIT using midpoint value for upper and lower bounding contours.  The
+0, 0.75, 2, 3.75, 7.5, 15, 25 (ft).
+</procdesc>
+				<procdate>1999</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>
+New attribute item "overburden" added and calculated from
+the polygon value.  Added item for overburden category and populated it by graphically
+selecting desired polygons by thickness and calculating the category value.
+</procdesc>
+				<procdate>1999</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>
+Arc/Info coverages were projected to geographic coordinates,
+converted to shape Arc/View shape files and imported into Arc/View.
+</procdesc>
+				<procdate>1999</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spref>
+		<horizsys>
+			<geodetic>
+				<horizdn>North American Datum of 1927</horizdn>
+				<ellips>Clarke 1866</ellips>
+				<semiaxis>6378206.4</semiaxis>
+				<denflat>294.98</denflat>
+			</geodetic>
+			<cordsysn><geogcsn>DD_NAD83</geogcsn></cordsysn><geograph><geogunit Sync="TRUE">Decimal degrees</geogunit><latres Sync="TRUE">0.000000</latres><longres Sync="TRUE">0.000000</longres></geograph></horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="czm4ovb">
+			<enttyp>
+				<enttypl>czm4ovb.dbf</enttypl>
+				<enttypd>polygon attribute table for coverage</enttypd>
+				<enttypds>ARC/INFO</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">29</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr>
+				<attrlabl>overburden</attrlabl>
+				<attrdef>average overburden value of bounding contour lines</attrdef>
+				<attrdefs>ARC/INFO</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>275</rdommax>
+						<attrunit>feet</attrunit>
+					</rdom>
+				</attrdomv>
+				<attrvai>
+					<attrva>0.5 - 5</attrva>
+					<attrvae>
+plus or minus one contour interval, in
+feet
+</attrvae>
+				</attrvai>
+				<attalias Sync="TRUE">OVERBURDEN</attalias><attrtype Sync="TRUE">Single</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">7</atprecis><attscale Sync="TRUE">2</attscale></attr>
+			<attr>
+				<attrlabl>ob_cat</attrlabl>
+				<attrdef>category label for coal bed overburden</attrdef>
+				<attrdefs>ARC/INFO</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>102,104,105</edomv>
+						<edomvd>'102' is 0.0 - 100.0 feet, '104' is 100 - 200 feet, '105' is 200 - 300 feet</edomvd>
+						<edomvds>USGS</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">OB_CAT</attalias><attrtype Sync="TRUE">SmallInteger</attrtype><attwidth Sync="TRUE">3</attwidth><atprecis Sync="TRUE">3</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>eroded</attrlabl>
+				<attrdef>category label for eroded bed</attrdef>
+				<attrdefs>ARC/INFO</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>0,1</edomv>
+						<edomvd>0 is not eroded, 1 is eroded</edomvd>
+						<edomvds>USGS</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">ERODED</attalias><attrtype Sync="TRUE">SmallInteger</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">2</atprecis><attscale Sync="TRUE">0</attscale></attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>P. O. Box 979</address>
+					<city>Tulsa</city>
+					<state>OK</state>
+					<postal>74101-0979</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>1 800 364 2274</cntvoice>
+				<cntorgp><cntorg>American Association of Petroleum Geologists</cntorg></cntorgp><cntfax>1 918 560 2665</cntfax></cntinfo>
+		</distrib>
+		<resdesc>Central-Zone 4 coal bed</resdesc>
+		<distliab>
+The US Geological Survey provides these geographic data "as is".  USGS makes no
+guarantee or warranty concerning the accuracy of information contained in the geographic
+data.  USGS further makes no warrantees, either expressed or implied, as to any other matter
+whatsoever, including, without limitation, the condition of the product, or its fitness for any
+particular purpose.  The burden for determining fitness for use lies entirely with the user.
+Although these data have been processed successfully on computers of the USGS, no
+warranty, expressed or implied, is made by USGS regarding the use of these data on any other
+system, nor does the fact of distribution constitute or imply any such warranty.  In no event
+shall the USGS have any liability whatsoever for payment of any consequential, incidental,
+indirect, special, or tort damages of any kind, including, but not limited to, any loss of profits
+arising out of the delivery, installation, operation, or support by USGS.
+</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>ARCE</formname>
+					<transize Sync="TRUE">0.028</transize><dssize Sync="TRUE">0.028</dssize></digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>&lt;URL:http://www.energy.er.usgs.gov</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<fees>none</fees>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd>2011</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Peter D. Warwick</cntper>
+				</cntperp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>MS 956 National Center</address>
+					<city>Reston</city>
+					<state>Virginia</state>
+					<postal>20192</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>703-648-6469</cntvoice>
+				<cntpos>Geologist</cntpos><cntemail>pwarwick@usgs.gov</cntemail></cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<langmeta Sync="TRUE">en</langmeta><mettc Sync="TRUE">local time</mettc><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.1.3000</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">czm4ovb</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">-96.759285</westBL><eastBL Sync="TRUE">-96.568939</eastBL><northBL Sync="TRUE">31.142159</northBL><southBL Sync="TRUE">30.951662</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-96.759285</westBL><eastBL Sync="TRUE">-96.568939</eastBL><northBL Sync="TRUE">31.142159</northBL><southBL Sync="TRUE">30.951662</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\IGSAAAHMWSG223\D$\Data_New\GIS\AAPG\Chapter_20_GIS\Central Texas Study Area\data\czm4ovb\czm4ovb.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.028</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><spdoinfo><direct Sync="TRUE">Vector</direct><ptvctinf><esriterm Name="czm4ovb"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">29</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm><sdtsterm Name="czm4ovb"><sdtstype Sync="TRUE">G-polygon</sdtstype><ptvctcnt Sync="TRUE">29</ptvctcnt></sdtsterm></ptvctinf></spdoinfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">DD_NAD83</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="czm4ovb"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">29</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><Esri><SyncDate>20110920</SyncDate><SyncTime>16023500</SyncTime><ModDate>20110920</ModDate><ModTime>16023500</ModTime></Esri><mdDateSt Sync="TRUE">20110920</mdDateSt></metadata>
